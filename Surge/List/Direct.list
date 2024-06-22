@@ -1,0 +1,40 @@
+# >> Direct Access
+# NAME: NAS Access    >>@ UPDATED: 2024-05-06
+DOMAIN-SUFFIX,quickconnect.cn
+DOMAIN-SUFFIX,myds.me
+# NAME: Oray/Sunlogin    >>@ UPDATED: 2024-05-06
+DOMAIN-SUFFIX,oray.com
+DOMAIN-SUFFIX,orayer.com
+DOMAIN-SUFFIX,orayimg.com
+DOMAIN-SUFFIX,oray.net
+# NAME: Wiz CN    >>@ UPDATED: 2024-05-06
+DOMAIN-SUFFIX,wizconnected.cn
+# NAME: XiaoTianCai    >>@ UPDATED: 2024-05-06
+USER-AGENT,%E5%B0%8F%E5%A4%A9%E6%89%8D/18*
+DOMAIN-SUFFIX,eebbk.net
+DOMAIN-SUFFIX,watch.okii.com
+DOMAIN-SUFFIX,tiancaixing.com
+# NAME: Client    >>@ UPDATED: 2024-05-06
+PROCESS-NAME,UUBooster
+# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/Download/Download.list
+# NAME: Download    >>@ UPDATED: 2024-05-06
+# TOTAL: 19
+DOMAIN-SUFFIX,qbittorrent.org
+DOMAIN-KEYWORD,aria2
+DOMAIN-KEYWORD,thunder
+DOMAIN-KEYWORD,xlliveud
+DOMAIN-KEYWORD,xunlei
+DOMAIN-KEYWORD,yunpan
+PROCESS-NAME,BitComet
+PROCESS-NAME,DownloadService
+PROCESS-NAME,Folx
+PROCESS-NAME,NetTransport
+PROCESS-NAME,Thunder
+PROCESS-NAME,Transmission
+PROCESS-NAME,WebTorrent
+PROCESS-NAME,WebTorrentHelper
+PROCESS-NAME,Weiyun
+PROCESS-NAME,aria2c
+PROCESS-NAME,fdm
+PROCESS-NAME,qbittorrent
+PROCESS-NAME,uTorrent

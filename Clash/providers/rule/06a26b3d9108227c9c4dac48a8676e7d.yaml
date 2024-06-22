@@ -1,0 +1,73 @@
+payload:  
+# >> Japan Media 
+# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/AbemaTV/AbemaTV.yaml
+# NAME: AbemaTV    >>@ UPDATED: 2024-05-06
+# TOTAL: 23
+  - DOMAIN-SUFFIX,abema-tv.com
+  - DOMAIN-SUFFIX,abema.io
+  - DOMAIN-SUFFIX,abema.tv
+  - DOMAIN-SUFFIX,abematv.akamaized.net
+  - DOMAIN-SUFFIX,adx.promo
+  - DOMAIN-SUFFIX,ameba.jp
+  - DOMAIN-SUFFIX,amebame.com
+  - DOMAIN-SUFFIX,amebaownd.com
+  - DOMAIN-SUFFIX,amebaowndme.com
+  - DOMAIN-SUFFIX,ameblo.jp
+  - DOMAIN-SUFFIX,bucketeer.jp
+  - DOMAIN-SUFFIX,d1otoma47x30pg.cloudfront.net
+  - DOMAIN-SUFFIX,d2wy8f7a9ursnm.cloudfront.net
+  - DOMAIN-SUFFIX,dokusho-ojikan.jp
+  - DOMAIN-SUFFIX,ds-linear-abematv.akamaized.net
+  - DOMAIN-SUFFIX,ds-vod-abematv.akamaized.net
+  - DOMAIN-SUFFIX,hayabusa.dev
+  - DOMAIN-SUFFIX,hayabusa.io
+  - DOMAIN-SUFFIX,hayabusa.media
+  - DOMAIN-SUFFIX,linear-abematv.akamaized.net
+  - DOMAIN-SUFFIX,vod-abematv.akamaized.net
+  - DOMAIN-SUFFIX,winticket.jp
+  - DOMAIN-KEYWORD,abematv.akamaized.net
+# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/HuluJP/HuluJP.yaml
+# NAME: HuluJP    >>@ UPDATED: 2024-05-06
+# TOTAL: 5
+  - DOMAIN-SUFFIX,happyon.jp
+  - DOMAIN-SUFFIX,hjholdings.jp
+  - DOMAIN-SUFFIX,hulu.jp
+  - DOMAIN-SUFFIX,streaks.jp
+  - DOMAIN-SUFFIX,yb.uncn.jp
+# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Japonx/Japonx.yaml
+# NAME: Japonx    >>@ UPDATED: 2024-05-06
+# TOTAL: 10
+  - DOMAIN-SUFFIX,japonx.com
+  - DOMAIN-SUFFIX,japonx.net
+  - DOMAIN-SUFFIX,japonx.tv
+  - DOMAIN-SUFFIX,japonx.vip
+  - DOMAIN-SUFFIX,japronx.com
+  - DOMAIN-SUFFIX,japronx.net
+  - DOMAIN-SUFFIX,japronx.tv
+  - DOMAIN-SUFFIX,japronx.vip
+  - DOMAIN-KEYWORD,japonx
+  - DOMAIN-KEYWORD,japronx
+# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Niconico/Niconico.yaml
+# NAME: Niconico    >>@ UPDATED: 2024-05-06
+# TOTAL: 9
+  - DOMAIN-SUFFIX,dmc.nico
+  - DOMAIN-SUFFIX,nicodic.jp
+  - DOMAIN-SUFFIX,nicomanga.jp
+  - DOMAIN-SUFFIX,niconico.com
+  - DOMAIN-SUFFIX,nicoseiga.jp
+  - DOMAIN-SUFFIX,nicovideo.jp
+  - DOMAIN-SUFFIX,nimg.jp
+  - DOMAIN-SUFFIX,simg.jp
+  - DOMAIN-SUFFIX,socdm.com
+# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/TVer/TVer.yaml
+# NAME: TVer    >>@ UPDATED: 2024-05-06
+# TOTAL: 6
+  - DOMAIN-SUFFIX,dogatch.jp
+  - DOMAIN-SUFFIX,edge.api.brightcove.com
+  - DOMAIN-SUFFIX,gorin.jp
+  - DOMAIN-SUFFIX,screens-lab.jp
+  - DOMAIN-SUFFIX,tver.co.jp
+  - DOMAIN-SUFFIX,tver.jp
+
+
+
