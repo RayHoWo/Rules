@@ -1,6 +1,6 @@
 payload:
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Disney/Disney.yaml
-# NAME: Disney    >>@ UPDATED: 2024-05-06
+# NAME: Disney    >>@ UPDATED: 2024-06-23
 # TOTAL: 173
   - DOMAIN-SUFFIX,20thcenturystudios.com.au
   - DOMAIN-SUFFIX,20thcenturystudios.com.br

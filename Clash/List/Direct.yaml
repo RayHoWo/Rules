@@ -1,24 +1,26 @@
 payload: 
 # >> Direct Access
-# NAME: NAS Access    >>@ UPDATED: 2024-05-06
+# NAME: NAS Access    >>@ UPDATED: 2024-06-23
   - DOMAIN-SUFFIX,quickconnect.cn
   - DOMAIN-SUFFIX,myds.me
-# NAME: Oray/Sunlogin    >>@ UPDATED: 2023-09-24
+# NAME: Oray/Sunlogin    >>@ UPDATED: 2024-06-23
   - DOMAIN-SUFFIX,oray.com
   - DOMAIN-SUFFIX,orayer.com
   - DOMAIN-SUFFIX,orayimg.com
   - DOMAIN-SUFFIX,oray.net
-# NAME: Wiz CN    >>@ UPDATED: 2024-05-06
+# NAME: Passwall    >>@ UPDATED: 2024-06-23
+  - DOMAIN-SUFFIX,dler.pro
+# NAME: Wiz CN    >>@ UPDATED: 2024-06-23
   - DOMAIN-SUFFIX,wizconnected.cn
-# NAME: XiaoTianCai    >>@ UPDATED: 2024-05-06
+# NAME: XiaoTianCai    >>@ UPDATED: 2024-06-23
 # - USER-AGENTUSER-AGENT,%E5%B0%8F%E5%A4%A9%E6%89%8D/18*
   - DOMAIN-SUFFIX,eebbk.net
   - DOMAIN-SUFFIX,watch.okii.com
   - DOMAIN-SUFFIX,tiancaixing.com
-# NAME: Client    >>@ UPDATED: 2024-05-06
+# NAME: Client    >>@ UPDATED: 2024-06-23
   - PROCESS-NAME,UUBooster
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Download/Download.yaml
-# NAME: Download    >>@ UPDATED: 2024-05-06
+# NAME: Download    >>@ UPDATED: 2024-06-23
 # TOTAL: 34
   - DOMAIN-SUFFIX,qbittorrent.org
   - DOMAIN-KEYWORD,aria2

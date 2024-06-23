@@ -1,7 +1,7 @@
 payload: 
 # >> Worldwide Acess
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/LinkedIn/LinkedIn.yaml
-# NAME: LinkedIn    >>@ UPDATED: 2024-05-06
+# NAME: LinkedIn    >>@ UPDATED: 2024-06-23
 # TOTAL: 12
   - DOMAIN,e122475.dscg.akamaiedge.net
   - DOMAIN,licdn.cn.cdn20.com
@@ -15,15 +15,16 @@ payload:
   - DOMAIN-SUFFIX,linkedin.cn
   - DOMAIN-SUFFIX,linkedin.com
   - DOMAIN-SUFFIX,lnkd.in
-# NAME: Passwall    >>@ UPDATED: 2024-05-06
+# NAME: Passwall    >>@ UPDATED: 2024-06-23
+  - DOMAIN-SUFFIX,dlercloud.com
   - DOMAIN-SUFFIX,now.rahw.top
   - DOMAIN-SUFFIX,nssurge.com
-# NAME: Sonos    >>@ UPDATED: 2024-05-06
+# NAME: Sonos    >>@ UPDATED: 2024-06-23
 # - USER-AGENT,Sonos*
   - DOMAIN-SUFFIX,sonos.com
   - DOMAIN-SUFFIX,sonos.radio
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Samsung/Samsung.yaml
-# NAME: Samsung    >>@ UPDATED: 2024-05-06
+# NAME: Samsung    >>@ UPDATED: 2024-06-23
 # TOTAL: 13
   - DOMAIN-SUFFIX,anrdoezrs.net
   - DOMAIN-SUFFIX,galaxyappstore.com
@@ -38,6 +39,6 @@ payload:
   - DOMAIN-SUFFIX,samsunggalaxyfriends.com
   - DOMAIN-SUFFIX,samsungknox.com
   - DOMAIN-SUFFIX,samsungqbe.com
-# NAME: Wiz World    >>@ UPDATED: 2024-05-06
+# NAME: Wiz World    >>@ UPDATED: 2024-06-23
   - DOMAIN-SUFFIX,wiz.world
 

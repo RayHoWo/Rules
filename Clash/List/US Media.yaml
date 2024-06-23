@@ -1,12 +1,12 @@
 payload:
 # >> United States Media  
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/AppleNews/AppleNews.yaml
-# NAME: AppleNews    >>@ UPDATED: 2024-05-06
+# NAME: AppleNews    >>@ UPDATED: 2024-06-23
 # TOTAL: 2
   - DOMAIN,gspe1-ssl.ls.apple.com
   - DOMAIN,news-client-search.apple.com
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/AppleTV/AppleTV.yaml
-# NAME: AppleTV    >>@ UPDATED: 2024-05-06
+# NAME: AppleTV    >>@ UPDATED: 2024-06-23
 # TOTAL: 8
   - DOMAIN,hls-amt.itunes.apple.com
   - DOMAIN,hls.itunes.apple.com
@@ -17,7 +17,7 @@ payload:
   - DOMAIN-SUFFIX,tv.apple.com
   - PROCESS-NAME,TV
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/CNN/CNN.yaml
-# NAME: CNN    >>@ UPDATED: 2024-05-06
+# NAME: CNN    >>@ UPDATED: 2024-06-23
 # TOTAL: 6
   - DOMAIN-SUFFIX,cnn.com
   - DOMAIN-SUFFIX,cnn.io
@@ -26,7 +26,7 @@ payload:
   - DOMAIN-SUFFIX,cnnlabs.com
   - DOMAIN-SUFFIX,cnnmoney.ch
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/DiscoveryPlus/DiscoveryPlus.yaml
-# NAME: DiscoveryPlus    >>@ UPDATED: 2024-05-06
+# NAME: DiscoveryPlus    >>@ UPDATED: 2024-06-23
 # TOTAL: 15
   - DOMAIN,discovery-us.conax.cloud
   - DOMAIN,dplus-northamerica-cloudfront-gcs.prod-vod.h264.io
@@ -44,7 +44,7 @@ payload:
   - DOMAIN-SUFFIX,uplynk.com
   - DOMAIN-KEYWORD,discovery.uplynk.com
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Espn/Espn.yaml
-# NAME: Espn    >>@ UPDATED: 2024-05-06
+# NAME: Espn    >>@ UPDATED: 2024-06-23
 # TOTAL: 11
   - DOMAIN,espn.api.edge.bamgrid.com
   - DOMAIN,espn.hb.omtrdc.net
@@ -58,13 +58,13 @@ payload:
   - DOMAIN-SUFFIX,espnqa.com
   - DOMAIN-SUFFIX,watchespn.com
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/FOXNOW/FOXNOW.yaml
-# NAME: FOXNOW    >>@ UPDATED: 2024-05-06
+# NAME: FOXNOW    >>@ UPDATED: 2024-06-23
 # TOTAL: 4
   - DOMAIN-SUFFIX,fox.com
   - DOMAIN-SUFFIX,foxdcg.com
   - DOMAIN-SUFFIX,uplynk.com
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/HBOUSA/HBOUSA.yaml
-# NAME: HBOUSA    >>@ UPDATED: 2024-05-06
+# NAME: HBOUSA    >>@ UPDATED: 2024-06-23
 # TOTAL: 7
   - DOMAIN-SUFFIX,cinemax.com
   - DOMAIN-SUFFIX,hbomax.com
@@ -74,7 +74,7 @@ payload:
   - DOMAIN-SUFFIX,maxgo.com
   - PROCESS-NAME,com.hbo.hbonow
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/HuluUSA/HuluUSA.yaml
-# NAME: HuluUSA    >>@ UPDATED: 2024-05-06
+# NAME: HuluUSA    >>@ UPDATED: 2024-06-23
 # TOTAL: 53
   - DOMAIN-SUFFIX,112263.com
   - DOMAIN-SUFFIX,assetshuluimcom-a.akamaihd.net
@@ -129,21 +129,21 @@ payload:
   - DOMAIN-SUFFIX,thehulubraintrust.com
   - DOMAIN-SUFFIX,wwwhuluplus.com
   - PROCESS-NAME,com.hulu.plus
-# NAME: Google Voice    >>@ UPDATED: 2024-05-06
+# NAME: Google Voice    >>@ UPDATED: 2024-06-23
 # - USER-AGENT,VoiceApp*
 # - USER-AGENT,*com.google.ios.voice*
   - DOMAIN-SUFFIX,voice.google.com
   - DOMAIN,lens.l.google.com
-# NAME: Youtube TV    >>@ UPDATED: 2024-05-06
+# NAME: Youtube TV    >>@ UPDATED: 2024-06-23
 # - USER-AGENT,*YouTubeTV*
 # - USER-AGENT,*com.google.ios.youtubetv*
   - DOMAIN-SUFFIX,tv.youtube.com
-# NAME: Pornhub    >>@ UPDATED: 2024-05-06
+# NAME: Pornhub    >>@ UPDATED: 2024-06-23
   - DOMAIN-SUFFIX,phncdn.com
   - DOMAIN-SUFFIX,phprcdn.com
   - DOMAIN-SUFFIX,pornhub.com
   - DOMAIN-SUFFIX,pornhubpremium.com
-# NAME: Pluto TV    >>@ UPDATED: 2024-05-06
+# NAME: Pluto TV    >>@ UPDATED: 2024-06-23
 # - USER-AGENT,Pluto20%TV*
 # - USER-AGENT,mediaserverd*
   - DOMAIN-SUFFIX,pluto.tv
@@ -193,12 +193,12 @@ payload:
   - IP-CIDR,54.236.0.0/15,no-resolve
   - IP-CIDR,172.244.0.0/16,no-resolve
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Pandora/Pandora.yaml
-# NAME: Pandora    >>@ UPDATED: 2024-05-06
+# NAME: Pandora    >>@ UPDATED: 2024-06-23
 # TOTAL: 2
   - DOMAIN-SUFFIX,p-cdn.us
   - DOMAIN-SUFFIX,pandora.com
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ParamountPlus/ParamountPlus.yaml
-# NAME: ParamountPlus    >>@ UPDATED: 2024-05-06
+# NAME: ParamountPlus    >>@ UPDATED: 2024-06-23
 # TOTAL: 9
   - DOMAIN,cbsi.live.ott.irdeto.com
   - DOMAIN,cbsplaylistserver.aws.syncbak.com
@@ -210,15 +210,15 @@ payload:
   - DOMAIN-SUFFIX,paramountplus.com
   - DOMAIN-SUFFIX,pplusstatic.com
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/PBS/PBS.yaml
-# NAME: PBS    >>@ UPDATED: 2024-05-06
+# NAME: PBS    >>@ UPDATED: 2024-06-23
 # TOTAL: 1
   - DOMAIN-SUFFIX,pbs.org
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Peacock/Peacock.yaml
-# NAME: Peacock    >>@ UPDATED: 2024-05-06
+# NAME: Peacock    >>@ UPDATED: 2024-06-23
 # TOTAL: 1
   - DOMAIN-SUFFIX,peacocktv.com
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/PrimeVideo/PrimeVideo.yaml
-# NAME: PrimeVideo    >>@ UPDATED: 2024-05-06
+# NAME: PrimeVideo    >>@ UPDATED: 2024-06-23
 # TOTAL: 16
   - DOMAIN,atv-ps.amazon.com
   - DOMAIN,avodmp4s3ww-a.akamaihd.net
@@ -237,34 +237,10 @@ payload:
   - DOMAIN-SUFFIX,pv-cdn.net
   - DOMAIN-KEYWORD,avoddashs
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Sling/Sling.yaml
-# NAME: Sling   >>@ UPDATED: 2024-05-06
+# NAME: Sling   >>@ UPDATED: 2024-06-23
 # TOTAL: 5
   - DOMAIN-SUFFIX,dishworld.com
   - DOMAIN-SUFFIX,movenetworks.com
   - DOMAIN-SUFFIX,movetv.com
   - DOMAIN-SUFFIX,sling.com
   - DOMAIN-SUFFIX,slinginternational.com
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/TVB/TVB.yaml
-# NAME: TVB   >>@ UPDATED: 2024-05-06
-# TOTAL: 21
-  - DOMAIN,bcbolt446c5271-a.akamaihd.net
-  - DOMAIN,edge.api.brightcove.com
-  - DOMAIN,tvbtracking.azurewebsites.net
-  - DOMAIN-SUFFIX,bigbigchannel.com.hk
-  - DOMAIN-SUFFIX,bigbigshop.com
-  - DOMAIN-SUFFIX,content.jwplatform.com
-  - DOMAIN-SUFFIX,encoretvb.com
-  - DOMAIN-SUFFIX,mytvsuper.com
-  - DOMAIN-SUFFIX,mytvsuperlimited.hb.omtrdc.net
-  - DOMAIN-SUFFIX,mytvsuperlimited.sc.omtrdc.net
-  - DOMAIN-SUFFIX,tvb.com
-  - DOMAIN-SUFFIX,tvb.com.au
-  - DOMAIN-SUFFIX,tvbanywhere.com
-  - DOMAIN-SUFFIX,tvbanywhere.com.sg
-  - DOMAIN-SUFFIX,tvbc.com.cn
-  - DOMAIN-SUFFIX,tvbeventpower.com.hk
-  - DOMAIN-SUFFIX,tvbusa.com
-  - DOMAIN-SUFFIX,tvbweekly.com
-  - DOMAIN-SUFFIX,tvmedia.net.au
-  - DOMAIN-SUFFIX,videos-f.jwpsrv.com
-  - DOMAIN-SUFFIX,youboranqs01.com

@@ -1,6 +1,6 @@
 payload:
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Netflix/Netflix_Classical.yaml
-# NAME: Netflix    >>@ UPDATED: 2024-05-06
+# NAME: Netflix    >>@ UPDATED: 2024-06-23
 # TOTAL: 1157
   - DOMAIN,e13252.dscg.akamaiedge.net
   - DOMAIN,h-netflix.online-metrix.net
