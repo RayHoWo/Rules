@@ -1,5 +1,5 @@
 # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Privacy/Privacy_All.list 
-# Privacy    >>@ UPDATED: 2024-05-06
+# Privacy    >>@ UPDATED: 2024-06-23
 # TOTAL: 32084
 DOMAIN,hm.baidu.com
 DOMAIN,hmma.baidu.com
