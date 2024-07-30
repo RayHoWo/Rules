@@ -1,6 +1,6 @@
 payload:
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Hijacking/Hijacking.yaml
-# NAME: Internet Service Providers Hijacking    >>@ UPDATED: 2024-06-23
+# NAME: Internet Service Providers Hijacking    >>@ UPDATED: 2024-08-01
 # TOTAL: 228
   - DOMAIN,geo2.adobe.com
   - DOMAIN-SUFFIX,17gouwuba.com

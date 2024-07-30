@@ -1,20 +1,20 @@
 payload:
 # >> United States Media  
-# NAME: Google Voice    >>@ UPDATED: 2024-06-23
+# NAME: Google Voice    >>@ UPDATED: 2024-08-01
 # - USER-AGENT,VoiceApp*
 # - USER-AGENT,*com.google.ios.voice*
   - DOMAIN-SUFFIX,voice.google.com
   - DOMAIN,lens.l.google.com
-# NAME: Youtube TV    >>@ UPDATED: 2024-06-23
+# NAME: Youtube TV    >>@ UPDATED: 2024-08-01
 # - USER-AGENT,*YouTubeTV*
 # - USER-AGENT,*com.google.ios.youtubetv*
   - DOMAIN-SUFFIX,tv.youtube.com
-# NAME: Pornhub    >>@ UPDATED: 2024-06-23
+# NAME: Pornhub    >>@ UPDATED: 2024-08-01
   - DOMAIN-SUFFIX,phncdn.com
   - DOMAIN-SUFFIX,phprcdn.com
   - DOMAIN-SUFFIX,pornhub.com
   - DOMAIN-SUFFIX,pornhubpremium.com
-# NAME: Pluto TV    >>@ UPDATED: 2024-06-23
+# NAME: Pluto TV    >>@ UPDATED: 2024-08-01
 # - USER-AGENT,Pluto20%TV*
 # - USER-AGENT,mediaserverd*
   - DOMAIN-SUFFIX,pluto.tv
@@ -64,7 +64,7 @@ payload:
   - IP-CIDR,54.236.0.0/15,no-resolve
   - IP-CIDR,172.244.0.0/16,no-resolve
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/CNN/CNN.yaml
-# NAME: CNN    >>@ UPDATED: 2024-06-23
+# NAME: CNN    >>@ UPDATED: 2024-08-01
 # TOTAL: 6
   - DOMAIN-SUFFIX,cnn.com
   - DOMAIN-SUFFIX,cnn.io
@@ -73,7 +73,7 @@ payload:
   - DOMAIN-SUFFIX,cnnlabs.com
   - DOMAIN-SUFFIX,cnnmoney.ch
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/DiscoveryPlus/DiscoveryPlus.yaml
-# NAME: DiscoveryPlus    >>@ UPDATED: 2024-06-23
+# NAME: DiscoveryPlus    >>@ UPDATED: 2024-08-01
 # TOTAL: 15
   - DOMAIN,discovery-us.conax.cloud
   - DOMAIN,dplus-northamerica-cloudfront-gcs.prod-vod.h264.io
@@ -91,7 +91,7 @@ payload:
   - DOMAIN-SUFFIX,uplynk.com
   - DOMAIN-KEYWORD,discovery.uplynk.com
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Espn/Espn.yaml
-# NAME: Espn    >>@ UPDATED: 2024-06-23
+# NAME: Espn    >>@ UPDATED: 2024-08-01
 # TOTAL: 11
   - DOMAIN,espn.api.edge.bamgrid.com
   - DOMAIN,espn.hb.omtrdc.net
@@ -105,13 +105,13 @@ payload:
   - DOMAIN-SUFFIX,espnqa.com
   - DOMAIN-SUFFIX,watchespn.com
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/FOXNOW/FOXNOW.yaml
-# NAME: FOXNOW    >>@ UPDATED: 2024-06-23
+# NAME: FOXNOW    >>@ UPDATED: 2024-08-01
 # TOTAL: 4
   - DOMAIN-SUFFIX,fox.com
   - DOMAIN-SUFFIX,foxdcg.com
   - DOMAIN-SUFFIX,uplynk.com
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/HBOUSA/HBOUSA.yaml
-# NAME: HBOUSA    >>@ UPDATED: 2024-06-23
+# NAME: HBOUSA    >>@ UPDATED: 2024-08-01
 # TOTAL: 7
   - DOMAIN-SUFFIX,cinemax.com
   - DOMAIN-SUFFIX,hbomax.com
@@ -121,7 +121,7 @@ payload:
   - DOMAIN-SUFFIX,maxgo.com
   - PROCESS-NAME,com.hbo.hbonow
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/HuluUSA/HuluUSA.yaml
-# NAME: HuluUSA    >>@ UPDATED: 2024-06-23
+# NAME: HuluUSA    >>@ UPDATED: 2024-08-01
 # TOTAL: 53
   - DOMAIN-SUFFIX,112263.com
   - DOMAIN-SUFFIX,assetshuluimcom-a.akamaihd.net
@@ -177,12 +177,12 @@ payload:
   - DOMAIN-SUFFIX,wwwhuluplus.com
   - PROCESS-NAME,com.hulu.plus
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Pandora/Pandora.yaml
-# NAME: Pandora    >>@ UPDATED: 2024-06-23
+# NAME: Pandora    >>@ UPDATED: 2024-08-01
 # TOTAL: 2
   - DOMAIN-SUFFIX,p-cdn.us
   - DOMAIN-SUFFIX,pandora.com
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ParamountPlus/ParamountPlus.yaml
-# NAME: ParamountPlus    >>@ UPDATED: 2024-06-23
+# NAME: ParamountPlus    >>@ UPDATED: 2024-08-01
 # TOTAL: 9
   - DOMAIN,cbsi.live.ott.irdeto.com
   - DOMAIN,cbsplaylistserver.aws.syncbak.com
@@ -194,15 +194,15 @@ payload:
   - DOMAIN-SUFFIX,paramountplus.com
   - DOMAIN-SUFFIX,pplusstatic.com
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/PBS/PBS.yaml
-# NAME: PBS    >>@ UPDATED: 2024-06-23
+# NAME: PBS    >>@ UPDATED: 2024-08-01
 # TOTAL: 1
   - DOMAIN-SUFFIX,pbs.org
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Peacock/Peacock.yaml
-# NAME: Peacock    >>@ UPDATED: 2024-06-23
+# NAME: Peacock    >>@ UPDATED: 2024-08-01
 # TOTAL: 1
   - DOMAIN-SUFFIX,peacocktv.com
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/PrimeVideo/PrimeVideo.yaml
-# NAME: PrimeVideo    >>@ UPDATED: 2024-06-23
+# NAME: PrimeVideo    >>@ UPDATED: 2024-08-01
 # TOTAL: 16
   - DOMAIN,atv-ps.amazon.com
   - DOMAIN,avodmp4s3ww-a.akamaihd.net
@@ -221,7 +221,7 @@ payload:
   - DOMAIN-SUFFIX,pv-cdn.net
   - DOMAIN-KEYWORD,avoddashs
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Sling/Sling.yaml
-# NAME: Sling   >>@ UPDATED: 2024-06-23
+# NAME: Sling   >>@ UPDATED: 2024-08-01
 # TOTAL: 5
   - DOMAIN-SUFFIX,dishworld.com
   - DOMAIN-SUFFIX,movenetworks.com

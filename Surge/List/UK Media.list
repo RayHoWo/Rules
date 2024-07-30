@@ -1,12 +1,12 @@
 # >> United Kingdom Media  
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/All4/All4.list
-# NAME: All4    >>@ UPDATED: 2024-06-23
+# NAME: All4    >>@ UPDATED: 2024-08-01
 # TOTAL: 3
 DOMAIN-SUFFIX,c4assets.com
 DOMAIN-SUFFIX,channel4.com
 USER-AGENT,All4*
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/BBC/BBC.list
-# NAME: BBC    >>@ UPDATED: 2024-06-23
+# NAME: BBC    >>@ UPDATED: 2024-08-01
 # TOTAL: 29
 DOMAIN,aod-dash-uk-live.akamaized.net
 DOMAIN,aod-hls-uk-live.akamaized.net
@@ -38,21 +38,21 @@ DOMAIN-KEYWORD,bbcfmt
 DOMAIN-KEYWORD,uk-live
 USER-AGENT,BBCiPlayer*
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/ITV/ITV.list
-# NAME: ITV    >>@ UPDATED: 2024-06-23
+# NAME: ITV    >>@ UPDATED: 2024-08-01
 # TOTAL: 4
 DOMAIN,itvpnpmobile-a.akamaihd.net
 DOMAIN-SUFFIX,itv.com
 DOMAIN-SUFFIX,itvstatic.com
 USER-AGENT,ITV_Player*
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/My5/My5.list
-# NAME: My5    >>@ UPDATED: 2024-06-23
+# NAME: My5    >>@ UPDATED: 2024-08-01
 # TOTAL: 4
 DOMAIN,d349g9zuie06uo.cloudfront.net
 DOMAIN-SUFFIX,channel5.com
 DOMAIN-SUFFIX,my5.tv
 USER-AGENT,My5*
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/SkyGO/SkyGO.list
-# NAME: SkyGO    >>@ UPDATED: 2024-06-23
+# NAME: SkyGO    >>@ UPDATED: 2024-08-01
 # TOTAL: 2
 DOMAIN-SUFFIX,sky.com
 DOMAIN-SUFFIX,skygo.co.nz

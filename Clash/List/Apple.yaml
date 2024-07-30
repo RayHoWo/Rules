@@ -1,6 +1,6 @@
 payload:
 # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Apple/Apple_Classical.yaml
-# NAME: Apple    >>@ UPDATED: 2024-06-23
+# NAME: Apple    >>@ UPDATED: 2024-08-01
 # TOTAL: 1589
   - DOMAIN,appldnld.apple.com.edgesuite.net
   - DOMAIN,apple-events.akamaized.net

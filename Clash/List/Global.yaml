@@ -1,6 +1,6 @@
 payload:
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Global/Global_Classical.yaml
-# NAME: Global    >>@ UPDATED: 2024-06-23
+# NAME: Global    >>@ UPDATED: 2024-08-01
 # TOTAL: 19677
   - DOMAIN,a.ppy.sh
   - DOMAIN,adobeereg.com

@@ -1,5 +1,5 @@
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/Lan/Lan.list
-# NAME: LAN    >>@ UPDATED: 2024-06-23
+# NAME: LAN    >>@ UPDATED: 2024-08-01
 # TOTAL: 147
 DOMAIN,asusrouter.com
 DOMAIN,cp.cloudflare.com

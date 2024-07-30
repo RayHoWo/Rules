@@ -1,6 +1,6 @@
 payload:
-# Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Privacy/Privacy_Classical.yaml
-# Privacy    >>@ UPDATED: 2024-06-23
+# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Privacy/Privacy_Classical.yaml
+# Privacy    >>@ UPDATED: 2024-08-01
 # TOTAL: 32084
   - DOMAIN,hm.baidu.com
   - DOMAIN,hmma.baidu.com

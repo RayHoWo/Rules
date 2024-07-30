@@ -1,7 +1,7 @@
 payload:  
 # >> Hong Kong Media
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Bahamut/Bahamut.yaml
-# NAME: Bahamut    >>@ UPDATED: 2024-06-23
+# NAME: Bahamut    >>@ UPDATED: 2024-08-01
 # TOTAL: 7
   - DOMAIN,bahamut.akamaized.net
   - DOMAIN-SUFFIX,bahamut.com.tw
@@ -11,7 +11,7 @@ payload:
   - DOMAIN-SUFFIX,hinet.net
   - DOMAIN-SUFFIX,viblast.com
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/HBOAsia/HBOAsia.yaml
-# NAME: HBOAsia    >>@ UPDATED: 2024-06-23
+# NAME: HBOAsia    >>@ UPDATED: 2024-08-01
 # TOTAL: 19
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
   - DOMAIN,bcbolthboa-a.akamaihd.net
@@ -33,7 +33,7 @@ payload:
   - DOMAIN-SUFFIX,hbogoasia.hk
   - DOMAIN-KEYWORD,.hbogoasia. 
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/JOOX/JOOX.yaml
-# NAME: JOOX    >>@ UPDATED: 2024-06-23
+# NAME: JOOX    >>@ UPDATED: 2024-08-01
 # TOTAL: 7
   - DOMAIN-SUFFIX,i-joox.com
   - DOMAIN-SUFFIX,joox.com
@@ -43,12 +43,12 @@ payload:
   - IP-CIDR,203.205.234.0/23
   - PROCESS-NAME,com.tencent.ibg.joox
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/NowE/NowE.yaml
-# NAME: NowE    >>@ UPDATED: 2024-06-23
+# NAME: NowE    >>@ UPDATED: 2024-08-01
 # TOTAL: 2
   - DOMAIN-SUFFIX,nowe.com
   - DOMAIN-SUFFIX,nowestatic.com
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/TVB/TVB.yaml
-# NAME: TVB    >>@ UPDATED: 2024-06-23
+# NAME: TVB    >>@ UPDATED: 2024-08-01
 # TOTAL: 21
   - DOMAIN,bcbolt446c5271-a.akamaihd.net
   - DOMAIN,edge.api.brightcove.com
@@ -72,7 +72,7 @@ payload:
   - DOMAIN-SUFFIX,videos-f.jwpsrv.com
   - DOMAIN-SUFFIX,youboranqs01.com
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ViuTV/ViuTV.yaml
-# NAME: ViuTV    >>@ UPDATED: 2024-06-23
+# NAME: ViuTV    >>@ UPDATED: 2024-08-01
 # TOTAL: 11
   - DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
   - DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net

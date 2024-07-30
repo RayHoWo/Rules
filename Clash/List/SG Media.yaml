@@ -1,7 +1,7 @@
 payload:
 # >> Singapore Media  
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/FOXPlus/FOXPlus.yaml
-# NAME: FOXPlus    >>@ UPDATED: 2024-06-23
+# NAME: FOXPlus    >>@ UPDATED: 2024-08-01
 # TOTAL: 7
   - DOMAIN,cdn-fox-networks-group-green.akamaized.net
   - DOMAIN,d3cv4a9a9wh0bt.cloudfront.net
@@ -11,39 +11,8 @@ payload:
   - DOMAIN,staticasiafox.akamaized.net
   - DOMAIN-SUFFIX,foxplus.com
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/TelegramSG/TelegramSG.yaml
-# NAME: TelegramSG    >>@ UPDATED: 2024-06-23
+# NAME: TelegramSG    >>@ UPDATED: 2024-08-01
 # TOTAL: 3
   - IP-CIDR,91.108.16.0/22
   - IP-CIDR,91.108.56.0/22
   - IP-CIDR6,2001:b28:f23f::/48
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/OpenAI/OpenAI.yaml
-# NAME: OpenAI    >>@ UPDATED: 2024-06-23
-# TOTAL: 28
-  - DOMAIN,browser-intake-datadoghq.com
-  - DOMAIN,static.cloudflareinsights.com
-  - DOMAIN-SUFFIX,ai.com
-  - DOMAIN-SUFFIX,algolia.net
-  - DOMAIN-SUFFIX,api.statsig.com
-  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN-SUFFIX,cdn.cloudflare.net
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - DOMAIN-SUFFIX,chatgpt.livekit.cloud
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN-SUFFIX,host.livekit.cloud
-  - DOMAIN-SUFFIX,identrust.com
-  - DOMAIN-SUFFIX,intercom.io
-  - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN-SUFFIX,launchdarkly.com
-  - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN-SUFFIX,observeit.net
-  - DOMAIN-SUFFIX,poe.com
-  - DOMAIN-SUFFIX,segment.io
-  - DOMAIN-SUFFIX,sentry.io
-  - DOMAIN-SUFFIX,stripe.com
-  - DOMAIN-SUFFIX,turn.livekit.cloud
-  - DOMAIN-KEYWORD,openai
-  - IP-CIDR,24.199.123.28/32
-  - IP-CIDR,64.23.132.171/32

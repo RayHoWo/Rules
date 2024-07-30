@@ -1,6 +1,6 @@
 payload:
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/AsianMedia/AsianMedia.yaml
-# NAME: AsianMedia    >>@ UPDATED: 2024-06-23
+# NAME: AsianMedia    >>@ UPDATED: 2024-08-01
 # TOTAL: 31
   - DOMAIN,akmcdnoversea-tw.inter.iqiyi.com
   - DOMAIN,akmcdnoversea-tw.inter.ptqy.gitv.tv

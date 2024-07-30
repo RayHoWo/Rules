@@ -1,6 +1,6 @@
 payload:
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaIPsBGP/ChinaIPsBGP_IP.yaml
-# NAME: ChinaIPs   >>@ UPDATED: 2024-06-23
+# NAME: ChinaIPs   >>@ UPDATED: 2024-08-01
 # TOTAL: 3547
   - '1.1.8.0/24'
   - '1.116.0.0/15'

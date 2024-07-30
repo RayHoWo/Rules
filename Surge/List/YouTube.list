@@ -1,5 +1,5 @@
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/YouTube/YouTube.list
-# NAME: YouTube    >>@ UPDATED: 2024-06-23
+# NAME: YouTube    >>@ UPDATED: 2024-08-01
 # TOTAL: 190
 DOMAIN-SUFFIX,ggpht.cn
 DOMAIN-SUFFIX,ggpht.com
