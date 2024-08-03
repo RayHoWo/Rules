@@ -1,5 +1,5 @@
 payload:
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Netflix/Netflix_Classical.yaml
+# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Netflix/Netflix_Classical.yaml
 # NAME: Netflix    >>@ UPDATED: 2024-08-01
 # TOTAL: 1157
   - DOMAIN,e13252.dscg.akamaiedge.net
