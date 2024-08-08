@@ -9,9 +9,8 @@ DOMAIN,foxsports02-i.akamaihd.net
 DOMAIN,foxsports03-i.akamaihd.net
 DOMAIN,staticasiafox.akamaized.net
 DOMAIN-SUFFIX,foxplus.com
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/TelegramSG/TelegramSG.list
-# NAME: TelegramSG    >>@ UPDATED: 2024-08-01
-# TOTAL: 3
-IP-CIDR,91.108.16.0/22,no-resolve
-IP-CIDR,91.108.56.0/22,no-resolve
-IP-CIDR6,2001:b28:f23f::/48,no-resolve
+# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/MeWatch/MeWatch.list
+# NAME: MeWatch    >>@ UPDATED: 2024-08-01
+# TOTAL: 1
+DOMAIN-SUFFIX,mewatch.sg
+
