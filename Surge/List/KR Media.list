@@ -72,3 +72,14 @@ IP-CIDR,203.174.77.0/24,no-resolve
 IP-CIDR6,2400:dcc0::/32,no-resolve
 USER-AGENT,LINE%20TV*
 PROCESS-NAME,com.linecorp.linetv
+# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Viki/Viki.list
+# NAME: Viki    >>@ UPDATED: 2024-08-01
+# TOTAL: 8
+DOMAIN-SUFFIX,kalhlspd-a.akamaihd.net
+DOMAIN-SUFFIX,m-content-viki.s.llnwi.net
+DOMAIN-SUFFIX,twemoji.maxcdn.com
+DOMAIN-SUFFIX,viki.com
+DOMAIN-SUFFIX,viki.io
+DOMAIN-SUFFIX,viki.net
+DOMAIN-SUFFIX,vikidash.akamaized.net
+DOMAIN-SUFFIX,vikiplatform.com

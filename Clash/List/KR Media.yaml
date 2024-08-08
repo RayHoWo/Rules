@@ -71,3 +71,14 @@ payload:
   - IP-CIDR,203.174.77.0/24
   - IP-CIDR6,2400:dcc0::/32
   - PROCESS-NAME,com.linecorp.linetv
+# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Viki/Viki.yaml
+# NAME: Viki    >>@ UPDATED: 2024-08-01
+# TOTAL: 8
+  - DOMAIN-SUFFIX,kalhlspd-a.akamaihd.net
+  - DOMAIN-SUFFIX,m-content-viki.s.llnwi.net
+  - DOMAIN-SUFFIX,twemoji.maxcdn.com
+  - DOMAIN-SUFFIX,viki.com
+  - DOMAIN-SUFFIX,viki.io
+  - DOMAIN-SUFFIX,viki.net
+  - DOMAIN-SUFFIX,vikidash.akamaized.net
+  - DOMAIN-SUFFIX,vikiplatform.com
