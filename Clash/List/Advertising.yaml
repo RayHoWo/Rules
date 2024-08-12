@@ -1,7 +1,7 @@
-payload:
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Advertising/Advertising.yaml
-# NAME: Advertising    >>@ UPDATED: 2024-08-01
+# NAME: Advertising    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Advertising/Advertising.yaml
+# >>@ UPDATED: 2024-08-01
 # TOTAL: 131987
+payload:
   - DOMAIN-KEYWORD,-logging.nextmedia.com
   - DOMAIN-KEYWORD,-s2s.sensic.net
   - DOMAIN-KEYWORD,-spiky.clevertap-prod.com

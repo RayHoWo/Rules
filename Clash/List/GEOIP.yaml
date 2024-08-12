@@ -1,5 +1,6 @@
-payload: 
-# NAME: GEOIP Country    >>@ UPDATED: 2024-08-01
+# >> GEOIP Country  
+# >>@ UPDATED: 2024-08-01  
+payload:
   - GEOIP,US,United States
   - GEOIP,GB,United Kingdom
   - GEOIP,DE,Germany

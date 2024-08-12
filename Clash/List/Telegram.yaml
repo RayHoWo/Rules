@@ -1,7 +1,7 @@
-payload:
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Telegram/Telegram.yaml
-# NAME: Telegram    >>@ UPDATED: 2024-08-01
+# NAME: Telegram    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Telegram/Telegram.yaml
+# >>@ UPDATED: 2024-08-01
 # TOTAL: 43
+payload:
   - DOMAIN,api.imem.app
   - DOMAIN,api.swiftgram.app
   - DOMAIN-SUFFIX,cdn-telegram.org

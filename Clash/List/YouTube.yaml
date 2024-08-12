@@ -1,7 +1,7 @@
-payload:
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/YouTube/YouTube.yaml
-# NAME: Youtube    >>@ UPDATED: 2024-08-01
+# NAME: Youtube    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/YouTube/YouTube.yaml
+# >>@ UPDATED: 2024-08-01
 # TOTAL: 183
+payload:
   - DOMAIN-SUFFIX,ggpht.cn
   - DOMAIN-SUFFIX,ggpht.com
   - DOMAIN-SUFFIX,googlevideo.com

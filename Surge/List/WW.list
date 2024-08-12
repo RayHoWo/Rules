@@ -1,4 +1,14 @@
 # >> Worldwide Access
+# NAME: Passwall    >>@ UPDATED: 2024-08-01
+DOMAIN-SUFFIX,dlercloud.com
+DOMAIN-SUFFIX,now.rahw.top
+DOMAIN-SUFFIX,nssurge.com
+# NAME: Sonos    >>@ UPDATED: 2024-08-01
+USER-AGENT,Sonos*
+DOMAIN-SUFFIX,sonos.com
+DOMAIN-SUFFIX,sonos.radio
+# NAME: Wiz World    >>@ UPDATED: 2024-08-01
+DOMAIN-SUFFIX,wiz.world
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/LinkedIn/LinkedIn.list
 # NAME: LinkedIn    >>@ UPDATED: 2024-08-01
 # TOTAL: 12
@@ -14,10 +24,6 @@ DOMAIN-SUFFIX,linkedin.at
 DOMAIN-SUFFIX,linkedin.cn
 DOMAIN-SUFFIX,linkedin.com
 DOMAIN-SUFFIX,lnkd.in
-# NAME: Passwall    >>@ UPDATED: 2024-08-01
-DOMAIN-SUFFIX,dlercloud.com
-DOMAIN-SUFFIX,now.rahw.top
-DOMAIN-SUFFIX,nssurge.com
 # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/Samsung/Samsung.list
 # NAME: Samsung    >>@ UPDATED: 2024-08-01
 # TOTAL: 13
@@ -34,10 +40,5 @@ DOMAIN-SUFFIX,samsungeshop.com.cn
 DOMAIN-SUFFIX,samsunggalaxyfriends.com
 DOMAIN-SUFFIX,samsungknox.com
 DOMAIN-SUFFIX,samsungqbe.com
-# NAME: Sonos    >>@ UPDATED: 2024-08-01
-USER-AGENT,Sonos*
-DOMAIN-SUFFIX,sonos.com
-DOMAIN-SUFFIX,sonos.radio
-# NAME: Wiz World    >>@ UPDATED: 2024-08-01
-DOMAIN-SUFFIX,wiz.world
+
 

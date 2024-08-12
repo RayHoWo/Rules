@@ -1,8 +1,8 @@
-payload:
-# >> Singapore Media  
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/FOXPlus/FOXPlus.yaml
-# NAME: FOXPlus    >>@ UPDATED: 2024-08-01
+# >> Singapore Media 
+# >>@ UPDATED: 2024-08-01 
+# NAME: FOXPlus    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/FOXPlus/FOXPlus.yaml
 # TOTAL: 7
+payload:
   - DOMAIN,cdn-fox-networks-group-green.akamaized.net
   - DOMAIN,d3cv4a9a9wh0bt.cloudfront.net
   - DOMAIN,foxsports01-i.akamaihd.net
@@ -10,7 +10,7 @@ payload:
   - DOMAIN,foxsports03-i.akamaihd.net
   - DOMAIN,staticasiafox.akamaized.net
   - DOMAIN-SUFFIX,foxplus.com
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/MeWatch/MeWatch.yaml
-# NAME: MeWatch    >>@ UPDATED: 2024-08-01
+# NAME: MeWatch    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/MeWatch/MeWatch.yaml
 # TOTAL: 1
+payload:
   - DOMAIN-SUFFIX,mewatch.sg

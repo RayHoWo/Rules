@@ -1,7 +1,7 @@
-payload:
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Privacy/Privacy_Classical.yaml
-# Privacy    >>@ UPDATED: 2024-08-01
+# Privacy    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Privacy/Privacy_Classical.yaml
+# >>@ UPDATED: 2024-08-01
 # TOTAL: 32084
+payload:
   - DOMAIN,hm.baidu.com
   - DOMAIN,hmma.baidu.com
   - DOMAIN,ios-pclog.i4.cn
