@@ -1,4 +1,4 @@
-# >> GEOIP Country  
+# NAME: GEOIP Country  
 # >>@ UPDATED: 2024-08-01  
 payload:
   - GEOIP,US,United States

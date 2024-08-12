@@ -1,5 +1,5 @@
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Microsoft/Microsoft.list
-# NAME: Microsoft    >>@ UPDATED: 2024-08-01
+# NAME: Microsoft    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Microsoft/Microsoft.list
+# >>@ UPDATED: 2024-08-01
 # TOTAL: 672
 DOMAIN,vsmarketplacebadge.apphb.com
 DOMAIN-SUFFIX,1drv.ms

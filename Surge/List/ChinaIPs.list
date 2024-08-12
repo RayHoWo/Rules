@@ -1,5 +1,5 @@
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/ChinaIPsBGP/ChinaIPsBGP.list
-# NAME: ChinaIPs   >>@ UPDATED: 2024-08-01
+# NAME: ChinaIPs    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/ChinaIPsBGP/ChinaIPsBGP.list
+# >>@ UPDATED: 2024-08-01
 # TOTAL: 3605
 IP-CIDR,1.1.8.0/24,no-resolve
 IP-CIDR,1.116.0.0/15,no-resolve

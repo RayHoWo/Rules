@@ -1,5 +1,5 @@
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Telegram/Telegram.list
-# NAME: Telegram    >>@ UPDATED: 2024-08-01
+# NAME: Telegram    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Telegram/Telegram.list
+# >>@ UPDATED: 2024-08-01
 # TOTAL: 43
 DOMAIN,api.imem.app
 DOMAIN,api.swiftgram.app

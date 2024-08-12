@@ -1,5 +1,5 @@
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/Game/Game.list
-# NAME: Game    >>@ UPDATED: 2024-08-01
+# NAME: Game    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/Game/Game.list
+# >>@ UPDATED: 2024-08-01
 # TOTAL: 586
 DOMAIN,eaasserts-a.akamaihd.net
 DOMAIN,originasserts.akamaized.net

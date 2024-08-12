@@ -1,6 +1,6 @@
 # >> Hong Kong Media 
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/Bahamut/Bahamut.list
-# NAME: Bahamut    >>@ UPDATED: 2024-08-01
+# >>@ UPDATED: 2024-08-01
+# NAME: Bahamut    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/Bahamut/Bahamut.list
 # TOTAL: 8
 DOMAIN,bahamut.akamaized.net
 DOMAIN-SUFFIX,bahamut.com.tw
@@ -10,8 +10,7 @@ DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,hinet.net
 DOMAIN-SUFFIX,viblast.com
 USER-AGENT,Anime*
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/HBOAsia/HBOAsia.list
-# NAME: HBOAsia    >>@ UPDATED: 2024-08-01
+# NAME: HBOAsia    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/HBOAsia/HBOAsia.list
 # TOTAL: 20
 DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
 DOMAIN,bcbolthboa-a.akamaihd.net
@@ -33,8 +32,7 @@ DOMAIN-SUFFIX,hbogoasia.com
 DOMAIN-SUFFIX,hbogoasia.hk
 DOMAIN-KEYWORD,.hbogoasia.
 USER-AGENT,HBO%20GO%20PROD*   
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/JOOX/JOOX.list
-# NAME: JOOX    >>@ UPDATED: 2024-08-01
+# NAME: JOOX    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/JOOX/JOOX.list
 # TOTAL: 9
 DOMAIN-SUFFIX,i-joox.com
 DOMAIN-SUFFIX,joox.com
@@ -45,13 +43,11 @@ IP-CIDR,203.205.234.0/23,no-resolve
 USER-AGENT,JOOX*
 USER-AGENT,WeMusic*
 PROCESS-NAME,com.tencent.ibg.joox
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/NowE/NowE.list
-# NAME: NowE    >>@ UPDATED: 2024-08-01
+# NAME: NowE    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/NowE/NowE.list
 # TOTAL: 2
 DOMAIN-SUFFIX,nowe.com
 DOMAIN-SUFFIX,nowestatic.com
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/TVB/TVB.list
-# NAME: TVB    >>@ UPDATED: 2024-08-01
+# NAME: TVB    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/TVB/TVB.list
 # TOTAL: 23
 DOMAIN,bcbolt446c5271-a.akamaihd.net
 DOMAIN,edge.api.brightcove.com
@@ -76,8 +72,7 @@ DOMAIN-SUFFIX,videos-f.jwpsrv.com
 DOMAIN-SUFFIX,youboranqs01.com
 USER-AGENT,encoreTVB*
 USER-AGENT,mytv*
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/ViuTV/ViuTV.list
-# NAME: ViuTV    >>@ UPDATED: 2024-08-01
+# NAME: ViuTV    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/ViuTV/ViuTV.list
 # TOTAL: 12
 DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
 DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net

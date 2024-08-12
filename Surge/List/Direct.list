@@ -1,19 +1,19 @@
 # >> Direct Access
-# NAME: NAS Access    >>@ UPDATED: 2024-08-01
+# >>@ UPDATED: 2024-08-01
+# NAME: NAS Access   
 DOMAIN-SUFFIX,quickconnect.cn
 DOMAIN-SUFFIX,myds.me
-# NAME: Passwall    >>@ UPDATED: 2024-08-01
+# NAME: Passwall    
 DOMAIN-SUFFIX,dler.pro
 DOMAIN-SUFFIX,rahw.top
-# NAME: Wiz CN    >>@ UPDATED: 2024-08-01
+# NAME: Wiz CN    
 DOMAIN-SUFFIX,wizconnected.cn
-# NAME: XiaoTianCai    >>@ UPDATED: 2024-08-01
+# NAME: XiaoTianCai    
 USER-AGENT,%E5%B0%8F%E5%A4%A9%E6%89%8D/18*
 DOMAIN-SUFFIX,eebbk.net
 DOMAIN-SUFFIX,watch.okii.com
 DOMAIN-SUFFIX,tiancaixing.com
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/Direct/Direct.list
-# NAME:Direct    >>@ UPDATED: 2024-08-01
+# NAME:Direct    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/Direct/Direct.list
 # TOTAL: 208
 DOMAIN,ad.10010.com
 DOMAIN,alt1-mtalk.google.com

@@ -1,5 +1,5 @@
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/Spotify/Spotify.list
-# NAME: Spotify    >>@ UPDATED: 2024-08-01
+# NAME: Spotify    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/Spotify/Spotify.list
+# >>@ UPDATED: 2024-08-01
 # TOTAL: 31
 DOMAIN,audio4-ak-spotify-com.akamaized.net
 DOMAIN,cdn-spotify-experiments.conductrics.com

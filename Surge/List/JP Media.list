@@ -1,6 +1,6 @@
 # >> Japan Media  
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/AbemaTV/AbemaTV.list
-# NAME: AbemaTV    >>@ UPDATED: 2024-08-01
+# >>@ UPDATED: 2024-08-01
+# NAME: AbemaTV    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/AbemaTV/AbemaTV.list
 # TOTAL: 24
 DOMAIN-SUFFIX,abema-tv.com
 DOMAIN-SUFFIX,abema.io
@@ -26,8 +26,7 @@ DOMAIN-SUFFIX,vod-abematv.akamaized.net
 DOMAIN-SUFFIX,winticket.jp
 DOMAIN-KEYWORD,abematv.akamaized.net
 USER-AGENT,AbemaTV*
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/DMM/DMM.list
-# NAME: DMM    >>@ UPDATED: 2024-08-01
+# NAME: DMM    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/DMM/DMM.list
 # TOTAL: 20
 DOMAIN-SUFFIX,akabeesoft2.com
 DOMAIN-SUFFIX,akabeesoft3.com
@@ -49,16 +48,14 @@ DOMAIN-SUFFIX,tenco.cc
 DOMAIN-SUFFIX,wheel-soft.com
 IP-CIDR,125.6.189.7/32,no-resolve
 IP-CIDR,203.104.209.7/32,no-resolve
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/HuluJP/HuluJP.list
-# NAME: HuluJP    >>@ UPDATED: 2024-08-01
+# NAME: HuluJP    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/HuluJP/HuluJP.list
 # TOTAL: 5
 DOMAIN-SUFFIX,happyon.jp
 DOMAIN-SUFFIX,hjholdings.jp
 DOMAIN-SUFFIX,hulu.jp
 DOMAIN-SUFFIX,streaks.jp
 DOMAIN-SUFFIX,yb.uncn.jp
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/Japonx/Japonx.list
-# NAME: Japonx    >>@ UPDATED: 2024-08-01
+# NAME: Japonx    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/Japonx/Japonx.list
 # TOTAL: 10
 DOMAIN-SUFFIX,japonx.com
 DOMAIN-SUFFIX,japonx.net
@@ -70,8 +67,7 @@ DOMAIN-SUFFIX,japronx.tv
 DOMAIN-SUFFIX,japronx.vip
 DOMAIN-KEYWORD,japonx
 DOMAIN-KEYWORD,japronx
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/Niconico/Niconico.list
-# NAME: Niconico    >>@ UPDATED: 2024-08-01
+# NAME: Niconico    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/Niconico/Niconico.list
 # TOTAL: 10
 DOMAIN-SUFFIX,dmc.nico
 DOMAIN-SUFFIX,nicodic.jp
@@ -83,8 +79,7 @@ DOMAIN-SUFFIX,nimg.jp
 DOMAIN-SUFFIX,simg.jp
 DOMAIN-SUFFIX,socdm.com
 USER-AGENT,Niconico*
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/TVer/TVer.list
-# NAME: TVer    >>@ UPDATED: 2024-08-01
+# NAME: TVer    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/TVer/TVer.list
 # TOTAL: 7
 DOMAIN-SUFFIX,dogatch.jp
 DOMAIN-SUFFIX,edge.api.brightcove.com

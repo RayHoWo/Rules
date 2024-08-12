@@ -1,5 +1,5 @@
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Proxy/Proxy_All_No_Resolve.list
-# NAME: Proxy    >>@ UPDATED: 2024-08-01
+# NAME: Proxy    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Proxy/Proxy_All_No_Resolve.list
+# >>@ UPDATED: 2024-08-01
 # TOTAL: 6058
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
