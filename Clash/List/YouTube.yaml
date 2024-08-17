@@ -1,4 +1,4 @@
-# NAME: Youtube    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/YouTube/YouTube.yaml
+# NAME: Youtube    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/YouTube/YouTube_No_Resolve.yaml
 # >>@ UPDATED: 2024-08-01
 # TOTAL: 183
 payload:
@@ -182,6 +182,6 @@ payload:
   - DOMAIN-SUFFIX,yt.be
   - DOMAIN-SUFFIX,ytimg.com
   - DOMAIN-KEYWORD,youtube
-  - IP-CIDR,172.110.32.0/21
-  - IP-CIDR,216.73.80.0/20
-  - IP-CIDR6,2620:120:e000::/40
+  - IP-CIDR,172.110.32.0/21,no-resolve
+  - IP-CIDR,216.73.80.0/20,no-resolve
+  - IP-CIDR6,2620:120:e000::/40,no-resolve

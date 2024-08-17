@@ -1,6 +1,6 @@
-# NAME: Scholar    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Scholar/Scholar.yaml
+# NAME: Scholar    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Scholar/Scholar_No_Resolve.yaml
 # >>@ UPDATED: 2024-08-01
-# TOTAL: 225
+# TOTAL: 228
 payload:
   - DOMAIN-SUFFIX,1lib.cloud
   - DOMAIN-SUFFIX,1lib.domains
@@ -63,6 +63,7 @@ payload:
   - DOMAIN-SUFFIX,cell.com
   - DOMAIN-SUFFIX,clarivate.com
   - DOMAIN-SUFFIX,cnki.net
+  - DOMAIN-SUFFIX,computer.org
   - DOMAIN-SUFFIX,computingreviews.com
   - DOMAIN-SUFFIX,cqvip.com
   - DOMAIN-SUFFIX,crossref.org
@@ -94,6 +95,8 @@ payload:
   - DOMAIN-SUFFIX,ic.ac.uk
   - DOMAIN-SUFFIX,icevirtuallibrary.com
   - DOMAIN-SUFFIX,ieee.org
+  - DOMAIN-SUFFIX,ieeecomputer.org
+  - DOMAIN-SUFFIX,ieeecomputersociety.org
   - DOMAIN-SUFFIX,imf.org
   - DOMAIN-SUFFIX,imperial.ac.uk
   - DOMAIN-SUFFIX,imperial.insendi.com

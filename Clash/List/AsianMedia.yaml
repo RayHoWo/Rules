@@ -1,4 +1,4 @@
-# NAME: AsianMedia    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/AsianMedia/AsianMedia.yaml
+# NAME: AsianMedia    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/AsianMedia/AsianMedia_No_Resolve.yaml
 # >>@ UPDATED: 2024-08-01
 # TOTAL: 31
 payload:
@@ -26,10 +26,10 @@ payload:
   - DOMAIN-SUFFIX,wetv.vip
   - DOMAIN-SUFFIX,wetvinfo.com
   - DOMAIN-KEYWORD,cn-hk-eq-bcache-
-  - IP-CIDR,103.44.56.0/22
-  - IP-CIDR,116.211.202.206/32
-  - IP-CIDR,116.211.202.216/32
-  - IP-CIDR,118.26.120.0/24
-  - IP-CIDR,118.26.32.0/23
-  - IP-CIDR,23.40.241.251/32
-  - IP-CIDR,23.40.242.10/32
+  - IP-CIDR,103.44.56.0/22,no-resolve
+  - IP-CIDR,116.211.202.206/32,no-resolve
+  - IP-CIDR,116.211.202.216/32,no-resolve
+  - IP-CIDR,118.26.120.0/24,no-resolve
+  - IP-CIDR,118.26.32.0/23,no-resolve
+  - IP-CIDR,23.40.241.251/32,no-resolve
+  - IP-CIDR,23.40.242.10/32,no-resolve
