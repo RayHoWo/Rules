@@ -1,5 +1,5 @@
 # NAME: PayPal    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/PayPal/PayPal.list
-# >>@ UPDATED: 2024-08-01
+# >>@ UPDATED: 2024-09-01
 # TOTAL: 248
 DOMAIN-SUFFIX,account-paypal.info
 DOMAIN-SUFFIX,account-paypal.net

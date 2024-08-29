@@ -1,5 +1,5 @@
 # NAME: OpenAI    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/OpenAI/OpenAI.list
-# >>@ UPDATED: 2024-08-01
+# >>@ UPDATED: 2024-09-01
 # TOTAL: 36
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net

@@ -1,5 +1,5 @@
 # >> Worldwide Access
-# >>@ UPDATED: 2024-08-01
+# >>@ UPDATED: 2024-09-01
 # NAME: Passwall    
 DOMAIN-SUFFIX,dlercloud.com
 DOMAIN-SUFFIX,now.rahw.top
@@ -24,7 +24,7 @@ DOMAIN-SUFFIX,linkedin.at
 DOMAIN-SUFFIX,linkedin.cn
 DOMAIN-SUFFIX,linkedin.com
 DOMAIN-SUFFIX,lnkd.in
-# NAME: Samsung    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/Samsung/Samsung.list
+# NAME: Samsung    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Samsung/Samsung.list
 # TOTAL: 13
 DOMAIN-SUFFIX,anrdoezrs.net
 DOMAIN-SUFFIX,galaxyappstore.com
