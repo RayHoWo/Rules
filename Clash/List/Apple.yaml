@@ -1,5 +1,5 @@
 # NAME: Apple API    # Link: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Apple.yaml
-# >>@ UPDATED: 2024-08-01
+# >>@ UPDATED: 2024-09-01
 payload:
   - DOMAIN-KEYWORD,apple.com.akadns.net
   - DOMAIN-KEYWORD,icloud.com.akadns.net

@@ -1,5 +1,5 @@
 # NAME: ChinaNoMedia    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaNoMedia/ChinaNoMedia_Classical_No_Resolve.yaml
-# >>@ UPDATED: 2024-08-01
+# >>@ UPDATED: 2024-09-01
 # TOTAL: 3623
 payload:
   - DOMAIN,analytics.strava.com

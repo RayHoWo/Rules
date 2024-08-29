@@ -1,5 +1,5 @@
 # NAME: Game    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Game/Game_No_Resolve.yaml
-# >>@ UPDATED: 2024-08-01
+# >>@ UPDATED: 2024-09-01
 # TOTAL: 583
 payload:
   - DOMAIN,eaasserts-a.akamaihd.net
@@ -544,6 +544,9 @@ payload:
   - IP-CIDR,210.242.235.6/32,no-resolve
   - IP-CIDR,54.94.196.47/32,no-resolve
   - IP-CIDR,182.162.132.1/32,no-resolve
+  - IP-CIDR,185.60.112.157/32,no-resolve
+  - IP-CIDR,185.60.112.158/32,no-resolve
+  - IP-CIDR,24.105.30.129/32,no-resolve
   - IP-CIDR,182.162.116.1/32,no-resolve
   - IP-CIDR,202.9.67.59/32,no-resolve
   - IP-CIDR,203.69.111.4/32,no-resolve
@@ -553,12 +556,9 @@ payload:
   - IP-CIDR,211.234.110.1/32,no-resolve
   - IP-CIDR,54.207.107.12/32,no-resolve
   - IP-CIDR,103.4.114.233/32,no-resolve
-  - IP-CIDR,185.60.112.157/32,no-resolve
-  - IP-CIDR,185.60.112.158/32,no-resolve
   - IP-CIDR,185.60.114.159/32,no-resolve
   - IP-CIDR,202.9.67.254/32,no-resolve
   - IP-CIDR,222.231.22.1/32,no-resolve
-  - IP-CIDR,24.105.30.129/32,no-resolve
   - IP-CIDR,24.105.62.129/32,no-resolve
   - IP-CIDR,13.210.25.233/32,no-resolve
   - IP-CIDR,13.212.170.102/32,no-resolve

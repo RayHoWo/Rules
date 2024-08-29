@@ -1,6 +1,6 @@
 # NAME: Proxy    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Proxy/Proxy_Classical_No_Resolve.yaml
-# >>@ UPDATED: 2024-08-01
-# TOTAL: 6054
+# >>@ UPDATED: 2024-09-01
+# TOTAL: 6057
 payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
@@ -444,6 +444,7 @@ payload:
   - DOMAIN-SUFFIX,axureformac.com
   - DOMAIN-SUFFIX,azerbaycan.tv
   - DOMAIN-SUFFIX,azerimix.com
+  - DOMAIN-SUFFIX,azirevpn.com
   - DOMAIN-SUFFIX,azubu.tv
   - DOMAIN-SUFFIX,azure.com
   - DOMAIN-SUFFIX,azureedge.net
@@ -1018,6 +1019,7 @@ payload:
   - DOMAIN-SUFFIX,clyp.it
   - DOMAIN-SUFFIX,cmail19.com
   - DOMAIN-SUFFIX,cmcn.org
+  - DOMAIN-SUFFIX,cmegroup.com
   - DOMAIN-SUFFIX,cmi.org.tw
   - DOMAIN-SUFFIX,cmoinc.org
   - DOMAIN-SUFFIX,cms.gov
@@ -1073,6 +1075,7 @@ payload:
   - DOMAIN-SUFFIX,comodoca.com
   - DOMAIN-SUFFIX,comparitech.com
   - DOMAIN-SUFFIX,compileheart.com
+  - DOMAIN-SUFFIX,compose-spec.io
   - DOMAIN-SUFFIX,compress.to
   - DOMAIN-SUFFIX,compython.net
   - DOMAIN-SUFFIX,conoha.jp
@@ -1310,6 +1313,7 @@ payload:
   - DOMAIN-SUFFIX,dnssec.net
   - DOMAIN-SUFFIX,docker.com
   - DOMAIN-SUFFIX,docker.io
+  - DOMAIN-SUFFIX,dockerhub.com
   - DOMAIN-SUFFIX,doctorvoice.org
   - DOMAIN-SUFFIX,documentingreality.com
   - DOMAIN-SUFFIX,dogfartnetwork.com
@@ -2486,6 +2490,7 @@ payload:
   - DOMAIN-SUFFIX,imageab.com
   - DOMAIN-SUFFIX,imagefap.com
   - DOMAIN-SUFFIX,imageflea.com
+  - DOMAIN-SUFFIX,imageglass.org
   - DOMAIN-SUFFIX,images-gaytube.com
   - DOMAIN-SUFFIX,imageshack.us
   - DOMAIN-SUFFIX,imagevenue.com
@@ -2617,6 +2622,7 @@ payload:
   - DOMAIN-SUFFIX,ivacy.com
   - DOMAIN-SUFFIX,iverycd.com
   - DOMAIN-SUFFIX,ivpn.net
+  - DOMAIN-SUFFIX,iwara.tv
   - DOMAIN-SUFFIX,ixquick.com
   - DOMAIN-SUFFIX,ixxx.com
   - DOMAIN-SUFFIX,iyouport.com
@@ -4580,6 +4586,7 @@ payload:
   - DOMAIN-SUFFIX,stoptibetcrisis.net
   - DOMAIN-SUFFIX,storagenewsletter.com
   - DOMAIN-SUFFIX,storify.com
+  - DOMAIN-SUFFIX,storj.io
   - DOMAIN-SUFFIX,storm.mg
   - DOMAIN-SUFFIX,stormmediagroup.com
   - DOMAIN-SUFFIX,stoweboyd.com
@@ -4918,6 +4925,7 @@ payload:
   - DOMAIN-SUFFIX,tibetswiss.ch
   - DOMAIN-SUFFIX,tibettelegraph.com
   - DOMAIN-SUFFIX,tibettimes.net
+  - DOMAIN-SUFFIX,tibettruth.com
   - DOMAIN-SUFFIX,tibetwrites.org
   - DOMAIN-SUFFIX,ticket.com.tw
   - DOMAIN-SUFFIX,tigervpn.com
@@ -5257,7 +5265,7 @@ payload:
   - DOMAIN-SUFFIX,us.to
   - DOMAIN-SUFFIX,usacn.com
   - DOMAIN-SUFFIX,usaip.eu
-  - DOMAIN-SUFFIX,usc.edu
+  - DOMAIN-SUFFIX,uscardforum.com
   - DOMAIN-SUFFIX,uscnpm.org
   - DOMAIN-SUFFIX,usembassy.gov
   - DOMAIN-SUFFIX,userapi.nytlog.com

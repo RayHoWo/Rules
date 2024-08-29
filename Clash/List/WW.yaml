@@ -1,5 +1,5 @@
 # >> Worldwide Acess
-# >>@ UPDATED: 2024-08-01
+# >>@ UPDATED: 2024-09-01
 payload:
 # NAME: Passwall   
   - DOMAIN-SUFFIX,dlercloud.com
@@ -26,7 +26,7 @@ payload:
   - DOMAIN-SUFFIX,linkedin.cn
   - DOMAIN-SUFFIX,linkedin.com
   - DOMAIN-SUFFIX,lnkd.in
-# NAME: Samsung    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Samsung/Samsung.yaml
+# NAME: Samsung    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Samsung/Samsung.yaml
 # TOTAL: 13
 payload:
   - DOMAIN-SUFFIX,anrdoezrs.net
