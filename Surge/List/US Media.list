@@ -58,24 +58,6 @@ IP-CIDR,54.90.0.0/16,no-resolve
 IP-CIDR,54.174.0.0/16,no-resolve
 IP-CIDR,54.236.0.0/15,no-resolve
 IP-CIDR,172.244.0.0/16,no-resolve
-# NAME: AppleNews    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Loon/AppleNews/AppleNews.list
-# TOTAL: 4
-DOMAIN,gspe1-ssl.ls.apple.com
-DOMAIN,news-client-search.apple.com
-USER-AGENT,AppleNews*
-USER-AGENT,com.apple.news*
-# NAME: AppleTV    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/AppleTV/AppleTV.list
-# TOTAL: 10
-DOMAIN,hls-amt.itunes.apple.com
-DOMAIN,hls.itunes.apple.com
-DOMAIN,np-edge.itunes.apple.com
-DOMAIN,play-edge.itunes.apple.com
-DOMAIN,tv.applemusic.com
-DOMAIN,uts-api.itunes.apple.com
-DOMAIN-SUFFIX,tv.apple.com
-USER-AGENT,AppleTV*
-USER-AGENT,com.apple.tv*
-PROCESS-NAME,TV
 # NAME: GoogleVoice    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/GoogleVoice/GoogleVoice.list
 # TOTAL: 1
 DOMAIN,lens.l.google.com
