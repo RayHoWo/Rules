@@ -1,5 +1,5 @@
 # NAME: Microsoft    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Microsoft/Microsoft.yaml
-# >>@ UPDATED: 2024-09-01
+# >>@ UPDATED: 2024-10-01
 # TOTAL: 669
 payload:
   - DOMAIN,vsmarketplacebadge.apphb.com

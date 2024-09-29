@@ -1,5 +1,5 @@
 # NAME: Internet Service Providers Hijacking    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Hijacking/Hijacking.yaml
-# >>@ UPDATED: 2024-09-01
+# >>@ UPDATED: 2024-10-01
 # TOTAL: 228
 payload:
   - DOMAIN,geo2.adobe.com

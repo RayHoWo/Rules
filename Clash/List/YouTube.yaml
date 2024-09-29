@@ -1,5 +1,5 @@
 # NAME: Youtube    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/YouTube/YouTube_No_Resolve.yaml
-# >>@ UPDATED: 2024-09-01
+# >>@ UPDATED: 2024-10-01
 # TOTAL: 183
 payload:
   - DOMAIN-SUFFIX,ggpht.cn

@@ -1,5 +1,5 @@
 # NAME: Lan    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Lan/Lan_No_Resolve.yaml
-# >>@ UPDATED: 2024-09-01
+# >>@ UPDATED: 2024-10-01
 # TOTAL: 152
 payload:
   - DOMAIN,asusrouter.com
