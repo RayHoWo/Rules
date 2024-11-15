@@ -1,5 +1,5 @@
 # NAME: Speedtest    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/Speedtest/Speedtest.list
-# >>@ UPDATED: 2024-10-01
+# >>@ UPDATED: 2024-11-15
 # TOTAL: 6
 DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,ooklaserver.net

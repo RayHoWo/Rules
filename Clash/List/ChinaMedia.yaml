@@ -1,5 +1,5 @@
 # NAME: ChinaMedia    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMedia/ChinaMedia_No_Resolve.yaml
-# >>@ UPDATED: 2024-10-01
+# >>@ UPDATED: 2024-11-15
 # TOTAL: 394
 payload:
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com

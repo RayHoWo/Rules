@@ -1,5 +1,5 @@
 # NAME: AsianMedia    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/AsianMedia/AsianMedia_No_Resolve.yaml
-# >>@ UPDATED: 2024-10-01
+# >>@ UPDATED: 2024-11-15
 # TOTAL: 31
 payload:
   - DOMAIN,akmcdnoversea-tw.inter.iqiyi.com
