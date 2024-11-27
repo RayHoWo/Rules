@@ -47,30 +47,14 @@ PROCESS-NAME,com.tencent.ibg.joox
 # TOTAL: 2
 DOMAIN-SUFFIX,nowe.com
 DOMAIN-SUFFIX,nowestatic.com
-# NAME: TVB    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/TVB/TVB.list
-# TOTAL: 23
-DOMAIN,bcbolt446c5271-a.akamaihd.net
-DOMAIN,edge.api.brightcove.com
-DOMAIN,tvbtracking.azurewebsites.net
-DOMAIN-SUFFIX,bigbigchannel.com.hk
-DOMAIN-SUFFIX,bigbigshop.com
-DOMAIN-SUFFIX,content.jwplatform.com
-DOMAIN-SUFFIX,encoretvb.com
+# NAME: myTVSUPER    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/myTVSUPER/myTVSUPER.list
+# TOTAL: 7
+DOMAIN,mytvsuperlimited.hb.omtrdc.net
+DOMAIN,mytvsuperlimited.sc.omtrdc.net
 DOMAIN-SUFFIX,mytvsuper.com
-DOMAIN-SUFFIX,mytvsuperlimited.hb.omtrdc.net
-DOMAIN-SUFFIX,mytvsuperlimited.sc.omtrdc.net
 DOMAIN-SUFFIX,tvb.com
-DOMAIN-SUFFIX,tvb.com.au
-DOMAIN-SUFFIX,tvbanywhere.com
-DOMAIN-SUFFIX,tvbanywhere.com.sg
-DOMAIN-SUFFIX,tvbc.com.cn
-DOMAIN-SUFFIX,tvbeventpower.com.hk
-DOMAIN-SUFFIX,tvbusa.com
-DOMAIN-SUFFIX,tvbweekly.com
-DOMAIN-SUFFIX,tvmedia.net.au
-DOMAIN-SUFFIX,videos-f.jwpsrv.com
-DOMAIN-SUFFIX,youboranqs01.com
-USER-AGENT,encoreTVB*
+DOMAIN-KEYWORD,nowtv100
+DOMAIN-KEYWORD,rthklive
 USER-AGENT,mytv*
 # NAME: ViuTV    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/ViuTV/ViuTV.list
 # TOTAL: 12

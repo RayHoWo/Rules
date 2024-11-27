@@ -47,30 +47,15 @@ payload:
 payload:
   - DOMAIN-SUFFIX,nowe.com
   - DOMAIN-SUFFIX,nowestatic.com
-# NAME: TVB    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/TVB/TVB.yaml
-# TOTAL: 21
+# NAME: myTVSUPER    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/myTVSUPER/myTVSUPER.yaml
+# TOTAL: 6
 payload:
-  - DOMAIN,bcbolt446c5271-a.akamaihd.net
-  - DOMAIN,edge.api.brightcove.com
-  - DOMAIN,tvbtracking.azurewebsites.net
-  - DOMAIN-SUFFIX,bigbigchannel.com.hk
-  - DOMAIN-SUFFIX,bigbigshop.com
-  - DOMAIN-SUFFIX,content.jwplatform.com
-  - DOMAIN-SUFFIX,encoretvb.com
+  - DOMAIN,mytvsuperlimited.hb.omtrdc.net
+  - DOMAIN,mytvsuperlimited.sc.omtrdc.net
   - DOMAIN-SUFFIX,mytvsuper.com
-  - DOMAIN-SUFFIX,mytvsuperlimited.hb.omtrdc.net
-  - DOMAIN-SUFFIX,mytvsuperlimited.sc.omtrdc.net
   - DOMAIN-SUFFIX,tvb.com
-  - DOMAIN-SUFFIX,tvb.com.au
-  - DOMAIN-SUFFIX,tvbanywhere.com
-  - DOMAIN-SUFFIX,tvbanywhere.com.sg
-  - DOMAIN-SUFFIX,tvbc.com.cn
-  - DOMAIN-SUFFIX,tvbeventpower.com.hk
-  - DOMAIN-SUFFIX,tvbusa.com
-  - DOMAIN-SUFFIX,tvbweekly.com
-  - DOMAIN-SUFFIX,tvmedia.net.au
-  - DOMAIN-SUFFIX,videos-f.jwpsrv.com
-  - DOMAIN-SUFFIX,youboranqs01.com
+  - DOMAIN-KEYWORD,nowtv100
+  - DOMAIN-KEYWORD,rthklive
 # NAME: ViuTV    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ViuTV/ViuTV.yaml
 # TOTAL: 11
 payload:
