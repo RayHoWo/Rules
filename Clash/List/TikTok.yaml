@@ -1,5 +1,5 @@
 # NAME: TikTok    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/TikTok/TikTok.yaml
-# >>@ UPDATED: 2024-11-15
+# >>@ UPDATED: 2024-12-01
 # TOTAL: 27
 payload:
   - DOMAIN,lf16-effectcdn.byteeffecttos-g.com

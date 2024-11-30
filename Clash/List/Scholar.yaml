@@ -1,7 +1,8 @@
 # NAME: Scholar    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Scholar/Scholar_No_Resolve.yaml
-# >>@ UPDATED: 2024-11-15
-# TOTAL: 228
+# >>@ UPDATED: 2024-12-01
+# TOTAL: 230
 payload:
+  - DOMAIN,scholar.google.com
   - DOMAIN-SUFFIX,1lib.cloud
   - DOMAIN-SUFFIX,1lib.domains
   - DOMAIN-SUFFIX,1lib.education
@@ -89,6 +90,7 @@ payload:
   - DOMAIN-SUFFIX,frontiersin.org
   - DOMAIN-SUFFIX,gale.com
   - DOMAIN-SUFFIX,galegroup.com
+  - DOMAIN-SUFFIX,geoscienceworld.org
   - DOMAIN-SUFFIX,ggsrv.com
   - DOMAIN-SUFFIX,hindawi.com
   - DOMAIN-SUFFIX,hk1lib.org

@@ -1,6 +1,6 @@
 # NAME: ChinaNoMedia    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaNoMedia/ChinaNoMedia_Classical_No_Resolve.yaml
-# >>@ UPDATED: 2024-11-15
-# TOTAL: 3623
+# >>@ UPDATED: 2024-12-01
+# TOTAL: 3624
 payload:
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
@@ -3468,6 +3468,7 @@ payload:
   - DOMAIN-SUFFIX,ypppt.com
   - DOMAIN-SUFFIX,yqb.com
   - DOMAIN-SUFFIX,yrz.name
+  - DOMAIN-SUFFIX,ysepay.com
   - DOMAIN-SUFFIX,yslyhr.com
   - DOMAIN-SUFFIX,ysten.com
   - DOMAIN-SUFFIX,ytzq.com
