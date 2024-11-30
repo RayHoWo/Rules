@@ -1,6 +1,6 @@
 # NAME: ChinaNoMedia    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/ChinaNoMedia/ChinaNoMedia_All_No_Resolve.list
-# >>@ UPDATED: 2024-11-15
-# TOTAL: 3654
+# >>@ UPDATED: 2024-12-01
+# TOTAL: 3655
 DOMAIN,analytics.strava.com
 DOMAIN,blzddist1-a.akamaihd.net
 DOMAIN,cdn.angruo.com
@@ -3467,6 +3467,7 @@ DOMAIN-SUFFIX,yoyou.com
 DOMAIN-SUFFIX,ypppt.com
 DOMAIN-SUFFIX,yqb.com
 DOMAIN-SUFFIX,yrz.name
+DOMAIN-SUFFIX,ysepay.com
 DOMAIN-SUFFIX,yslyhr.com
 DOMAIN-SUFFIX,ysten.com
 DOMAIN-SUFFIX,ytzq.com

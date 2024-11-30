@@ -1,6 +1,7 @@
-# NAME: Scholar    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/Scholar/Scholar.list
-# >>@ UPDATED: 2024-11-15
-# TOTAL: 225
+# NAME: Scholar    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Scholar/Scholar.list
+# >>@ UPDATED: 2024-12-01
+# TOTAL: 230
+DOMAIN,scholar.google.com
 DOMAIN-SUFFIX,1lib.cloud
 DOMAIN-SUFFIX,1lib.domains
 DOMAIN-SUFFIX,1lib.education
@@ -62,6 +63,7 @@ DOMAIN-SUFFIX,cas.org
 DOMAIN-SUFFIX,cell.com
 DOMAIN-SUFFIX,clarivate.com
 DOMAIN-SUFFIX,cnki.net
+DOMAIN-SUFFIX,computer.org
 DOMAIN-SUFFIX,computingreviews.com
 DOMAIN-SUFFIX,cqvip.com
 DOMAIN-SUFFIX,crossref.org
@@ -87,12 +89,15 @@ DOMAIN-SUFFIX,evise.com
 DOMAIN-SUFFIX,frontiersin.org
 DOMAIN-SUFFIX,gale.com
 DOMAIN-SUFFIX,galegroup.com
+DOMAIN-SUFFIX,geoscienceworld.org
 DOMAIN-SUFFIX,ggsrv.com
 DOMAIN-SUFFIX,hindawi.com
 DOMAIN-SUFFIX,hk1lib.org
 DOMAIN-SUFFIX,ic.ac.uk
 DOMAIN-SUFFIX,icevirtuallibrary.com
 DOMAIN-SUFFIX,ieee.org
+DOMAIN-SUFFIX,ieeecomputer.org
+DOMAIN-SUFFIX,ieeecomputersociety.org
 DOMAIN-SUFFIX,imf.org
 DOMAIN-SUFFIX,imperial.ac.uk
 DOMAIN-SUFFIX,imperial.insendi.com
