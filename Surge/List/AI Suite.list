@@ -1,0 +1,50 @@
+# NAME: AI Suite    # Link: https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Surge/Surge%203/Provider/AI%20Suite.list
+# >>@ UPDATED: 2024-12-01
+# > ChatGPT
+DOMAIN-SUFFIX, ai.com
+DOMAIN-SUFFIX, chatgpt.com
+DOMAIN-SUFFIX, openai.com
+
+# > Chat GPT API & CDN
+DOMAIN, chat.openai.com.cdn.cloudflare.net
+DOMAIN, openaiapi-site.azureedge.net
+DOMAIN, openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN, openaicomproductionae4b.blob.core.windows.net
+DOMAIN, production-openaicom-storage.azureedge.net
+
+DOMAIN-SUFFIX, cdn.oaistatic.com
+DOMAIN-SUFFIX, oaiusercontent.com
+
+DOMAIN, o33249.ingest.sentry.io
+
+# > Claude
+DOMAIN-SUFFIX, anthropic.com
+DOMAIN-SUFFIX, claude.ai
+DOMAIN-SUFFIX, claudeusercontent.com
+
+# > Copilot
+DOMAIN-SUFFIX, githubcopilot.com
+DOMAIN, copilot.microsoft.com
+
+# > Gemini
+DOMAIN-SUFFIX, ai.google.dev
+DOMAIN-SUFFIX, aistudio.google.com
+DOMAIN-SUFFIX, clients6.google.com
+DOMAIN-SUFFIX, gemini.google.com
+DOMAIN, generativelanguage.googleapis.com
+DOMAIN, proactivebackend-pa.googleapis.com
+
+# > Meta AI
+DOMAIN-SUFFIX, meta.ai
+
+# > Perplexity AI
+DOMAIN-SUFFIX, perplexity.ai
+
+# > Siri
+DOMAIN, apple-relay.apple.com
+DOMAIN, apple-relay.cloudflare.com
+DOMAIN, guzzoni.smoot.apple.com
+
+# > Sora
+DOMAIN-SUFFIX, sora.com
+DOMAIN,sora-cdn.oaistatic.com
