@@ -1,5 +1,5 @@
 # NAME: Proxy    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Proxy/Proxy_Classical_No_Resolve.yaml
-# >>@ UPDATED: 2024-12-01
+# >>@ UPDATED: 2025-01-01
 # TOTAL: 6051
 payload:
   - DOMAIN,api.waqi.info

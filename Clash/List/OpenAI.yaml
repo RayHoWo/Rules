@@ -1,5 +1,5 @@
 # NAME: OpenAI    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OpenAI/OpenAI_No_Resolve.yaml
-# >>@ UPDATED: 2024-12-01
+# >>@ UPDATED: 2025-01-01
 # TOTAL: 36
 payload:
   - DOMAIN,browser-intake-datadoghq.com

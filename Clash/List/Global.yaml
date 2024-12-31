@@ -1,5 +1,5 @@
 # NAME: Global    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Global/Global_Classical_No_Resolve.yaml
-# >>@ UPDATED: 2024-12-01
+# >>@ UPDATED: 2025-01-01
 # TOTAL: 30890
 payload:
   - DOMAIN,adobeereg.com
