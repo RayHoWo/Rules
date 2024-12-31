@@ -1,5 +1,5 @@
 # NAME: ChinaNoMedia    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/ChinaNoMedia/ChinaNoMedia_All_No_Resolve.list
-# >>@ UPDATED: 2024-12-01
+# >>@ UPDATED: 2025-01-01
 # TOTAL: 3655
 DOMAIN,analytics.strava.com
 DOMAIN,blzddist1-a.akamaihd.net
