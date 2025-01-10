@@ -36,6 +36,16 @@ DOMAIN-SUFFIX,bidi.net.uk
 DOMAIN-KEYWORD,bbcfmt
 DOMAIN-KEYWORD,uk-live
 USER-AGENT,BBCiPlayer*
+# NAME: BritboxUK    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/BritboxUK/BritboxUK.list
+# TOTAL: 8
+DOMAIN,itvpnp.live.ott.irdeto.com
+DOMAIN,itvpnp.stage.ott.irdeto.com
+DOMAIN-SUFFIX,bb-static.com
+DOMAIN-SUFFIX,bbc.co.uk
+DOMAIN-SUFFIX,britbox.co.uk
+DOMAIN-SUFFIX,britbox.com
+DOMAIN-SUFFIX,itv.com
+DOMAIN-SUFFIX,massive-itv.com
 # NAME: ITV    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/ITV/ITV.list
 # TOTAL: 4
 DOMAIN,itvpnpmobile-a.akamaihd.net

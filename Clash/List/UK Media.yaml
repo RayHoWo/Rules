@@ -36,6 +36,17 @@ payload:
   - DOMAIN-SUFFIX,bidi.net.uk
   - DOMAIN-KEYWORD,bbcfmt
   - DOMAIN-KEYWORD,uk-live
+# NAME: BritboxUK    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/BritboxUK/BritboxUK.yaml
+# TOTAL: 8
+payload:
+  - DOMAIN,itvpnp.live.ott.irdeto.com
+  - DOMAIN,itvpnp.stage.ott.irdeto.com
+  - DOMAIN-SUFFIX,bb-static.com
+  - DOMAIN-SUFFIX,bbc.co.uk
+  - DOMAIN-SUFFIX,britbox.co.uk
+  - DOMAIN-SUFFIX,britbox.com
+  - DOMAIN-SUFFIX,itv.com
+  - DOMAIN-SUFFIX,massive-itv.com
 # NAME: ITV    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/ITV/ITV.yaml
 # TOTAL: 3
 payload:
