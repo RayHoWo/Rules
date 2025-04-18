@@ -1,15 +1,17 @@
 # NAME: ChinaNoMedia    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaNoMedia/ChinaNoMedia_Classical_No_Resolve.yaml
-# >>@ UPDATED: 2025-01-01
-# TOTAL: 3624
+# >>@ UPDATED: 2025-05-01
+# TOTAL: 3626
 payload:
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
   - DOMAIN,cdn.angruo.com
   - DOMAIN,client.amplifi.com
   - DOMAIN,download.jetbrains.com
+  - DOMAIN,download.microsoft.com
   - DOMAIN,images-cn.ssl-images-amazon.com
   - DOMAIN,ip.istatmenus.app
   - DOMAIN,kc.kexinshe.com
+  - DOMAIN,ntservicepack.microsoft.com
   - DOMAIN,origin-a.akamaihd.ne
   - DOMAIN,origin-a.akamaihd.net
   - DOMAIN,sms.imagetasks.com
@@ -300,7 +302,6 @@ payload:
   - DOMAIN-SUFFIX,acctdns.com
   - DOMAIN-SUFFIX,acctdns.net
   - DOMAIN-SUFFIX,acetaffy.club
-  - DOMAIN-SUFFIX,acg.rip
   - DOMAIN-SUFFIX,acm.org
   - DOMAIN-SUFFIX,acplay.net
   - DOMAIN-SUFFIX,acs.org
@@ -577,6 +578,7 @@ payload:
   - DOMAIN-SUFFIX,bootcdn.net
   - DOMAIN-SUFFIX,bootcss.com
   - DOMAIN-SUFFIX,bosera.com
+  - DOMAIN-SUFFIX,bosszhipin.com
   - DOMAIN-SUFFIX,broadcasthe.net
   - DOMAIN-SUFFIX,browserleaks.com
   - DOMAIN-SUFFIX,bstatic.com
@@ -1114,6 +1116,7 @@ payload:
   - DOMAIN-SUFFIX,diyiyou.com
   - DOMAIN-SUFFIX,dj99.com
   - DOMAIN-SUFFIX,dl-vip.pcfaster.baidu.co.th
+  - DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
   - DOMAIN-SUFFIX,dler.cloud
   - DOMAIN-SUFFIX,dlgslb.net
   - DOMAIN-SUFFIX,dlnel.com
@@ -1498,7 +1501,6 @@ payload:
   - DOMAIN-SUFFIX,hdcmct.org
   - DOMAIN-SUFFIX,hddolby.com
   - DOMAIN-SUFFIX,hdhome.org
-  - DOMAIN-SUFFIX,hdsky.me
   - DOMAIN-SUFFIX,hdyxgame.com
   - DOMAIN-SUFFIX,healthjd.com
   - DOMAIN-SUFFIX,heavenlywind.cc
@@ -1518,6 +1520,7 @@ payload:
   - DOMAIN-SUFFIX,heytapdownload.com
   - DOMAIN-SUFFIX,heytapimage.com
   - DOMAIN-SUFFIX,heytapmobi.com
+  - DOMAIN-SUFFIX,heytea-co.com
   - DOMAIN-SUFFIX,heytea.com
   - DOMAIN-SUFFIX,hftfund.com
   - DOMAIN-SUFFIX,hhtravel.com
@@ -1742,7 +1745,6 @@ payload:
   - DOMAIN-SUFFIX,ipplus360.com
   - DOMAIN-SUFFIX,iprdp.net
   - DOMAIN-SUFFIX,ipssh.net
-  - DOMAIN-SUFFIX,ipv6-test.com
   - DOMAIN-SUFFIX,iranshao.com
   - DOMAIN-SUFFIX,irs01.com
   - DOMAIN-SUFFIX,isd.com
@@ -2154,6 +2156,8 @@ payload:
   - DOMAIN-SUFFIX,lsplayer.com
   - DOMAIN-SUFFIX,lu.com
   - DOMAIN-SUFFIX,lucifr.com
+  - DOMAIN-SUFFIX,luckincdn.com
+  - DOMAIN-SUFFIX,luckincoffee.com
   - DOMAIN-SUFFIX,luckincoffeecdn.com
   - DOMAIN-SUFFIX,luckyair.net
   - DOMAIN-SUFFIX,ludashi.com
@@ -2246,7 +2250,6 @@ payload:
   - DOMAIN-SUFFIX,miaopai.com
   - DOMAIN-SUFFIX,miaostreet.com
   - DOMAIN-SUFFIX,miaozhen.com
-  - DOMAIN-SUFFIX,microsoft.com
   - DOMAIN-SUFFIX,microsoftonline.com
   - DOMAIN-SUFFIX,midasbuy.com
   - DOMAIN-SUFFIX,miercn.com
@@ -2316,7 +2319,6 @@ payload:
   - DOMAIN-SUFFIX,mukewang.com
   - DOMAIN-SUFFIX,mumayi.com
   - DOMAIN-SUFFIX,muomou.com
-  - DOMAIN-SUFFIX,musical.ly
   - DOMAIN-SUFFIX,muwai.com
   - DOMAIN-SUFFIX,muyewx.com
   - DOMAIN-SUFFIX,muzhiwan.com
@@ -2955,8 +2957,6 @@ payload:
   - DOMAIN-SUFFIX,tenpay.com
   - DOMAIN-SUFFIX,tenxcloud.com
   - DOMAIN-SUFFIX,test-cignacmb.com
-  - DOMAIN-SUFFIX,test-ipv4.com
-  - DOMAIN-SUFFIX,test-ipv6.com
   - DOMAIN-SUFFIX,testwaf.com
   - DOMAIN-SUFFIX,texasholdemcup.com
   - DOMAIN-SUFFIX,texasholdemcup.net
@@ -3130,6 +3130,7 @@ payload:
   - DOMAIN-SUFFIX,upai.com
   - DOMAIN-SUFFIX,upaiyun.com
   - DOMAIN-SUFFIX,upcdn.net
+  - DOMAIN-SUFFIX,update.microsoft.com
   - DOMAIN-SUFFIX,upe.net
   - DOMAIN-SUFFIX,upyun.com
   - DOMAIN-SUFFIX,urselect.com
@@ -3249,6 +3250,7 @@ payload:
   - DOMAIN-SUFFIX,windows10zj.com
   - DOMAIN-SUFFIX,windows7en.com
   - DOMAIN-SUFFIX,windowsupdate.com
+  - DOMAIN-SUFFIX,windowsupdate.microsoft.com
   - DOMAIN-SUFFIX,windowszj.com
   - DOMAIN-SUFFIX,winegame.net
   - DOMAIN-SUFFIX,winwin7.com

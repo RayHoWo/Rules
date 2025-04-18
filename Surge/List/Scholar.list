@@ -1,5 +1,5 @@
 # NAME: Scholar    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Scholar/Scholar.list
-# >>@ UPDATED: 2025-01-01
+# >>@ UPDATED: 2025-05-01
 # TOTAL: 230
 DOMAIN,scholar.google.com
 DOMAIN-SUFFIX,1lib.cloud

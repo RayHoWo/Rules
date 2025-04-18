@@ -1,5 +1,5 @@
 # NAME: AI Suite    # Link: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/AI%20Suite.yaml
-# >>@ UPDATED: 2025-01-01
+# >>@ UPDATED: 2025-05-01
 payload:
   # > ChatGPT
   - DOMAIN-SUFFIX,ai.com
@@ -23,23 +23,77 @@ payload:
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,claudeusercontent.com
 
+  # > Cloudflare AI Gateway
+  - DOMAIN,gateway.ai.cloudflare.com
+
+  # > Codeium
+  - DOMAIN-SUFFIX,codeium.com
+
   # > Copilot
   - DOMAIN-SUFFIX,githubcopilot.com
   - DOMAIN,copilot.microsoft.com
 
-  # > Gemini
-  - DOMAIN-SUFFIX,ai.google.dev
-  - DOMAIN-SUFFIX,aistudio.google.com
-  - DOMAIN-SUFFIX,clients6.google.com
+  # > Cursor
+  - DOMAIN-SUFFIX,cursor.sh
+
+  # > Dify.AI
+  - DOMAIN-SUFFIX,dify.ai
+
+  # > GitHub Copilot
+  - DOMAIN,api.github.com
+
+  # > Google Gemini
+  - DOMAIN-SUFFIX,apis.google.com
+  - DOMAIN-SUFFIX,bard.google.com
   - DOMAIN-SUFFIX,gemini.google.com
-  - DOMAIN,generativelanguage.googleapis.com
-  - DOMAIN,proactivebackend-pa.googleapis.com
+
+  # > Google DeepMind
+  - DOMAIN-SUFFIX,deepmind.com
+  - DOMAIN-SUFFIX,deepmind.google
+
+  # > Google Generative Language API
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com
+  - DOMAIN-SUFFIX,geller-pa.googleapis.com
+  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+
+  # > Google AI Studio
+  - DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
+  - DOMAIN-SUFFIX,aistudio.google.com
+  - DOMAIN-SUFFIX,makersuite.google.com
+  - DOMAIN-SUFFIX,generativeai.google
+  - DOMAIN,ai.google.dev
+  - DOMAIN,alkalicore-pa.clients6.google.com
+  - DOMAIN,waa-pa.clients6.google.com
+
+  # > Google NotebookLM
+  - DOMAIN-SUFFIX,notebooklm.google
+  - DOMAIN-SUFFIX,notebooklm.google.com
+
+  # > Grok
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,grok.com
+
+  # > Groq
+  - DOMAIN-SUFFIX,groq.com
+
+  # > Jasper
+  - DOMAIN-SUFFIX,clipdrop.co
+  - DOMAIN-SUFFIX,jasper.ai
 
   # > Meta AI
   - DOMAIN-SUFFIX,meta.ai
 
+  # > OpenArt
+  - DOMAIN-SUFFIX,openart.ai
+
+  # > OpenRouter
+  - DOMAIN-SUFFIX,openrouter.ai
+
   # > Perplexity AI
   - DOMAIN-SUFFIX,perplexity.ai
+
+  # > POE
+  - DOMAIN-SUFFIX,poe.com
 
   # > Siri
   - DOMAIN,apple-relay.apple.com
@@ -47,5 +101,5 @@ payload:
   - DOMAIN,guzzoni.smoot.apple.com
 
   # > Sora
-  - DOMAIN-SUFFIX, sora.com
+  - DOMAIN-SUFFIX,sora.com
   - DOMAIN,sora-cdn.oaistatic.com

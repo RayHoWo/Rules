@@ -1,5 +1,5 @@
 # >> Hong Kong Media
-# >>@ UPDATED: 2025-01-01
+# >>@ UPDATED: 2025-05-01
 # NAME: Bahamut    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Bahamut/Bahamut.yaml
 # TOTAL: 7
 payload:
@@ -31,7 +31,7 @@ payload:
   - DOMAIN,wmff.warnermediacdn.com
   - DOMAIN-SUFFIX,hbogoasia.com
   - DOMAIN-SUFFIX,hbogoasia.hk
-  - DOMAIN-KEYWORD,.hbogoasia. 
+  - DOMAIN-KEYWORD,.hbogoasia.
 # NAME: JOOX    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/JOOX/JOOX.yaml
 # TOTAL: 7
 payload:
