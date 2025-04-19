@@ -110,16 +110,6 @@ payload:
   - DOMAIN-SUFFIX,fox.com
   - DOMAIN-SUFFIX,foxdcg.com
   - DOMAIN-SUFFIX,uplynk.com
-# NAME: HBOUSA    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/HBOUSA/HBOUSA.yaml
-# TOTAL: 7
-payload:
-  - DOMAIN-SUFFIX,cinemax.com
-  - DOMAIN-SUFFIX,hbomax.com
-  - DOMAIN-SUFFIX,hbomaxcdn.com
-  - DOMAIN-SUFFIX,hbomaxdash.s.llnwi.net
-  - DOMAIN-SUFFIX,hbonow.com
-  - DOMAIN-SUFFIX,maxgo.com
-  - PROCESS-NAME,com.hbo.hbonow
 # NAME: HuluUSA    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/HuluUSA/HuluUSA.yaml
 # TOTAL: 53
 payload:

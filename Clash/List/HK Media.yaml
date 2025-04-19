@@ -1,37 +1,10 @@
 # >> Hong Kong Media
 # >>@ UPDATED: 2025-05-01
-# NAME: Bahamut    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Bahamut/Bahamut.yaml
-# TOTAL: 7
+# NAME: HKOpenTV   # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/HKOpenTV/HKOpenTV.yaml
+# TOTAL: 2
 payload:
-  - DOMAIN,bahamut.akamaized.net
-  - DOMAIN-SUFFIX,bahamut.com.tw
-  - DOMAIN-SUFFIX,digicert.com
-  - DOMAIN-SUFFIX,gamer.com.tw
-  - DOMAIN-SUFFIX,gvt1.com
-  - DOMAIN-SUFFIX,hinet.net
-  - DOMAIN-SUFFIX,viblast.com
-# NAME: HBOAsia    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/HBOAsia/HBOAsia.yaml
-# TOTAL: 19
-payload:
-  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
-  - DOMAIN,bcbolthboa-a.akamaihd.net
-  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
-  - DOMAIN,dai3fd1oh325y.cloudfront.net
-  - DOMAIN,hboasia1-i.akamaihd.net
-  - DOMAIN,hboasia2-i.akamaihd.net
-  - DOMAIN,hboasia3-i.akamaihd.net
-  - DOMAIN,hboasia4-i.akamaihd.net
-  - DOMAIN,hboasia5-i.akamaihd.net
-  - DOMAIN,hboasialive.akamaized.net
-  - DOMAIN,hbogoprod-vod.akamaized.net
-  - DOMAIN,hbolb.onwardsmg.com
-  - DOMAIN,hbounify-prod.evergent.com
-  - DOMAIN,players.brightcove.net
-  - DOMAIN,s3-ap-southeast-1.amazonaws.com
-  - DOMAIN,wmff.warnermediacdn.com
-  - DOMAIN-SUFFIX,hbogoasia.com
-  - DOMAIN-SUFFIX,hbogoasia.hk
-  - DOMAIN-KEYWORD,.hbogoasia.
+  - DOMAIN-SUFFIX,fantv.hk
+  - DOMAIN-SUFFIX,hkopentv.com
 # NAME: JOOX    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/JOOX/JOOX.yaml
 # TOTAL: 7
 payload:
@@ -70,3 +43,16 @@ payload:
   - PROCESS-NAME,com.viu.pad
   - PROCESS-NAME,com.viu.phone
   - PROCESS-NAME,com.vuclip.viu
+# NAME: WeTV    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/WeTV/WeTV.yaml
+# TOTAL: 10
+payload:
+  - DOMAIN-SUFFIX,iflix-images.akamaized.net
+  - DOMAIN-SUFFIX,iflix.com
+  - DOMAIN-SUFFIX,v.smtcdns.com
+  - DOMAIN-SUFFIX,v.smtcdns.net
+  - DOMAIN-SUFFIX,vv.video.qq.com
+  - DOMAIN-SUFFIX,wetv.vip
+  - DOMAIN-SUFFIX,wetvinfo.com
+  - IP-CIDR,150.109.28.51/32
+  - PROCESS-NAME,com.tencent.qqlivei18n
+  - PROCESS-NAME,com.tencent.qqlivei18n.us

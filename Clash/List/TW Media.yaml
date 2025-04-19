@@ -10,6 +10,11 @@ payload:
   - DOMAIN-SUFFIX,gvt1.com
   - DOMAIN-SUFFIX,hinet.net
   - DOMAIN-SUFFIX,viblast.com
+# NAME: BiliBiliIntl    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/BiliBiliIntl/BiliBiliIntl.yaml
+# TOTAL: 2
+payload:
+  - DOMAIN-SUFFIX,bilibili.tv
+  - PROCESS-NAME,com.bstar.intl
 # NAME: KKBOX    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/KKBOX/KKBOX.yaml
 # TOTAL: 9
 payload:

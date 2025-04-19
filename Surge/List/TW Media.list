@@ -10,6 +10,10 @@ DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,hinet.net
 DOMAIN-SUFFIX,viblast.com
 USER-AGENT,Anime*
+# NAME: BiliBiliIntl    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/BiliBiliIntl/BiliBiliIntl.list
+# TOTAL: 2
+DOMAIN-SUFFIX,bilibili.tv
+PROCESS-NAME,com.bstar.intl
 # NAME: KKBOX    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/KKBOX/KKBOX.list
 # TOTAL: 9
 DOMAIN-SUFFIX,kfs.io
