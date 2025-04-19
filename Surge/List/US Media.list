@@ -107,16 +107,6 @@ DOMAIN-SUFFIX,fox.com
 DOMAIN-SUFFIX,foxdcg.com
 DOMAIN-SUFFIX,uplynk.com
 USER-AGENT,FOX%20NOW*
-# NAME: HBOUSA    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/HBOUSA/HBOUSA.list
-# TOTAL: 8
-DOMAIN-SUFFIX,cinemax.com
-DOMAIN-SUFFIX,hbomax.com
-DOMAIN-SUFFIX,hbomaxcdn.com
-DOMAIN-SUFFIX,hbomaxdash.s.llnwi.net
-DOMAIN-SUFFIX,hbonow.com
-DOMAIN-SUFFIX,maxgo.com
-USER-AGENT,HBOMAX*
-PROCESS-NAME,com.hbo.hbonow
 # NAME: HuluUSA    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/HuluUSA/HuluUSA.list
 # TOTAL: 53
 DOMAIN-SUFFIX,112263.com
