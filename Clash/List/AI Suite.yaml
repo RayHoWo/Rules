@@ -1,6 +1,9 @@
 # NAME: AI Suite    # Link: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/AI%20Suite.yaml
 # >>@ UPDATED: 2025-05-01
 payload:
+  # > Augment
+  - DOMAIN-SUFFIX,augmentcode.com
+
   # > ChatGPT
   - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,chatgpt.com
@@ -26,11 +29,17 @@ payload:
   # > Cloudflare AI Gateway
   - DOMAIN,gateway.ai.cloudflare.com
 
-  # > Codeium
+  # > DIA
+  - DOMAIN-SUFFIX,diabrowser.engineering
+
+  # > Windsurf
+  - DOMAIN-SUFFIX,windsurf.com
   - DOMAIN-SUFFIX,codeium.com
+  - DOMAIN-SUFFIX,codeiumdata.com
 
   # > Copilot
   - DOMAIN-SUFFIX,githubcopilot.com
+  - DOMAIN-SUFFIX,microsoftonline.com
   - DOMAIN,copilot.microsoft.com
 
   # > Cursor
@@ -103,3 +112,6 @@ payload:
   # > Sora
   - DOMAIN-SUFFIX,sora.com
   - DOMAIN,sora-cdn.oaistatic.com
+
+  # > Zed
+  - DOMAIN,llm.zed.dev

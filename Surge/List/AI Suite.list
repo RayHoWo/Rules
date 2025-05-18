@@ -1,5 +1,8 @@
 # NAME: AI Suite    # Link: https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Surge/Surge%203/Provider/AI%20Suite.list
 # >>@ UPDATED: 2025-05-01
+# > Augment
+DOMAIN-SUFFIX,augmentcode.com
+
 # > ChatGPT
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,chatgpt.com
@@ -25,8 +28,10 @@ DOMAIN-SUFFIX,claudeusercontent.com
 # > Cloudflare AI Gateway
 DOMAIN,gateway.ai.cloudflare.com
 
-# > Codeium
+# > Windsurf
+DOMAIN-SUFFIX,windsurf.com
 DOMAIN-SUFFIX,codeium.com
+DOMAIN-SUFFIX,codeiumdata.com
 
 # > Copilot
 DOMAIN-SUFFIX,githubcopilot.com
@@ -102,3 +107,6 @@ DOMAIN,guzzoni.smoot.apple.com
 # > Sora
 DOMAIN-SUFFIX,sora.com
 DOMAIN,sora-cdn.oaistatic.com
+
+# > Zed
+DOMAIN,llm.zed.dev
