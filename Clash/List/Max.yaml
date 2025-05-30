@@ -1,5 +1,5 @@
 # NAME: Max    # Link: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/Max.yaml
-# >>@ UPDATED: 2025-05-01
+# >>@ UPDATED: 2025-06-01
 payload:
   # > Max
   - DOMAIN-SUFFIX,max.com

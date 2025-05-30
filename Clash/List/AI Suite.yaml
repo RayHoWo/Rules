@@ -1,7 +1,8 @@
 # NAME: AI Suite    # Link: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/AI%20Suite.yaml
-# >>@ UPDATED: 2025-05-01
+# >>@ UPDATED: 2025-06-01
 payload:
   # > Augment
+  - DOMAIN-SUFFIX,augment.com
   - DOMAIN-SUFFIX,augmentcode.com
 
   # > ChatGPT
