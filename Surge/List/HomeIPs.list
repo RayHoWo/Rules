@@ -1,9 +1,9 @@
-# >> Home Device SRC-IP-CIDR 
+# >> Home Device IP-CIDR 
 # >>@ UPDATED: 2025-06-01
 # NAME: NAS   
-SRC-IP-CIDR,10.10.10.5/32
+IP-CIDR,10.10.10.5/32
 # NAME: Printer   
-SRC-IP-CIDR,10.10.10.6/32
+IP-CIDR,10.10.10.6/32
 # NAME: Camera   
-SRC-IP-CIDR,10.10.10.7/32
+IP-CIDR,10.10.10.7/32
 
