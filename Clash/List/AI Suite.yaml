@@ -115,4 +115,4 @@ payload:
   - DOMAIN,sora-cdn.oaistatic.com
 
   # > Zed
-  - DOMAIN,llm.zed.dev
+  - DOMAIN-SUFFIX,zed.dev
