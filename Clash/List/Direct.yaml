@@ -6,7 +6,7 @@ payload:
   - DOMAIN-SUFFIX,myds.me
 # NAME: Passwall    
   - DOMAIN-SUFFIX,dler.pro
-  - DOMAIN-SUFFIX,rahw.top
+  - DOMAIN-SUFFIX,nas.rahw.top
 # NAME: Wiz CN    
   - DOMAIN-SUFFIX,wizconnected.cn
 # NAME: XiaoTianCai    
