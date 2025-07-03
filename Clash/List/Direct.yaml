@@ -4,7 +4,8 @@ payload:
 # NAME: NAS Access    
   - DOMAIN-SUFFIX,quickconnect.cn
   - DOMAIN-SUFFIX,myds.me
-# NAME: Passwall    
+# NAME: Passwall 
+  - DOMAIN-SUFFIX,ipify.org     
   - DOMAIN-SUFFIX,dler.pro
   - DOMAIN-SUFFIX,nas.rahw.top
 # NAME: Wiz CN    
