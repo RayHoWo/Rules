@@ -1,7 +1,0 @@
-# NAME: Claude    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Claude/Claude.yaml
-# >>@ UPDATED: 2025-06-01
-# TOTAL: 3
-payload:
-  - DOMAIN,cdn.usefathom.com
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-SUFFIX,claude.ai
