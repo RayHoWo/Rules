@@ -1,10 +1,9 @@
 # NAME: OpenAI    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OpenAI/OpenAI_No_Resolve.yaml
 # >>@ UPDATED: 2025-06-01
-# TOTAL: 36
+# TOTAL: 35
 payload:
   - DOMAIN,browser-intake-datadoghq.com
   - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  - DOMAIN,gemini.google.com
   - DOMAIN,openai-api.arkoselabs.com
   - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   - DOMAIN,openaicomproductionae4b.blob.core.windows.net
