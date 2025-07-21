@@ -1,4 +1,4 @@
-# NAME: AppleProxy    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/AppleProxy/AppleProxy.list
+# NAME: AppleProxy    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/AppleProxy/AppleProxy.list
 # >>@ UPDATED: 2025-06-01  
 # TOTAL: 45
 DOMAIN,api-glb-sea.smoot.apple.com

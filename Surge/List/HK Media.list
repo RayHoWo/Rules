@@ -1,10 +1,10 @@
 # >> Hong Kong Media 
 # >>@ UPDATED: 2025-06-01
-# NAME: HKOpenTV    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/HKOpenTV/HKOpenTV.list
+# NAME: HKOpenTV    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/HKOpenTV/HKOpenTV.list
 # TOTAL: 2
 DOMAIN-SUFFIX,fantv.hk
 DOMAIN-SUFFIX,hkopentv.com
-# NAME: JOOX    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/JOOX/JOOX.list
+# NAME: JOOX    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/JOOX/JOOX.list
 # TOTAL: 9
 DOMAIN-SUFFIX,i-joox.com
 DOMAIN-SUFFIX,joox.com
@@ -15,11 +15,11 @@ IP-CIDR,203.205.234.0/23,no-resolve
 USER-AGENT,JOOX*
 USER-AGENT,WeMusic*
 PROCESS-NAME,com.tencent.ibg.joox
-# NAME: NowE    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/NowE/NowE.list
+# NAME: NowE    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/NowE/NowE.list
 # TOTAL: 2
 DOMAIN-SUFFIX,nowe.com
 DOMAIN-SUFFIX,nowestatic.com
-# NAME: myTVSUPER    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/myTVSUPER/myTVSUPER.list
+# NAME: myTVSUPER    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/myTVSUPER/myTVSUPER.list
 # TOTAL: 7
 DOMAIN,mytvsuperlimited.hb.omtrdc.net
 DOMAIN,mytvsuperlimited.sc.omtrdc.net
@@ -28,7 +28,7 @@ DOMAIN-SUFFIX,tvb.com
 DOMAIN-KEYWORD,nowtv100
 DOMAIN-KEYWORD,rthklive
 USER-AGENT,mytv*
-# NAME: ViuTV    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/ViuTV/ViuTV.list
+# NAME: ViuTV    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/ViuTV/ViuTV.list
 # TOTAL: 12
 DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
 DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net
@@ -42,7 +42,7 @@ USER-AGENT,Viu*
 PROCESS-NAME,com.viu.pad
 PROCESS-NAME,com.viu.phone
 PROCESS-NAME,com.vuclip.viu
-# NAME: WeTV    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/WeTV/WeTV.list
+# NAME: WeTV    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/WeTV/WeTV.list
 # TOTAL: 12
 DOMAIN,wetv.qq.com
 DOMAIN-SUFFIX,iflix-images.akamaized.net

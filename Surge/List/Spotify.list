@@ -1,4 +1,4 @@
-# NAME: Spotify    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Spotify/Spotify.list
+# NAME: Spotify    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Spotify/Spotify.list
 # >>@ UPDATED: 2025-06-01
 # TOTAL: 31
 DOMAIN,audio4-ak-spotify-com.akamaized.net
