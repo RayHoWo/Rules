@@ -1,8 +1,9 @@
 # >> Worldwide Access
 # >>@ UPDATED: 2025-06-01
-# NAME: Passwall    
-DOMAIN-SUFFIX,dlercloud.com
+# NAME: Passwall
+DOMAIN-SUFFIX,now.rahw.uk     
 DOMAIN-SUFFIX,now.rahw.top
+DOMAIN-SUFFIX,dlercloud.com
 DOMAIN-SUFFIX,nssurge.com
 # NAME: Sonos   
 USER-AGENT,Sonos*
