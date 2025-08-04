@@ -1,9 +1,0 @@
-payload:
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Speedtest/Speedtest.yaml
-# NAME: Speedtest    >>@ UPDATED: 2024-05-06
-# TOTAL: 5
-  - DOMAIN-SUFFIX,fast.com
-  - DOMAIN-SUFFIX,ooklaserver.net
-  - DOMAIN-SUFFIX,speed.cloudflare.com
-  - DOMAIN-SUFFIX,speed.dler.io
-  - DOMAIN-KEYWORD,speedtest

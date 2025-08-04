@@ -1,16 +1,17 @@
-payload:  
-# >> Korea Media   
-# NAME: KBSTV    >>@ UPDATED: 2024-05-06
+# >> Korea Media 
+# >>@ UPDATED: 2025-06-01 
+payload: 
+# NAME: KBSTV    
   - DOMAIN-KEYWORD,kbsworld
   - DOMAIN-SUFFIX,kbs.co.kr
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/PandoraTV/PandoraTV.yaml
-# NAME: PandoraTV    >>@ UPDATED: 2024-05-06
+# NAME: PandoraTV    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/PandoraTV/PandoraTV_No_Resolve.yaml
 # TOTAL: 2
+payload:
   - DOMAIN-SUFFIX,kmplayer.com
   - DOMAIN-SUFFIX,pandora.tv
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Naver/Naver.yaml
-# NAME: Naver    >>@ UPDATED: 2024-05-06
+# NAME: Naver    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Naver/Naver_No_Resolve.yaml
 # TOTAL: 60
+payload:
   - DOMAIN,d17lx9ucc6k9fc.cloudfront.net
   - DOMAIN,d3c7rimkq79yfu.cloudfront.net
   - DOMAIN-SUFFIX,chocotv.com.tw
@@ -71,3 +72,14 @@ payload:
   - IP-CIDR,203.174.77.0/24
   - IP-CIDR6,2400:dcc0::/32
   - PROCESS-NAME,com.linecorp.linetv
+# NAME: Viki    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Viki/Viki_No_Resolve.yaml
+# TOTAL: 8
+payload:
+  - DOMAIN-SUFFIX,kalhlspd-a.akamaihd.net
+  - DOMAIN-SUFFIX,m-content-viki.s.llnwi.net
+  - DOMAIN-SUFFIX,twemoji.maxcdn.com
+  - DOMAIN-SUFFIX,viki.com
+  - DOMAIN-SUFFIX,viki.io
+  - DOMAIN-SUFFIX,viki.net
+  - DOMAIN-SUFFIX,vikidash.akamaized.net
+  - DOMAIN-SUFFIX,vikiplatform.com

@@ -1,8 +1,20 @@
-payload: 
 # >> Worldwide Acess
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/LinkedIn/LinkedIn.yaml
-# NAME: LinkedIn    >>@ UPDATED: 2024-05-06
+# >>@ UPDATED: 2025-06-01
+payload:
+# NAME: Passwall 
+  - DOMAIN-SUFFIX,now.rahw.uk 
+  - DOMAIN-SUFFIX,now.rahw.top 
+  - DOMAIN-SUFFIX,dlercloud.com
+  - DOMAIN-SUFFIX,nssurge.com
+# NAME: Sonos    
+# - USER-AGENT,Sonos*
+  - DOMAIN-SUFFIX,sonos.com
+  - DOMAIN-SUFFIX,sonos.radio
+# NAME: Wiz World    
+  - DOMAIN-SUFFIX,wiz.world
+# NAME: LinkedIn    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/LinkedIn/LinkedIn.yaml
 # TOTAL: 12
+payload:
   - DOMAIN,e122475.dscg.akamaiedge.net
   - DOMAIN,licdn.cn.cdn20.com
   - DOMAIN,linkedin.sc.omtrdc.net
@@ -15,16 +27,9 @@ payload:
   - DOMAIN-SUFFIX,linkedin.cn
   - DOMAIN-SUFFIX,linkedin.com
   - DOMAIN-SUFFIX,lnkd.in
-# NAME: Passwall    >>@ UPDATED: 2024-05-06
-  - DOMAIN-SUFFIX,now.rahw.top
-  - DOMAIN-SUFFIX,nssurge.com
-# NAME: Sonos    >>@ UPDATED: 2024-05-06
-# - USER-AGENT,Sonos*
-  - DOMAIN-SUFFIX,sonos.com
-  - DOMAIN-SUFFIX,sonos.radio
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Samsung/Samsung.yaml
-# NAME: Samsung    >>@ UPDATED: 2024-05-06
+# NAME: Samsung    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Samsung/Samsung.yaml
 # TOTAL: 13
+payload:
   - DOMAIN-SUFFIX,anrdoezrs.net
   - DOMAIN-SUFFIX,galaxyappstore.com
   - DOMAIN-SUFFIX,galaxymobile.jp
@@ -38,6 +43,3 @@ payload:
   - DOMAIN-SUFFIX,samsunggalaxyfriends.com
   - DOMAIN-SUFFIX,samsungknox.com
   - DOMAIN-SUFFIX,samsungqbe.com
-# NAME: Wiz World    >>@ UPDATED: 2024-05-06
-  - DOMAIN-SUFFIX,wiz.world
-

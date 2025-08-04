@@ -1,5 +1,5 @@
 # NAME: Spotify    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Spotify/Spotify.yaml
-# >>@ UPDATED: 2025-06-01
+# >>@ UPDATED: 2025-08-01
 # TOTAL: 30
 payload:
   - DOMAIN,audio4-ak-spotify-com.akamaized.net

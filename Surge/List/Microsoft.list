@@ -1,5 +1,5 @@
 # NAME: Microsoft    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Microsoft/Microsoft.list
-# >>@ UPDATED: 2025-06-01
+# >>@ UPDATED: 2025-08-01
 # TOTAL: 672
 DOMAIN,vsmarketplacebadge.apphb.com
 DOMAIN-SUFFIX,1drv.ms

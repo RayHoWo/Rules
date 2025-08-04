@@ -1,8 +1,8 @@
-payload:
 # >> Taiwan Media  
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Bahamut/Bahamut.yaml
-# NAME: Bahamut    >>@ UPDATED: 2024-05-06
+# >>@ UPDATED: 2025-06-01
+# NAME: Bahamut    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Bahamut/Bahamut_No_Resolve.yaml
 # TOTAL: 7
+payload:
   - DOMAIN,bahamut.akamaized.net
   - DOMAIN-SUFFIX,bahamut.com.tw
   - DOMAIN-SUFFIX,digicert.com
@@ -10,9 +10,14 @@ payload:
   - DOMAIN-SUFFIX,gvt1.com
   - DOMAIN-SUFFIX,hinet.net
   - DOMAIN-SUFFIX,viblast.com
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/KKBOX/KKBOX.yaml
-# NAME: KKBOX    >>@ UPDATED: 2024-05-06
+# NAME: BiliBiliIntl    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/BiliBiliIntl/BiliBiliIntl_No_Resolve.yaml
+# TOTAL: 2
+payload:
+  - DOMAIN-SUFFIX,bilibili.tv
+  - PROCESS-NAME,com.bstar.intl
+# NAME: KKBOX    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/KKBOX/KKBOX_No_Resolve.yaml
 # TOTAL: 9
+payload:
   - DOMAIN-SUFFIX,kfs.io
   - DOMAIN-SUFFIX,kk.stream
   - DOMAIN-SUFFIX,kkbox-prime.com
@@ -22,9 +27,9 @@ payload:
   - DOMAIN-SUFFIX,kktv.com.tw
   - DOMAIN-SUFFIX,kktv.me
   - DOMAIN-SUFFIX,theater-kktv.cdn.hinet.net
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/LineTV/LineTV.yaml
-# NAME: LineTV    >>@ UPDATED: 2024-05-06
+# NAME: LineTV    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/LineTV/LineTV_No_Resolve.yaml
 # TOTAL: 9
+payload:
   - DOMAIN,d17lx9ucc6k9fc.cloudfront.net
   - DOMAIN,d3pgb93pk7bvxj.cloudfront.net
   - DOMAIN,d3vm9lcxb6xcm4.cloudfront.net
@@ -34,8 +39,8 @@ payload:
   - DOMAIN-SUFFIX,line-scdn.net
   - DOMAIN-SUFFIX,linetv.tw
   - PROCESS-NAME,com.linecorp.linetv
-# Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/TaiWanGood/TaiWanGood.yaml
-# NAME: TaiWanGood    >>@ UPDATED: 2024-05-06
+# NAME: TaiWanGood    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/TaiWanGood/TaiWanGood_No_Resolve.yaml
 # TOTAL: 2
+payload:
   - DOMAIN,hamifans.emome.net
   - DOMAIN-SUFFIX,skyking.com.tw
