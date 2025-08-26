@@ -4,12 +4,12 @@ payload:
 # NAME: KBSTV    
   - DOMAIN-KEYWORD,kbsworld
   - DOMAIN-SUFFIX,kbs.co.kr
-# NAME: PandoraTV    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/PandoraTV/PandoraTV_No_Resolve.yaml
+# NAME: PandoraTV    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PandoraTV/PandoraTV_No_Resolve.yaml
 # TOTAL: 2
 payload:
   - DOMAIN-SUFFIX,kmplayer.com
   - DOMAIN-SUFFIX,pandora.tv
-# NAME: Naver    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Naver/Naver_No_Resolve.yaml
+# NAME: Naver    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Naver/Naver_No_Resolve.yaml
 # TOTAL: 60
 payload:
   - DOMAIN,d17lx9ucc6k9fc.cloudfront.net
@@ -72,7 +72,7 @@ payload:
   - IP-CIDR,203.174.77.0/24
   - IP-CIDR6,2400:dcc0::/32
   - PROCESS-NAME,com.linecorp.linetv
-# NAME: Viki    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Viki/Viki_No_Resolve.yaml
+# NAME: Viki    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Viki/Viki_No_Resolve.yaml
 # TOTAL: 8
 payload:
   - DOMAIN-SUFFIX,kalhlspd-a.akamaihd.net

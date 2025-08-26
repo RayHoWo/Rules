@@ -4,11 +4,11 @@
 # TOTAL: 2
 DOMAIN-KEYWORD,kbsworld
 DOMAIN-SUFFIX,kbs.co.kr
-# NAME: PandoraTV    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/PandoraTV/PandoraTV.list
+# NAME: PandoraTV    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PandoraTV/PandoraTV.list
 # TOTAL: 2
 DOMAIN-SUFFIX,kmplayer.com
 DOMAIN-SUFFIX,pandora.tv
-# NAME: Naver    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Naver/Naver.list
+# NAME: Naver    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Naver/Naver.list
 # TOTAL: 61
 DOMAIN,d17lx9ucc6k9fc.cloudfront.net
 DOMAIN,d3c7rimkq79yfu.cloudfront.net
@@ -71,7 +71,7 @@ IP-CIDR,203.174.77.0/24,no-resolve
 IP-CIDR6,2400:dcc0::/32,no-resolve
 USER-AGENT,LINE%20TV*
 PROCESS-NAME,com.linecorp.linetv
-# NAME: Viki    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Viki/Viki.list
+# NAME: Viki    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Viki/Viki.list
 # TOTAL: 8
 DOMAIN-SUFFIX,kalhlspd-a.akamaihd.net
 DOMAIN-SUFFIX,m-content-viki.s.llnwi.net

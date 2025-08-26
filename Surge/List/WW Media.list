@@ -1,6 +1,6 @@
 # >> Worldwide Media  
 # >>@ UPDATED: 2025-08-01
-# NAME: DAZN    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/DAZN/DAZN.list
+# NAME: DAZN    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/DAZN/DAZN.list
 # TOTAL: 19
 DOMAIN-SUFFIX,control.kochava.com
 DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net
@@ -21,12 +21,12 @@ DOMAIN-SUFFIX,s.yimg.jp
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-KEYWORD,voddazn
 USER-AGENT,DAZN*
-# NAME: Deezer    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Deezer/Deezer.list
+# NAME: Deezer    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Deezer/Deezer.list
 # TOTAL: 3
 DOMAIN-SUFFIX,deezer.com
 DOMAIN-SUFFIX,dzcdn.net
 USER-AGENT,Deezer*
-# NAME: TIDAL    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/TIDAL/TIDAL.list
+# NAME: TIDAL    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TIDAL/TIDAL.list
 # TOTAL: 6
 DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com
 DOMAIN-SUFFIX,tidal.com
@@ -34,7 +34,7 @@ DOMAIN-SUFFIX,tidalhifi.com
 DOMAIN-SUFFIX,wimpmusic.com
 USER-AGENT,TIDAL*
 USER-AGENT,TIDAL*dia
-# NAME: SoundCloud    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/SoundCloud/SoundCloud.list
+# NAME: SoundCloud    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/SoundCloud/SoundCloud.list
 # TOTAL: 4
 DOMAIN-SUFFIX,p-cdn.us
 DOMAIN-SUFFIX,sndcdn.com

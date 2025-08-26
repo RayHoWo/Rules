@@ -1,4 +1,4 @@
-# NAME: BlockHttpDNS    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/BlockHttpDNS/BlockHttpDNS.list
+# NAME: BlockHttpDNS    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BlockHttpDNS/BlockHttpDNS.list
 # >>@ UPDATED: 2025-08-01  
 # TOTAL: 59
 DOMAIN,dns.jd.com

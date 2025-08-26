@@ -1,4 +1,4 @@
-# NAME: Telegram    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Telegram/Telegram.list
+# NAME: Telegram    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Telegram/Telegram.list
 # >>@ UPDATED: 2025-08-01
 # TOTAL: 44
 DOMAIN,api.imem.app

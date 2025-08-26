@@ -14,7 +14,7 @@ USER-AGENT,%E5%B0%8F%E5%A4%A9%E6%89%8D/18*
 DOMAIN-SUFFIX,eebbk.net
 DOMAIN-SUFFIX,watch.okii.com
 DOMAIN-SUFFIX,tiancaixing.com
-# NAME:Direct    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Direct/Direct.list
+# NAME:Direct    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Direct/Direct.list
 # TOTAL: 254
 DOMAIN,ad.10010.com
 DOMAIN,ad.12306.cn

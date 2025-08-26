@@ -1,6 +1,6 @@
 # >> Japan Media 
 # >>@ UPDATED: 2025-08-01
-# NAME: AbemaTV    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AbemaTV/AbemaTV_No_Resolve.yaml
+# NAME: AbemaTV    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AbemaTV/AbemaTV_No_Resolve.yaml
 # TOTAL: 23
 payload:
   - DOMAIN-SUFFIX,abema-tv.com
@@ -26,7 +26,7 @@ payload:
   - DOMAIN-SUFFIX,vod-abematv.akamaized.net
   - DOMAIN-SUFFIX,winticket.jp
   - DOMAIN-KEYWORD,abematv.akamaized.net
-# NAME: DMM    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/DMM/DMM_No_Resolve.yaml
+# NAME: DMM    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DMM/DMM_No_Resolve.yaml
 # TOTAL: 20
 payload:
   - DOMAIN-SUFFIX,akabeesoft2.com
@@ -49,7 +49,7 @@ payload:
   - DOMAIN-SUFFIX,wheel-soft.com
   - IP-CIDR,125.6.189.7/32,no-resolve
   - IP-CIDR,203.104.209.7/32,no-resolve
-# NAME: HuluJP    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/HuluJP/HuluJP_No_Resolve.yaml
+# NAME: HuluJP    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HuluJP/HuluJP_No_Resolve.yaml
 # TOTAL: 5
 payload:
   - DOMAIN-SUFFIX,happyon.jp
@@ -57,7 +57,7 @@ payload:
   - DOMAIN-SUFFIX,hulu.jp
   - DOMAIN-SUFFIX,streaks.jp
   - DOMAIN-SUFFIX,yb.uncn.jp
-# NAME: Japonx    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Japonx/Japonx_No_Resolve.yaml
+# NAME: Japonx    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Japonx/Japonx_No_Resolve.yaml
 # TOTAL: 10
 payload:
   - DOMAIN-SUFFIX,japonx.com
@@ -70,7 +70,7 @@ payload:
   - DOMAIN-SUFFIX,japronx.vip
   - DOMAIN-KEYWORD,japonx
   - DOMAIN-KEYWORD,japronx
-# NAME: Niconico    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Niconico/Niconico_No_Resolve.yaml
+# NAME: Niconico    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Niconico/Niconico_No_Resolve.yaml
 # TOTAL: 9
 payload:
   - DOMAIN-SUFFIX,dmc.nico
@@ -82,7 +82,7 @@ payload:
   - DOMAIN-SUFFIX,nimg.jp
   - DOMAIN-SUFFIX,simg.jp
   - DOMAIN-SUFFIX,socdm.com
-# NAME: TVer    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/TVer/TVer_No_Resolve.yaml
+# NAME: TVer    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TVer/TVer_No_Resolve.yaml
 # TOTAL: 6
 payload:
   - DOMAIN-SUFFIX,dogatch.jp
