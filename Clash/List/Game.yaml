@@ -1,5 +1,5 @@
 # NAME: Game    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game_No_Resolve.yaml
-# >>@ UPDATED: 2025-08-01
+# >>@ UPDATED: 2025-10-01
 # TOTAL: 597
 payload:
   - DOMAIN,eaasserts-a.akamaihd.net

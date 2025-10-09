@@ -1,5 +1,5 @@
 # >> Home Device SRC-IP-CIDR 
-# >>@ UPDATED: 2025-08-01
+# >>@ UPDATED: 2025-10-01
 payload:
 # NAME: Direct access (192.168.5.55 ~ 192.168.5.100)    
   - SRC-IP-CIDR,192.168.5.55/32
