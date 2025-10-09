@@ -1,11 +1,11 @@
 # >> United Kingdom Media 
 # >>@ UPDATED: 2025-10-01 
-# NAME: All4    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/All4/All4_No_Resolve.yaml
+# NAME: All4    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/All4/All4_No_Resolve.yaml
 # TOTAL: 2
 payload:
   - DOMAIN-SUFFIX,c4assets.com
   - DOMAIN-SUFFIX,channel4.com
-# NAME: BBC    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BBC/BBC_No_Resolve.yaml
+# NAME: BBC    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/BBC/BBC_No_Resolve.yaml
 # TOTAL: 28
 payload:
   - DOMAIN,aod-dash-uk-live.akamaized.net
@@ -36,7 +36,7 @@ payload:
   - DOMAIN-SUFFIX,bidi.net.uk
   - DOMAIN-KEYWORD,bbcfmt
   - DOMAIN-KEYWORD,uk-live
-# NAME: BritboxUK    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BritboxUK/BritboxUK_No_Resolve.yaml
+# NAME: BritboxUK    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/BritboxUK/BritboxUK_No_Resolve.yaml
 # TOTAL: 8
 payload:
   - DOMAIN,itvpnp.live.ott.irdeto.com
@@ -47,19 +47,19 @@ payload:
   - DOMAIN-SUFFIX,britbox.com
   - DOMAIN-SUFFIX,itv.com
   - DOMAIN-SUFFIX,massive-itv.com
-# NAME: ITV    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ITV/ITV_No_Resolve.yaml
+# NAME: ITV    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ITV/ITV_No_Resolve.yaml
 # TOTAL: 3
 payload:
   - DOMAIN,itvpnpmobile-a.akamaihd.net
   - DOMAIN-SUFFIX,itv.com
   - DOMAIN-SUFFIX,itvstatic.com
-# NAME: My5    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/My5/My5_No_Resolve.yaml
+# NAME: My5    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/My5/My5_No_Resolve.yaml
 # TOTAL: 3
 payload:
   - DOMAIN,d349g9zuie06uo.cloudfront.net
   - DOMAIN-SUFFIX,channel5.com
   - DOMAIN-SUFFIX,my5.tv
-# NAME: SkyGO    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SkyGO/SkyGO_No_Resolve.yaml
+# NAME: SkyGO    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/SkyGO/SkyGO_No_Resolve.yaml
 # TOTAL: 2
 payload:
   - DOMAIN-SUFFIX,sky.com

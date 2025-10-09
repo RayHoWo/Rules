@@ -1,4 +1,4 @@
-# NAME: ChinaNoMedia    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaNoMedia/ChinaNoMedia_All_No_Resolve.list
+# NAME: ChinaNoMedia    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/ChinaNoMedia/ChinaNoMedia_All_No_Resolve.list
 # >>@ UPDATED: 2025-10-01
 # TOTAL: 3661
 DOMAIN,analytics.strava.com
