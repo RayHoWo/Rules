@@ -2,6 +2,8 @@
 # >>@ UPDATED: 2025-10-01
 payload:
 # NAME: Passwall 
+  - DOMAIN-KEYWORD,google
+  - DOMAIN-SUFFIX,googleapis.com
   - DOMAIN-SUFFIX,now.rahw.uk 
   - DOMAIN-SUFFIX,now.rahw.top 
   - DOMAIN-SUFFIX,dlercloud.com
