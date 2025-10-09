@@ -1,6 +1,6 @@
 # NAME: Telegram    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram_No_Resolve.yaml
 # >>@ UPDATED: 2025-10-01
-# TOTAL: 44
+# TOTAL: 46
 payload:
   - DOMAIN,api.imem.app
   - DOMAIN,api.swiftgram.app
@@ -28,7 +28,9 @@ payload:
   - DOMAIN-SUFFIX,usercontent.dev
   - DOMAIN-KEYWORD,nicegram
   - IP-CIDR,109.239.140.0/24,no-resolve
+  - IP-CIDR,139.59.210.98/32,no-resolve
   - IP-CIDR,149.154.160.0/20,no-resolve
+  - IP-CIDR,196.55.216.167/32,no-resolve
   - IP-CIDR,5.28.192.0/18,no-resolve
   - IP-CIDR,91.108.0.0/16,no-resolve
   - IP-CIDR6,2001:67c:4e8::/48,no-resolve
