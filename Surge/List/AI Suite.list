@@ -1,12 +1,12 @@
 # NAME: AI Suite    
 # NAME: Claude    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Claude/Claude.list
-# >>@ UPDATED: 2025-08-01
+# >>@ UPDATED: 2025-10-01
 # TOTAL: 3
 DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 # NAME: OpenAI    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OpenAI/OpenAI.list
-# >>@ UPDATED: 2025-08-01
+# >>@ UPDATED: 2025-10-01
 # TOTAL: 35
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
@@ -44,7 +44,7 @@ IP-CIDR,24.199.123.28/32,no-resolve
 IP-CIDR,64.23.132.171/32,no-resolve
 IP-ASN,20473,no-resolve
 # NAME: Gemini    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Gemini/Gemini.list
-# >>@ UPDATED: 2025-08-01
+# >>@ UPDATED: 2025-10-01
 # TOTAL: 13
 DOMAIN,ai.google.dev
 DOMAIN,alkalimakersuite-pa.clients6.google.com

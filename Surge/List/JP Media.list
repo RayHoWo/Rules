@@ -1,5 +1,5 @@
 # >> Japan Media  
-# >>@ UPDATED: 2025-08-01
+# >>@ UPDATED: 2025-10-01
 # NAME: AbemaTV    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AbemaTV/AbemaTV.list
 # TOTAL: 24
 DOMAIN-SUFFIX,abema-tv.com

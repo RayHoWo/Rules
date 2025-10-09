@@ -1,5 +1,5 @@
 # NAME: ChinaIPs    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaIPsBGP/ChinaIPsBGP.list
-# >>@ UPDATED: 2025-08-01
+# >>@ UPDATED: 2025-10-01
 # TOTAL: 3893
 IP-CIDR,1.1.8.0/24,no-resolve
 IP-CIDR,1.116.0.0/15,no-resolve
