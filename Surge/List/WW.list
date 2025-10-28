@@ -1,8 +1,12 @@
 # >> Worldwide Access
 # >>@ UPDATED: 2025-10-01
-# NAME: Passwall
+# NAME: Stock
+DOMAIN-SUFFIX,ibkr.com 
+DOMAIN-SUFFIX,go-mpulse.net
 DOMAIN-SUFFIX,moomoo.com 
 DOMAIN-SUFFIX,usmartsg.com 
+DOMAIN,sc.yxzq.com
+# NAME: Passwall
 DOMAIN-SUFFIX,now.rahw.uk     
 DOMAIN-SUFFIX,now.rahw.top
 DOMAIN-SUFFIX,dlercloud.com
