@@ -3,6 +3,7 @@
 payload:
 # NAME: Passwall 
   - DOMAIN-SUFFIX,moomoo.com
+  - DOMAIN-SUFFIX,usmartsg.com
   - DOMAIN-SUFFIX,now.rahw.uk 
   - DOMAIN-SUFFIX,now.rahw.top 
   - DOMAIN-SUFFIX,dlercloud.com
