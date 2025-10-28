@@ -3,6 +3,11 @@
 payload:
 # NAME: Stock
   - DOMAIN-SUFFIX,ibkr.com 
+  - DOMAIN-SUFFIX,interactivebrokers.com
+  - DOMAIN-SUFFIX,ibllc.com
+  - DOMAIN-SUFFIX,zacks.com
+  - DOMAIN-SUFFIX,seekingalpha.com
+  - DOMAIN-SUFFIX,benzinga.com
   - DOMAIN-SUFFIX,go-mpulse.net
   - DOMAIN-SUFFIX,moomoo.com
   - DOMAIN-SUFFIX,usmartsg.com
