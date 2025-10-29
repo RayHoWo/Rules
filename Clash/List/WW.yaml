@@ -10,6 +10,7 @@ payload:
   - DOMAIN-SUFFIX,benzinga.com
   - DOMAIN-SUFFIX,go-mpulse.net
   - DOMAIN-SUFFIX,moomoo.com
+  - DDOMAIN,shortsgp.im.qcloud.com
   - DOMAIN-SUFFIX,usmartsg.com
   - DOMAIN,sc.yxzq.com
 # NAME: Passwall 
