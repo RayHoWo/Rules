@@ -1,6 +1,6 @@
 # NAME: ChinaNoMedia    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaNoMedia/ChinaNoMedia_Classical_No_Resolve.yaml
 # >>@ UPDATED: 2025-10-01
-# TOTAL: 3630
+# TOTAL: 3631
 payload:
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
@@ -15,6 +15,7 @@ payload:
   - DOMAIN,ntservicepack.microsoft.com
   - DOMAIN,origin-a.akamaihd.ne
   - DOMAIN,origin-a.akamaihd.net
+  - DOMAIN,smart.uhdnow.com
   - DOMAIN,sms.imagetasks.com
   - DOMAIN,steamcommunity-a.akamaihd.net
   - DOMAIN,tx.lilyemby.com

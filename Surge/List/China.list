@@ -1,6 +1,6 @@
 # NAME: ChinaNoMedia    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/ChinaNoMedia/ChinaNoMedia_All_No_Resolve.list
 # >>@ UPDATED: 2025-10-01
-# TOTAL: 3661
+# TOTAL: 3662
 DOMAIN,analytics.strava.com
 DOMAIN,blzddist1-a.akamaihd.net
 DOMAIN,cdn.angruo.com
@@ -14,6 +14,7 @@ DOMAIN,kc.kexinshe.com
 DOMAIN,ntservicepack.microsoft.com
 DOMAIN,origin-a.akamaihd.ne
 DOMAIN,origin-a.akamaihd.net
+DOMAIN,smart.uhdnow.com
 DOMAIN,sms.imagetasks.com
 DOMAIN,steamcommunity-a.akamaihd.net
 DOMAIN,tx.lilyemby.com
