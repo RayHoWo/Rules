@@ -14,6 +14,18 @@ payload:
   - IP-CIDR,101.32.160.0/20,no-resolve
   - DDOMAIN,shortsgp.im.qcloud.com
   - DOMAIN-SUFFIX,usmartsg.com
+# NAME: Hotel
+  - DOMAIN-SUFFIX,marriott.com 
+  - DOMAIN-SUFFIX,emb-api.com
+  - DOMAIN-SUFFIX,branch.io
+  - DOMAIN-SUFFIX,inauth.com
+  - DOMAIN-SUFFIX,bazaarvoice.com
+  - DOMAIN-SUFFIX,apptentive.com
+  - DOMAIN-SUFFIX,adobedc.net
+  - DOMAIN-SUFFIX,adobedtm.com
+  - DOMAIN-SUFFIX,demdex.net
+  - DOMAIN-SUFFIX,hilton.com    
+  - DOMAIN-SUFFIX,hiltonapi.com
 # NAME: Passwall 
   - DOMAIN-SUFFIX,now.rahw.uk 
   - DOMAIN-SUFFIX,now.rahw.top 
