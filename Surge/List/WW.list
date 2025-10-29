@@ -10,6 +10,8 @@ DOMAIN-SUFFIX,benzinga.com
 DOMAIN-SUFFIX,go-mpulse.net
 DOMAIN-SUFFIX,moomoo.com 
 DOMAIN,shortsgp.im.qcloud.com
+IP-CIDR,43.153.192.0/18,no-resolve
+IP-CIDR,101.32.160.0/20,no-resolve
 DOMAIN-SUFFIX,usmartsg.com 
 DOMAIN,sc.yxzq.com
 # NAME: Passwall

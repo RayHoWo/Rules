@@ -10,6 +10,8 @@ payload:
   - DOMAIN-SUFFIX,benzinga.com
   - DOMAIN-SUFFIX,go-mpulse.net
   - DOMAIN-SUFFIX,moomoo.com
+  - IP-CIDR,43.153.192.0/18,no-resolve
+  - IP-CIDR,101.32.160.0/20,no-resolve
   - DDOMAIN,shortsgp.im.qcloud.com
   - DOMAIN-SUFFIX,usmartsg.com
   - DOMAIN,sc.yxzq.com
