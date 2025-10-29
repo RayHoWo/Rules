@@ -14,7 +14,6 @@ payload:
   - IP-CIDR,101.32.160.0/20,no-resolve
   - DDOMAIN,shortsgp.im.qcloud.com
   - DOMAIN-SUFFIX,usmartsg.com
-  - DOMAIN,sc.yxzq.com
 # NAME: Passwall 
   - DOMAIN-SUFFIX,now.rahw.uk 
   - DOMAIN-SUFFIX,now.rahw.top 
