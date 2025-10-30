@@ -1,6 +1,6 @@
-# NAME: Disney    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Disney/Disney.yaml
+# NAME: Disney    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Disney/Disney_No_Resolve.yaml
 # >>@ UPDATED: 2025-10-01
-# TOTAL: 173
+# TOTAL: 174
 payload:
   - DOMAIN-SUFFIX,20thcenturystudios.com.au
   - DOMAIN-SUFFIX,20thcenturystudios.com.br
@@ -118,6 +118,7 @@ payload:
   - DOMAIN-SUFFIX,disneyworld-go.com
   - DOMAIN-SUFFIX,dlp-media.com
   - DOMAIN-SUFFIX,dmed.technology
+  - DOMAIN-SUFFIX,dssedge.com
   - DOMAIN-SUFFIX,dssott.com
   - DOMAIN-SUFFIX,dtci.co
   - DOMAIN-SUFFIX,dtci.technology
