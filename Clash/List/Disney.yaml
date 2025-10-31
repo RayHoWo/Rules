@@ -1,5 +1,5 @@
 # NAME: Disney    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Disney/Disney_No_Resolve.yaml
-# >>@ UPDATED: 2025-10-01
+# >>@ UPDATED: 2025-11-01
 # TOTAL: 174
 payload:
   - DOMAIN-SUFFIX,20thcenturystudios.com.au

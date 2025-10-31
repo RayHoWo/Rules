@@ -1,6 +1,6 @@
 # NAME: AI Suite    
 # NAME: Claude    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Surge/Claude/Claude.list
-# >>@ UPDATED: 2025-10-01
+# >>@ UPDATED: 2025-11-01
 # TOTAL: 3
 DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,anthropic.com
