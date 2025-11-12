@@ -1,6 +1,6 @@
 # NAME: Proxy    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Proxy/Proxy_All_No_Resolve.list
 # >>@ UPDATED: 2025-11-01
-# TOTAL: 6660
+# TOTAL: 6663
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
 DOMAIN,assets-priconne-redive-us.akamaized.net
@@ -1895,6 +1895,7 @@ DOMAIN-SUFFIX,flagsonline.it
 DOMAIN-SUFFIX,flecheinthepeche.fr
 DOMAIN-SUFFIX,fleshbot.com
 DOMAIN-SUFFIX,fleursdeslettres.com
+DOMAIN-SUFFIX,flexclip.com
 DOMAIN-SUFFIX,flexibits.com
 DOMAIN-SUFFIX,flexpool.io
 DOMAIN-SUFFIX,flgg.us
@@ -2745,6 +2746,7 @@ DOMAIN-SUFFIX,imagefap.com
 DOMAIN-SUFFIX,imageflea.com
 DOMAIN-SUFFIX,imageglass.org
 DOMAIN-SUFFIX,images-gaytube.com
+DOMAIN-SUFFIX,images.prismic.io
 DOMAIN-SUFFIX,imageshack.us
 DOMAIN-SUFFIX,imagevenue.com
 DOMAIN-SUFFIX,imagezilla.net
@@ -5236,6 +5238,7 @@ DOMAIN-SUFFIX,telegra.ph
 DOMAIN-SUFFIX,telegraph.co.uk
 DOMAIN-SUFFIX,telesco.pe
 DOMAIN-SUFFIX,tellme.pw
+DOMAIN-SUFFIX,temu.com
 DOMAIN-SUFFIX,tenacy.com
 DOMAIN-SUFFIX,tenor.com
 DOMAIN-SUFFIX,tensorflow.org

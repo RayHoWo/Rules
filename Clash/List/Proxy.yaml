@@ -1,6 +1,6 @@
 # NAME: Proxy    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Proxy/Proxy_Classical_No_Resolve.yaml
 # >>@ UPDATED: 2025-11-01
-# TOTAL: 6652
+# TOTAL: 6655
 payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
@@ -1896,6 +1896,7 @@ payload:
   - DOMAIN-SUFFIX,flecheinthepeche.fr
   - DOMAIN-SUFFIX,fleshbot.com
   - DOMAIN-SUFFIX,fleursdeslettres.com
+  - DOMAIN-SUFFIX,flexclip.com
   - DOMAIN-SUFFIX,flexibits.com
   - DOMAIN-SUFFIX,flexpool.io
   - DOMAIN-SUFFIX,flgg.us
@@ -2746,6 +2747,7 @@ payload:
   - DOMAIN-SUFFIX,imageflea.com
   - DOMAIN-SUFFIX,imageglass.org
   - DOMAIN-SUFFIX,images-gaytube.com
+  - DOMAIN-SUFFIX,images.prismic.io
   - DOMAIN-SUFFIX,imageshack.us
   - DOMAIN-SUFFIX,imagevenue.com
   - DOMAIN-SUFFIX,imagezilla.net
@@ -5237,6 +5239,7 @@ payload:
   - DOMAIN-SUFFIX,telegraph.co.uk
   - DOMAIN-SUFFIX,telesco.pe
   - DOMAIN-SUFFIX,tellme.pw
+  - DOMAIN-SUFFIX,temu.com
   - DOMAIN-SUFFIX,tenacy.com
   - DOMAIN-SUFFIX,tenor.com
   - DOMAIN-SUFFIX,tensorflow.org
