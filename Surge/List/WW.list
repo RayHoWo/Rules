@@ -31,6 +31,8 @@ DOMAIN-SUFFIX,eum-appdynamics.com
 DOMAIN-SUFFIX,hyatt.com    
 DOMAIN-SUFFIX,tealiumiq.com
 # NAME: Passwall
+USER-AGENT,Thinkific*
+DOMAIN-SUFFIX,thinkific.com
 DOMAIN-SUFFIX,germanyfastlane.com
 DOMAIN-SUFFIX,now.rahw.uk
 DOMAIN-SUFFIX,dlercloud.com
