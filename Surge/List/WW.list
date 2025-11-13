@@ -31,14 +31,12 @@ DOMAIN-SUFFIX,eum-appdynamics.com
 DOMAIN-SUFFIX,hyatt.com    
 DOMAIN-SUFFIX,tealiumiq.com
 # NAME: Passwall
-USER-AGENT,Thinkific*
 DOMAIN-SUFFIX,thinkific.com
 DOMAIN-SUFFIX,germanyfastlane.com
 DOMAIN-SUFFIX,now.rahw.uk
 DOMAIN-SUFFIX,dlercloud.com
 DOMAIN-SUFFIX,nssurge.com
 # NAME: Sonos   
-USER-AGENT,Sonos*
 DOMAIN-SUFFIX,sonos.com
 DOMAIN-SUFFIX,sonos.radio
 # NAME: Wiz World    
