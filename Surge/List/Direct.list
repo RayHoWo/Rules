@@ -3,7 +3,9 @@
 # NAME: NAS Access   
 DOMAIN-SUFFIX,quickconnect.cn
 DOMAIN-SUFFIX,myds.me
-# NAME: Passwall
+# NAME: Special
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,360buy.com
 DOMAIN-SUFFIX,ipify.org  
 DOMAIN-SUFFIX,dler.pro
 DOMAIN-SUFFIX,nas.rahw.top
