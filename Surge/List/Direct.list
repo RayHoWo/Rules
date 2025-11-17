@@ -1,9 +1,8 @@
 # >> Direct Access
 # >>@ UPDATED: 2025-11-01
-# NAME: NAS Access   
+# NAME: Special
 DOMAIN-SUFFIX,quickconnect.cn
 DOMAIN-SUFFIX,myds.me
-# NAME: Special
 DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,360buy.com
 DOMAIN-SUFFIX,ipify.org  
