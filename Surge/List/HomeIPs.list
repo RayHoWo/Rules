@@ -1,5 +1,5 @@
 # >> Home Device IP-CIDR 
-# >>@ UPDATED: 2025-11-01
+# >>@ UPDATED: 2026-01-01
 # NAME: NAS   
 IP-CIDR,10.10.10.5/32
 # NAME: Printer   
