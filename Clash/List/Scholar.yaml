@@ -1,5 +1,5 @@
 # NAME: Scholar    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Scholar/Scholar_No_Resolve.yaml
-# >>@ UPDATED: 2025-11-01
+# >>@ UPDATED: 2026-01-01
 # TOTAL: 230
 payload:
   - DOMAIN,scholar.google.com

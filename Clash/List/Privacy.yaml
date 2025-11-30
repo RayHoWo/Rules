@@ -1,5 +1,5 @@
 # Privacy    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Privacy/Privacy_Classical_No_Resolve.yaml
-# >>@ UPDATED: 2025-11-01
+# >>@ UPDATED: 2026-01-01
 # TOTAL: 32084
 payload:
   - DOMAIN,hm.baidu.com

@@ -1,5 +1,5 @@
 # NAME: AppleProxy    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple_Classical_No_Resolve.yaml
-# >>@ UPDATED: 2025-11-01
+# >>@ UPDATED: 2026-01-01
 # TOTAL: 1589
 payload:
   - DOMAIN,appldnld.apple.com.edgesuite.net
