@@ -43,7 +43,7 @@ payload:
   - DOMAIN-SUFFIX,sonos.radio
 # NAME: Wiz World    
   - DOMAIN-SUFFIX,wiz.world
-# NAME: LinkedIn    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/LinkedIn/LinkedIn.yaml
+# NAME: LinkedIn    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/LinkedIn/LinkedIn.yaml
 # TOTAL: 12
 payload:
   - DOMAIN,e122475.dscg.akamaiedge.net
@@ -58,7 +58,7 @@ payload:
   - DOMAIN-SUFFIX,linkedin.cn
   - DOMAIN-SUFFIX,linkedin.com
   - DOMAIN-SUFFIX,lnkd.in
-# NAME: Samsung    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Samsung/Samsung.yaml
+# NAME: Samsung    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Samsung/Samsung.yaml
 # TOTAL: 13
 payload:
   - DOMAIN-SUFFIX,anrdoezrs.net
