@@ -1,4 +1,4 @@
-# NAME: ChinaASN    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/ChinaASN/ChinaASN_Resolve.list
+# NAME: ChinaASN    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaASN/ChinaASN_Resolve.list
 # >>@ UPDATED: 2026-01-01
 # TOTAL: 1009
 IP-ASN,10111

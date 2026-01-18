@@ -1,4 +1,4 @@
-# NAME: ChinaMaxNoMedia    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve.list
+# NAME: ChinaMaxNoMedia    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve.list
 # >>@ UPDATED: 2026-01-01
 # TOTAL: 127712
 DOMAIN,analytics.strava.com

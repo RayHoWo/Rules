@@ -1,11 +1,11 @@
 # >> United Kingdom Media 
 # >>@ UPDATED: 2026-01-01 
-# NAME: All4    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/All4/All4.list
+# NAME: All4    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/All4/All4.list
 # TOTAL: 3
 DOMAIN-SUFFIX,c4assets.com
 DOMAIN-SUFFIX,channel4.com
 USER-AGENT,All4*
-# NAME: BBC    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/BBC/BBC.list
+# NAME: BBC    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BBC/BBC.list
 # TOTAL: 29
 DOMAIN,aod-dash-uk-live.akamaized.net
 DOMAIN,aod-hls-uk-live.akamaized.net
@@ -36,7 +36,7 @@ DOMAIN-SUFFIX,bidi.net.uk
 DOMAIN-KEYWORD,bbcfmt
 DOMAIN-KEYWORD,uk-live
 USER-AGENT,BBCiPlayer*
-# NAME: BritboxUK    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/BritboxUK/BritboxUK.list
+# NAME: BritboxUK    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BritboxUK/BritboxUK.list
 # TOTAL: 8
 DOMAIN,itvpnp.live.ott.irdeto.com
 DOMAIN,itvpnp.stage.ott.irdeto.com
@@ -46,19 +46,19 @@ DOMAIN-SUFFIX,britbox.co.uk
 DOMAIN-SUFFIX,britbox.com
 DOMAIN-SUFFIX,itv.com
 DOMAIN-SUFFIX,massive-itv.com
-# NAME: ITV    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/ITV/ITV.list
+# NAME: ITV    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ITV/ITV.list
 # TOTAL: 4
 DOMAIN,itvpnpmobile-a.akamaihd.net
 DOMAIN-SUFFIX,itv.com
 DOMAIN-SUFFIX,itvstatic.com
 USER-AGENT,ITV_Player*
-# NAME: My5    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/My5/My5.list
+# NAME: My5    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/My5/My5.list
 # TOTAL: 4
 DOMAIN,d349g9zuie06uo.cloudfront.net
 DOMAIN-SUFFIX,channel5.com
 DOMAIN-SUFFIX,my5.tv
 USER-AGENT,My5*
-# NAME: SkyGO    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/SkyGO/SkyGO.list
+# NAME: SkyGO    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/SkyGO/SkyGO.list
 # TOTAL: 2
 DOMAIN-SUFFIX,sky.com
 DOMAIN-SUFFIX,skygo.co.nz

@@ -58,10 +58,10 @@ IP-CIDR,54.90.0.0/16,no-resolve
 IP-CIDR,54.174.0.0/16,no-resolve
 IP-CIDR,54.236.0.0/15,no-resolve
 IP-CIDR,172.244.0.0/16,no-resolve
-# NAME: GoogleVoice    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/GoogleVoice/GoogleVoice.list
+# NAME: GoogleVoice    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GoogleVoice/GoogleVoice.list
 # TOTAL: 1
 DOMAIN,lens.l.google.com
-# NAME: CNN    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/CNN/CNN.list
+# NAME: CNN    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/CNN/CNN.list
 # TOTAL: 6
 DOMAIN-SUFFIX,cnn.com
 DOMAIN-SUFFIX,cnn.io
@@ -69,7 +69,7 @@ DOMAIN-SUFFIX,cnn.it
 DOMAIN-SUFFIX,cnnarabic.com
 DOMAIN-SUFFIX,cnnlabs.com
 DOMAIN-SUFFIX,cnnmoney.ch
-# NAME: DiscoveryPlus    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/DiscoveryPlus/DiscoveryPlus.list
+# NAME: DiscoveryPlus    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/DiscoveryPlus/DiscoveryPlus.list
 # TOTAL: 17
 DOMAIN,discovery-us.conax.cloud
 DOMAIN,dplus-northamerica-cloudfront-gcs.prod-vod.h264.io
@@ -88,7 +88,7 @@ DOMAIN-SUFFIX,uplynk.com
 DOMAIN-KEYWORD,discovery.uplynk.com
 USER-AGENT,DPlus*
 USER-AGENT,discovery+*
-# NAME: Espn    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Espn/Espn.list
+# NAME: Espn    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Espn/Espn.list
 # TOTAL: 11
 DOMAIN,espn.api.edge.bamgrid.com
 DOMAIN,espn.hb.omtrdc.net
@@ -101,13 +101,13 @@ DOMAIN-SUFFIX,espn.net
 DOMAIN-SUFFIX,espncdn.com
 DOMAIN-SUFFIX,espnqa.com
 DOMAIN-SUFFIX,watchespn.com
-# NAME: FOXNOW    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/FOXNOW/FOXNOW.list
+# NAME: FOXNOW    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/FOXNOW/FOXNOW.list
 # TOTAL: 4
 DOMAIN-SUFFIX,fox.com
 DOMAIN-SUFFIX,foxdcg.com
 DOMAIN-SUFFIX,uplynk.com
 USER-AGENT,FOX%20NOW*
-# NAME: HuluUSA    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/HuluUSA/HuluUSA.list
+# NAME: HuluUSA    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/HuluUSA/HuluUSA.list
 # TOTAL: 53
 DOMAIN-SUFFIX,112263.com
 DOMAIN-SUFFIX,assetshuluimcom-a.akamaihd.net
@@ -162,12 +162,12 @@ DOMAIN-SUFFIX,registerhulu.com
 DOMAIN-SUFFIX,thehulubraintrust.com
 DOMAIN-SUFFIX,wwwhuluplus.com
 PROCESS-NAME,com.hulu.plus
-# NAME: Pandora    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Pandora/Pandora.list
+# NAME: Pandora    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Pandora/Pandora.list
 # TOTAL: 3
 DOMAIN-SUFFIX,p-cdn.us
 DOMAIN-SUFFIX,pandora.com
 USER-AGENT,Pandora*
-# NAME: ParamountPlus    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/ParamountPlus/ParamountPlus.list
+# NAME: ParamountPlus    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ParamountPlus/ParamountPlus.list
 # TOTAL: 10
 DOMAIN,cbsi.live.ott.irdeto.com
 DOMAIN,cbsplaylistserver.aws.syncbak.com
@@ -179,15 +179,15 @@ DOMAIN-SUFFIX,cbsivideo.com
 DOMAIN-SUFFIX,paramountplus.com
 DOMAIN-SUFFIX,pplusstatic.com
 USER-AGENT,PPlus*
-# NAME: PBS    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/PBS/PBS.list
+# NAME: PBS    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PBS/PBS.list
 # TOTAL: 2
 DOMAIN-SUFFIX,pbs.org
 USER-AGENT,PBS*
-# NAME: Peacock    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Peacock/Peacock.list
+# NAME: Peacock    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Peacock/Peacock.list
 # TOTAL: 2
 DOMAIN-SUFFIX,peacocktv.com
 USER-AGENT,PeacockMobile*
-# NAME: PrimeVideo    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/PrimeVideo/PrimeVideo.list
+# NAME: PrimeVideo    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PrimeVideo/PrimeVideo.list
 # TOTAL: 18
 DOMAIN,atv-ps.amazon.com
 DOMAIN,avodmp4s3ww-a.akamaihd.net
@@ -207,7 +207,7 @@ DOMAIN-SUFFIX,pv-cdn.net
 DOMAIN-KEYWORD,avoddashs
 USER-AGENT,InstantVideo.US*
 USER-AGENT,Prime%20Video*
-# NAME: Sling    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Sling/Sling.list
+# NAME: Sling    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Sling/Sling.list
 # TOTAL: 5
 DOMAIN-SUFFIX,dishworld.com
 DOMAIN-SUFFIX,movenetworks.com

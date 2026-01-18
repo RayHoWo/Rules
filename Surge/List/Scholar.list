@@ -1,4 +1,4 @@
-# NAME: Scholar    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Scholar/Scholar.list
+# NAME: Scholar    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Scholar/Scholar.list
 # >>@ UPDATED: 2026-01-01
 # TOTAL: 230
 DOMAIN,scholar.google.com

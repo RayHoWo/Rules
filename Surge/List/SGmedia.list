@@ -1,6 +1,6 @@
 # >> Singapore Media 
 # >>@ UPDATED: 2026-01-01 
-# NAME: iQIYIIntl    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/iQIYIIntl/iQIYIIntl.list
+# NAME: iQIYIIntl    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/iQIYIIntl/iQIYIIntl.list
 # TOTAL: 21
 DOMAIN,cache.video.iqiyi.com
 DOMAIN-SUFFIX,inter.iqiyi.com
@@ -23,7 +23,7 @@ IP-CIDR,23.40.242.10/32,no-resolve
 IP-CIDR,23.59.252.0/24,no-resolve
 PROCESS-NAME,com.iqiyi.i18n
 PROCESS-NAME,com.iqiyi.i18n.tv
-# NAME: FOXPlus    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/FOXPlus/FOXPlus.list
+# NAME: FOXPlus    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/FOXPlus/FOXPlus.list
 # TOTAL: 7
 DOMAIN,cdn-fox-networks-group-green.akamaized.net
 DOMAIN,d3cv4a9a9wh0bt.cloudfront.net
@@ -32,7 +32,7 @@ DOMAIN,foxsports02-i.akamaihd.net
 DOMAIN,foxsports03-i.akamaihd.net
 DOMAIN,staticasiafox.akamaized.net
 DOMAIN-SUFFIX,foxplus.com
-# NAME: MeWatch    # Link: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/MeWatch/MeWatch.list
+# NAME: MeWatch    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/MeWatch/MeWatch.list
 # TOTAL: 1
 DOMAIN-SUFFIX,mewatch.sg
 
