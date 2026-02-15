@@ -1,7 +1,8 @@
 # >> Direct Access    
 # >>@ UPDATED: 2026-01-01
 payload:
-# NAME: Special   
+# NAME: Special  
+  - DOMAIN-SUFFIX,zealotmat.uk  
   - DOMAIN-SUFFIX,quickconnect.cn
   - DOMAIN-SUFFIX,myds.me 
   - DOMAIN-SUFFIX,ipify.org     
