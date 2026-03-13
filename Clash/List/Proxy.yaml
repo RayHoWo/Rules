@@ -4743,6 +4743,7 @@ payload:
   - DOMAIN-SUFFIX,seesmic.com
   - DOMAIN-SUFFIX,seevpn.com
   - DOMAIN-SUFFIX,seezone.net
+  - DOMAIN-SUFFIX,sef.org.tw
   - DOMAIN-SUFFIX,sehuatang.net
   - DOMAIN-SUFFIX,sehuatang.org
   - DOMAIN-SUFFIX,sejie.com
@@ -5190,6 +5191,10 @@ payload:
   - DOMAIN-SUFFIX,tagwalk.com
   - DOMAIN-SUFFIX,tahr.org.tw
   - DOMAIN-SUFFIX,tails.net
+<<<<<<< HEAD
+=======
+  - DOMAIN-SUFFIX,taipei.gov.tw
+>>>>>>> 627665b78e2ba360a3357a627318ad11bd9ca1ae
   - DOMAIN-SUFFIX,taipeisociety.org
   - DOMAIN-SUFFIX,taipeitimes.com
   - DOMAIN-SUFFIX,taisounds.com
