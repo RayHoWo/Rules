@@ -1,8 +1,7 @@
 # NAME: AppleProxy    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Classical_No_Resolve.yaml
 # >>@ UPDATED: 2026-01-01
-# TOTAL: 1589
+# TOTAL: 1593
 payload:
-  - DOMAIN,appldnld.apple.com.edgesuite.net
   - DOMAIN,apple-events.akamaized.net
   - DOMAIN,appleworldwidedeveloper.hb-api.omtrdc.net
   - DOMAIN,appleworldwidedeveloper.sc.omtrdc.net
@@ -60,6 +59,7 @@ payload:
   - DOMAIN-SUFFIX,appl.com
   - DOMAIN-SUFFIX,appl4e.com
   - DOMAIN-SUFFIX,appla.com
+  - DOMAIN-SUFFIX,appldnld.apple.com.edgesuite.net
   - DOMAIN-SUFFIX,apple-darwin.com
   - DOMAIN-SUFFIX,apple-darwin.net
   - DOMAIN-SUFFIX,apple-darwin.org
@@ -1195,7 +1195,6 @@ payload:
   - DOMAIN-SUFFIX,applepaysupplies.tv
   - DOMAIN-SUFFIX,applewallet.com
   - DOMAIN-SUFFIX,applewallet.tv
-  - DOMAIN-SUFFIX,appsto.re
   - DOMAIN-SUFFIX,appstore.co.id
   - DOMAIN-SUFFIX,appstore.com
   - DOMAIN-SUFFIX,appstore.hk
@@ -1556,11 +1555,13 @@ payload:
   - DOMAIN-SUFFIX,applemusic.com
   - DOMAIN-SUFFIX,apple-dns.net
   - DOMAIN-SUFFIX,apple.news
+  - DOMAIN-SUFFIX,appsto.re
   - DOMAIN-SUFFIX,cdn-apple.com
   - DOMAIN-SUFFIX,digicert.com
   - DOMAIN-SUFFIX,apple-cloudkit.com
   - DOMAIN-SUFFIX,apple-livephotoskit.com
   - DOMAIN-SUFFIX,apzones.com
+  - DOMAIN-SUFFIX,icloud.cn
   - DOMAIN-KEYWORD,apple-support.akadns.net
   - DOMAIN-KEYWORD,apple.com.akadns.net
   - DOMAIN-KEYWORD,apple.com.edgekey.net
@@ -1578,6 +1579,9 @@ payload:
   - IP-CIDR,205.180.175.0/24,no-resolve
   - IP-CIDR,63.92.224.0/19,no-resolve
   - IP-CIDR,65.199.22.0/23,no-resolve
+  - IP-CIDR6,2403:300::/32,no-resolve
+  - IP-CIDR6,2620:149::/32,no-resolve
+  - IP-CIDR6,2a01:b740::/32,no-resolve
   - PROCESS-NAME,CoreLocationAgent
   - PROCESS-NAME,WeatherWidget
   - PROCESS-NAME,apsd
