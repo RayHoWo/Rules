@@ -31,7 +31,8 @@ payload:
   - DOMAIN-SUFFIX,eum-appdynamics.com
   - DOMAIN-SUFFIX,hyatt.com    
   - DOMAIN-SUFFIX,tealiumiq.com
-# NAME: Passwall   
+# NAME: Passwall 
+  - DOMAIN-SUFFIX,zealotmat.uk  
   - DOMAIN-SUFFIX,thinkific.com
   - DOMAIN-SUFFIX,germanyfastlane.com
   - DOMAIN-SUFFIX,now.rahw.uk 
