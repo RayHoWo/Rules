@@ -165,7 +165,7 @@ DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,phprcdn.com
 DOMAIN-SUFFIX,pornhub.com
 DOMAIN-SUFFIX,pornhubpremium.com
-# NAME: Pluto TV    >
+# NAME: Pluto TV    
 USER-AGENT,Pluto20%TV*
 USER-AGENT,mediaserverd*
 DOMAIN-SUFFIX,pluto.tv
@@ -176,9 +176,11 @@ DOMAIN-SUFFIX,braze.com
 DOMAIN,mobile-collector.newrelic.com
 DOMAIN,tv.rlcdn.com
 DOMAIN,sb.scorecardresearch.com
-# NAME: Tubi TV    >
+# NAME: Tubi TV    
 DOMAIN-SUFFIX,tubi.io
 DOMAIN-SUFFIX,tubi.video
 DOMAIN-SUFFIX,tubitv.com
+# NAME: T-Mobile   
+DOMAIN-SUFFIX,t-mobile.com
 
 
