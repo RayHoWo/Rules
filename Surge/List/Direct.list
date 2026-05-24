@@ -6,7 +6,7 @@
 # SOURCE-URL-DIRECT: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Direct/Direct.list
 # FORMAT: Surge Rule Set
 
-# Special / Personal
+# Manual Additions / Special Access
 DOMAIN-SUFFIX,zealotmat.uk
 DOMAIN-SUFFIX,quickconnect.cn
 DOMAIN-SUFFIX,myds.me

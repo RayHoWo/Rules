@@ -8,7 +8,7 @@
 # BEHAVIOR: classical
 
 payload:
-  # Special / Personal
+  # Manual Additions / Special Access
   - DOMAIN-SUFFIX,zealotmat.uk
   - DOMAIN-SUFFIX,quickconnect.cn
   - DOMAIN-SUFFIX,myds.me
