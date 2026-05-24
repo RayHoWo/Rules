@@ -1,13 +1,19 @@
-# NAME: AI Suite    
-# NAME: Claude    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Claude/Claude.list
-# >>@ UPDATED: 2026-01-01
-# TOTAL: 3
+# NAME: AI Suite
+# AUTHOR: RayHW
+# DESCRIPTION: Curated AI platform routing rules for Claude, Gemini and OpenAI
+# UPDATED: 2026-05-24
+# SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
+# SOURCE-URL-CLAUDE: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Claude/Claude.list
+# SOURCE-URL-GEMINI: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Gemini/Gemini.list
+# SOURCE-URL-OPENAI: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OpenAI/OpenAI.list
+# FORMAT: Surge Rule Set
+
+# Claude / Anthropic
 DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
-# NAME: Gemini    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Gemini/Gemini.list
-# >>@ UPDATED: 2026-01-01
-# TOTAL: 13
+
+# Gemini / Google AI
 DOMAIN,ai.google.dev
 DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,makersuite.google.com
@@ -21,9 +27,8 @@ DOMAIN-SUFFIX,apis.google.com
 DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
-# NAME: OpenAI    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OpenAI/OpenAI.list
-# >>@ UPDATED: 2026-01-01
-# TOTAL: 35
+
+# OpenAI / ChatGPT
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,openai-api.arkoselabs.com
@@ -56,6 +61,8 @@ DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-KEYWORD,openai
+
+# OpenAI IP-CIDR / ASN
 IP-CIDR,24.199.123.28/32,no-resolve
 IP-CIDR,64.23.132.171/32,no-resolve
 IP-ASN,20473,no-resolve

@@ -1,0 +1,66 @@
+# NAME: HBO
+# AUTHOR: RayHW
+# DESCRIPTION: HBO, Max, HBO Go Asia and related streaming service rules from blackmatrix7 ios_rule_script
+# UPDATED: 2026-05-24
+# SOURCE: blackmatrix7 ios_rule_script + official / actual HBO and Max service domains
+# SOURCE-URL-HBO: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBO/HBO.yaml
+# FORMAT: Clash / Stash Rule Provider
+# BEHAVIOR: classical
+
+payload:
+  # HBO / HBO Max / Max
+  - DOMAIN-SUFFIX,hbo.com
+  - DOMAIN-SUFFIX,hbo.com.c.footprint.net
+  - DOMAIN-SUFFIX,hbo.com.edgesuite.net
+  - DOMAIN-SUFFIX,hbo.map.fastly.net
+  - DOMAIN-SUFFIX,hbomax.com
+  - DOMAIN-SUFFIX,hbomaxcdn.com
+  - DOMAIN-SUFFIX,hbomaxdash.s.llnwi.net
+  - DOMAIN-SUFFIX,hbonow.com
+  - DOMAIN-SUFFIX,max.com
+  - DOMAIN-SUFFIX,maxgo.com
+
+  # HBO Asia / HBO Go Asia
+  - DOMAIN-SUFFIX,hboasia.com
+  - DOMAIN-SUFFIX,hboasia1-i.akamaihd.net
+  - DOMAIN-SUFFIX,hboasia2-i.akamaihd.net
+  - DOMAIN-SUFFIX,hboasia3-i.akamaihd.net
+  - DOMAIN-SUFFIX,hboasia4-i.akamaihd.net
+  - DOMAIN-SUFFIX,hboasia5-i.akamaihd.net
+  - DOMAIN-SUFFIX,hboasialive.akamaized.net
+  - DOMAIN-SUFFIX,hbogo.co.th
+  - DOMAIN-SUFFIX,hbogo.com
+  - DOMAIN-SUFFIX,hbogo.eu
+  - DOMAIN-SUFFIX,hbogoasia.com
+  - DOMAIN-SUFFIX,hbogoasia.hk
+  - DOMAIN-SUFFIX,hbogoasia.id
+  - DOMAIN-SUFFIX,hbogoasia.ph
+  - DOMAIN-SUFFIX,hbogoasia.sg
+  - DOMAIN-SUFFIX,hbogoasia.tw
+  - DOMAIN-SUFFIX,hbogoprod-vod.akamaized.net
+
+  # HBO / Max CDN / Playback / API
+  - DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net
+  - DOMAIN-SUFFIX,cf-images.ap-southeast-1.prod.boltdns.net
+  - DOMAIN-SUFFIX,dai3fd1oh325y.cloudfront.net
+  - DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com
+  - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
+  - DOMAIN-SUFFIX,hbogeo.cust.footprint.net
+  - DOMAIN-SUFFIX,hbolb.onwardsmg.com
+  - DOMAIN-SUFFIX,hbounify-prod.evergent.com
+  - DOMAIN-SUFFIX,manifest.prod.boltdns.net
+  - DOMAIN-SUFFIX,players.brightcove.net
+  - DOMAIN-SUFFIX,warnermediacdn.com
+
+  # Cinemax / WarnerMedia Related
+  - DOMAIN-SUFFIX,cinemax.com
+  - DOMAIN-SUFFIX,forthethrone.com
+  - DOMAIN-SUFFIX,youboranqs01.com
+
+  # Now / Now TV Related
+  - DOMAIN-SUFFIX,now-ashare.com
+  - DOMAIN-SUFFIX,now-tv.com
+  - DOMAIN-SUFFIX,now.com
+  - DOMAIN-SUFFIX,now.com.hk
+  - DOMAIN-SUFFIX,nowe.com
+  - DOMAIN-SUFFIX,nowe.hk

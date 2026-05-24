@@ -1,0 +1,66 @@
+# NAME: Germany Media
+# AUTHOR: RayHW
+# DESCRIPTION: Curated Germany media, streaming and region-service routing rules
+# UPDATED: 2026-05-24
+# SOURCE: personally curated + official / actual service domains
+# FORMAT: Clash / Stash Rule Provider
+# BEHAVIOR: classical
+
+payload:
+  # DW / Deutsche Welle
+  - DOMAIN-SUFFIX,dw.com
+  - DOMAIN-SUFFIX,dw.de
+
+  # ARD / Tagesschau
+  - DOMAIN-SUFFIX,ard.de
+  - DOMAIN-SUFFIX,tagesschau.de
+
+  # ZDF
+  - DOMAIN-SUFFIX,zdf.de
+
+  # RTL
+  - DOMAIN-SUFFIX,rtl.de
+
+  # Joyn / ProSiebenSat.1
+  - DOMAIN-SUFFIX,joyn.de
+  - DOMAIN-SUFFIX,prosieben.de
+  - DOMAIN-SUFFIX,sat1.de
+
+  # Der Spiegel
+  - DOMAIN-SUFFIX,spiegel.de
+
+  # Die Zeit
+  - DOMAIN-SUFFIX,zeit.de
+
+  # FAZ / Frankfurter Allgemeine Zeitung
+  - DOMAIN-SUFFIX,faz.net
+
+  # Süddeutsche Zeitung
+  - DOMAIN-SUFFIX,sueddeutsche.de
+
+  # Bild
+  - DOMAIN-SUFFIX,bild.de
+
+  # Welt
+  - DOMAIN-SUFFIX,welt.de
+
+  # Focus
+  - DOMAIN-SUFFIX,focus.de
+
+  # Stern
+  - DOMAIN-SUFFIX,stern.de
+
+  # Germany Region Services / Carriers
+  - DOMAIN-SUFFIX,telekom.de
+  - DOMAIN-SUFFIX,t-mobile.de
+  - DOMAIN-SUFFIX,vodafone.de
+  - DOMAIN-SUFFIX,o2online.de
+  - DOMAIN-SUFFIX,telefonica.de
+  - DOMAIN-SUFFIX,1und1.de
+  - DOMAIN-SUFFIX,1und1.net
+
+  # Germany Region Services / MVNO
+  - DOMAIN-SUFFIX,congstar.de
+  - DOMAIN-SUFFIX,aldi-talk.de
+  - DOMAIN-SUFFIX,blau.de
+  - DOMAIN-SUFFIX,sim.de

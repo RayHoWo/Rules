@@ -1,6 +1,12 @@
-# NAME: Global    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_All_No_Resolve.list
-# >>@ UPDATED: 2026-01-01
-# TOTAL: 33246
+# NAME: Global
+# AUTHOR: RayHW
+# DESCRIPTION: Global proxy routing rules from blackmatrix7 ios_rule_script
+# UPDATED: 2026-05-24
+# SOURCE: blackmatrix7 ios_rule_script
+# SOURCE-URL-GLOBAL: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_All_No_Resolve.list
+# FORMAT: Surge Rule Set
+
+# Global
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
 DOMAIN,angle.com.tw

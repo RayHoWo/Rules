@@ -1,6 +1,12 @@
-# NAME: Scholar    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Scholar/Scholar.list
-# >>@ UPDATED: 2026-01-01
-# TOTAL: 230
+# NAME: Scholar
+# AUTHOR: RayHW
+# DESCRIPTION: Scholar, academic publishing and research resource routing rules from blackmatrix7 ios_rule_script
+# UPDATED: 2026-05-24
+# SOURCE: blackmatrix7 ios_rule_script
+# SOURCE-URL-SCHOLAR: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Scholar/Scholar.list
+# FORMAT: Surge Rule Set
+
+# Scholar
 DOMAIN,scholar.google.com
 DOMAIN-SUFFIX,1lib.cloud
 DOMAIN-SUFFIX,1lib.domains

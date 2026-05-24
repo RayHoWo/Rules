@@ -1,7 +1,76 @@
-# >> Singapore Media 
-# >>@ UPDATED: 2026-01-01 
-# NAME: iQIYIIntl    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/iQIYIIntl/iQIYIIntl.list
-# TOTAL: 21
+# NAME: Singapore Media
+# AUTHOR: RayHW
+# DESCRIPTION: Curated Singapore media, streaming and region-service routing rules
+# UPDATED: 2026-05-24
+# SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
+# SOURCE-URL-IQIYIINTL: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/iQIYIIntl/iQIYIIntl.list
+# SOURCE-URL-FOXPLUS: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/FOXPlus/FOXPlus.list
+# SOURCE-URL-MEWATCH: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/MeWatch/MeWatch.list
+# FORMAT: Surge Rule Set
+
+# MeWatch / Mediacorp
+DOMAIN-SUFFIX,mewatch.sg
+DOMAIN-SUFFIX,mediacorp.sg
+DOMAIN-SUFFIX,mediacorp.com.sg
+DOMAIN-SUFFIX,mediacorptv.sg
+DOMAIN-SUFFIX,toggle.sg
+
+# CNA / Channel NewsAsia
+DOMAIN-SUFFIX,channelnewsasia.com
+DOMAIN-SUFFIX,cna.asia
+
+# meLISTEN / Mediacorp Radio
+DOMAIN-SUFFIX,melisten.sg
+DOMAIN-SUFFIX,987.sg
+DOMAIN-SUFFIX,class95.sg
+DOMAIN-SUFFIX,gold905.sg
+DOMAIN-SUFFIX,yes933.sg
+DOMAIN-SUFFIX,love972.sg
+DOMAIN-SUFFIX,capital958.sg
+DOMAIN-SUFFIX,warna942.sg
+DOMAIN-SUFFIX,ria897.sg
+DOMAIN-SUFFIX,oli968.sg
+DOMAIN-SUFFIX,symphony924.sg
+
+# SPH Media / SPH Radio
+DOMAIN-SUFFIX,sph.com.sg
+DOMAIN-SUFFIX,sphradio.sg
+DOMAIN-SUFFIX,kiss92.sg
+DOMAIN-SUFFIX,onefm.sg
+DOMAIN-SUFFIX,ufm1003.sg
+DOMAIN-SUFFIX,moneyfm893.sg
+
+# So Drama! / SAFRA Radio
+DOMAIN-SUFFIX,power98.com.sg
+DOMAIN-SUFFIX,jia883.sg
+DOMAIN-SUFFIX,sodrama.sg
+
+# Singapore News / Publishing
+DOMAIN-SUFFIX,straitstimes.com
+DOMAIN-SUFFIX,business-times.com.sg
+DOMAIN-SUFFIX,zaobao.com.sg
+DOMAIN-SUFFIX,tnp.sg
+DOMAIN-SUFFIX,mothership.sg
+DOMAIN-SUFFIX,todayonline.com
+DOMAIN-SUFFIX,theedgesingapore.com
+DOMAIN-SUFFIX,mustsharenews.com
+DOMAIN-SUFFIX,ricemedia.co
+DOMAIN-SUFFIX,vulcanpost.com
+DOMAIN-SUFFIX,asiaone.com
+
+# Singapore Region Services / Carriers
+DOMAIN-SUFFIX,singtel.com
+DOMAIN-SUFFIX,singtel.com.sg
+DOMAIN-SUFFIX,starhub.com
+DOMAIN-SUFFIX,starhub.com.sg
+DOMAIN-SUFFIX,m1.com.sg
+DOMAIN-SUFFIX,simba.sg
+DOMAIN-SUFFIX,simba.com.sg
+DOMAIN-SUFFIX,circles.life
+DOMAIN-SUFFIX,gomo.sg
+DOMAIN-SUFFIX,giga.com.sg
+
+# iQIYI / iQIYI International
 DOMAIN,cache.video.iqiyi.com
 DOMAIN-SUFFIX,inter.iqiyi.com
 DOMAIN-SUFFIX,intl-rcd.iqiyi.com
@@ -23,8 +92,8 @@ IP-CIDR,23.40.242.10/32,no-resolve
 IP-CIDR,23.59.252.0/24,no-resolve
 PROCESS-NAME,com.iqiyi.i18n
 PROCESS-NAME,com.iqiyi.i18n.tv
-# NAME: FOXPlus    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/FOXPlus/FOXPlus.list
-# TOTAL: 7
+
+# FOXPlus
 DOMAIN,cdn-fox-networks-group-green.akamaized.net
 DOMAIN,d3cv4a9a9wh0bt.cloudfront.net
 DOMAIN,foxsports01-i.akamaihd.net
@@ -32,7 +101,3 @@ DOMAIN,foxsports02-i.akamaihd.net
 DOMAIN,foxsports03-i.akamaihd.net
 DOMAIN,staticasiafox.akamaized.net
 DOMAIN-SUFFIX,foxplus.com
-# NAME: MeWatch    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/MeWatch/MeWatch.list
-# TOTAL: 1
-DOMAIN-SUFFIX,mewatch.sg
-

@@ -1,0 +1,263 @@
+# NAME: China Media
+# AUTHOR: RayHW
+# DESCRIPTION: Curated China streaming, broadcasting and media routing rules
+# UPDATED: 2026-05-24
+# SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
+# SOURCE-URL-CHINAMEDIA: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMedia/ChinaMedia.yaml
+# FORMAT: Clash / Stash Rule Provider
+# BEHAVIOR: classical
+
+payload:
+  # Bilibili
+  - DOMAIN-SUFFIX,acg.tv
+  - DOMAIN-SUFFIX,acgvideo.com
+  - DOMAIN-SUFFIX,b23.tv
+  - DOMAIN-SUFFIX,biliapi.com
+  - DOMAIN-SUFFIX,biliapi.net
+  - DOMAIN-SUFFIX,bilibili.cc
+  - DOMAIN-SUFFIX,bilibili.cn
+  - DOMAIN-SUFFIX,bilibili.co
+  - DOMAIN-SUFFIX,bilibili.com
+  - DOMAIN-SUFFIX,bilibili.net
+  - DOMAIN-SUFFIX,bilibili.tv
+  - DOMAIN-SUFFIX,bilibiligame.cn
+  - DOMAIN-SUFFIX,bilibiligame.co
+  - DOMAIN-SUFFIX,bilibiligame.net
+  - DOMAIN-SUFFIX,bilibilipay.cn
+  - DOMAIN-SUFFIX,bilibilipay.com
+  - DOMAIN-SUFFIX,bilicdn1.com
+  - DOMAIN-SUFFIX,bilicdn2.com
+  - DOMAIN-SUFFIX,bilicdn3.com
+  - DOMAIN-SUFFIX,bilicdn4.com
+  - DOMAIN-SUFFIX,bilicdn5.com
+  - DOMAIN-SUFFIX,bilicomics.com
+  - DOMAIN-SUFFIX,biligame.cn
+  - DOMAIN-SUFFIX,biligame.co
+  - DOMAIN-SUFFIX,biligame.com
+  - DOMAIN-SUFFIX,biligame.net
+  - DOMAIN-SUFFIX,biligo.com
+  - DOMAIN-SUFFIX,biliimg.com
+  - DOMAIN-SUFFIX,biliintl.co
+  - DOMAIN-SUFFIX,biliintl.com
+  - DOMAIN-SUFFIX,biliplus.com
+  - DOMAIN-SUFFIX,bilivideo.cn
+  - DOMAIN-SUFFIX,bilivideo.com
+  - DOMAIN-SUFFIX,bilivideo.net
+  - DOMAIN-SUFFIX,hdslb.com
+  - DOMAIN-SUFFIX,hdslb.net
+  - DOMAIN-SUFFIX,hdslb.org
+  - DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net
+  - DOMAIN-SUFFIX,uposdash-302-bilivideo.yfcdn.net
+  - DOMAIN-KEYWORD,bilibili
+
+  # Bilibili App / API
+  - DOMAIN,www.bilibili.com
+  - DOMAIN,m.bilibili.com
+  - DOMAIN,api.bilibili.com
+  - DOMAIN,app.bilibili.com
+  - DOMAIN,api.biliapi.com
+  - DOMAIN,api.biliapi.net
+  - DOMAIN,app.biliapi.com
+  - DOMAIN,app.biliapi.net
+  - DOMAIN,grpc.biliapi.net
+
+  # CCTV / CNTV
+  - DOMAIN-SUFFIX,cctv.cn
+  - DOMAIN-SUFFIX,cctv.com
+  - DOMAIN-SUFFIX,cctvlib.cn
+  - DOMAIN-SUFFIX,cctvlib.com.cn
+  - DOMAIN-SUFFIX,cctvlibrary.cn
+  - DOMAIN-SUFFIX,cctvlibrary.com.cn
+  - DOMAIN-SUFFIX,cctvpic.com
+  - DOMAIN-SUFFIX,cctvpro.cn
+  - DOMAIN-SUFFIX,cctvpro.com.cn
+  - DOMAIN-SUFFIX,chinaepg.cn
+  - DOMAIN-SUFFIX,chinalive.com
+  - DOMAIN-SUFFIX,citv.net.cn
+  - DOMAIN-SUFFIX,cnms.net.cn
+  - DOMAIN-SUFFIX,cntv.cn
+  - DOMAIN-SUFFIX,cntv.com.cn
+  - DOMAIN-SUFFIX,cntvwb.cn
+  - DOMAIN-SUFFIX,ipanda.cn
+  - DOMAIN-SUFFIX,ipanda.com
+  - DOMAIN-SUFFIX,ipanda.com.cn
+  - DOMAIN-SUFFIX,ipanda.net
+  - DOMAIN-SUFFIX,livechina.cn
+  - DOMAIN-SUFFIX,livechina.com
+  - DOMAIN-SUFFIX,olympicchannelchina.cn
+  - DOMAIN-SUFFIX,tvcc.cn
+  - DOMAIN-SUFFIX,tvcc.com.cn
+
+  # iQIYI / QIYI / Galaxy Internet TV
+  - DOMAIN-SUFFIX,71.am
+  - DOMAIN-SUFFIX,71.am.com
+  - DOMAIN-SUFFIX,71edge.com
+  - DOMAIN-SUFFIX,71edge.net
+  - DOMAIN-SUFFIX,aiqiyicloud-mgmt.com
+  - DOMAIN-SUFFIX,aiqiyicloud.com
+  - DOMAIN-SUFFIX,aiqiyicloud.net
+  - DOMAIN-SUFFIX,gitv.cn
+  - DOMAIN-SUFFIX,gitv.tv
+  - DOMAIN-SUFFIX,iq.com
+  - DOMAIN-SUFFIX,iqiyi.com
+  - DOMAIN-SUFFIX,iqiyiedge.com
+  - DOMAIN-SUFFIX,iqiyiedge.net
+  - DOMAIN-SUFFIX,iqiyipic.com
+  - DOMAIN-SUFFIX,qiyi.cn
+  - DOMAIN-SUFFIX,qiyi.com
+  - DOMAIN-SUFFIX,qiyipic.com
+  - DOMAIN-SUFFIX,qy.com
+  - DOMAIN-SUFFIX,qy.net
+  - DOMAIN-KEYWORD,qiyi
+
+  # Tencent Video / QQ Music
+  - DOMAIN,apd-pcdnvodstat.teg.tencent-cloud.net
+  - DOMAIN,aqqmusic.tc.qq.com
+  - DOMAIN,dldir1.qq.com
+  - DOMAIN,iacc.qq.com
+  - DOMAIN,ios.video.mpush.qq.com
+  - DOMAIN,moo.qq.com
+  - DOMAIN,rdelivery.qq.com
+  - DOMAIN,ts.qq.com
+  - DOMAIN,v.streaming.qq.com
+  - DOMAIN,yoo.gtimg.com
+  - DOMAIN-SUFFIX,i.qq.com
+  - DOMAIN-SUFFIX,v.qq.com
+  - DOMAIN-SUFFIX,video.qq.com
+  - DOMAIN-SUFFIX,qqvideo.gtimg.com
+  - DOMAIN-SUFFIX,pgdt.gtimg.cn
+  - DOMAIN-SUFFIX,music.qq.com
+  - DOMAIN-SUFFIX,music.tc.qq.com
+  - DOMAIN-SUFFIX,qqmusic.qq.com
+  - DOMAIN-SUFFIX,y.qq.com
+  - DOMAIN-SUFFIX,tencentmusic.com
+
+  # Youku / Tudou / Alibaba Media
+  - DOMAIN-SUFFIX,e8h2ty.tdum.alibaba.com
+  - DOMAIN-SUFFIX,wwc.alicdn.com
+  - DOMAIN-SUFFIX,soku.com
+  - DOMAIN-SUFFIX,tudou.com
+  - DOMAIN-SUFFIX,ukoo.com.cn
+  - DOMAIN-SUFFIX,ykimg.com
+  - DOMAIN-SUFFIX,yodou.com
+  - DOMAIN-SUFFIX,yoku.net.cn
+  - DOMAIN-SUFFIX,yoqoo.com
+  - DOMAIN-SUFFIX,yoqoo.net
+  - DOMAIN-SUFFIX,yoqoo.net.cn
+  - DOMAIN-SUFFIX,yoqoo.tv
+  - DOMAIN-SUFFIX,youku.com
+  - DOMAIN-SUFFIX,youku.com.cn
+  - DOMAIN-SUFFIX,youku.org
+  - DOMAIN-SUFFIX,youqoo.net
+
+  # MGTV / Mango TV
+  - DOMAIN,mobileso.bz.mgtv.com
+  - DOMAIN-SUFFIX,hitv.com
+  - DOMAIN-SUFFIX,hunaniptv.com
+  - DOMAIN-SUFFIX,hunantv.com
+  - DOMAIN-SUFFIX,imgo.tv
+  - DOMAIN-SUFFIX,mgtv.com
+
+  # Migu Video
+  - DOMAIN-SUFFIX,cmvideo.cn
+  - DOMAIN-SUFFIX,migu.cn
+  - DOMAIN-SUFFIX,miguvideo.com
+
+  # LeTV
+  - DOMAIN-SUFFIX,1.letvlive.com
+  - DOMAIN-SUFFIX,2.letvlive.com
+  - DOMAIN-SUFFIX,api.game.letvstore.com
+  - DOMAIN-SUFFIX,le.com
+  - DOMAIN-SUFFIX,letv.com
+
+  # Sohu / Xigua / PPTV / PPStream
+  - DOMAIN-SUFFIX,56.com
+  - DOMAIN-SUFFIX,itc.cn
+  - DOMAIN-SUFFIX,ixigua.com
+  - DOMAIN-SUFFIX,pplive.cn
+  - DOMAIN-SUFFIX,pps.tv
+  - DOMAIN-SUFFIX,ppsimg.com
+  - DOMAIN-SUFFIX,ppstream.cn
+  - DOMAIN-SUFFIX,ppstream.com
+  - DOMAIN-SUFFIX,ppstream.com.cn
+  - DOMAIN-SUFFIX,ppstream.net
+  - DOMAIN-SUFFIX,ppstream.net.cn
+  - DOMAIN-SUFFIX,ppsurl.com
+  - DOMAIN-SUFFIX,pptv.com
+  - DOMAIN-SUFFIX,sohu.com
+  - DOMAIN-SUFFIX,sohu.com.cn
+  - DOMAIN-SUFFIX,v-56.com
+
+  # AcFun / Anime / ACG
+  - DOMAIN-SUFFIX,acfun.cn
+  - DOMAIN-SUFFIX,acfun.com
+  - DOMAIN-SUFFIX,acfun.tv
+  - DOMAIN-SUFFIX,aixifan.com
+  - DOMAIN-SUFFIX,animetamashi.cn
+  - DOMAIN-SUFFIX,animetamashi.com
+  - DOMAIN-SUFFIX,anitama.cn
+  - DOMAIN-SUFFIX,anitama.net
+  - DOMAIN-SUFFIX,baka.im
+
+  # China Music
+  - DOMAIN,api.iplay.163.com
+  - DOMAIN,mam.netease.com
+  - DOMAIN-SUFFIX,dmhmusic.com
+  - DOMAIN-SUFFIX,koowo.com
+  - DOMAIN-SUFFIX,kugou.com
+  - DOMAIN-SUFFIX,kuwo.cn
+  - DOMAIN-SUFFIX,music.126.net
+  - DOMAIN-SUFFIX,music.163.com
+  - DOMAIN-SUFFIX,music.xiaomi.com
+  - DOMAIN-SUFFIX,qianqian.com
+  - DOMAIN-SUFFIX,taihe.com
+  - DOMAIN-SUFFIX,xiami.com
+  - DOMAIN-SUFFIX,xiami.net
+
+  # China Media CDN
+  - DOMAIN-SUFFIX,ourdvsss.com
+  - DOMAIN-SUFFIX,ksyungslb.com
+  - DOMAIN-SUFFIX,cdntips.net
+  - DOMAIN-SUFFIX,tencent-cloud.net
+  - DOMAIN-SUFFIX,shiply-cdn.qq.com
+  - DOMAIN-SUFFIX,akamaized.net
+  - DOMAIN-SUFFIX,p-bstarstatic.akamaized.net
+  - DOMAIN-SUFFIX,p.bstarstatic.com
+  - DOMAIN-SUFFIX,upos-bstar-mirrorakam.akamaized.net
+  - DOMAIN-SUFFIX,upos-bstar1-mirrorakam.akamaized.net
+  - DOMAIN-SUFFIX,smtcdns.net
+  - DOMAIN-SUFFIX,v.smtcdns.com
+
+  # Other China Media
+  - DOMAIN-SUFFIX,cibntv.net
+  - DOMAIN-SUFFIX,domesticmedia.cc
+  - DOMAIN-SUFFIX,domesticmedia.cn
+  - DOMAIN-SUFFIX,domesticmedia.co
+  - DOMAIN-SUFFIX,domesticmedia.com
+  - DOMAIN-SUFFIX,domesticmedia.net
+  - DOMAIN-SUFFIX,domesticmedia.tv
+  - DOMAIN-SUFFIX,hifuntv.com
+  - DOMAIN-SUFFIX,kumiao.com
+  - DOMAIN-SUFFIX,kumiao.tv
+  - DOMAIN-SUFFIX,kuxiaomiao.cn
+  - DOMAIN-SUFFIX,kuxiaomiao.com
+  - DOMAIN-SUFFIX,kuxiaomiao.com.cn
+  - DOMAIN-SUFFIX,kuxiaomiao.net
+  - DOMAIN-SUFFIX,mmstat.com
+  - DOMAIN-SUFFIX,snssdk.com
+  - DOMAIN-SUFFIX,videojj.com
+  - DOMAIN-SUFFIX,zimuzu.io
+  - DOMAIN-SUFFIX,zimuzu.tv
+  - DOMAIN-SUFFIX,zmz2019.com
+  - DOMAIN-SUFFIX,zmzapi.com
+  - DOMAIN-SUFFIX,zmzapi.net
+  - DOMAIN-SUFFIX,zmzfile.com
+
+  # China Media IP-CIDR
+  - IP-CIDR,101.224.0.0/13,no-resolve
+  - IP-CIDR,103.44.56.0/22,no-resolve
+  - IP-CIDR,106.11.0.0/16,no-resolve
+  - IP-CIDR,118.26.120.0/24,no-resolve
+  - IP-CIDR,118.26.32.0/23,no-resolve
+  - IP-CIDR,119.176.0.0/12,no-resolve
+  - IP-CIDR,203.107.1.0/24,no-resolve

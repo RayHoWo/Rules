@@ -1,6 +1,12 @@
-# NAME: PayPal    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list
-# >>@ UPDATED: 2026-01-01
-# TOTAL: 248
+# NAME: PayPal
+# AUTHOR: RayHW
+# DESCRIPTION: PayPal payment service routing rules from blackmatrix7 ios_rule_script
+# UPDATED: 2026-05-24
+# SOURCE: blackmatrix7 ios_rule_script
+# SOURCE-URL-PAYPAL: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list
+# FORMAT: Surge Rule Set
+
+# PayPal
 DOMAIN-SUFFIX,account-paypal.info
 DOMAIN-SUFFIX,account-paypal.net
 DOMAIN-SUFFIX,account-paypal.org

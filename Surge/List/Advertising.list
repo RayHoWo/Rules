@@ -1,6 +1,12 @@
-# NAME: Advertising    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising.list
-# >@ UPDATED: 2026-01-01
-# TOTAL: 247465
+# NAME: Advertising
+# AUTHOR: RayHW
+# DESCRIPTION: Advertising routing rules from blackmatrix7 ios_rule_script
+# UPDATED: 2026-05-24
+# SOURCE: blackmatrix7 ios_rule_script + official / actual advertising and tracking domains
+# SOURCE-URL-ADVERTISING: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising.list
+# FORMAT: Surge Rule Set
+
+# NAME: Advertising    
 DOMAIN-KEYWORD,-logging.nextmedia.com
 DOMAIN-KEYWORD,-rtb.gravite.net
 DOMAIN-KEYWORD,-s2s.sensic.net

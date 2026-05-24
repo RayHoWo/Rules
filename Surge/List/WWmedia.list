@@ -1,7 +1,15 @@
-# >> Worldwide Media  
-# >>@ UPDATED: 2026-01-01
-# NAME: DAZN    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/DAZN/DAZN.list
-# TOTAL: 19
+# NAME: Worldwide Media
+# AUTHOR: RayHW
+# DESCRIPTION: Curated worldwide and region-aware sports, music and streaming media routing rules
+# UPDATED: 2026-05-24
+# SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
+# SOURCE-URL-DAZN: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/DAZN/DAZN.list
+# SOURCE-URL-DEEZER: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Deezer/Deezer.list
+# SOURCE-URL-TIDAL: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TIDAL/TIDAL.list
+# SOURCE-URL-SOUNDCLOUD: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/SoundCloud/SoundCloud.list
+# FORMAT: Surge Rule Set
+
+# DAZN
 DOMAIN-SUFFIX,control.kochava.com
 DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net
 DOMAIN-SUFFIX,d1sgwhnao7452x.cloudfront.net
@@ -21,55 +29,24 @@ DOMAIN-SUFFIX,s.yimg.jp
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-KEYWORD,voddazn
 USER-AGENT,DAZN*
-# NAME: Deezer    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Deezer/Deezer.list
-# TOTAL: 3
+
+# Deezer
 DOMAIN-SUFFIX,deezer.com
 DOMAIN-SUFFIX,dzcdn.net
+DOMAIN-SUFFIX,deezer.page.link
 USER-AGENT,Deezer*
-# NAME: TIDAL    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TIDAL/TIDAL.list
-# TOTAL: 6
+
+# TIDAL
 DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com
 DOMAIN-SUFFIX,tidal.com
 DOMAIN-SUFFIX,tidalhifi.com
 DOMAIN-SUFFIX,wimpmusic.com
 USER-AGENT,TIDAL*
 USER-AGENT,TIDAL*dia
-# NAME: SoundCloud    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/SoundCloud/SoundCloud.list
-# TOTAL: 4
+
+# SoundCloud
 DOMAIN-SUFFIX,p-cdn.us
 DOMAIN-SUFFIX,sndcdn.com
 DOMAIN-SUFFIX,soundcloud.com
+DOMAIN-SUFFIX,soundcloud.app.goo.gl
 USER-AGENT,SoundCloud*
-# NAME: Spotify    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Spotify/Spotify.list
-# TOTAL: 31
-DOMAIN,audio4-ak-spotify-com.akamaized.net
-DOMAIN,cdn-spotify-experiments.conductrics.com
-DOMAIN,heads-ak-spotify-com.akamaized.net
-DOMAIN,spotify.com.edgesuite.net
-DOMAIN,spotify.map.fastly.net
-DOMAIN,spotify.map.fastlylb.net
-DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net
-DOMAIN-SUFFIX,byspotify.com
-DOMAIN-SUFFIX,heads4-ak-spotify-com.akamaized.net
-DOMAIN-SUFFIX,pscdn.co
-DOMAIN-SUFFIX,scdn.co
-DOMAIN-SUFFIX,spoti.fi
-DOMAIN-SUFFIX,spotify-com.akamaized.net
-DOMAIN-SUFFIX,spotify-everywhere.com
-DOMAIN-SUFFIX,spotify.app.link
-DOMAIN-SUFFIX,spotify.com
-DOMAIN-SUFFIX,spotify.design
-DOMAIN-SUFFIX,spotifycdn.com
-DOMAIN-SUFFIX,spotifycdn.net
-DOMAIN-SUFFIX,spotifycharts.com
-DOMAIN-SUFFIX,spotifycodes.com
-DOMAIN-SUFFIX,spotifyforbrands.com
-DOMAIN-SUFFIX,spotifyjobs.com
-DOMAIN-SUFFIX,spotifynewsroom.jp
-DOMAIN-SUFFIX,spotilocal.com
-DOMAIN-SUFFIX,tospotify.com
-DOMAIN-KEYWORD,spotify
-IP-CIDR,104.154.127.126/32,no-resolve
-IP-CIDR,35.186.224.47/32,no-resolve
-USER-AGENT,Spotify*
-PROCESS-NAME,com.spotify.music

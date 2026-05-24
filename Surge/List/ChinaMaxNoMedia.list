@@ -1,6 +1,12 @@
-# NAME: ChinaMaxNoMedia    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve.list
-# >>@ UPDATED: 2026-01-01
-# TOTAL: 130688
+# NAME: ChinaMaxNoMedia
+# AUTHOR: RayHW
+# DESCRIPTION: China maximum non-media routing rules from blackmatrix7 ios_rule_script
+# UPDATED: 2026-05-24
+# SOURCE: blackmatrix7 ios_rule_script
+# SOURCE-URL-CHINAMAXNOMEDIA: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMaxNoMedia/ChinaMaxNoMedia_All_No_Resolve.list
+# FORMAT: Surge Rule Set
+
+# China Max No Media
 DOMAIN,analytics.strava.com
 DOMAIN,blzddist1-a.akamaihd.net
 DOMAIN,cdn.angruo.com

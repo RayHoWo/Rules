@@ -1,6 +1,12 @@
-# NAME: Privacy    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Privacy/Privacy_All.list 
-# >>@ UPDATED: 2026-01-01
-# TOTAL: 39936
+# NAME: Privacy
+# AUTHOR: RayHW
+# DESCRIPTION: Privacy and tracking blocking rules from blackmatrix7 ios_rule_script
+# UPDATED: 2026-05-24
+# SOURCE: blackmatrix7 ios_rule_script
+# SOURCE-URL-PRIVACY: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Privacy/Privacy_All.list
+# FORMAT: Surge Rule Set
+
+# Privacy
 DOMAIN,hmma.baidu.com
 DOMAIN,ios-pclog.i4.cn
 DOMAIN,js.users.51.la

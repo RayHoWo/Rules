@@ -1,15 +1,72 @@
-# >> Korea Media  
-# >>@ UPDATED: 2026-01-01    
-# NAME: KBSTV    
-# TOTAL: 2
+# NAME: Korea Media
+# AUTHOR: RayHW
+# DESCRIPTION: Curated Korea media, streaming and region-service routing rules
+# UPDATED: 2026-05-24
+# SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
+# SOURCE-URL-PANDORATV: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PandoraTV/PandoraTV.list
+# SOURCE-URL-NAVER: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Naver/Naver.list
+# SOURCE-URL-VIKI: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Viki/Viki.list
+# FORMAT: Surge Rule Set
+
+# KBS / KBS World
 DOMAIN-KEYWORD,kbsworld
 DOMAIN-SUFFIX,kbs.co.kr
-# NAME: PandoraTV    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PandoraTV/PandoraTV.list
-# TOTAL: 2
+
+# MBC
+DOMAIN-SUFFIX,imbc.com
+DOMAIN-SUFFIX,mbc.co.kr
+DOMAIN-SUFFIX,mbcplus.com
+
+# SBS
+DOMAIN-SUFFIX,sbs.co.kr
+DOMAIN-SUFFIX,sbs.com.au
+DOMAIN-SUFFIX,sbsmedianet.co.kr
+
+# JTBC
+DOMAIN-SUFFIX,jtbc.co.kr
+DOMAIN-SUFFIX,jtbcplus.kr
+DOMAIN-SUFFIX,jtbcworldwide.com
+
+# EBS
+DOMAIN-SUFFIX,ebs.co.kr
+DOMAIN-SUFFIX,ebsi.co.kr
+
+# TVING
+DOMAIN-SUFFIX,tving.com
+DOMAIN-SUFFIX,tvingapi.com
+
+# Wavve
+DOMAIN-SUFFIX,wavve.com
+DOMAIN-SUFFIX,wavve.co.kr
+DOMAIN-SUFFIX,pooq.co.kr
+
+# Coupang Play
+DOMAIN-SUFFIX,coupangplay.com
+DOMAIN-SUFFIX,coupangstreaming.com
+DOMAIN-SUFFIX,coupangcdn.com
+
+# WATCHA
+DOMAIN-SUFFIX,watcha.com
+DOMAIN-SUFFIX,watcha.net
+DOMAIN-SUFFIX,watchaplay.net
+
+# Kakao TV / Kakao Entertainment
+DOMAIN-SUFFIX,kakao.com
+DOMAIN-SUFFIX,kakaocdn.net
+DOMAIN-SUFFIX,kakaoent.com
+DOMAIN-SUFFIX,kakaotv.com
+
+# SOOP / AfreecaTV
+DOMAIN-SUFFIX,sooplive.co.kr
+DOMAIN-SUFFIX,sooplive.com
+DOMAIN-SUFFIX,afreecatv.com
+DOMAIN-SUFFIX,afreecatv.co.kr
+
+# PandoraTV / KMPlayer
 DOMAIN-SUFFIX,kmplayer.com
 DOMAIN-SUFFIX,pandora.tv
-# NAME: Naver    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Naver/Naver.list
-# TOTAL: 61
+
+# Naver / Naver TV / Webtoon / LINE
 DOMAIN,d17lx9ucc6k9fc.cloudfront.net
 DOMAIN,d3c7rimkq79yfu.cloudfront.net
 DOMAIN-SUFFIX,chocotv.com.tw
@@ -71,8 +128,8 @@ IP-CIDR,203.174.77.0/24,no-resolve
 IP-CIDR6,2400:dcc0::/32,no-resolve
 USER-AGENT,LINE%20TV*
 PROCESS-NAME,com.linecorp.linetv
-# NAME: Viki    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Viki/Viki.list
-# TOTAL: 8
+
+# Viki
 DOMAIN-SUFFIX,kalhlspd-a.akamaihd.net
 DOMAIN-SUFFIX,m-content-viki.s.llnwi.net
 DOMAIN-SUFFIX,twemoji.maxcdn.com
@@ -81,3 +138,26 @@ DOMAIN-SUFFIX,viki.io
 DOMAIN-SUFFIX,viki.net
 DOMAIN-SUFFIX,vikidash.akamaized.net
 DOMAIN-SUFFIX,vikiplatform.com
+
+# Korea News / Publishing
+DOMAIN-SUFFIX,yna.co.kr
+DOMAIN-SUFFIX,yonhapnews.co.kr
+DOMAIN-SUFFIX,ytn.co.kr
+DOMAIN-SUFFIX,chosun.com
+DOMAIN-SUFFIX,joins.com
+DOMAIN-SUFFIX,joongang.co.kr
+DOMAIN-SUFFIX,hani.co.kr
+DOMAIN-SUFFIX,kh.co.kr
+DOMAIN-SUFFIX,donga.com
+DOMAIN-SUFFIX,hankookilbo.com
+DOMAIN-SUFFIX,koreaherald.com
+DOMAIN-SUFFIX,koreatimes.co.kr
+
+# Korea Region Services / Carriers
+DOMAIN-SUFFIX,skt.co.kr
+DOMAIN-SUFFIX,sktelecom.com
+DOMAIN-SUFFIX,tworld.co.kr
+DOMAIN-SUFFIX,kt.com
+DOMAIN-SUFFIX,olleh.com
+DOMAIN-SUFFIX,uplus.co.kr
+DOMAIN-SUFFIX,lguplus.com

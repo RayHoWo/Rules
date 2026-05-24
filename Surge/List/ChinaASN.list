@@ -1,6 +1,12 @@
-# NAME: ChinaASN    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaASN/ChinaASN_Resolve.list
-# >>@ UPDATED: 2026-01-01
-# TOTAL: 1009
+# NAME: ChinaASN
+# AUTHOR: RayHW
+# DESCRIPTION: China ASN routing rules from blackmatrix7 ios_rule_script
+# UPDATED: 2026-05-24
+# SOURCE: blackmatrix7 ios_rule_script
+# SOURCE-URL-CHINAASN: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaASN/ChinaASN_Resolve.list
+# FORMAT: Surge Rule Set
+
+# China ASN
 IP-ASN,10111
 IP-ASN,10206
 IP-ASN,10212

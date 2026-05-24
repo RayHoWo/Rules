@@ -1,0 +1,31 @@
+# NAME: Speedtest
+# AUTHOR: RayHW
+# DESCRIPTION: Curated speed test and network measurement routing rules
+# UPDATED: 2026-05-24
+# SOURCE: blackmatrix7 ios_rule_script + official / actual speed test service domains
+# SOURCE-URL-SPEEDTEST: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Speedtest/Speedtest.yaml
+# FORMAT: Clash / Stash Rule Provider
+# BEHAVIOR: classical
+
+payload:
+  # Ookla Speedtest
+  - DOMAIN-SUFFIX,speedtest.net
+  - DOMAIN-SUFFIX,ooklaserver.net
+  - DOMAIN-KEYWORD,speedtest
+
+  # Netflix Fast
+  - DOMAIN-SUFFIX,fast.com
+
+  # Cloudflare Speed
+  - DOMAIN-SUFFIX,speed.cloudflare.com
+
+  # Measurement Lab / NDT
+  - DOMAIN-SUFFIX,measurementlab.net
+  - DOMAIN-SUFFIX,measurement-lab.org
+  - DOMAIN,speed.measurementlab.net
+
+  # Google Fiber Speed Test
+  - DOMAIN-SUFFIX,speed.googlefiber.net
+
+  # Dler Speed
+  - DOMAIN-SUFFIX,speed.dler.io

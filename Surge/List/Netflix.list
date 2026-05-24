@@ -1,6 +1,12 @@
-# NAME: Netflix    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list
-# >>@ UPDATED: 2026-01-01
-# TOTAL: 1158
+# NAME: Netflix
+# AUTHOR: RayHW
+# DESCRIPTION: Netflix streaming service routing rules from blackmatrix7 ios_rule_script
+# UPDATED: 2026-05-24
+# SOURCE: blackmatrix7 ios_rule_script
+# SOURCE-URL-NETFLIX: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list
+# FORMAT: Surge Rule Set
+
+# Netflix
 DOMAIN,e13252.dscg.akamaiedge.net
 DOMAIN,h-netflix.online-metrix.net
 DOMAIN,netflix.com.edgesuite.net

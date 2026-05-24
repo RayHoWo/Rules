@@ -1,11 +1,21 @@
-# >> Hong Kong Media 
-# >>@ UPDATED: 2026-01-01
-# NAME: HKOpenTV    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/HKOpenTV/HKOpenTV.list
-# TOTAL: 2
+# NAME: Hong Kong Media
+# AUTHOR: RayHW
+# DESCRIPTION: Curated Hong Kong media, streaming and region-service routing rules
+# UPDATED: 2026-05-24
+# SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
+# SOURCE-URL-HKOPENTV: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/HKOpenTV/HKOpenTV.list
+# SOURCE-URL-JOOX: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/JOOX/JOOX.list
+# SOURCE-URL-NOWE: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/NowE/NowE.list
+# SOURCE-URL-MYTVSUPER: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/myTVSUPER/myTVSUPER.list
+# SOURCE-URL-VIUTV: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ViuTV/ViuTV.list
+# SOURCE-URL-WETV: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/WeTV/WeTV.list
+# FORMAT: Surge Rule Set
+
+# HKOpenTV
 DOMAIN-SUFFIX,fantv.hk
 DOMAIN-SUFFIX,hkopentv.com
-# NAME: JOOX    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/JOOX/JOOX.list
-# TOTAL: 9
+
+# JOOX
 DOMAIN-SUFFIX,i-joox.com
 DOMAIN-SUFFIX,joox.com
 DOMAIN-SUFFIX,sanook.com
@@ -15,21 +25,31 @@ IP-CIDR,203.205.234.0/23,no-resolve
 USER-AGENT,JOOX*
 USER-AGENT,WeMusic*
 PROCESS-NAME,com.tencent.ibg.joox
-# NAME: NowE    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/NowE/NowE.list
-# TOTAL: 2
+
+# Now TV / Now E
 DOMAIN-SUFFIX,nowe.com
 DOMAIN-SUFFIX,nowestatic.com
-# NAME: myTVSUPER    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/myTVSUPER/myTVSUPER.list
-# TOTAL: 7
+DOMAIN-SUFFIX,nowtv.now.com
+DOMAIN-SUFFIX,now.com
+DOMAIN-SUFFIX,now.com.hk
+DOMAIN-SUFFIX,now-tv.com
+
+# myTV SUPER / TVB
 DOMAIN,mytvsuperlimited.hb.omtrdc.net
 DOMAIN,mytvsuperlimited.sc.omtrdc.net
 DOMAIN-SUFFIX,mytvsuper.com
 DOMAIN-SUFFIX,tvb.com
+DOMAIN-SUFFIX,tvbanywhere.com
+DOMAIN-SUFFIX,tvbnews.com
 DOMAIN-KEYWORD,nowtv100
-DOMAIN-KEYWORD,rthklive
 USER-AGENT,mytv*
-# NAME: ViuTV    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ViuTV/ViuTV.list
-# TOTAL: 12
+
+# RTHK / Radio Television Hong Kong
+DOMAIN-SUFFIX,rthk.hk
+DOMAIN-SUFFIX,rthk.org.hk
+DOMAIN-KEYWORD,rthklive
+
+# ViuTV / Viu
 DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
 DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net
 DOMAIN-SUFFIX,d2anahhhmp1ffz.cloudfront.net
@@ -42,8 +62,8 @@ USER-AGENT,Viu*
 PROCESS-NAME,com.viu.pad
 PROCESS-NAME,com.viu.phone
 PROCESS-NAME,com.vuclip.viu
-# NAME: WeTV    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/WeTV/WeTV.list
-# TOTAL: 12
+
+# WeTV
 DOMAIN,wetv.qq.com
 DOMAIN-SUFFIX,iflix-images.akamaized.net
 DOMAIN-SUFFIX,iflix.com
@@ -56,3 +76,31 @@ IP-CIDR,150.109.28.51/32,no-resolve
 USER-AGENT,WeTV*
 PROCESS-NAME,com.tencent.qqlivei18n
 PROCESS-NAME,com.tencent.qqlivei18n.us
+
+# Hong Kong Radio
+DOMAIN-SUFFIX,881903.com
+DOMAIN-SUFFIX,crhk.com
+DOMAIN-SUFFIX,metroradio.com.hk
+
+# Hong Kong News / Publishing
+DOMAIN-SUFFIX,scmp.com
+DOMAIN-SUFFIX,hk01.com
+DOMAIN-SUFFIX,mingpao.com
+DOMAIN-SUFFIX,stheadline.com
+DOMAIN-SUFFIX,singtao.com
+DOMAIN-SUFFIX,thestandard.com.hk
+DOMAIN-SUFFIX,hkej.com
+DOMAIN-SUFFIX,am730.com.hk
+DOMAIN-SUFFIX,on.cc
+
+# Hong Kong Region Services / Carriers
+DOMAIN-SUFFIX,hkcsl.com
+DOMAIN-SUFFIX,1010.com.hk
+DOMAIN-SUFFIX,three.com.hk
+DOMAIN-SUFFIX,smartone.com
+DOMAIN-SUFFIX,smartone.com.hk
+DOMAIN-SUFFIX,cmhk.com
+DOMAIN-SUFFIX,hkbn.net
+DOMAIN-SUFFIX,hkt.com
+DOMAIN-SUFFIX,pccw.com
+DOMAIN-SUFFIX,clubsim.com.hk

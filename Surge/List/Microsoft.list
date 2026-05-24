@@ -1,6 +1,12 @@
-# NAME: Microsoft    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list
-# >>@ UPDATED: 2026-01-01
-# TOTAL: 673
+# NAME: Microsoft
+# AUTHOR: RayHW
+# DESCRIPTION: Microsoft service routing rules from blackmatrix7 ios_rule_script
+# UPDATED: 2026-05-24
+# SOURCE: blackmatrix7 ios_rule_script
+# SOURCE-URL-MICROSOFT: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list
+# FORMAT: Surge Rule Set
+
+# Microsoft
 DOMAIN,vsmarketplacebadge.apphb.com
 DOMAIN-SUFFIX,1drv.ms
 DOMAIN-SUFFIX,21vbc.com
