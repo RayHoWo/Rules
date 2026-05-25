@@ -7,7 +7,7 @@
 # SOURCE-URL-SAMSUNG: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Samsung/Samsung.list
 # FORMAT: Surge Rule Set
 
-# Personal / Learning / Subscription Services
+# Personal / Subscription Services
 DOMAIN-SUFFIX,thinkific.com
 DOMAIN-SUFFIX,germanyfastlane.com
 DOMAIN-SUFFIX,now.rahw.uk
