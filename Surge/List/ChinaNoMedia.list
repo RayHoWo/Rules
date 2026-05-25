@@ -3,7 +3,7 @@
 # DESCRIPTION: China non-media routing rules from blackmatrix7 ios_rule_script
 # UPDATED: 2026-05-24
 # SOURCE: blackmatrix7 ios_rule_script
-# SOURCE-URL-CHINAMAXNOMEDIA: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/ChinaNoMedia/ChinaNoMedia_All_No_Resolve.list
+# SOURCE-URL-CHINANOMEDIA: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/ChinaNoMedia/ChinaNoMedia_All_No_Resolve.list
 # FORMAT: Surge Rule Set
 
 # China No Media

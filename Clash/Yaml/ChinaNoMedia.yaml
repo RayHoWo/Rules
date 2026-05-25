@@ -3,12 +3,13 @@
 # DESCRIPTION: China non-media routing rules from blackmatrix7 ios_rule_script
 # UPDATED: 2026-05-24
 # SOURCE: blackmatrix7 ios_rule_script
-# SOURCE-URL-CHINAMAXNOMEDIA: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaNoMedia/ChinaNoMedia_Classical_No_Resolve.yaml
+# SOURCE-URL-CHINANOMEDIA: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaNoMedia/ChinaNoMedia_Classical_No_Resolve.yaml
 # FORMAT: Clash / Stash Rule Provider
 # BEHAVIOR: classical
 
 payload:
-# China No Media
+  # China No Media
+  - DOMAIN,analytics.strava.com
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
   - DOMAIN,cdn.angruo.com
