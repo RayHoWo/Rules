@@ -1,6 +1,6 @@
 # NAME: Worldwide Access
 # AUTHOR: RayHW
-# DESCRIPTION: Curated worldwide access rules for personal services, brokerage, market data, hotel loyalty, smart devices, LinkedIn and Samsung services
+# DESCRIPTION: Curated worldwide access rules for personal services, brokerage, market data, hotel loyalty, smart devices, LinkedIn, Samsung and Google Play / Google APIs
 # UPDATED: 2026-05-25
 # SOURCE: RayHW curated rules + blackmatrix7 ios_rule_script
 # SOURCE-URL-LINKEDIN: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/LinkedIn/LinkedIn.list
@@ -13,6 +13,16 @@ DOMAIN-SUFFIX,germanyfastlane.com
 DOMAIN-SUFFIX,now.rahw.uk
 DOMAIN-SUFFIX,dlercloud.com
 DOMAIN-SUFFIX,nssurge.com
+
+# Google Play / Google APIs
+DOMAIN,play.googleapis.com
+DOMAIN,android.clients.google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,ggpht.com
 
 # Stock / Brokerage / Market Data
 DOMAIN-SUFFIX,ibkr.com
