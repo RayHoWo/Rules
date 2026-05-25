@@ -10,12 +10,12 @@
 # BEHAVIOR: classical
 
 payload:
-# Manual Additions
+  # Manual Additions / Special Access
   - DOMAIN-SUFFIX,thinkific.com
   - DOMAIN-SUFFIX,germanyfastlane.com
   - DOMAIN-SUFFIX,now.rahw.uk
-# ------------------------------------------------------------
-# Proxy Merged Rules
+  
+  # Proxy Merged Rules
   - DOMAIN-SUFFIX,dlercloud.com
   - DOMAIN-SUFFIX,nssurge.com
   - DOMAIN-SUFFIX,ibkr.com

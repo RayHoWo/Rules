@@ -1,7 +1,7 @@
 # NAME: Direct Access
 # AUTHOR: RayHW
-# DESCRIPTION: Curated direct access rules for LAN/NAS, academic, PT, Apple services and utilities
-# UPDATED: 2026-05-24
+# DESCRIPTION: Curated direct access rules for personal domains, NAS, domestic services and selected utilities
+# UPDATED: 2026-05-25
 # SOURCE: blackmatrix7 ios_rule_script + personally curated direct domains
 # SOURCE-URL-DIRECT: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Direct/Direct.list
 # FORMAT: Surge Rule Set
@@ -14,103 +14,6 @@ DOMAIN-SUFFIX,ipify.org
 DOMAIN-SUFFIX,dler.pro
 DOMAIN-SUFFIX,nas.rahw.top
 DOMAIN-SUFFIX,flyertea.com
-
-# Google / Android Push / Downloads
-DOMAIN,alt1-mtalk.google.com
-DOMAIN,alt2-mtalk.google.com
-DOMAIN,alt3-mtalk.google.com
-DOMAIN,alt4-mtalk.google.com
-DOMAIN,alt5-mtalk.google.com
-DOMAIN,alt6-mtalk.google.com
-DOMAIN,alt7-mtalk.google.com
-DOMAIN,alt8-mtalk.google.com
-DOMAIN,clientservices.googleapis.com
-DOMAIN,dl.google.com
-DOMAIN,dl.l.google.com
-DOMAIN,mtalk.google.com
-DOMAIN,update.googleapis.com
-
-# Apple Direct Services
-DOMAIN,init.ess.apple.com
-DOMAIN,itunes.apple.com
-DOMAIN,smp-device-content.apple.com
-DOMAIN,time.apple.com
-DOMAIN-SUFFIX,weather-analytics-events.apple.com
-DOMAIN-SUFFIX,weather-data.apple.com
-DOMAIN-SUFFIX,weather-map.apple.com
-DOMAIN-KEYWORD,amp-api.podcasts.apple.com
-DOMAIN-KEYWORD,api-adservices.apple.com
-DOMAIN-KEYWORD,api.smoot.apple.cn
-DOMAIN-KEYWORD,api.smoot.apple.com
-DOMAIN-KEYWORD,buy.itunes.apple.com
-DOMAIN-KEYWORD,ess.apple.com
-DOMAIN-KEYWORD,gsa.apple.com
-DOMAIN-KEYWORD,humb.apple.com
-DOMAIN-KEYWORD,icloud.com
-DOMAIN-KEYWORD,ls.apple.com
-DOMAIN-KEYWORD,push.apple.com
-DOMAIN-KEYWORD,ssl.apple.com
-DOMAIN-KEYWORD,weather-adge.apple.com
-DOMAIN-KEYWORD,weather-edge.apple.com
-
-# Analytics / SDK / Push
-DOMAIN,analytics.95516.com
-DOMAIN,analytics.strava.com
-DOMAIN,app.adjust.com
-DOMAIN,app.appsflyer.com
-DOMAIN,bdtj.tagtic.cn
-DOMAIN,eco-push-api-client.meiqia.com
-DOMAIN,errlog.umeng.com
-DOMAIN,log.mmstat.com
-DOMAIN,msg.umeng.com
-DOMAIN,msg.umengcloud.com
-DOMAIN,new-api.meiqia.com
-DOMAIN,sycm.mmstat.com
-DOMAIN,tracking.miui.com
-DOMAIN-SUFFIX,dizhensubao.getui.com
-DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net
-
-# Tencent / QQ Direct
-DOMAIN,fairplay.l.qq.com
-DOMAIN,livew.l.qq.com
-DOMAIN,vd.l.qq.com
-DOMAIN,vi.l.qq.com
-DOMAIN-KEYWORD,ctc.qzs.qzone.qq.com
-
-# CDN / Static / Developer
-DOMAIN,cdn.jsdelivr.net
-DOMAIN,origin-a.akamaihd.net
-DOMAIN-SUFFIX,baomitu.com
-DOMAIN-SUFFIX,bootcss.com
-DOMAIN-SUFFIX,jiasule.com
-DOMAIN-SUFFIX,staticfile.org
-DOMAIN-SUFFIX,upaiyun.com
-
-# Academic / Research
-DOMAIN-SUFFIX,acm.org
-DOMAIN-SUFFIX,blackwell-synergy.com
-DOMAIN-SUFFIX,cabdirect.org
-DOMAIN-SUFFIX,doi.org
-DOMAIN-SUFFIX,ieee.org
-DOMAIN-SUFFIX,jstor.org
-DOMAIN-SUFFIX,nature.com
-DOMAIN-SUFFIX,osapublishing.org
-DOMAIN-SUFFIX,oup.com
-DOMAIN-SUFFIX,researchgate.net
-DOMAIN-SUFFIX,sciencemag.org
-DOMAIN-SUFFIX,scopus.com
-DOMAIN-SUFFIX,springer.com
-DOMAIN-SUFFIX,springernature.com
-DOMAIN-SUFFIX,wiley.com
-DOMAIN-KEYWORD,cnki.net
-DOMAIN-KEYWORD,deepdyve
-DOMAIN-KEYWORD,els-cdn
-DOMAIN-KEYWORD,elsevier
-DOMAIN-KEYWORD,pkulaw
-DOMAIN-KEYWORD,readcube
-DOMAIN-KEYWORD,sciencedirect
-DOMAIN-KEYWORD,wanfangdata
-DOMAIN-KEYWORD,westlawchina
 
 # Synology / NAS
 DOMAIN-SUFFIX,diskstation.me
@@ -125,94 +28,38 @@ DOMAIN-SUFFIX,familyds.net
 DOMAIN-SUFFIX,familyds.org
 DOMAIN-SUFFIX,synology.me
 
-# PT / Private Tracker
-DOMAIN-SUFFIX,52pt.site
-DOMAIN-SUFFIX,acg.rip
-DOMAIN-SUFFIX,aidoru-online.me
-DOMAIN-SUFFIX,alpharatio.cc
-DOMAIN-SUFFIX,animebytes.tv
-DOMAIN-SUFFIX,anthelion.me
-DOMAIN-SUFFIX,asiancinema.me
-DOMAIN-SUFFIX,avistaz.to
-DOMAIN-SUFFIX,awesome-hd.me
-DOMAIN-SUFFIX,beitai.pt
-DOMAIN-SUFFIX,beyond-hd.me
-DOMAIN-SUFFIX,bibliotik.me
-DOMAIN-SUFFIX,blutopia.xyz
-DOMAIN-SUFFIX,broadcasthe.net
-DOMAIN-SUFFIX,bt.byr.cn
-DOMAIN-SUFFIX,bt.neu6.edu.cn
-DOMAIN-SUFFIX,btschool.club
-DOMAIN-SUFFIX,ccfbits.org
-DOMAIN-SUFFIX,cgpeers.com
-DOMAIN-SUFFIX,cinemageddon.net
-DOMAIN-SUFFIX,cinematik.net
-DOMAIN-SUFFIX,cinemaz.to
-DOMAIN-SUFFIX,classix-unlimited.co.uk
-DOMAIN-SUFFIX,comicat.org
-DOMAIN-SUFFIX,concertos.live
-DOMAIN-SUFFIX,dicmusic.club
-DOMAIN-SUFFIX,discfan.net
-DOMAIN-SUFFIX,dxdhd.com
-DOMAIN-SUFFIX,eastgame.org
-DOMAIN-SUFFIX,empornium.me
-DOMAIN-SUFFIX,et8.org
-DOMAIN-SUFFIX,exoticaz.to
-DOMAIN-SUFFIX,filelist.io
-DOMAIN-SUFFIX,gazellegames.net
-DOMAIN-SUFFIX,gfxpeers.net
-DOMAIN-SUFFIX,hd-space.org
-DOMAIN-SUFFIX,hd4.xyz
-DOMAIN-SUFFIX,hd4fans.org
-DOMAIN-SUFFIX,hdarea.co
-DOMAIN-SUFFIX,hdatmos.club
-DOMAIN-SUFFIX,hdbd.us
-DOMAIN-SUFFIX,hdbits.org
-DOMAIN-SUFFIX,hdchina.org
-DOMAIN-SUFFIX,hdcity.city
-DOMAIN-SUFFIX,hddolby.com
-DOMAIN-SUFFIX,hdfans.org
-DOMAIN-SUFFIX,hdhome.org
-DOMAIN-SUFFIX,hdpost.top
-DOMAIN-SUFFIX,hdroute.org
-DOMAIN-SUFFIX,hdsky.me
-DOMAIN-SUFFIX,hdtime.org
-DOMAIN-SUFFIX,hdupt.com
-DOMAIN-SUFFIX,hdzone.me
-DOMAIN-SUFFIX,hitpt.com
-DOMAIN-SUFFIX,hudbt.hust.edu.cn
-DOMAIN-SUFFIX,icetorrent.org
-DOMAIN-SUFFIX,joyhd.net
-DOMAIN-SUFFIX,jpopsuki.eu
-DOMAIN-SUFFIX,karagarga.in
-DOMAIN-SUFFIX,keepfrds.com
-DOMAIN-SUFFIX,leaguehd.com
-DOMAIN-SUFFIX,lztr.me
-DOMAIN-SUFFIX,m-team.cc
-DOMAIN-SUFFIX,madsrevolution.net
-DOMAIN-SUFFIX,moecat.best
-DOMAIN-SUFFIX,myanonamouse.net
-DOMAIN-SUFFIX,nanyangpt.com
-DOMAIN-SUFFIX,ncore.cc
-DOMAIN-SUFFIX,nebulance.io
-DOMAIN-SUFFIX,nicept.net
-DOMAIN-SUFFIX,npupt.com
-DOMAIN-SUFFIX,open.cd
-DOMAIN-SUFFIX,oppaiti.me
-DOMAIN-SUFFIX,orpheus.network
-DOMAIN-SUFFIX,ourbits.club
-DOMAIN-SUFFIX,passthepopcorn.me
-DOMAIN-SUFFIX,privatehd.to
-DOMAIN-SUFFIX,pterclub.com
-DOMAIN-SUFFIX,pthome.net
-DOMAIN-SUFFIX,ptsbao.club
-DOMAIN-SUFFIX,redacted.ch
-DOMAIN-SUFFIX,sdbits.org
-DOMAIN-SUFFIX,soulvoice.club
-DOMAIN-SUFFIX,springsunday.net
-DOMAIN-SUFFIX,tjupt.org
-DOMAIN-SUFFIX,totheglory.im
-DOMAIN-SUFFIX,uhdbits.org
+# Domestic CDN / Static / Developer
+DOMAIN-SUFFIX,baomitu.com
+DOMAIN-SUFFIX,bootcss.com
+DOMAIN-SUFFIX,jiasule.com
+DOMAIN-SUFFIX,staticfile.org
+DOMAIN-SUFFIX,upaiyun.com
+
+# Domestic Academic / Research
+DOMAIN-KEYWORD,cnki.net
+DOMAIN-KEYWORD,pkulaw
+DOMAIN-KEYWORD,wanfangdata
+DOMAIN-KEYWORD,westlawchina
+
+# Domestic Analytics / SDK / Push
+DOMAIN,analytics.95516.com
+DOMAIN,bdtj.tagtic.cn
+DOMAIN,eco-push-api-client.meiqia.com
+DOMAIN,errlog.umeng.com
+DOMAIN,log.mmstat.com
+DOMAIN,msg.umeng.com
+DOMAIN,msg.umengcloud.com
+DOMAIN,new-api.meiqia.com
+DOMAIN,sycm.mmstat.com
+DOMAIN,tracking.miui.com
+DOMAIN-SUFFIX,dizhensubao.getui.com
+
+# Tencent / QQ Direct
+DOMAIN,fairplay.l.qq.com
+DOMAIN,livew.l.qq.com
+DOMAIN,vd.l.qq.com
+DOMAIN,vi.l.qq.com
+DOMAIN-KEYWORD,ctc.qzs.qzone.qq.com
 
 # Media Resource / Video Static
 DOMAIN,image.maimn.com
@@ -234,16 +81,13 @@ DOMAIN-SUFFIX,fus.cdn.krcom.cn
 DOMAIN-SUFFIX,i234.me
 DOMAIN-SUFFIX,j99.info
 DOMAIN-SUFFIX,msg.vg
-DOMAIN-SUFFIX,ol.epicgames.com
 DOMAIN-SUFFIX,skyey2.com
 DOMAIN-SUFFIX,trontv.com
 DOMAIN-SUFFIX,xunlei.com
 DOMAIN-KEYWORD,anti-ad.net
-DOMAIN-KEYWORD,aw-s.tripcdn.com
 DOMAIN-KEYWORD,ax1x.com
 DOMAIN-KEYWORD,bfzycdn.com
 DOMAIN-KEYWORD,o.lencr.org
-DOMAIN-KEYWORD,trip.com
 DOMAIN-KEYWORD,ttcdn-tos.kkimg.cc
 DOMAIN-KEYWORD,vip.ffzy-online
 DOMAIN-KEYWORD,vip.ffzy-play
@@ -255,52 +99,10 @@ DOMAIN-KEYWORD,wb_ad
 DOMAIN,ad.10010.com
 DOMAIN,ad.12306.cn
 DOMAIN,ain.bgm.tv
-DOMAIN,deo.shopeemobile.com
 DOMAIN,lain.bgm.tv
 DOMAIN,rewards.hypixel.net
-DOMAIN,sdk.alibaba.com.ailbaba.me
-DOMAIN-SUFFIX,blog.google
-DOMAIN-SUFFIX,googletraveladservices.com
 DOMAIN-SUFFIX,koodomobile.ca
 DOMAIN-SUFFIX,koodomobile.com
 
-# Download / Utility USER-AGENT
+# Download / Utility User-Agent
 USER-AGENT,%E8%BF%85%E9%9B%B7
-
-# Download / Utility PROCESS-NAME
-PROCESS-NAME,BaiduNetdisk_mac
-PROCESS-NAME,BitComet
-PROCESS-NAME,ClashX
-PROCESS-NAME,DownloadService
-PROCESS-NAME,Folx
-PROCESS-NAME,LocalSend
-PROCESS-NAME,LogiOptions
-PROCESS-NAME,LogiOptionsDaemon
-PROCESS-NAME,NetTransport
-PROCESS-NAME,SunloginClient_Desktop
-PROCESS-NAME,SunloginClient_Helper
-PROCESS-NAME,Thunder
-PROCESS-NAME,ThunderVIP
-PROCESS-NAME,Transmission
-PROCESS-NAME,UUBooster
-PROCESS-NAME,WebTorrent
-PROCESS-NAME,WebTorrentHelper
-PROCESS-NAME,amuled
-PROCESS-NAME,aria2c
-PROCESS-NAME,clash
-PROCESS-NAME,cloudflared
-PROCESS-NAME,fdm
-PROCESS-NAME,parsecd
-PROCESS-NAME,privoxy
-PROCESS-NAME,qBittorrent
-PROCESS-NAME,qbittorrent*
-PROCESS-NAME,qbittorrent-nox
-PROCESS-NAME,ss-local
-PROCESS-NAME,tailscaled
-PROCESS-NAME,transmission-daemon
-PROCESS-NAME,transmission-qt
-PROCESS-NAME,trojan
-PROCESS-NAME,trojan-go
-PROCESS-NAME,uTorrent
-PROCESS-NAME,v2ray
-PROCESS-NAME,xray

@@ -8,11 +8,11 @@
 # SOURCE-URL-SAMSUNG: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Samsung/Samsung.list
 # FORMAT: Surge Rule Set
 
-# Manual Additions
+# Manual Additions / Special Access
 DOMAIN-SUFFIX,thinkific.com
 DOMAIN-SUFFIX,germanyfastlane.com
 DOMAIN-SUFFIX,now.rahw.uk
-# ------------------------------------------------------------
+
 # Proxy Merged Rules
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
