@@ -1,14 +1,14 @@
 # NAME: China Media
 # AUTHOR: RayHW
-# DESCRIPTION: Curated China streaming, broadcasting and media routing rules
-# UPDATED: 2026-05-24
+# DESCRIPTION: Curated China streaming, broadcasting and media routing rules; excludes CN international video services handled by Singapore Media
+# UPDATED: 2026-05-25
 # SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
-# SOURCE-URL-CHINAMEDIA: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMedia/ChinaMedia.yaml
+# SOURCE-URL-CHINAMEDIA: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMedia/ChinaMedia.list
 # FORMAT: Clash / Stash Rule Provider
 # BEHAVIOR: classical
 
 payload:
-  # Bilibili
+  # Bilibili Mainland
   - DOMAIN-SUFFIX,acg.tv
   - DOMAIN-SUFFIX,acgvideo.com
   - DOMAIN-SUFFIX,b23.tv
@@ -19,7 +19,6 @@ payload:
   - DOMAIN-SUFFIX,bilibili.co
   - DOMAIN-SUFFIX,bilibili.com
   - DOMAIN-SUFFIX,bilibili.net
-  - DOMAIN-SUFFIX,bilibili.tv
   - DOMAIN-SUFFIX,bilibiligame.cn
   - DOMAIN-SUFFIX,bilibiligame.co
   - DOMAIN-SUFFIX,bilibiligame.net
@@ -37,8 +36,6 @@ payload:
   - DOMAIN-SUFFIX,biligame.net
   - DOMAIN-SUFFIX,biligo.com
   - DOMAIN-SUFFIX,biliimg.com
-  - DOMAIN-SUFFIX,biliintl.co
-  - DOMAIN-SUFFIX,biliintl.com
   - DOMAIN-SUFFIX,biliplus.com
   - DOMAIN-SUFFIX,bilivideo.cn
   - DOMAIN-SUFFIX,bilivideo.com
@@ -88,7 +85,7 @@ payload:
   - DOMAIN-SUFFIX,tvcc.cn
   - DOMAIN-SUFFIX,tvcc.com.cn
 
-  # iQIYI / QIYI / Galaxy Internet TV
+  # iQIYI / QIYI / Galaxy Internet TV Mainland
   - DOMAIN-SUFFIX,71.am
   - DOMAIN-SUFFIX,71.am.com
   - DOMAIN-SUFFIX,71edge.com
@@ -98,7 +95,6 @@ payload:
   - DOMAIN-SUFFIX,aiqiyicloud.net
   - DOMAIN-SUFFIX,gitv.cn
   - DOMAIN-SUFFIX,gitv.tv
-  - DOMAIN-SUFFIX,iq.com
   - DOMAIN-SUFFIX,iqiyi.com
   - DOMAIN-SUFFIX,iqiyiedge.com
   - DOMAIN-SUFFIX,iqiyiedge.net
@@ -110,7 +106,7 @@ payload:
   - DOMAIN-SUFFIX,qy.net
   - DOMAIN-KEYWORD,qiyi
 
-  # Tencent Video / QQ Music
+  # Tencent Video / QQ Music Mainland
   - DOMAIN,apd-pcdnvodstat.teg.tencent-cloud.net
   - DOMAIN,aqqmusic.tc.qq.com
   - DOMAIN,dldir1.qq.com
@@ -220,11 +216,6 @@ payload:
   - DOMAIN-SUFFIX,cdntips.net
   - DOMAIN-SUFFIX,tencent-cloud.net
   - DOMAIN-SUFFIX,shiply-cdn.qq.com
-  - DOMAIN-SUFFIX,akamaized.net
-  - DOMAIN-SUFFIX,p-bstarstatic.akamaized.net
-  - DOMAIN-SUFFIX,p.bstarstatic.com
-  - DOMAIN-SUFFIX,upos-bstar-mirrorakam.akamaized.net
-  - DOMAIN-SUFFIX,upos-bstar1-mirrorakam.akamaized.net
   - DOMAIN-SUFFIX,smtcdns.net
   - DOMAIN-SUFFIX,v.smtcdns.com
 
@@ -261,3 +252,32 @@ payload:
   - IP-CIDR,118.26.32.0/23,no-resolve
   - IP-CIDR,119.176.0.0/12,no-resolve
   - IP-CIDR,203.107.1.0/24,no-resolve
+
+  # China Media USER-AGENT
+  - USER-AGENT,*bili*
+  - USER-AGENT,Bilibili*
+  - USER-AGENT,bili*
+  - USER-AGENT,*QIYI*
+  - USER-AGENT,AcFun*
+  - USER-AGENT,MGTV*
+  - USER-AGENT,MiguVideo*
+  - USER-AGENT,NeteaseMusic*
+  - USER-AGENT,PPStream*
+  - USER-AGENT,QIYI*
+  - USER-AGENT,QQMusic*
+  - USER-AGENT,QYPlayer*
+  - USER-AGENT,TencentMidasConnect*
+  - USER-AGENT,Youku*
+  - USER-AGENT,bilibili*
+  - USER-AGENT,iQiYi*
+  - USER-AGENT,iQiyi*
+  - USER-AGENT,qqlive4iphone*
+  - USER-AGENT,xiami*
+  - USER-AGENT,youku*
+
+  # China Media PROCESS-NAME
+  - PROCESS-NAME,com.bilibili.app.blue
+  - PROCESS-NAME,com.bilibili.app.in
+  - PROCESS-NAME,com.bilibili.comic
+  - PROCESS-NAME,tv.danmaku.bili
+  - PROCESS-NAME,tv.danmaku.bilibilihd

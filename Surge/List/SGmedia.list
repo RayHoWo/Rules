@@ -72,7 +72,7 @@ DOMAIN-SUFFIX,circles.life
 DOMAIN-SUFFIX,gomo.sg
 DOMAIN-SUFFIX,giga.com.sg
 
-# FOXPlus
+# FOXPlus / FOX Asia Legacy
 DOMAIN,cdn-fox-networks-group-green.akamaized.net
 DOMAIN,d3cv4a9a9wh0bt.cloudfront.net
 DOMAIN,foxsports01-i.akamaihd.net
@@ -92,6 +92,12 @@ PROCESS-NAME,com.iqiyi.i18n.tv
 
 # Bilibili International
 DOMAIN-SUFFIX,bilibili.tv
+DOMAIN-SUFFIX,biliintl.co
+DOMAIN-SUFFIX,biliintl.com
+DOMAIN-SUFFIX,p-bstarstatic.akamaized.net
+DOMAIN-SUFFIX,p.bstarstatic.com
+DOMAIN-SUFFIX,upos-bstar-mirrorakam.akamaized.net
+DOMAIN-SUFFIX,upos-bstar1-mirrorakam.akamaized.net
 PROCESS-NAME,com.bstar.intl
 
 # WeTV International

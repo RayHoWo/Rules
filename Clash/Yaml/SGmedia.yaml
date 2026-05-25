@@ -3,11 +3,6 @@
 # DESCRIPTION: Curated Singapore media, streaming, region-service and CN international video routing rules; avoids matching mainland China video services
 # UPDATED: 2026-05-25
 # SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
-# SOURCE-URL-IQIYIINTL: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/iQIYIIntl/iQIYIIntl.list
-# SOURCE-URL-BILIBILIINTL: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BiliBiliIntl/BiliBiliIntl.list
-# SOURCE-URL-FOXPLUS: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/FOXPlus/FOXPlus.list
-# SOURCE-URL-MEWATCH: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/MeWatch/MeWatch.list
-# SOURCE-URL-WETV: official / actual service domains
 # FORMAT: Clash / Stash Rule Provider
 # BEHAVIOR: classical
 
@@ -74,7 +69,7 @@ payload:
   - DOMAIN-SUFFIX,gomo.sg
   - DOMAIN-SUFFIX,giga.com.sg
 
-  # FOXPlus
+  # FOXPlus / FOX Asia Legacy
   - DOMAIN,cdn-fox-networks-group-green.akamaized.net
   - DOMAIN,d3cv4a9a9wh0bt.cloudfront.net
   - DOMAIN,foxsports01-i.akamaihd.net
@@ -94,6 +89,12 @@ payload:
 
   # Bilibili International
   - DOMAIN-SUFFIX,bilibili.tv
+  - DOMAIN-SUFFIX,biliintl.co
+  - DOMAIN-SUFFIX,biliintl.com
+  - DOMAIN-SUFFIX,p-bstarstatic.akamaized.net
+  - DOMAIN-SUFFIX,p.bstarstatic.com
+  - DOMAIN-SUFFIX,upos-bstar-mirrorakam.akamaized.net
+  - DOMAIN-SUFFIX,upos-bstar1-mirrorakam.akamaized.net
   - PROCESS-NAME,com.bstar.intl
 
   # WeTV International

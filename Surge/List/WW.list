@@ -1,14 +1,13 @@
 # NAME: Worldwide Access
 # AUTHOR: RayHW
-# DESCRIPTION: Curated worldwide access and lightweight fallback routing rules for finance, travel, learning, device, professional, SaaS and developer services
-# UPDATED: 2026-05-24
-# SOURCE: blackmatrix7 ios_rule_script + personally curated service domains
+# DESCRIPTION: Curated worldwide access rules for personal services, brokerage, market data, hotel loyalty, smart devices, LinkedIn and Samsung services
+# UPDATED: 2026-05-25
+# SOURCE: RayHW curated rules + blackmatrix7 ios_rule_script
 # SOURCE-URL-LINKEDIN: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/LinkedIn/LinkedIn.list
 # SOURCE-URL-SAMSUNG: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Samsung/Samsung.list
 # FORMAT: Surge Rule Set
 
-# Manual Additions / Special Access
-# Add individual overseas services here when missed by existing rules.
+# Personal / Learning / Subscription Services
 DOMAIN-SUFFIX,thinkific.com
 DOMAIN-SUFFIX,germanyfastlane.com
 DOMAIN-SUFFIX,now.rahw.uk
@@ -18,27 +17,13 @@ DOMAIN-SUFFIX,nssurge.com
 # Stock / Brokerage / Market Data
 DOMAIN-SUFFIX,ibkr.com
 DOMAIN-SUFFIX,interactivebrokers.com
-DOMAIN-SUFFIX,interactivebrokers.com.sg
-DOMAIN-SUFFIX,interactivebrokers.eu
 DOMAIN-SUFFIX,ibllc.com
 DOMAIN-SUFFIX,zacks.com
 DOMAIN-SUFFIX,seekingalpha.com
 DOMAIN-SUFFIX,benzinga.com
 DOMAIN-SUFFIX,go-mpulse.net
 DOMAIN-SUFFIX,moomoo.com
-DOMAIN-SUFFIX,futuholdings.com
-DOMAIN-SUFFIX,futunn.com
-DOMAIN-SUFFIX,futunn.com.hk
 DOMAIN-SUFFIX,usmartsg.com
-DOMAIN-SUFFIX,tradingview.com
-DOMAIN-SUFFIX,marketwatch.com
-DOMAIN-SUFFIX,barrons.com
-DOMAIN-SUFFIX,wsj.com
-DOMAIN-SUFFIX,investors.com
-DOMAIN-SUFFIX,investing.com
-DOMAIN-SUFFIX,finviz.com
-DOMAIN-SUFFIX,stockanalysis.com
-DOMAIN,finance.yahoo.com
 DOMAIN,shortsgp.im.qcloud.com
 IP-CIDR,43.153.192.0/18,no-resolve
 IP-CIDR,101.32.160.0/20,no-resolve
@@ -47,46 +32,19 @@ IP-CIDR,101.32.160.0/20,no-resolve
 DOMAIN-SUFFIX,marriott.com
 DOMAIN-SUFFIX,marriottbonvoy.com
 DOMAIN-SUFFIX,marriottdigitalservices.com
-DOMAIN-SUFFIX,ritzcarlton.com
-DOMAIN-SUFFIX,stregis.com
-DOMAIN-SUFFIX,westin.com
-DOMAIN-SUFFIX,sheraton.com
-DOMAIN-SUFFIX,whotels.com
-DOMAIN-SUFFIX,editionhotels.com
-DOMAIN-SUFFIX,moxy-hotels.marriott.com
 DOMAIN-SUFFIX,hilton.com
 DOMAIN-SUFFIX,hiltonhonors.com
 DOMAIN-SUFFIX,hilton.io
-DOMAIN-SUFFIX,conrad.com
-DOMAIN-SUFFIX,waldorfastoria.com
-DOMAIN-SUFFIX,doubletree.com
-DOMAIN-SUFFIX,hiltonhotels.com
 DOMAIN-SUFFIX,ihg.com
 DOMAIN-SUFFIX,ihgmerlin.com
-DOMAIN-SUFFIX,intercontinental.com
-DOMAIN-SUFFIX,kimptonhotels.com
-DOMAIN-SUFFIX,sixsenses.com
-DOMAIN-SUFFIX,crowneplaza.com
-DOMAIN-SUFFIX,holidayinn.com
 DOMAIN-SUFFIX,hyatt.com
-DOMAIN-SUFFIX,world.hyatt.com
-DOMAIN-SUFFIX,andaz.com
-DOMAIN-SUFFIX,hyattplace.com
-DOMAIN-SUFFIX,hyatthouse.com
-DOMAIN-SUFFIX,accor.com
-DOMAIN-SUFFIX,all.accor.com
-DOMAIN-SUFFIX,sofitel.com
-DOMAIN-SUFFIX,novotel.com
-DOMAIN-SUFFIX,ibis.com
-DOMAIN-SUFFIX,raffles.com
-DOMAIN-SUFFIX,fairmont.com
-DOMAIN-SUFFIX,shangri-la.com
-DOMAIN-SUFFIX,mandarinoriental.com
-DOMAIN-SUFFIX,fourseasons.com
-DOMAIN-SUFFIX,peninsula.com
-DOMAIN-SUFFIX,kempinski.com
 
-# LinkedIn 
+# Sonos / Smart Home
+DOMAIN-SUFFIX,sonos.com
+DOMAIN-SUFFIX,sonos.radio
+DOMAIN-SUFFIX,wiz.world
+
+# LinkedIn
 DOMAIN,e122475.dscg.akamaiedge.net
 DOMAIN,licdn.cn.cdn20.com
 DOMAIN,linkedin.sc.omtrdc.net
@@ -114,108 +72,3 @@ DOMAIN-SUFFIX,samsungeshop.com.cn
 DOMAIN-SUFFIX,samsunggalaxyfriends.com
 DOMAIN-SUFFIX,samsungknox.com
 DOMAIN-SUFFIX,samsungqbe.com
-
-# Sonos
-DOMAIN-SUFFIX,sonos.com
-DOMAIN-SUFFIX,sonos.radio
-
-# Wiz World
-DOMAIN-SUFFIX,wiz.world
-
-# SaaS / Productivity
-DOMAIN-SUFFIX,notion.so
-DOMAIN-SUFFIX,figma.com
-DOMAIN-SUFFIX,miro.com
-DOMAIN-SUFFIX,canva.com
-DOMAIN-SUFFIX,slack.com
-DOMAIN-SUFFIX,trello.com
-DOMAIN-SUFFIX,airtable.com
-DOMAIN-SUFFIX,dropbox.com
-DOMAIN-SUFFIX,box.com
-DOMAIN-SUFFIX,zoom.us
-DOMAIN-SUFFIX,atlassian.com
-DOMAIN-SUFFIX,jira.com
-DOMAIN-SUFFIX,confluence.com
-DOMAIN-SUFFIX,linear.app
-DOMAIN-SUFFIX,calendly.com
-DOMAIN-SUFFIX,docusign.com
-DOMAIN-SUFFIX,1password.com
-DOMAIN-SUFFIX,proton.me
-
-# Developer / Tech
-DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,githubusercontent.com
-DOMAIN-SUFFIX,githubassets.com
-DOMAIN-SUFFIX,github.io
-DOMAIN-SUFFIX,githubapp.com
-DOMAIN-SUFFIX,github.dev
-DOMAIN-SUFFIX,githubstatus.com
-DOMAIN-SUFFIX,gitlab.com
-DOMAIN-SUFFIX,stackoverflow.com
-DOMAIN-SUFFIX,docker.com
-DOMAIN-SUFFIX,docker.io
-DOMAIN-SUFFIX,dockerhub.com
-DOMAIN-SUFFIX,sourceforge.net
-DOMAIN-SUFFIX,apache.org
-DOMAIN-SUFFIX,redhat.com
-DOMAIN-SUFFIX,anaconda.com
-DOMAIN-SUFFIX,maven.org
-DOMAIN-SUFFIX,npmjs.com
-DOMAIN-SUFFIX,npmjs.org
-DOMAIN-SUFFIX,python.org
-DOMAIN-SUFFIX,pypi.org
-DOMAIN-SUFFIX,rubygems.org
-DOMAIN-SUFFIX,crates.io
-DOMAIN-SUFFIX,go.dev
-DOMAIN-SUFFIX,golang.org
-DOMAIN-SUFFIX,pkg.go.dev
-DOMAIN-SUFFIX,gradle.org
-DOMAIN-SUFFIX,kotlinlang.org
-
-# General Overseas / Search / Knowledge
-DOMAIN-SUFFIX,google.com
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,googleusercontent.com
-DOMAIN-SUFFIX,duckduckgo.com
-DOMAIN-SUFFIX,wikipedia.org
-DOMAIN-SUFFIX,wikimedia.org
-DOMAIN-SUFFIX,archive.org
-
-# Social / Community / Publishing
-DOMAIN-SUFFIX,reddit.com
-DOMAIN-SUFFIX,redd.it
-DOMAIN-SUFFIX,redditmedia.com
-DOMAIN-SUFFIX,redditstatic.com
-DOMAIN-SUFFIX,quora.com
-DOMAIN-SUFFIX,medium.com
-DOMAIN-SUFFIX,substack.com
-DOMAIN-SUFFIX,discord.com
-DOMAIN-SUFFIX,discord.gg
-DOMAIN-SUFFIX,discordapp.com
-DOMAIN-SUFFIX,discordapp.net
-
-# URL Shortener / Utility
-DOMAIN-SUFFIX,bit.ly
-DOMAIN-SUFFIX,t.co
-DOMAIN-SUFFIX,tinyurl.com
-DOMAIN-SUFFIX,is.gd
-DOMAIN-SUFFIX,j.mp
-
-# CDN / Infrastructure / Utility
-DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,cloudfront.net
-DOMAIN-SUFFIX,fastly.net
-DOMAIN-SUFFIX,akamaihd.net
-DOMAIN-SUFFIX,akamai.net
-DOMAIN-SUFFIX,edgekey.net
-DOMAIN-SUFFIX,workers.dev
-DOMAIN-SUFFIX,pages.dev
-DOMAIN-SUFFIX,cloudflareinsights.com
-DOMAIN-SUFFIX,challenges.cloudflare.com
-DOMAIN-SUFFIX,jsdelivr.net
-DOMAIN-SUFFIX,unpkg.com
-DOMAIN-SUFFIX,cdnjs.com
-DOMAIN-SUFFIX,heroku.com
-DOMAIN-SUFFIX,vercel.app
-DOMAIN-SUFFIX,netlify.app
