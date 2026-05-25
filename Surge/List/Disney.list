@@ -1,26 +1,37 @@
 # NAME: Disney
 # AUTHOR: RayHW
-# DESCRIPTION: Disney, Disney+, ESPN, Hulu/Hotstar, Marvel, Star Wars and related service rules from blackmatrix7 ios_rule_script
-# UPDATED: 2026-05-24
-# SOURCE: blackmatrix7 ios_rule_script + official / actual Disney service domains
-# SOURCE-URL-DISNEY: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Disney/Disney.list
+# DESCRIPTION: Disney / Disney+ routing rules from blackmatrix7 ios_rule_script
+# UPDATED: 2026-05-25
+# SOURCE: blackmatrix7 ios_rule_script
+# SOURCE-URL-DISNEY: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Disney/Disney.list
 # FORMAT: Surge Rule Set
 
-# Disney / Disney+
-DOMAIN-SUFFIX,disney-plus.net
-DOMAIN-SUFFIX,disneyplus.com
-DOMAIN-SUFFIX,disneyplus.bn5x.net
-DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net
-DOMAIN-SUFFIX,disneystreaming.com
-DOMAIN-SUFFIX,disneysubscription.com
-DOMAIN-SUFFIX,streamingdisney.net
+# Disney
+DOMAIN-SUFFIX,20thcenturystudios.com.au
+DOMAIN-SUFFIX,20thcenturystudios.com.br
+DOMAIN-SUFFIX,20thcenturystudios.jp
+DOMAIN-SUFFIX,abc-studios.com
+DOMAIN-SUFFIX,abc.com
+DOMAIN-SUFFIX,abcnews.com
+DOMAIN-SUFFIX,abcnews.edgesuite.net
+DOMAIN-SUFFIX,adobedtm.com
+DOMAIN-SUFFIX,adventuresbydisney.com
+DOMAIN-SUFFIX,babble.com
+DOMAIN-SUFFIX,babyzone.com
+DOMAIN-SUFFIX,bam.nr-data.net
 DOMAIN-SUFFIX,bamgrid.com
-DOMAIN-SUFFIX,dssedge.com
-DOMAIN-SUFFIX,dssott.com
-DOMAIN-SUFFIX,edgedatg.com
-
-# Disney Core
-DOMAIN-SUFFIX,disney.com
+DOMAIN-SUFFIX,beautyandthebeastmusical.co.uk
+DOMAIN-SUFFIX,braze.com
+DOMAIN-SUFFIX,cdn.optimizely.com
+DOMAIN-SUFFIX,conviva.com
+DOMAIN-SUFFIX,d9.flashtalking.com
+DOMAIN-SUFFIX,dilcdn.com
+DOMAIN-SUFFIX,disney-asia.com
+DOMAIN-SUFFIX,disney-discount.com
+DOMAIN-SUFFIX,disney-plus.net
+DOMAIN-SUFFIX,disney-portal.my.onetrust.com
+DOMAIN-SUFFIX,disney-studio.com
+DOMAIN-SUFFIX,disney-studio.net
 DOMAIN-SUFFIX,disney.asia
 DOMAIN-SUFFIX,disney.be
 DOMAIN-SUFFIX,disney.bg
@@ -32,12 +43,14 @@ DOMAIN-SUFFIX,disney.co.kr
 DOMAIN-SUFFIX,disney.co.th
 DOMAIN-SUFFIX,disney.co.uk
 DOMAIN-SUFFIX,disney.co.za
+DOMAIN-SUFFIX,disney.com
 DOMAIN-SUFFIX,disney.com.au
 DOMAIN-SUFFIX,disney.com.br
 DOMAIN-SUFFIX,disney.com.hk
 DOMAIN-SUFFIX,disney.com.tw
 DOMAIN-SUFFIX,disney.cz
 DOMAIN-SUFFIX,disney.de
+DOMAIN-SUFFIX,disney.demdex.net
 DOMAIN-SUFFIX,disney.dk
 DOMAIN-SUFFIX,disney.es
 DOMAIN-SUFFIX,disney.fi
@@ -49,6 +62,7 @@ DOMAIN-SUFFIX,disney.in
 DOMAIN-SUFFIX,disney.io
 DOMAIN-SUFFIX,disney.it
 DOMAIN-SUFFIX,disney.my
+DOMAIN-SUFFIX,disney.my.sentry.io
 DOMAIN-SUFFIX,disney.nl
 DOMAIN-SUFFIX,disney.no
 DOMAIN-SUFFIX,disney.ph
@@ -58,13 +72,6 @@ DOMAIN-SUFFIX,disney.ro
 DOMAIN-SUFFIX,disney.ru
 DOMAIN-SUFFIX,disney.se
 DOMAIN-SUFFIX,disney.sg
-
-# Disney Regional / Marketing / Parks
-DOMAIN-SUFFIX,disney-asia.com
-DOMAIN-SUFFIX,disney-discount.com
-DOMAIN-SUFFIX,disney-portal.my.onetrust.com
-DOMAIN-SUFFIX,disney-studio.com
-DOMAIN-SUFFIX,disney-studio.net
 DOMAIN-SUFFIX,disneyadsales.com
 DOMAIN-SUFFIX,disneyarena.com
 DOMAIN-SUFFIX,disneyaulani.com
@@ -100,30 +107,27 @@ DOMAIN-SUFFIX,disneymusicpromotion.com
 DOMAIN-SUFFIX,disneynewseries.com
 DOMAIN-SUFFIX,disneynow.com
 DOMAIN-SUFFIX,disneypeoplesurveys.com
+DOMAIN-SUFFIX,disneyplus.bn5x.net
+DOMAIN-SUFFIX,disneyplus.com
+DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net
 DOMAIN-SUFFIX,disneyprivacycenter.com
 DOMAIN-SUFFIX,disneyredirects.com
 DOMAIN-SUFFIX,disneysrivieraresort.com
 DOMAIN-SUFFIX,disneystore.com
+DOMAIN-SUFFIX,disneystreaming.com
+DOMAIN-SUFFIX,disneysubscription.com
 DOMAIN-SUFFIX,disneytermsofuse.com
 DOMAIN-SUFFIX,disneytickets.co.uk
 DOMAIN-SUFFIX,disneyturkiye.com.tr
 DOMAIN-SUFFIX,disneytvajobs.com
 DOMAIN-SUFFIX,disneyworld-go.com
-DOMAIN-SUFFIX,go-disneyworldgo.com
-DOMAIN-SUFFIX,spaindisney.com
-DOMAIN-SUFFIX,shopdisney.com
-DOMAIN-SUFFIX,shops-disney.com
-DOMAIN-SUFFIX,thewaltdisneycompany.com
-
-# ABC / Disney Television
-DOMAIN-SUFFIX,abc-studios.com
-DOMAIN-SUFFIX,abc.com
-DOMAIN-SUFFIX,abcnews.com
-DOMAIN-SUFFIX,abcnews.edgesuite.net
-DOMAIN-SUFFIX,go.com
-DOMAIN-SUFFIX,watchdisneyfe.com
-
-# ESPN
+DOMAIN-SUFFIX,dlp-media.com
+DOMAIN-SUFFIX,dmed.technology
+DOMAIN-SUFFIX,dssedge.com
+DOMAIN-SUFFIX,dssott.com
+DOMAIN-SUFFIX,dtci.co
+DOMAIN-SUFFIX,dtci.technology
+DOMAIN-SUFFIX,edgedatg.com
 DOMAIN-SUFFIX,espn.co.uk
 DOMAIN-SUFFIX,espn.com
 DOMAIN-SUFFIX,espn.hb.omtrdc.net
@@ -131,20 +135,15 @@ DOMAIN-SUFFIX,espn.net
 DOMAIN-SUFFIX,espncdn.com
 DOMAIN-SUFFIX,espndotcom.tt.omtrdc.net
 DOMAIN-SUFFIX,espnqa.com
-DOMAIN-SUFFIX,watchespn.com
-
-# Hotstar / Star+
+DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
+DOMAIN-SUFFIX,go-disneyworldgo.com
+DOMAIN-SUFFIX,go.com
 DOMAIN-SUFFIX,hotstar-cdn.net
 DOMAIN-SUFFIX,hotstar-labs.com
 DOMAIN-SUFFIX,hotstar.com
 DOMAIN-SUFFIX,hotstarext.com
 DOMAIN-SUFFIX,hsprepack.akamaized.net
-DOMAIN-SUFFIX,star-brasil.com
-DOMAIN-SUFFIX,star-latam.com
-DOMAIN-SUFFIX,starott.com
-DOMAIN-SUFFIX,starplus.com
-
-# Marvel
+DOMAIN-SUFFIX,js-agent.newrelic.com
 DOMAIN-SUFFIX,marvel.com
 DOMAIN-SUFFIX,marvel10thanniversary.com
 DOMAIN-SUFFIX,marveldimensionofheroes.com
@@ -154,54 +153,32 @@ DOMAIN-SUFFIX,marvelsdoubleagent.com
 DOMAIN-SUFFIX,marvelspotlightplays.com
 DOMAIN-SUFFIX,marvelsuperheroseptember.com
 DOMAIN-SUFFIX,marvelsuperwar.com
-DOMAIN-SUFFIX,themarvelexperiencetour.com
-
-# Star Wars
-DOMAIN-SUFFIX,starwars.com
-DOMAIN-SUFFIX,starwarsgalacticstarcruiser.com
-DOMAIN-SUFFIX,starwarskids.com
-
-# National Geographic
+DOMAIN-SUFFIX,mickey.tv
+DOMAIN-SUFFIX,moviesanywhere.com
 DOMAIN-SUFFIX,natgeomaps.com
 DOMAIN-SUFFIX,nationalgeographic.com
 DOMAIN-SUFFIX,nationalgeographicpartners.com
 DOMAIN-SUFFIX,ngeo.com
-
-# 20th Century / Movies Anywhere / Other Disney Brands
-DOMAIN-SUFFIX,20thcenturystudios.com.au
-DOMAIN-SUFFIX,20thcenturystudios.com.br
-DOMAIN-SUFFIX,20thcenturystudios.jp
-DOMAIN-SUFFIX,babble.com
-DOMAIN-SUFFIX,babyzone.com
-DOMAIN-SUFFIX,beautyandthebeastmusical.co.uk
-DOMAIN-SUFFIX,dilcdn.com
-DOMAIN-SUFFIX,dlp-media.com
-DOMAIN-SUFFIX,mickey.tv
-DOMAIN-SUFFIX,moviesanywhere.com
 DOMAIN-SUFFIX,nomadlandmovie.ch
 DOMAIN-SUFFIX,playmation.com
+DOMAIN-SUFFIX,shopdisney.com
+DOMAIN-SUFFIX,shops-disney.com
 DOMAIN-SUFFIX,sorcerersarena.com
+DOMAIN-SUFFIX,spaindisney.com
+DOMAIN-SUFFIX,star-brasil.com
+DOMAIN-SUFFIX,star-latam.com
+DOMAIN-SUFFIX,starott.com
+DOMAIN-SUFFIX,starplus.com
+DOMAIN-SUFFIX,starwars.com
+DOMAIN-SUFFIX,starwarsgalacticstarcruiser.com
+DOMAIN-SUFFIX,starwarskids.com
+DOMAIN-SUFFIX,streamingdisney.net
+DOMAIN-SUFFIX,themarvelexperiencetour.com
 DOMAIN-SUFFIX,thestationbymaker.com
+DOMAIN-SUFFIX,thewaltdisneycompany.com
 DOMAIN-SUFFIX,thisispolaris.com
-
-# Disney Service / Telemetry / CDN
-DOMAIN-SUFFIX,adobedtm.com
-DOMAIN-SUFFIX,bam.nr-data.net
-DOMAIN-SUFFIX,braze.com
-DOMAIN-SUFFIX,cdn.optimizely.com
-DOMAIN-SUFFIX,conviva.com
-DOMAIN-SUFFIX,d9.flashtalking.com
-DOMAIN-SUFFIX,disney.demdex.net
-DOMAIN-SUFFIX,disney.my.sentry.io
-DOMAIN-SUFFIX,dmed.technology
-DOMAIN-SUFFIX,dtci.co
-DOMAIN-SUFFIX,dtci.technology
-DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
-DOMAIN-SUFFIX,js-agent.newrelic.com
-
-# Disney USER-AGENT
+DOMAIN-SUFFIX,watchdisneyfe.com
+DOMAIN-SUFFIX,watchespn.com
 USER-AGENT,Disney+*
-
-# Disney PROCESS-NAME
 PROCESS-NAME,com.disney.datg.videoplatforms.android.abc
 PROCESS-NAME,com.disney.disneyplus
