@@ -1,0 +1,65 @@
+# >> Worldwide Access
+# >>@ UPDATED: 2026-01-01
+# NAME: Passwall
+DOMAIN-SUFFIX,thinkific.com
+DOMAIN-SUFFIX,germanyfastlane.com
+DOMAIN-SUFFIX,now.rahw.uk
+DOMAIN-SUFFIX,dlercloud.com
+DOMAIN-SUFFIX,nssurge.com
+# NAME: Stock
+DOMAIN-SUFFIX,ibkr.com 
+DOMAIN-SUFFIX,interactivebrokers.com
+DOMAIN-SUFFIX,ibllc.com
+DOMAIN-SUFFIX,zacks.com
+DOMAIN-SUFFIX,seekingalpha.com
+DOMAIN-SUFFIX,benzinga.com
+DOMAIN-SUFFIX,go-mpulse.net
+DOMAIN-SUFFIX,moomoo.com 
+DOMAIN,shortsgp.im.qcloud.com
+IP-CIDR,43.153.192.0/18,no-resolve
+IP-CIDR,101.32.160.0/20,no-resolve
+DOMAIN-SUFFIX,usmartsg.com 
+# NAME: Hotel
+DOMAIN-SUFFIX,marriott.com 
+DOMAIN-SUFFIX,marriottbonvoy.com
+DOMAIN-SUFFIX,marriottdigitalservices.com
+DOMAIN-SUFFIX,hilton.com    
+DOMAIN-SUFFIX,hiltonhonors.com
+DOMAIN-SUFFIX,hilton.io
+DOMAIN-SUFFIX,ihg.com    
+DOMAIN-SUFFIX,ihgmerlin.com
+DOMAIN-SUFFIX,hyatt.com    
+# NAME: Sonos   
+DOMAIN-SUFFIX,sonos.com
+DOMAIN-SUFFIX,sonos.radio
+# NAME: Wiz World    
+DOMAIN-SUFFIX,wiz.world
+# NAME: LinkedIn    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/LinkedIn/LinkedIn.list
+# TOTAL: 12
+DOMAIN,e122475.dscg.akamaiedge.net
+DOMAIN,licdn.cn.cdn20.com
+DOMAIN,linkedin.sc.omtrdc.net
+DOMAIN-SUFFIX,bizographics.com
+DOMAIN-SUFFIX,l-0005.dc-msedge.net
+DOMAIN-SUFFIX,l-0005.l-msedge.net
+DOMAIN-SUFFIX,licdn.cn
+DOMAIN-SUFFIX,licdn.com
+DOMAIN-SUFFIX,linkedin.at
+DOMAIN-SUFFIX,linkedin.cn
+DOMAIN-SUFFIX,linkedin.com
+DOMAIN-SUFFIX,lnkd.in
+# NAME: Samsung    # Link: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Samsung/Samsung.list
+# TOTAL: 13
+DOMAIN-SUFFIX,anrdoezrs.net
+DOMAIN-SUFFIX,galaxyappstore.com
+DOMAIN-SUFFIX,galaxymobile.jp
+DOMAIN-SUFFIX,game-platform.net
+DOMAIN-SUFFIX,knoxemm.com
+DOMAIN-SUFFIX,samsung.com
+DOMAIN-SUFFIX,samsungapps.com
+DOMAIN-SUFFIX,samsungcloud.com
+DOMAIN-SUFFIX,samsungdm.com
+DOMAIN-SUFFIX,samsungeshop.com.cn
+DOMAIN-SUFFIX,samsunggalaxyfriends.com
+DOMAIN-SUFFIX,samsungknox.com
+DOMAIN-SUFFIX,samsungqbe.com

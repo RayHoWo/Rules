@@ -1,0 +1,9 @@
+# >> Home Device IP-CIDR 
+# >>@ UPDATED: 2026-01-01
+# NAME: NAS   
+IP-CIDR,10.10.10.5/32
+# NAME: Printer   
+IP-CIDR,10.10.10.6/32
+# NAME: Camera   
+IP-CIDR,10.10.10.7/32
+
