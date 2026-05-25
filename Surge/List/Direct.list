@@ -15,15 +15,6 @@ DOMAIN-SUFFIX,dler.pro
 DOMAIN-SUFFIX,nas.rahw.top
 DOMAIN-SUFFIX,flyertea.com
 
-# Wiz CN
-DOMAIN-SUFFIX,wizconnected.cn
-
-# XiaoTianCai
-USER-AGENT,%E5%B0%8F%E5%A4%A9%E6%89%8D/18*
-DOMAIN-SUFFIX,eebbk.net
-DOMAIN-SUFFIX,watch.okii.com
-DOMAIN-SUFFIX,tiancaixing.com
-
 # Google / Android Push / Downloads
 DOMAIN,alt1-mtalk.google.com
 DOMAIN,alt2-mtalk.google.com
