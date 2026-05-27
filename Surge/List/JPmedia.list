@@ -1,6 +1,6 @@
 # NAME: Japan Media
 # AUTHOR: RayHW
-# DESCRIPTION: Curated Japan media, streaming and region-service routing rules
+# DESCRIPTION: Curated Japan media, streaming and region-service routing rules (Optimized: No false positives)
 # UPDATED: 2026-05-28
 # SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
 # SOURCE-URL-ABEMATV: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AbemaTV/AbemaTV.list
@@ -23,8 +23,6 @@ DOMAIN-SUFFIX,amebaownd.com
 DOMAIN-SUFFIX,amebaowndme.com
 DOMAIN-SUFFIX,ameblo.jp
 DOMAIN-SUFFIX,bucketeer.jp
-DOMAIN-SUFFIX,d1otoma47x30pg.cloudfront.net
-DOMAIN-SUFFIX,d2wy8f7a9ursnm.cloudfront.net
 DOMAIN-SUFFIX,dokusho-ojikan.jp
 DOMAIN-SUFFIX,ds-linear-abematv.akamaized.net
 DOMAIN-SUFFIX,ds-vod-abematv.akamaized.net
@@ -44,7 +42,6 @@ DOMAIN-SUFFIX,akatsukiworks.com
 DOMAIN-SUFFIX,alicesoft.com
 DOMAIN-SUFFIX,api-p.videomarket.jp
 DOMAIN-SUFFIX,cosmiccute.com
-DOMAIN-SUFFIX,ddo.jp
 DOMAIN-SUFFIX,dmm-extension.com
 DOMAIN-SUFFIX,dmm.co.jp
 DOMAIN-SUFFIX,dmm.com
@@ -92,7 +89,6 @@ USER-AGENT,Niconico*
 
 # === TVer ===
 DOMAIN-SUFFIX,dogatch.jp
-DOMAIN-SUFFIX,edge.api.brightcove.com
 DOMAIN-SUFFIX,gorin.jp
 DOMAIN-SUFFIX,screens-lab.jp
 DOMAIN-SUFFIX,tver.co.jp

@@ -1,74 +1,56 @@
 # NAME: Korea Media
 # AUTHOR: RayHW
-# DESCRIPTION: Curated Korea media, streaming and region-service routing rules
-# UPDATED: 2026-05-24
+# DESCRIPTION: Curated Korea media, streaming and region-service routing rules (Optimized: No false positives)
+# UPDATED: 2026-05-28
 # SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
 # SOURCE-URL-PANDORATV: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PandoraTV/PandoraTV.list
 # SOURCE-URL-NAVER: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Naver/Naver.list
 # SOURCE-URL-VIKI: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Viki/Viki.list
 # FORMAT: Surge Rule Set
 
-# KBS / KBS World
-DOMAIN-KEYWORD,kbsworld
+# === KBS / MBC / SBS (Public Broadcasters) ===
 DOMAIN-SUFFIX,kbs.co.kr
-
-# MBC
+DOMAIN-KEYWORD,kbsworld
 DOMAIN-SUFFIX,imbc.com
 DOMAIN-SUFFIX,mbc.co.kr
 DOMAIN-SUFFIX,mbcplus.com
-
-# SBS
 DOMAIN-SUFFIX,sbs.co.kr
 DOMAIN-SUFFIX,sbs.com.au
 DOMAIN-SUFFIX,sbsmedianet.co.kr
 
-# JTBC
+# === JTBC / EBS ===
 DOMAIN-SUFFIX,jtbc.co.kr
 DOMAIN-SUFFIX,jtbcplus.kr
 DOMAIN-SUFFIX,jtbcworldwide.com
-
-# EBS
 DOMAIN-SUFFIX,ebs.co.kr
 DOMAIN-SUFFIX,ebsi.co.kr
 
-# TVING
+# === Streaming Platforms (TVING / Wavve / WATCHA / Coupang) ===
 DOMAIN-SUFFIX,tving.com
 DOMAIN-SUFFIX,tvingapi.com
-
-# Wavve
 DOMAIN-SUFFIX,wavve.com
 DOMAIN-SUFFIX,wavve.co.kr
 DOMAIN-SUFFIX,pooq.co.kr
-
-# Coupang Play
 DOMAIN-SUFFIX,coupangplay.com
 DOMAIN-SUFFIX,coupangstreaming.com
 DOMAIN-SUFFIX,coupangcdn.com
-
-# WATCHA
 DOMAIN-SUFFIX,watcha.com
 DOMAIN-SUFFIX,watcha.net
 DOMAIN-SUFFIX,watchaplay.net
 
-# Kakao TV / Kakao Entertainment
+# === Kakao / SOOP (AfreecaTV) / PandoraTV ===
 DOMAIN-SUFFIX,kakao.com
 DOMAIN-SUFFIX,kakaocdn.net
 DOMAIN-SUFFIX,kakaoent.com
 DOMAIN-SUFFIX,kakaotv.com
-
-# SOOP / AfreecaTV
 DOMAIN-SUFFIX,sooplive.co.kr
 DOMAIN-SUFFIX,sooplive.com
 DOMAIN-SUFFIX,afreecatv.com
 DOMAIN-SUFFIX,afreecatv.co.kr
-
-# PandoraTV / KMPlayer
 DOMAIN-SUFFIX,kmplayer.com
 DOMAIN-SUFFIX,pandora.tv
 
-# Naver / Naver TV / Webtoon / LINE
-DOMAIN,d17lx9ucc6k9fc.cloudfront.net
-DOMAIN,d3c7rimkq79yfu.cloudfront.net
+# === Naver / LINE / Webtoon ===
 DOMAIN-SUFFIX,chocotv.com.tw
 DOMAIN-SUFFIX,grafolio.com
 DOMAIN-SUFFIX,lin.ee
@@ -93,53 +75,19 @@ DOMAIN-SUFFIX,plug.game
 DOMAIN-SUFFIX,pstatic.net
 DOMAIN-SUFFIX,smartmediarep.com
 DOMAIN-SUFFIX,webtoons.com
-IP-CIDR,101.101.160.0/20,no-resolve
-IP-CIDR,103.2.28.0/24,no-resolve
-IP-CIDR,103.2.30.0/23,no-resolve
-IP-CIDR,103.6.172.0/24,no-resolve
-IP-CIDR,103.6.174.0/23,no-resolve
-IP-CIDR,106.10.32.0/19,no-resolve
-IP-CIDR,110.165.16.0/20,no-resolve
-IP-CIDR,110.234.236.0/22,no-resolve
-IP-CIDR,110.234.240.0/22,no-resolve
-IP-CIDR,110.234.244.0/24,no-resolve
-IP-CIDR,110.234.246.0/23,no-resolve
-IP-CIDR,110.234.248.0/21,no-resolve
-IP-CIDR,110.234.64.0/18,no-resolve
-IP-CIDR,110.93.144.0/20,no-resolve
-IP-CIDR,111.91.128.0/20,no-resolve
-IP-CIDR,114.111.32.0/20,no-resolve
-IP-CIDR,119.235.224.0/24,no-resolve
-IP-CIDR,119.235.232.0/24,no-resolve
-IP-CIDR,119.235.235.0/24,no-resolve
-IP-CIDR,119.235.236.0/23,no-resolve
-IP-CIDR,125.209.192.0/18,no-resolve
-IP-CIDR,125.6.190.0/24,no-resolve
-IP-CIDR,147.92.128.0/17,no-resolve
-IP-CIDR,175.158.0.0/19,no-resolve
-IP-CIDR,203.104.103.0/24,no-resolve
-IP-CIDR,203.104.128.0/20,no-resolve
-IP-CIDR,203.104.144.0/21,no-resolve
-IP-CIDR,203.104.152.0/22,no-resolve
-IP-CIDR,203.104.156.0/23,no-resolve
-IP-CIDR,203.104.158.0/24,no-resolve
-IP-CIDR,203.174.66.64/26,no-resolve
-IP-CIDR,203.174.77.0/24,no-resolve
-IP-CIDR6,2400:dcc0::/32,no-resolve
 USER-AGENT,LINE%20TV*
 PROCESS-NAME,com.linecorp.linetv
 
-# Viki
+# === Viki ===
 DOMAIN-SUFFIX,kalhlspd-a.akamaihd.net
 DOMAIN-SUFFIX,m-content-viki.s.llnwi.net
-DOMAIN-SUFFIX,twemoji.maxcdn.com
 DOMAIN-SUFFIX,viki.com
 DOMAIN-SUFFIX,viki.io
 DOMAIN-SUFFIX,viki.net
 DOMAIN-SUFFIX,vikidash.akamaized.net
 DOMAIN-SUFFIX,vikiplatform.com
 
-# Korea News / Publishing
+# === Korea News / Publishing ===
 DOMAIN-SUFFIX,yna.co.kr
 DOMAIN-SUFFIX,yonhapnews.co.kr
 DOMAIN-SUFFIX,ytn.co.kr
@@ -153,7 +101,7 @@ DOMAIN-SUFFIX,hankookilbo.com
 DOMAIN-SUFFIX,koreaherald.com
 DOMAIN-SUFFIX,koreatimes.co.kr
 
-# Korea Region Services / Carriers
+# === Korea Region Services / Carriers ===
 DOMAIN-SUFFIX,skt.co.kr
 DOMAIN-SUFFIX,sktelecom.com
 DOMAIN-SUFFIX,tworld.co.kr

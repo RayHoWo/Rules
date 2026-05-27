@@ -1,14 +1,14 @@
 # NAME: LAN
 # AUTHOR: RayHW
-# DESCRIPTION: LAN and private network routing rules from blackmatrix7 ios_rule_script
-# UPDATED: 2026-05-24
+# DESCRIPTION: LAN and private network routing rules (Optimized)
+# UPDATED: 2026-05-28
 # SOURCE: blackmatrix7 ios_rule_script
 # SOURCE-URL-LAN: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml
 # FORMAT: Clash / Stash Rule Provider
 # BEHAVIOR: classical
 
 payload:
-  # Router / Local Device Domains
+  # === Router & Local Devices ===
   - DOMAIN,asusrouter.com
   - DOMAIN,instant.arubanetworks.com
   - DOMAIN,oasisauth.h3c.com
@@ -28,7 +28,15 @@ payload:
   - DOMAIN-SUFFIX,wifi.cmcc
   - DOMAIN-SUFFIX,zte.home
 
-  # Local / Reverse DNS
+  # === Local Services (Tailscale, Plex, IPC, etc.) ===
+  - DOMAIN-SUFFIX,acl4.ssr
+  - DOMAIN-SUFFIX,localhost.ptlogin2.qq.com
+  - DOMAIN-SUFFIX,localhost.sec.qq.com
+  - DOMAIN-SUFFIX,plex.direct
+  - DOMAIN-SUFFIX,test.steampowered.com
+  - DOMAIN-SUFFIX,ts.net
+
+  # === Local & Reverse DNS ===
   - DOMAIN-SUFFIX,home.arpa
   - DOMAIN-SUFFIX,0.in-addr.arpa
   - DOMAIN-SUFFIX,10.in-addr.arpa
@@ -42,15 +50,7 @@ payload:
   - DOMAIN-SUFFIX,b.e.f.ip6.arpa
   - DOMAIN-SUFFIX,d.f.ip6.arpa
 
-  # Local Services
-  - DOMAIN-SUFFIX,acl4.ssr
-  - DOMAIN-SUFFIX,localhost.ptlogin2.qq.com
-  - DOMAIN-SUFFIX,localhost.sec.qq.com
-  - DOMAIN-SUFFIX,plex.direct
-  - DOMAIN-SUFFIX,test.steampowered.com
-  - DOMAIN-SUFFIX,ts.net
-
-  # LAN IPv4
+  # === IPv4 Private Networks ===
   - IP-CIDR,0.0.0.0/8,no-resolve
   - IP-CIDR,10.0.0.0/8,no-resolve
   - IP-CIDR,100.64.0.0/10,no-resolve
@@ -61,7 +61,7 @@ payload:
   - IP-CIDR,198.18.0.0/15,no-resolve
   - IP-CIDR,224.0.0.0/3,no-resolve
 
-  # LAN IPv6
+  # === IPv6 Private Networks ===
   - IP-CIDR6,::1/128,no-resolve
   - IP-CIDR6,fc00::/7,no-resolve
   - IP-CIDR6,fe80::/10,no-resolve

@@ -1,13 +1,26 @@
 # NAME: Scholar
 # AUTHOR: RayHW
-# DESCRIPTION: Scholar, academic publishing and research resource routing rules from blackmatrix7 ios_rule_script
-# UPDATED: 2026-05-24
+# DESCRIPTION: Scholar, academic publishing and research resource routing rules (Optimized: Removed domestic databases like CNKI to prevent IP auth failures)
+# UPDATED: 2026-05-28
 # SOURCE: blackmatrix7 ios_rule_script
 # SOURCE-URL-SCHOLAR: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Scholar/Scholar.list
 # FORMAT: Surge Rule Set
 
-# Scholar
+# === Scholar Search & Tools ===
 DOMAIN,scholar.google.com
+DOMAIN-SUFFIX,altmetric.com
+DOMAIN-SUFFIX,crossref.org
+DOMAIN-SUFFIX,doi.info
+DOMAIN-SUFFIX,doi.org
+DOMAIN-SUFFIX,endnote.com
+DOMAIN-SUFFIX,readcube.com
+DOMAIN-SUFFIX,researchgate.net
+DOMAIN-SUFFIX,scholarpedia.org
+DOMAIN-SUFFIX,semanticscholar.org
+DOMAIN-SUFFIX,turnitin.com
+DOMAIN-SUFFIX,zotero.org
+
+# === Z-Library & Shadow Libraries ===
 DOMAIN-SUFFIX,1lib.cloud
 DOMAIN-SUFFIX,1lib.domains
 DOMAIN-SUFFIX,1lib.education
@@ -18,38 +31,12 @@ DOMAIN-SUFFIX,1lib.to
 DOMAIN-SUFFIX,1lib.tw
 DOMAIN-SUFFIX,2lib.org
 DOMAIN-SUFFIX,3lib.net
-DOMAIN-SUFFIX,aclweb.org
-DOMAIN-SUFFIX,acm.org
-DOMAIN-SUFFIX,acs.org
-DOMAIN-SUFFIX,aiaa.org
-DOMAIN-SUFFIX,aip.org
-DOMAIN-SUFFIX,altmetric.com
-DOMAIN-SUFFIX,amamanualofstyle.com
-DOMAIN-SUFFIX,ams.org
-DOMAIN-SUFFIX,analytictech.com
-DOMAIN-SUFFIX,anb.org
-DOMAIN-SUFFIX,annualreviews.org
-DOMAIN-SUFFIX,apa.org
-DOMAIN-SUFFIX,apress.com
-DOMAIN-SUFFIX,aps.org
 DOMAIN-SUFFIX,art1lib.com
-DOMAIN-SUFFIX,arxiv.org
-DOMAIN-SUFFIX,ascelibrary.org
-DOMAIN-SUFFIX,asha.org
-DOMAIN-SUFFIX,asm.org
-DOMAIN-SUFFIX,asme.org
-DOMAIN-SUFFIX,astm.org
 DOMAIN-SUFFIX,b-ok.africa
 DOMAIN-SUFFIX,b-ok.asia
 DOMAIN-SUFFIX,b-ok.cc
 DOMAIN-SUFFIX,b-ok.global
 DOMAIN-SUFFIX,b-ok.org
-DOMAIN-SUFFIX,berkeley.edu
-DOMAIN-SUFFIX,biomedcentral.com
-DOMAIN-SUFFIX,biorxiv.org
-DOMAIN-SUFFIX,blackstonespoliceservice.com
-DOMAIN-SUFFIX,blackwell-synergy.com
-DOMAIN-SUFFIX,bmj.com
 DOMAIN-SUFFIX,book4you.org
 DOMAIN-SUFFIX,bookfi.net
 DOMAIN-SUFFIX,booksc.eu
@@ -59,6 +46,47 @@ DOMAIN-SUFFIX,booksc.xyz
 DOMAIN-SUFFIX,bookshome.info
 DOMAIN-SUFFIX,bookshome.net
 DOMAIN-SUFFIX,bookshome.world
+DOMAIN-SUFFIX,de1lib.org
+DOMAIN-SUFFIX,hk1lib.org
+DOMAIN-SUFFIX,libsolutions.app
+DOMAIN-SUFFIX,libsolutions.domains
+DOMAIN-SUFFIX,libsolutions.net
+DOMAIN-SUFFIX,ma1lib.org
+DOMAIN-SUFFIX,madsrevolution.net
+DOMAIN-SUFFIX,sci-hub.tw
+DOMAIN-SUFFIX,sg1lib.org
+DOMAIN-SUFFIX,singlelogin.app
+DOMAIN-SUFFIX,singlelogin.me
+DOMAIN-SUFFIX,z-lib.org
+DOMAIN-SUFFIX,zlib.life
+DOMAIN-SUFFIX,zlibcdn.com
+DOMAIN-SUFFIX,zlibcdn2.com
+
+# === Academic Publishers & Journals ===
+DOMAIN-SUFFIX,aclweb.org
+DOMAIN-SUFFIX,acm.org
+DOMAIN-SUFFIX,acs.org
+DOMAIN-SUFFIX,aiaa.org
+DOMAIN-SUFFIX,aip.org
+DOMAIN-SUFFIX,amamanualofstyle.com
+DOMAIN-SUFFIX,ams.org
+DOMAIN-SUFFIX,analytictech.com
+DOMAIN-SUFFIX,anb.org
+DOMAIN-SUFFIX,annualreviews.org
+DOMAIN-SUFFIX,apa.org
+DOMAIN-SUFFIX,apress.com
+DOMAIN-SUFFIX,aps.org
+DOMAIN-SUFFIX,arxiv.org
+DOMAIN-SUFFIX,ascelibrary.org
+DOMAIN-SUFFIX,asha.org
+DOMAIN-SUFFIX,asm.org
+DOMAIN-SUFFIX,asme.org
+DOMAIN-SUFFIX,astm.org
+DOMAIN-SUFFIX,biomedcentral.com
+DOMAIN-SUFFIX,biorxiv.org
+DOMAIN-SUFFIX,blackstonespoliceservice.com
+DOMAIN-SUFFIX,blackwell-synergy.com
+DOMAIN-SUFFIX,bmj.com
 DOMAIN-SUFFIX,brill.com
 DOMAIN-SUFFIX,cabdirect.org
 DOMAIN-SUFFIX,cambridge.org
@@ -68,18 +96,12 @@ DOMAIN-SUFFIX,cambridgeschoolshakespeare.com
 DOMAIN-SUFFIX,cas.org
 DOMAIN-SUFFIX,cell.com
 DOMAIN-SUFFIX,clarivate.com
-DOMAIN-SUFFIX,cnki.net
 DOMAIN-SUFFIX,computer.org
 DOMAIN-SUFFIX,computingreviews.com
-DOMAIN-SUFFIX,cqvip.com
-DOMAIN-SUFFIX,crossref.org
 DOMAIN-SUFFIX,csiro.au
-DOMAIN-SUFFIX,de1lib.org
 DOMAIN-SUFFIX,deepdyve.com
 DOMAIN-SUFFIX,degruyter.com
 DOMAIN-SUFFIX,dentalhypotheses.com
-DOMAIN-SUFFIX,doi.info
-DOMAIN-SUFFIX,doi.org
 DOMAIN-SUFFIX,ebscohost.com
 DOMAIN-SUFFIX,elifesciences.org
 DOMAIN-SUFFIX,els-cdn.com
@@ -87,7 +109,6 @@ DOMAIN-SUFFIX,elsevier-ae.com
 DOMAIN-SUFFIX,elsevier.com
 DOMAIN-SUFFIX,elsevier.io
 DOMAIN-SUFFIX,emerald.com
-DOMAIN-SUFFIX,endnote.com
 DOMAIN-SUFFIX,engineeringvillage.com
 DOMAIN-SUFFIX,epigeum.com
 DOMAIN-SUFFIX,europepmc.org
@@ -98,16 +119,11 @@ DOMAIN-SUFFIX,galegroup.com
 DOMAIN-SUFFIX,geoscienceworld.org
 DOMAIN-SUFFIX,ggsrv.com
 DOMAIN-SUFFIX,hindawi.com
-DOMAIN-SUFFIX,hk1lib.org
-DOMAIN-SUFFIX,ic.ac.uk
 DOMAIN-SUFFIX,icevirtuallibrary.com
 DOMAIN-SUFFIX,ieee.org
 DOMAIN-SUFFIX,ieeecomputer.org
 DOMAIN-SUFFIX,ieeecomputersociety.org
 DOMAIN-SUFFIX,imf.org
-DOMAIN-SUFFIX,imperial.ac.uk
-DOMAIN-SUFFIX,imperial.insendi.com
-DOMAIN-SUFFIX,imperialbusiness.school
 DOMAIN-SUFFIX,informs.org
 DOMAIN-SUFFIX,iop.org
 DOMAIN-SUFFIX,isca-speech.org
@@ -116,7 +132,6 @@ DOMAIN-SUFFIX,jamanetwork.com
 DOMAIN-SUFFIX,japanknowledge.com
 DOMAIN-SUFFIX,jbc.org
 DOMAIN-SUFFIX,jbe-platform.com
-DOMAIN-SUFFIX,jhu.edu
 DOMAIN-SUFFIX,jmlr.org
 DOMAIN-SUFFIX,jneurosci.org
 DOMAIN-SUFFIX,jstor.org
@@ -125,19 +140,10 @@ DOMAIN-SUFFIX,knovel.com
 DOMAIN-SUFFIX,kuke.com
 DOMAIN-SUFFIX,lawdata.com.tw
 DOMAIN-SUFFIX,libguides.com
-DOMAIN-SUFFIX,libsolutions.app
-DOMAIN-SUFFIX,libsolutions.domains
-DOMAIN-SUFFIX,libsolutions.net
 DOMAIN-SUFFIX,liebertpub.com
 DOMAIN-SUFFIX,literatumonline.com
-DOMAIN-SUFFIX,ma1lib.org
-DOMAIN-SUFFIX,madsrevolution.net
 DOMAIN-SUFFIX,mdpi.com
-DOMAIN-SUFFIX,mit
-DOMAIN-SUFFIX,mit.edu
-DOMAIN-SUFFIX,mit.net
 DOMAIN-SUFFIX,mitpressjournals.org
-DOMAIN-SUFFIX,mpg.de
 DOMAIN-SUFFIX,myilibrary.com
 DOMAIN-SUFFIX,nature.com
 DOMAIN-SUFFIX,ncbi.nlm.nih.gov
@@ -151,7 +157,6 @@ DOMAIN-SUFFIX,osapublishing.org
 DOMAIN-SUFFIX,oup.com
 DOMAIN-SUFFIX,ouplaw.com
 DOMAIN-SUFFIX,ovid.com
-DOMAIN-SUFFIX,ox.ac.uk
 DOMAIN-SUFFIX,oxfordaasc.com
 DOMAIN-SUFFIX,oxfordartonline.com
 DOMAIN-SUFFIX,oxfordbibliographies.com
@@ -170,20 +175,14 @@ DOMAIN-SUFFIX,oxfordscholarship.com
 DOMAIN-SUFFIX,oxfordwesternmusic.com
 DOMAIN-SUFFIX,peerj.com
 DOMAIN-SUFFIX,physiology.org
-DOMAIN-SUFFIX,pkulaw.com
 DOMAIN-SUFFIX,plos.org
 DOMAIN-SUFFIX,pnas.org
-DOMAIN-SUFFIX,princeton.edu
 DOMAIN-SUFFIX,proquest.com
 DOMAIN-SUFFIX,psyccareers.com
-DOMAIN-SUFFIX,readcube.com
-DOMAIN-SUFFIX,researchgate.net
 DOMAIN-SUFFIX,routledgehandbooks.com
 DOMAIN-SUFFIX,royalsocietypublishing.org
 DOMAIN-SUFFIX,rsc.org
 DOMAIN-SUFFIX,sagepub.com
-DOMAIN-SUFFIX,scholarpedia.org
-DOMAIN-SUFFIX,sci-hub.tw
 DOMAIN-SUFFIX,science.org
 DOMAIN-SUFFIX,sciencedirect.com
 DOMAIN-SUFFIX,sciencedirectassets.com
@@ -192,13 +191,9 @@ DOMAIN-SUFFIX,sciencenets.com
 DOMAIN-SUFFIX,scientificamerican.com
 DOMAIN-SUFFIX,scitation.org
 DOMAIN-SUFFIX,scopus.com
-DOMAIN-SUFFIX,semanticscholar.org
 DOMAIN-SUFFIX,serialssolutions.com
-DOMAIN-SUFFIX,sg1lib.org
 DOMAIN-SUFFIX,siam.org
 DOMAIN-SUFFIX,silverchair-cdn.com
-DOMAIN-SUFFIX,singlelogin.app
-DOMAIN-SUFFIX,singlelogin.me
 DOMAIN-SUFFIX,sipriyearbook.org
 DOMAIN-SUFFIX,spiedigitallibrary.org
 DOMAIN-SUFFIX,springer.com
@@ -210,19 +205,10 @@ DOMAIN-SUFFIX,tandfonline.com
 DOMAIN-SUFFIX,taylorandfrancis.com
 DOMAIN-SUFFIX,taylorfrancis.com
 DOMAIN-SUFFIX,thelancet.com
-DOMAIN-SUFFIX,turnitin.com
-DOMAIN-SUFFIX,uchicago.edu
-DOMAIN-SUFFIX,ucla.edu
 DOMAIN-SUFFIX,ukwhoswho.com
-DOMAIN-SUFFIX,umass.edu
 DOMAIN-SUFFIX,un.org
-DOMAIN-SUFFIX,uni-bielefeld.de
 DOMAIN-SUFFIX,universitypressscholarship.com
-DOMAIN-SUFFIX,uq.edu.au
-DOMAIN-SUFFIX,uq.h5p.com
 DOMAIN-SUFFIX,veryshortintroductions.com
-DOMAIN-SUFFIX,wanfangdata.com
-DOMAIN-SUFFIX,wanfangdata.com.cn
 DOMAIN-SUFFIX,webofknowledge.com
 DOMAIN-SUFFIX,webofscience.com
 DOMAIN-SUFFIX,westlaw.com
@@ -231,9 +217,23 @@ DOMAIN-SUFFIX,wiley.com
 DOMAIN-SUFFIX,wkap.nl
 DOMAIN-SUFFIX,worldbank.org
 DOMAIN-SUFFIX,worldscientific.com
+
+# === Overseas Universities & Institutions ===
+DOMAIN-SUFFIX,berkeley.edu
+DOMAIN-SUFFIX,ic.ac.uk
+DOMAIN-SUFFIX,imperial.ac.uk
+DOMAIN-SUFFIX,imperial.insendi.com
+DOMAIN-SUFFIX,imperialbusiness.school
+DOMAIN-SUFFIX,jhu.edu
+DOMAIN-SUFFIX,mit.edu
+DOMAIN-SUFFIX,mit.net
+DOMAIN-SUFFIX,mpg.de
+DOMAIN-SUFFIX,ox.ac.uk
+DOMAIN-SUFFIX,princeton.edu
+DOMAIN-SUFFIX,uchicago.edu
+DOMAIN-SUFFIX,ucla.edu
+DOMAIN-SUFFIX,umass.edu
+DOMAIN-SUFFIX,uni-bielefeld.de
+DOMAIN-SUFFIX,uq.edu.au
+DOMAIN-SUFFIX,uq.h5p.com
 DOMAIN-SUFFIX,yale.edu
-DOMAIN-SUFFIX,z-lib.org
-DOMAIN-SUFFIX,zlib.life
-DOMAIN-SUFFIX,zlibcdn.com
-DOMAIN-SUFFIX,zlibcdn2.com
-DOMAIN-SUFFIX,zotero.org
