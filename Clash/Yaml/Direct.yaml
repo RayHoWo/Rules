@@ -1,14 +1,14 @@
 # NAME: Direct Access
 # AUTHOR: RayHW
 # DESCRIPTION: Curated direct access rules for personal domains, NAS, domestic services and selected utilities
-# UPDATED: 2026-05-25
+# UPDATED: 2026-05-27
 # SOURCE: blackmatrix7 ios_rule_script + personally curated direct domains
 # SOURCE-URL-DIRECT: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct/Direct.yaml
 # FORMAT: Clash / Stash Rule Provider
 # BEHAVIOR: classical
 
 payload:
-  # Manual Additions / Special Access
+  # === Manual Additions / Special Access ===
   - DOMAIN-SUFFIX,zealotmat.uk
   - DOMAIN-SUFFIX,quickconnect.cn
   - DOMAIN-SUFFIX,myds.me
@@ -17,33 +17,35 @@ payload:
   - DOMAIN-SUFFIX,nas.rahw.top
   - DOMAIN-SUFFIX,flyertea.com
 
-  # Synology / NAS
-  - DOMAIN-SUFFIX,diskstation.me
-  - DOMAIN-SUFFIX,dscloud.biz
-  - DOMAIN-SUFFIX,dscloud.me
-  - DOMAIN-SUFFIX,dscloud.mobi
+  # === Synology / NAS ===
+  - DOMAIN-SUFFIX,myds.me
+  - DOMAIN-SUFFIX,directconnect.cn
   - DOMAIN-SUFFIX,dsmynas.com
-  - DOMAIN-SUFFIX,dsmynas.net
-  - DOMAIN-SUFFIX,dsmynas.org
-  - DOMAIN-SUFFIX,familyds.com
-  - DOMAIN-SUFFIX,familyds.net
-  - DOMAIN-SUFFIX,familyds.org
   - DOMAIN-SUFFIX,synology.me
 
-  # Domestic CDN / Static / Developer
+  # === Public Wi-Fi Captive Portal & Network Connectivity Check (解决酒店Wi-Fi网页打不开) ===
+  - DOMAIN-SUFFIX,msftconnecttest.com
+  - DOMAIN-SUFFIX,msftncsi.com
+  - DOMAIN,captive.apple.com
+  - DOMAIN-SUFFIX,connectivitycheck.gstatic.com
+  - DOMAIN,neverssl.com
+  - DOMAIN,detectportal.firefox.com
+  - DOMAIN-KEYWORD,login
+
+  # === Domestic CDN / Static / Developer ===
   - DOMAIN-SUFFIX,baomitu.com
   - DOMAIN-SUFFIX,bootcss.com
   - DOMAIN-SUFFIX,jiasule.com
   - DOMAIN-SUFFIX,staticfile.org
   - DOMAIN-SUFFIX,upaiyun.com
 
-  # Domestic Academic / Research
-  - DOMAIN-KEYWORD,cnki.net
+  # === Domestic Academic / Research ===
+  - DOMAIN-SUFFIX,cnki.net
   - DOMAIN-KEYWORD,pkulaw
   - DOMAIN-KEYWORD,wanfangdata
   - DOMAIN-KEYWORD,westlawchina
 
-  # Domestic Analytics / SDK / Push
+  # === Domestic Analytics / SDK / Push ===
   - DOMAIN,analytics.95516.com
   - DOMAIN,bdtj.tagtic.cn
   - DOMAIN,eco-push-api-client.meiqia.com
@@ -56,14 +58,14 @@ payload:
   - DOMAIN,tracking.miui.com
   - DOMAIN-SUFFIX,dizhensubao.getui.com
 
-  # Tencent / QQ Direct
+  # === Tencent / QQ Direct ===
   - DOMAIN,fairplay.l.qq.com
   - DOMAIN,livew.l.qq.com
   - DOMAIN,vd.l.qq.com
   - DOMAIN,vi.l.qq.com
   - DOMAIN-KEYWORD,ctc.qzs.qzone.qq.com
 
-  # Media Resource / Video Static
+  # === Media Resource / Video Static ===
   - DOMAIN,image.maimn.com
   - DOMAIN,img.bfzypic.com
   - DOMAIN,img.ffzypic.com
@@ -89,7 +91,6 @@ payload:
   - DOMAIN-KEYWORD,anti-ad.net
   - DOMAIN-KEYWORD,ax1x.com
   - DOMAIN-KEYWORD,bfzycdn.com
-  - DOMAIN-KEYWORD,o.lencr.org
   - DOMAIN-KEYWORD,ttcdn-tos.kkimg.cc
   - DOMAIN-KEYWORD,vip.ffzy-online
   - DOMAIN-KEYWORD,vip.ffzy-play
@@ -97,7 +98,7 @@ payload:
   - DOMAIN-KEYWORD,vip.lz-cdn
   - DOMAIN-KEYWORD,wb_ad
 
-  # Other Direct
+  # === Other Direct ===
   - DOMAIN,ad.10010.com
   - DOMAIN,ad.12306.cn
   - DOMAIN,ain.bgm.tv
@@ -106,5 +107,5 @@ payload:
   - DOMAIN-SUFFIX,koodomobile.ca
   - DOMAIN-SUFFIX,koodomobile.com
 
-  # Download / Utility User-Agent
+  # === Download / Utility User-Agent ===
   - USER-AGENT,%E8%BF%85%E9%9B%B7

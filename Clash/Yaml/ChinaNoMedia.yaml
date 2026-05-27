@@ -8,7 +8,7 @@
 # BEHAVIOR: classical
 
 payload:
-  # China No Media
+  # === ChinaNoMedia ===
   - DOMAIN,analytics.strava.com
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
