@@ -1,8 +1,11 @@
 # NAME: AI Suite
 # AUTHOR: RayHW
 # DESCRIPTION: Deeply curated and optimized AI routing rules (Removed broad dependencies to avoid friction)
-# UPDATED: 2026-05-27
-# SOURCE: blackmatrix7 ios_rule_script + personally curated official entries
+# UPDATED: 2026-05-28
+# SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
+# SOURCE-URL-CLAUDE: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Claude/Claude.list
+# SOURCE-URL-GEMINI: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Gemini/Gemini.list
+# SOURCE-URL-OPENAI: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OpenAI/OpenAI.list
 # FORMAT: Clash / Stash Rule Provider
 # BEHAVIOR: classical
 

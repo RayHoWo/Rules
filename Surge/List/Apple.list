@@ -1,8 +1,9 @@
 # NAME: Apple
 # AUTHOR: RayHW
 # DESCRIPTION: Deeply curated and optimized Apple services routing rules (Removed deprecated spam domains)
-# UPDATED: 2026-05-27
-# SOURCE: blackmatrix7 ios_rule_script + personally curated official entries
+# UPDATED: 2026-05-28
+# SOURCE: blackmatrix7 ios_rule_script
+# SOURCE-URL-APPLE: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Apple/Apple_All_No_Resolve.list
 # FORMAT: Surge Rule Set
 
 # === Apple Official Core Domains ===
@@ -108,7 +109,7 @@ DOMAIN-SUFFIX,apple.tw
 DOMAIN-SUFFIX,apple.uk
 DOMAIN-SUFFIX,apple.us
 
-# === Beats Official (Only valid domains retained) ===
+# === Beats Official ===
 DOMAIN,beatselectronicsllc.tt.omtrdc.net
 DOMAIN-SUFFIX,beatsbydre.com
 DOMAIN-SUFFIX,beatsbydre.com.cn
