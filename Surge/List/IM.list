@@ -1,13 +1,13 @@
 # NAME: IM
 # AUTHOR: RayHW
 # DESCRIPTION: Curated instant messaging app routing rules for Telegram and WhatsApp
-# UPDATED: 2026-05-26
+# UPDATED: 2026-05-28
 # SOURCE: blackmatrix7 ios_rule_script + personally curated service domains
 # SOURCE-URL-TELEGRAM: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Telegram/Telegram.list
 # SOURCE-URL-WHATSAPP: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Whatsapp/Whatsapp.list
 # FORMAT: Surge Rule Set
 
-# Telegram
+# === Telegram ===
 DOMAIN,api.imem.app
 DOMAIN,api.swiftgram.app
 DOMAIN-SUFFIX,cdn-telegram.org
@@ -55,7 +55,7 @@ IP-ASN,59930,no-resolve
 IP-ASN,62014,no-resolve
 IP-ASN,62041,no-resolve
 
-# WhatsApp
+# === WhatsApp ===
 DOMAIN,graph.facebook.com
 DOMAIN-SUFFIX,wa.me
 DOMAIN-SUFFIX,bintray.com
