@@ -1,6 +1,6 @@
 # NAME: AI Suite
 # AUTHOR: RayHW
-# DESCRIPTION: Curated and optimized AI routing rules (Removed heavy telemetry & risky global keywords)
+# DESCRIPTION: Curated and optimized AI routing rules (Bulletproof Dual-Suffix Edition)
 # UPDATED: 2026-05-28
 # SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
 # SOURCE-URL-CLAUDE: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Claude/Claude.list
@@ -14,19 +14,19 @@ DOMAIN-SUFFIX,claude.ai
 
 # === Gemini / Google AI ===
 DOMAIN,ai.google.dev
-DOMAIN,alkalimmakersuite-pa.clients6.google.com
-DOMAIN,alkaliminer-pa.googleapis.com
-DOMAIN,geller-pa.googleapis.com
-DOMAIN,generativelanguage.googleapis.com
 DOMAIN,makersuite.google.com
-DOMAIN,alkymia-pa.googleapis.com
-DOMAIN,proactivebackend-pa.googleapis.com
-DOMAIN,robinfrontend-pa.googleapis.com
+DOMAIN,alkalimmakersuite-pa.clients6.google.com
+# 核心防线 1：拦截 robinfrontend-pa, signaler-pa 等全量 AI 低延迟数据长连接
+DOMAIN-SUFFIX,pa.googleapis.com
+# 核心防线 2：接管 oauthaccountmanager 等由 AI 认证触发的 Google 账户基建，阻断锁区
+DOMAIN,oauthaccountmanager.googleapis.com
+DOMAIN-SUFFIX,accountmanager.googleapis.com
+# 基础官方域名
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,generativeai.google
 DOMAIN-KEYWORD,generativelanguage
 
 # === OpenAI / ChatGPT ===
@@ -48,7 +48,7 @@ DOMAIN-SUFFIX,openaicom.imgix.net
 DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-KEYWORD,openai
 
-# === OpenAI IP-CIDR / ASN (Safe Hardcoded Blocks) ===
+# === OpenAI IP-CIDR / ASN ===
 IP-CIDR,24.199.123.28/32,no-resolve
 IP-CIDR,64.23.132.171/32,no-resolve
 IP-ASN,20473,no-resolve
