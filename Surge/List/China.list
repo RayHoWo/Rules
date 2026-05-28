@@ -155,8 +155,3 @@ DOMAIN-SUFFIX,eastmoney.com
 DOMAIN-SUFFIX,pingan.com
 DOMAIN-SUFFIX,unionpay.com
 DOMAIN-SUFFIX,unionpaysecure.com
-
-# === IPv6 GEOIP Patches (Prevent IPv6 Blackhole) ===
-IP-CIDR6,2408:8000::/20,no-resolve // 中国联通 China Unicom
-IP-CIDR6,2409:8000::/20,no-resolve // 中国移动 China Mobile
-IP-CIDR6,240e::/18,no-resolve      // 中国电信 China Telecom
