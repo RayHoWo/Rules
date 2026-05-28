@@ -1,0 +1,61 @@
+# NAME: PayPal
+# AUTHOR: RayHW
+# DESCRIPTION: PayPal payment service routing rules (Optimized: Removed high-risk keywords & defensive domains)
+# UPDATED: 2026-05-28
+# SOURCE: blackmatrix7 ios_rule_script
+# SOURCE-URL-PAYPAL: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list
+# FORMAT: Surge Rule Set
+
+# === PayPal Core & Objects ===
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypal.me
+DOMAIN-SUFFIX,paypalobjects.com
+DOMAIN-SUFFIX,pypl.com
+DOMAIN-SUFFIX,paypal.ca
+DOMAIN-SUFFIX,paypal.jp
+DOMAIN-SUFFIX,paypal.com.cn
+DOMAIN-SUFFIX,paypal.com.hk
+DOMAIN-SUFFIX,paypal.com.sg
+DOMAIN-SUFFIX,paypal.hk
+DOMAIN-SUFFIX,paypal.us
+DOMAIN-SUFFIX,paypal-corp.com
+DOMAIN-SUFFIX,paypal-engineering.com
+DOMAIN-SUFFIX,paypal-labs.com
+DOMAIN-SUFFIX,paypalcommunity.com
+DOMAIN-SUFFIX,paypalcredit.com
+DOMAIN-SUFFIX,paypalhere.com
+DOMAIN-SUFFIX,paypal-business.com
+
+# === Venmo ===
+DOMAIN-SUFFIX,venmo.com
+DOMAIN-SUFFIX,venmo.info
+DOMAIN-SUFFIX,venmo.net
+DOMAIN-SUFFIX,venmo.org
+DOMAIN-SUFFIX,venmo-touch.com
+DOMAIN-SUFFIX,venmo.s3.amazonaws.com
+
+# === Braintree ===
+DOMAIN-SUFFIX,braintreegateway.com
+DOMAIN-SUFFIX,braintreepayments.com
+DOMAIN-SUFFIX,braintreepaymentsolutions.com
+DOMAIN-SUFFIX,braintreeps.com
+
+# === Xoom (Remittance) ===
+DOMAIN-SUFFIX,xoom.com
+DOMAIN-SUFFIX,xoom.io
+DOMAIN-SUFFIX,xoom.us
+DOMAIN-SUFFIX,xoom-experience.com
+DOMAIN-SUFFIX,s-xoom.com
+DOMAIN-SUFFIX,xoomcom.com
+
+# === Subsidiaries & Services (BillMeLater, Simility, Paydiant, Swift Capital) ===
+DOMAIN-SUFFIX,billmelater.com
+DOMAIN-SUFFIX,bill-safe.com
+DOMAIN-SUFFIX,simility.com
+DOMAIN-SUFFIX,paydiant.com
+DOMAIN-SUFFIX,swiftcapital.com
+DOMAIN-SUFFIX,swiftfinancial.com
+DOMAIN-SUFFIX,loanbuilder.com
+
+# === Process Rules ===
+USER-AGENT,PayPal*

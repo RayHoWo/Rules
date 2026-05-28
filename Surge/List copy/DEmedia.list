@@ -1,0 +1,50 @@
+# NAME: Germany Media
+# AUTHOR: RayHW
+# DESCRIPTION: Curated Germany media, streaming and region-service routing rules
+# UPDATED: 2026-05-28
+# SOURCE: personally curated + official / actual service domains
+# FORMAT: Surge Rule Set
+
+# === DW / Deutsche Welle ===
+DOMAIN-SUFFIX,dw.com
+DOMAIN-SUFFIX,dw.de
+
+# === ARD / Tagesschau ===
+DOMAIN-SUFFIX,ard.de
+DOMAIN-SUFFIX,tagesschau.de
+
+# === ZDF ===
+DOMAIN-SUFFIX,zdf.de
+
+# === RTL ===
+DOMAIN-SUFFIX,rtl.de
+
+# === Joyn / ProSiebenSat.1 ===
+DOMAIN-SUFFIX,joyn.de
+DOMAIN-SUFFIX,prosieben.de
+DOMAIN-SUFFIX,sat1.de
+
+# === German News & Magazines (新闻报刊) ===
+DOMAIN-SUFFIX,spiegel.de
+DOMAIN-SUFFIX,zeit.de
+DOMAIN-SUFFIX,faz.net
+DOMAIN-SUFFIX,sueddeutsche.de
+DOMAIN-SUFFIX,bild.de
+DOMAIN-SUFFIX,welt.de
+DOMAIN-SUFFIX,focus.de
+DOMAIN-SUFFIX,stern.de
+
+# === Germany Region Services / Carriers (主流运营商) ===
+DOMAIN-SUFFIX,telekom.de
+DOMAIN-SUFFIX,t-mobile.de
+DOMAIN-SUFFIX,vodafone.de
+DOMAIN-SUFFIX,o2online.de
+DOMAIN-SUFFIX,telefonica.de
+DOMAIN-SUFFIX,1und1.de
+DOMAIN-SUFFIX,1und1.net
+
+# === Germany Region Services / MVNO (虚拟运营商) ===
+DOMAIN-SUFFIX,congstar.de
+DOMAIN-SUFFIX,aldi-talk.de
+DOMAIN-SUFFIX,blau.de
+DOMAIN-SUFFIX,sim.de

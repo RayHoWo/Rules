@@ -1,0 +1,25 @@
+# NAME: PrimeVideo
+# AUTHOR: RayHW
+# DESCRIPTION: Prime Video streaming service routing rules (Optimized: Removed global Amazon shopping & temporary CDN domains)
+# UPDATED: 2026-05-28
+# SOURCE: blackmatrix7 ios_rule_script
+# SOURCE-URL-PRIMEVIDEO: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PrimeVideo/PrimeVideo.list
+# FORMAT: Surge Rule Set
+
+# === Prime Video Core & API ===
+DOMAIN,atv-ps.amazon.com
+DOMAIN,fls-na.amazon.com
+DOMAIN-SUFFIX,amazonvideo.com
+DOMAIN-SUFFIX,primevideo.com
+
+# === CDN & Media Delivery ===
+DOMAIN,avodmp4s3ww-a.akamaihd.net
+DOMAIN-SUFFIX,aiv-cdn.net
+DOMAIN-SUFFIX,aiv-delivery.net
+DOMAIN-SUFFIX,media-amazon.com
+DOMAIN-SUFFIX,pv-cdn.net
+DOMAIN-KEYWORD,avoddashs
+
+# === Process & User-Agent ===
+USER-AGENT,InstantVideo.US*
+USER-AGENT,Prime%20Video*

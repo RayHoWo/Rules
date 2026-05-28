@@ -1,0 +1,49 @@
+# NAME: TikTok
+# AUTHOR: RayHW
+# DESCRIPTION: TikTok routing rules, including international ByteDance services
+# UPDATED: 2026-05-28
+# SOURCE: blackmatrix7 ios_rule_script
+# SOURCE-URL-TIKTOK: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml
+# FORMAT: Clash / Stash Rule Provider
+# BEHAVIOR: classical
+
+payload:
+  # === Core Services ===
+  - DOMAIN-SUFFIX,tiktok.com
+  - DOMAIN-SUFFIX,tiktokcdn.com
+  - DOMAIN-SUFFIX,tiktokcdn-us.com
+  - DOMAIN-SUFFIX,tiktokv.com
+  - DOMAIN-SUFFIX,tiktokv.us
+  - DOMAIN-SUFFIX,tiktokd.net
+  - DOMAIN-SUFFIX,tiktokd.org
+  - DOMAIN-SUFFIX,tiktokmusic.app
+  - DOMAIN-SUFFIX,tik-tokapi.com
+  - DOMAIN-KEYWORD,tiktok
+
+  # === ByteDance / International Ecosystem ===
+  - DOMAIN-SUFFIX,capcut.com
+  - DOMAIN-SUFFIX,marscode.com
+  - DOMAIN-SUFFIX,bytedapm.com
+  - DOMAIN-SUFFIX,bytegecko-i18n.com
+  - DOMAIN-SUFFIX,byteintlapi.com
+  - DOMAIN-SUFFIX,byteoversea.com
+  - DOMAIN-SUFFIX,ibytedtos.com
+  - DOMAIN-SUFFIX,ibyteimg.com
+  - DOMAIN-SUFFIX,ipstatp.com
+  - DOMAIN-SUFFIX,isnssdk.com
+  - DOMAIN-SUFFIX,sgpstatp.com
+  - DOMAIN-SUFFIX,snssdk.com
+  - DOMAIN-SUFFIX,ttwebview.com
+  - DOMAIN-SUFFIX,trae.ai
+  - DOMAIN-SUFFIX,musical.ly
+  - DOMAIN-KEYWORD,musical.ly
+
+  # === CDN & Misc ===
+  - DOMAIN,p16-tiktokcdn-com.akamaized.net
+  - DOMAIN,lf16-effectcdn.byteeffecttos-g.com
+  - DOMAIN,lf16-pkgcdn.pitaya-clientai.com
+  - DOMAIN,trae-api-sg.mchost.guru
+  - DOMAIN-SUFFIX,muscdn.com
+
+  # === Process Rules ===
+  - PROCESS-NAME,com.zhiliaoapp.musically

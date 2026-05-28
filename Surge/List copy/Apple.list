@@ -1,0 +1,168 @@
+# NAME: Apple
+# AUTHOR: RayHW
+# DESCRIPTION: Deeply curated and optimized Apple services routing rules (Removed deprecated spam domains)
+<<<<<<< HEAD
+# UPDATED: 2026-05-27
+# SOURCE: blackmatrix7 ios_rule_script + personally curated official entries
+=======
+# UPDATED: 2026-05-28
+# SOURCE: blackmatrix7 ios_rule_script
+# SOURCE-URL-APPLE: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Apple/Apple_All_No_Resolve.list
+>>>>>>> e4eeef64a32c3203e5107314d80a86b89e2adfc9
+# FORMAT: Surge Rule Set
+
+# === Apple Official Core Domains ===
+DOMAIN,edge.apple
+DOMAIN,apple-events.akamaized.net
+DOMAIN,appleworldwidedeveloper.hb-api.omtrdc.net
+DOMAIN,appleworldwidedeveloper.sc.omtrdc.net
+DOMAIN,lookup-api.apple.com.edgekey.net
+DOMAIN,p-events-delivery.akamaized.net
+DOMAIN-SUFFIX,apple
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple.com.cn
+DOMAIN-SUFFIX,apple-dns.cn
+DOMAIN-SUFFIX,apple-dns.com
+DOMAIN-SUFFIX,apple-dns.com.cn
+DOMAIN-SUFFIX,apple-mapkit.com
+DOMAIN-SUFFIX,apple-maps.cn
+DOMAIN-SUFFIX,apple-ibooks.cn
+DOMAIN-SUFFIX,appldnld.apple.com.edgesuite.net
+DOMAIN-SUFFIX,discussionsapple.com
+DOMAIN-SUFFIX,cdn-apple-mapkit.com
+DOMAIN-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net
+
+# === iCloud & Core Developer Services ===
+DOMAIN-SUFFIX,icloud
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mac.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,buy.itunes.apple.com
+DOMAIN-SUFFIX,testflight
+DOMAIN-SUFFIX,testflight.apple.com
+DOMAIN-SUFFIX,developer.apple.com
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,digicert.com
+
+# === Apple Regional Top-Level Domains (ccTLDs) ===
+DOMAIN-SUFFIX,apple.ae
+DOMAIN-SUFFIX,apple.at
+DOMAIN-SUFFIX,apple.be
+DOMAIN-SUFFIX,apple.bg
+DOMAIN-SUFFIX,apple.bs
+DOMAIN-SUFFIX,apple.ca
+DOMAIN-SUFFIX,apple.ch
+DOMAIN-SUFFIX,apple.cl
+DOMAIN-SUFFIX,apple.cm
+DOMAIN-SUFFIX,apple.cn
+DOMAIN-SUFFIX,apple.co.cr
+DOMAIN-SUFFIX,apple.co.hu
+DOMAIN-SUFFIX,apple.co.jp
+DOMAIN-SUFFIX,apple.co.kr
+DOMAIN-SUFFIX,apple.co.mz
+DOMAIN-SUFFIX,apple.co.nz
+DOMAIN-SUFFIX,apple.co.th
+DOMAIN-SUFFIX,apple.co.uk
+DOMAIN-SUFFIX,apple.cz
+DOMAIN-SUFFIX,apple.de
+DOMAIN-SUFFIX,apple.dk
+DOMAIN-SUFFIX,apple.ee
+DOMAIN-SUFFIX,apple.es
+DOMAIN-SUFFIX,apple.eu
+DOMAIN-SUFFIX,apple.fi
+DOMAIN-SUFFIX,apple.fr
+DOMAIN-SUFFIX,apple.hamburg
+DOMAIN-SUFFIX,apple.hn
+DOMAIN-SUFFIX,apple.hr
+DOMAIN-SUFFIX,apple.hu
+DOMAIN-SUFFIX,apple.ie
+DOMAIN-SUFFIX,apple.in
+DOMAIN-SUFFIX,apple.is
+DOMAIN-SUFFIX,apple.it
+DOMAIN-SUFFIX,apple.jo
+DOMAIN-SUFFIX,apple.jp
+DOMAIN-SUFFIX,apple.kr
+DOMAIN-SUFFIX,apple.lk
+DOMAIN-SUFFIX,apple.lt
+DOMAIN-SUFFIX,apple.lv
+DOMAIN-SUFFIX,apple.me
+DOMAIN-SUFFIX,apple.my
+DOMAIN-SUFFIX,apple.net
+DOMAIN-SUFFIX,apple.net.gr
+DOMAIN-SUFFIX,apple.nl
+DOMAIN-SUFFIX,apple.no
+DOMAIN-SUFFIX,apple.pk
+DOMAIN-SUFFIX,apple.pl
+DOMAIN-SUFFIX,apple.pt
+DOMAIN-SUFFIX,apple.ro
+DOMAIN-SUFFIX,apple.rs
+DOMAIN-SUFFIX,apple.ru
+DOMAIN-SUFFIX,apple.sa
+DOMAIN-SUFFIX,apple.se
+DOMAIN-SUFFIX,apple.sg
+DOMAIN-SUFFIX,apple.si
+DOMAIN-SUFFIX,apple.sk
+DOMAIN-SUFFIX,apple.so
+DOMAIN-SUFFIX,apple.tt
+DOMAIN-SUFFIX,apple.tw
+DOMAIN-SUFFIX,apple.uk
+DOMAIN-SUFFIX,apple.us
+
+<<<<<<< HEAD
+# === Beats Official (Only valid domains retained) ===
+=======
+# === Beats Official ===
+>>>>>>> e4eeef64a32c3203e5107314d80a86b89e2adfc9
+DOMAIN,beatselectronicsllc.tt.omtrdc.net
+DOMAIN-SUFFIX,beatsbydre.com
+DOMAIN-SUFFIX,beatsbydre.com.cn
+DOMAIN-SUFFIX,beatsbydre.jp
+DOMAIN-SUFFIX,beatsmusic.com
+DOMAIN-SUFFIX,beatsep.com
+DOMAIN-SUFFIX,beatsep.net
+DOMAIN-SUFFIX,beatselectronics.com
+
+# === Apple Software Foundations & Open Source ===
+DOMAIN-SUFFIX,aapl.tw
+DOMAIN-SUFFIX,airtunes.com
+DOMAIN-SUFFIX,airport.com
+DOMAIN-SUFFIX,apple-darwin.com
+DOMAIN-SUFFIX,apple-darwin.net
+DOMAIN-SUFFIX,apple-darwin.org
+DOMAIN-SUFFIX,calendarserver.org
+DOMAIN-SUFFIX,coreml.net
+DOMAIN-SUFFIX,cups.org
+DOMAIN-SUFFIX,earpod.net
+DOMAIN-SUFFIX,facetime.net
+DOMAIN-SUFFIX,finalcutpro.com
+DOMAIN-SUFFIX,foundationdb.org
+DOMAIN-SUFFIX,shazam.com
+
+# === Apple Keywords ===
+DOMAIN-KEYWORD,apple.com.akadns.net
+DOMAIN-KEYWORD,apple.com.edgekey.net
+DOMAIN-KEYWORD,buy.itunes.apple.com
+DOMAIN-KEYWORD,smp-device
+DOMAIN-KEYWORD,testflight
+DOMAIN-KEYWORD,icloud.com.akadns.net
+
+# === Apple Official IP Networks (No-Resolve) ===
+IP-CIDR,17.0.0.0/8,no-resolve
+IP-CIDR,63.92.224.0/19,no-resolve
+IP-CIDR,65.199.22.0/23,no-resolve
+IP-CIDR,139.178.128.0/18,no-resolve
+IP-CIDR,144.178.0.0/19,no-resolve
+IP-CIDR,144.178.36.0/22,no-resolve
+IP-CIDR,144.178.48.0/20,no-resolve
+IP-CIDR,192.35.50.0/24,no-resolve
+IP-CIDR,198.183.17.0/24,no-resolve
+IP-CIDR,205.180.175.0/24,no-resolve
+IP-CIDR6,2403:300::/32,no-resolve
+IP-CIDR6,2620:149::/32,no-resolve
+IP-CIDR6,2a01:b740::/32,no-resolve

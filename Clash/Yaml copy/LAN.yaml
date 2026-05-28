@@ -1,0 +1,68 @@
+# NAME: LAN
+# AUTHOR: RayHW
+# DESCRIPTION: LAN and private network routing rules (Optimized)
+# UPDATED: 2026-05-28
+# SOURCE: blackmatrix7 ios_rule_script
+# SOURCE-URL-LAN: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml
+# FORMAT: Clash / Stash Rule Provider
+# BEHAVIOR: classical
+
+payload:
+  # === Router & Local Devices ===
+  - DOMAIN,asusrouter.com
+  - DOMAIN,instant.arubanetworks.com
+  - DOMAIN,oasisauth.h3c.com
+  - DOMAIN,router.asus.com
+  - DOMAIN,setmeup.arubanetworks.com
+  - DOMAIN,www.asusrouter.com
+  - DOMAIN-SUFFIX,hiwifi.com
+  - DOMAIN-SUFFIX,my.router
+  - DOMAIN-SUFFIX,p.to
+  - DOMAIN-SUFFIX,peiluyou.com
+  - DOMAIN-SUFFIX,phicomm.me
+  - DOMAIN-SUFFIX,router.ctc
+  - DOMAIN-SUFFIX,routerlogin.com
+  - DOMAIN-SUFFIX,tendawifi.com
+  - DOMAIN-SUFFIX,tplinkwifi.net
+  - DOMAIN-SUFFIX,tplogin.cn
+  - DOMAIN-SUFFIX,wifi.cmcc
+  - DOMAIN-SUFFIX,zte.home
+
+  # === Local Services (Tailscale, Plex, IPC, etc.) ===
+  - DOMAIN-SUFFIX,acl4.ssr
+  - DOMAIN-SUFFIX,localhost.ptlogin2.qq.com
+  - DOMAIN-SUFFIX,localhost.sec.qq.com
+  - DOMAIN-SUFFIX,plex.direct
+  - DOMAIN-SUFFIX,test.steampowered.com
+  - DOMAIN-SUFFIX,ts.net
+
+  # === Local & Reverse DNS ===
+  - DOMAIN-SUFFIX,home.arpa
+  - DOMAIN-SUFFIX,0.in-addr.arpa
+  - DOMAIN-SUFFIX,10.in-addr.arpa
+  - DOMAIN-SUFFIX,127.in-addr.arpa
+  - DOMAIN-SUFFIX,168.192.in-addr.arpa
+  - DOMAIN-SUFFIX,254.169.in-addr.arpa
+  - DOMAIN-SUFFIX,255.255.255.255.in-addr.arpa
+  - DOMAIN-SUFFIX,8.e.f.ip6.arpa
+  - DOMAIN-SUFFIX,9.e.f.ip6.arpa
+  - DOMAIN-SUFFIX,a.e.f.ip6.arpa
+  - DOMAIN-SUFFIX,b.e.f.ip6.arpa
+  - DOMAIN-SUFFIX,d.f.ip6.arpa
+
+  # === IPv4 Private Networks ===
+  - IP-CIDR,0.0.0.0/8,no-resolve
+  - IP-CIDR,10.0.0.0/8,no-resolve
+  - IP-CIDR,100.64.0.0/10,no-resolve
+  - IP-CIDR,127.0.0.0/8,no-resolve
+  - IP-CIDR,169.254.0.0/16,no-resolve
+  - IP-CIDR,172.16.0.0/12,no-resolve
+  - IP-CIDR,192.168.0.0/16,no-resolve
+  - IP-CIDR,198.18.0.0/15,no-resolve
+  - IP-CIDR,224.0.0.0/3,no-resolve
+
+  # === IPv6 Private Networks ===
+  - IP-CIDR6,::1/128,no-resolve
+  - IP-CIDR6,fc00::/7,no-resolve
+  - IP-CIDR6,fe80::/10,no-resolve
+  - IP-CIDR6,ff00::/8,no-resolve
