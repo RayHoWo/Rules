@@ -1,237 +1,144 @@
-# NAME: Worldwide
+# NAME: WW (Worldwide Access & Fallback)
 # AUTHOR: RayHW
-# DESCRIPTION: Proxy fallback routing rules (Optimized: Removed dangerous global Cloud IP blocks)
+# DESCRIPTION: Curated worldwide proxy rules. Streamlined to prevent overlaps with existing Key Services (IM, Game, Apple, Microsoft) and Media rulesets.
 # UPDATED: 2026-05-28
-# SOURCE: blackmatrix7 ios_rule_script + personal supplement
-# SOURCE-URL-PROXY: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Proxy/Proxy_All_No_Resolve.list
+# SOURCE: Personal WW.list + Curated blackmatrix7 Proxy.list
+# SOURCE-URL-PROXY: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Proxy/Proxy_All_No_Resolve.list
 # SOURCE-URL-LINKEDIN: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/LinkedIn/LinkedIn.list
-# SOURCE-URL-SAMSUNG: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Samsung/Samsung.list
+# SOURCE-URL-SUMSUNG: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Samsung/Samsung.list
 # FORMAT: Surge Rule Set
 
 # === Manual Additions & Special Access ===
 DOMAIN-SUFFIX,thinkific.com
 DOMAIN-SUFFIX,germanyfastlane.com
 DOMAIN-SUFFIX,now.rahw.uk
+DOMAIN-SUFFIX,dlercloud.com
+DOMAIN-SUFFIX,nssurge.com
 
-# === Tech Giants Core (Google / Microsoft / Apple / Oracle) ===
-DOMAIN,cloud.oracle.com
-DOMAIN,cvws.icloud-content.com
-DOMAIN,developer.apple.com
-DOMAIN,login.microsoftonline.com
-DOMAIN,testflight.apple.com
-DOMAIN,voice.telephony.goog
-DOMAIN-SUFFIX,1-apple.com.tw
-DOMAIN-SUFFIX,apple-dns.net
-DOMAIN-SUFFIX,applecensorship.com
-DOMAIN-SUFFIX,blobstore.apple.com
-DOMAIN-SUFFIX,microsoft.com
-DOMAIN-SUFFIX,microsoftapp.net
-DOMAIN-SUFFIX,microsoftpersonalcontent.com
-DOMAIN-SUFFIX,microsofttranslator.com
-DOMAIN-SUFFIX,msedge.net
-DOMAIN-SUFFIX,oraclecloud.com
-DOMAIN-SUFFIX,content.office.net
-DOMAIN-SUFFIX,android.com
-DOMAIN-SUFFIX,androidtv.com
-DOMAIN-SUFFIX,chromium.org
-DOMAIN-SUFFIX,chrome.com
-DOMAIN-SUFFIX,chromecast.com
-DOMAIN-SUFFIX,google
-DOMAIN-SUFFIX,gmail
-
-# === Financial & Brokerage (IBKR / Zacks / Moomoo) ===
+# === Finance, Stock & Crypto ===
+DOMAIN,shortsgp.im.qcloud.com
+DOMAIN-SUFFIX,benzinga.com
+DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,coinbase.com
+DOMAIN-SUFFIX,coinmarketcap.com
+DOMAIN-SUFFIX,go-mpulse.net
 DOMAIN-SUFFIX,ibkr.com
 DOMAIN-SUFFIX,ibllc.com
-DOMAIN-SUFFIX,zacks.com
-DOMAIN-SUFFIX,seekingalpha.com
-DOMAIN-SUFFIX,benzinga.com
+DOMAIN-SUFFIX,interactivebrokers.com
+DOMAIN-SUFFIX,kraken.com
 DOMAIN-SUFFIX,moomoo.com
+DOMAIN-SUFFIX,okx.com
+DOMAIN-SUFFIX,seekingalpha.com
 DOMAIN-SUFFIX,usmartsg.com
-DOMAIN-SUFFIX,go-mpulse.net
+DOMAIN-SUFFIX,zacks.com
 
-# === LinkedIn ===
-DOMAIN,e122475.dscg.akamaiedge.net
-DOMAIN,linkedin.sc.omtrdc.net
-DOMAIN-SUFFIX,linkedin.com
-DOMAIN-SUFFIX,licdn.com
-DOMAIN-SUFFIX,lnkd.in
-DOMAIN-SUFFIX,linkedin.at
-DOMAIN-SUFFIX,linkedin.cn
-DOMAIN-SUFFIX,bizographics.com
-
-# === Samsung & Knox ===
-DOMAIN-SUFFIX,samsung.com
-DOMAIN-SUFFIX,samsungapps.com
-DOMAIN-SUFFIX,samsungcloud.com
-DOMAIN-SUFFIX,samsungdm.com
-DOMAIN-SUFFIX,samsungknox.com
-DOMAIN-SUFFIX,samsungqbe.com
-DOMAIN-SUFFIX,knoxemm.com
-DOMAIN-SUFFIX,galaxyappstore.com
-DOMAIN-SUFFIX,galaxymobile.jp
-DOMAIN-SUFFIX,game-platform.net
-DOMAIN-SUFFIX,samsunggalaxyfriends.com
-
-# === Premium Hotels ===
+# === Travel, Hospitality & Smart Home ===
+DOMAIN-SUFFIX,hilton.com
+DOMAIN-SUFFIX,hilton.io
+DOMAIN-SUFFIX,hiltonhonors.com
+DOMAIN-SUFFIX,hyatt.com
+DOMAIN-SUFFIX,ihg.com
+DOMAIN-SUFFIX,ihgmerlin.com
 DOMAIN-SUFFIX,marriott.com
 DOMAIN-SUFFIX,marriottbonvoy.com
 DOMAIN-SUFFIX,marriottdigitalservices.com
-DOMAIN-SUFFIX,hilton.com
-DOMAIN-SUFFIX,hiltonhonors.com
-DOMAIN-SUFFIX,hilton.io
-DOMAIN-SUFFIX,ihg.com
-DOMAIN-SUFFIX,ihgmerlin.com
-DOMAIN-SUFFIX,hyatt.com
-
-# === Smart Home & Audio ===
 DOMAIN-SUFFIX,sonos.com
 DOMAIN-SUFFIX,sonos.radio
 DOMAIN-SUFFIX,wiz.world
 
-# === Cloudflare & CDN Infrastructure ===
+# === LinkedIn (Professional Network) ===
+DOMAIN,e122475.dscg.akamaiedge.net
+DOMAIN,licdn.cn.cdn20.com
+DOMAIN,linkedin.sc.omtrdc.net
+DOMAIN-SUFFIX,bizographics.com
+DOMAIN-SUFFIX,l-0005.dc-msedge.net
+DOMAIN-SUFFIX,l-0005.l-msedge.net
+DOMAIN-SUFFIX,licdn.cn
+DOMAIN-SUFFIX,licdn.com
+DOMAIN-SUFFIX,linkedin.at
+DOMAIN-SUFFIX,linkedin.cn
+DOMAIN-SUFFIX,linkedin.com
+DOMAIN-SUFFIX,lnkd.in
+
+# === Samsung Ecosystem ===
+DOMAIN-SUFFIX,anrdoezrs.net
+DOMAIN-SUFFIX,galaxyappstore.com
+DOMAIN-SUFFIX,galaxymobile.jp
+DOMAIN-SUFFIX,game-platform.net
+DOMAIN-SUFFIX,knoxemm.com
+DOMAIN-SUFFIX,samsung.com
+DOMAIN-SUFFIX,samsungapps.com
+DOMAIN-SUFFIX,samsungcloud.com
+DOMAIN-SUFFIX,samsungdm.com
+DOMAIN-SUFFIX,samsungeshop.com.cn
+DOMAIN-SUFFIX,samsunggalaxyfriends.com
+DOMAIN-SUFFIX,samsungknox.com
+DOMAIN-SUFFIX,samsungqbe.com
+
+# === Global Social Media & Community ===
+DOMAIN-SUFFIX,bsky.app
+DOMAIN-SUFFIX,bsky.network
+DOMAIN-SUFFIX,bsky.social
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,mastodon.social
+DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,pinterest.com
+DOMAIN-SUFFIX,quora.com
+DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redditmedia.com
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,threads.net
+DOMAIN-SUFFIX,tumblr.com
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,x.com
+
+# === Tech, Developer & Cloud ===
+DOMAIN-SUFFIX,awsstatic.com
 DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,cloudflare-dns.com
-DOMAIN-SUFFIX,cloudflare-ipfs.com
-DOMAIN-SUFFIX,cloudflarestatus.com
-DOMAIN-SUFFIX,cloudfront.net
-DOMAIN-SUFFIX,fastly.net
-DOMAIN-SUFFIX,akamai.net
-DOMAIN-SUFFIX,akamaihd.net
-DOMAIN-SUFFIX,akamaized.net
-
-# === AI & Tools ===
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,claude.com
-DOMAIN-SUFFIX,perplexity.ai
-DOMAIN-SUFFIX,character.ai
-DOMAIN-SUFFIX,coze.com
-DOMAIN-SUFFIX,leonardo.ai
-DOMAIN-SUFFIX,dify.ai
-DOMAIN-SUFFIX,flowgpt.com
-DOMAIN-SUFFIX,huggingface.co
-DOMAIN-SUFFIX,notion.so
-DOMAIN-SUFFIX,1password.com
-DOMAIN-SUFFIX,terabox.com
-DOMAIN-SUFFIX,teraboxcdn.com
-
-# === Open Source & Developer Ecosystem ===
-DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,githubusercontent.com
-DOMAIN-SUFFIX,github.io
-DOMAIN-SUFFIX,ghcr.io
-DOMAIN-SUFFIX,gitlab.com
 DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,docker.io
-DOMAIN-SUFFIX,dockerhub.com
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,gitlab.com
+DOMAIN-SUFFIX,heroku.com
+DOMAIN-SUFFIX,oracle.com
+DOMAIN-SUFFIX,oraclecloud.com
+DOMAIN-SUFFIX,stackoverflow.com
 DOMAIN-SUFFIX,vercel.app
-DOMAIN-SUFFIX,netlify.app
-DOMAIN-SUFFIX,linode.com
-DOMAIN-SUFFIX,vultr.com
-DOMAIN-SUFFIX,anaconda.com
-DOMAIN-SUFFIX,pytorch.org
-DOMAIN-SUFFIX,npmjs.com
 
-# === Global Media & Social (Twitter / Meta / Mastodon / Bluesky) ===
-DOMAIN-SUFFIX,x.com
-DOMAIN-SUFFIX,twitter.com
-DOMAIN-SUFFIX,twimg.com
-DOMAIN-SUFFIX,facebook.com
-DOMAIN-SUFFIX,instagram.com
-DOMAIN-SUFFIX,messenger.com
-DOMAIN-SUFFIX,meta.com
-DOMAIN-SUFFIX,fbcdn.net
-DOMAIN-SUFFIX,mastodon.social
-DOMAIN-SUFFIX,bsky.app
-DOMAIN-SUFFIX,bsky.social
-DOMAIN-SUFFIX,wikipedia.org
-DOMAIN-SUFFIX,wikimedia.org
-DOMAIN-SUFFIX,bloomberg.com
-DOMAIN-SUFFIX,reuters.com
-DOMAIN-SUFFIX,nytimes.com
-DOMAIN-SUFFIX,wsj.com
-DOMAIN-SUFFIX,wsj.net
+# === Global Information & Knowledge ===
 DOMAIN-SUFFIX,economist.com
-DOMAIN-SUFFIX,ft.com
+DOMAIN-SUFFIX,medium.com
+DOMAIN-SUFFIX,wikimedia.org
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wikiquote.org
 
-# === Region Media Fallbacks ===
-DOMAIN-SUFFIX,bahamut.com.tw
-DOMAIN-SUFFIX,gamer.com.tw
-DOMAIN-SUFFIX,dcard.tw
-DOMAIN-SUFFIX,ptt.cc
-DOMAIN-SUFFIX,channelnewsasia.com
-DOMAIN-SUFFIX,zaobao.com.sg
-DOMAIN-SUFFIX,hinet.net
+# === Design, Productivity & Utility ===
+DOMAIN-SUFFIX,adobe.com
+DOMAIN-SUFFIX,behance.net
+DOMAIN-SUFFIX,canva.com
+DOMAIN-SUFFIX,dribbble.com
+DOMAIN-SUFFIX,dropbox.com
+DOMAIN-SUFFIX,evernote.com
+DOMAIN-SUFFIX,figma.com
+DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,slack.com
+DOMAIN-SUFFIX,zoom.us
 
-# === Crypto & Blockchain ===
-DOMAIN-SUFFIX,binance.com
-DOMAIN-SUFFIX,binance.us
-DOMAIN-SUFFIX,coinbase.com
-DOMAIN-SUFFIX,okx.com
-DOMAIN-SUFFIX,etherscan.io
-DOMAIN-SUFFIX,solscan.io
-DOMAIN-SUFFIX,metamask.io
-DOMAIN-SUFFIX,uniswap.org
+# === Global Search & Generic Fallback ===
+DOMAIN-SUFFIX,duckduckgo.com
+DOMAIN-SUFFIX,yahoo.com
+DOMAIN-SUFFIX,yimg.com
 
-# === Crypto Pools & Mining ===
-DOMAIN-SUFFIX,f2pool.com
-DOMAIN-SUFFIX,ethermine.org
-DOMAIN-SUFFIX,hiveon.net
-DOMAIN-SUFFIX,nanopool.org
-DOMAIN-SUFFIX,flexpool.io
-
-# === Global Telemetry & Analytics (Safe Additions) ===
-DOMAIN,api.waqi.info
-DOMAIN,aqi.aqicn.org
-DOMAIN-SUFFIX,crashlytics.com
-
-# === High-Risk Global Keywords (Carefully Selected) ===
-DOMAIN-KEYWORD,1drv
-DOMAIN-KEYWORD,blogspot
-DOMAIN-KEYWORD,dropbox
-DOMAIN-KEYWORD,facebook
-DOMAIN-KEYWORD,fbcdn
-DOMAIN-KEYWORD,gmail
-DOMAIN-KEYWORD,google
-DOMAIN-KEYWORD,instagram
-DOMAIN-KEYWORD,onedrive
-DOMAIN-KEYWORD,telegram
-DOMAIN-KEYWORD,twitter
-DOMAIN-KEYWORD,whatsapp
-DOMAIN-KEYWORD,youtube
-DOMAIN-KEYWORD,abema
-
-# === Telegram Core IP Blocks ===
-IP-CIDR,149.154.160.0/20,no-resolve
-IP-CIDR,91.108.0.0/16,no-resolve
-IP-CIDR6,2001:67c:4e8::/48,no-resolve
-IP-CIDR6,2001:b28:f23d::/48,no-resolve
-IP-CIDR6,2001:b28:f23f::/48,no-resolve
-IP-CIDR6,2a0a:f280::/32,no-resolve
-
-# === Facebook & Meta Core IP Blocks ===
-IP-CIDR,31.13.24.0/21,no-resolve
-IP-CIDR,31.13.64.0/18,no-resolve
-IP-CIDR,66.220.144.0/20,no-resolve
-IP-CIDR,69.171.224.0/19,no-resolve
-IP-CIDR,69.63.176.0/20,no-resolve
-IP-CIDR,129.134.0.0/17,no-resolve
-IP-CIDR,157.240.0.0/17,no-resolve
-IP-CIDR,173.252.64.0/18,no-resolve
-IP-CIDR,179.60.192.0/22,no-resolve
-IP-CIDR,185.60.216.0/22,no-resolve
-IP-CIDR,204.15.20.0/22,no-resolve
-
-# === Tencent International Services (Singapore / HK Ecosystem) ===
-DOMAIN,shortsgp.im.qcloud.com
-IP-CIDR,43.153.192.0/18,no-resolve
-IP-CIDR,101.32.160.0/20,no-resolve
-
-# === Process & User-Agent Rules ===
+# === Utility User Agents ===
 USER-AGENT,Duolingo*
-USER-AGENT,OneDrive*
 USER-AGENT,Roam*
-USER-AGENT,WhatsApp*
-USER-AGENT,battleroyale*
 USER-AGENT,com.apple.trustd*
-USER-AGENT,hearthstone*
