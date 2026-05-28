@@ -213,7 +213,7 @@ IP-CIDR6,2a0a:f280::/32,no-resolve
 IP-CIDR,31.13.24.0/21,no-resolve
 IP-CIDR,31.13.64.0/18,no-resolve
 IP-CIDR,66.220.144.0/20,no-resolve
-IP-CID0R,69.171.224.0/19,no-resolve
+IP-CIDR,69.171.224.0/19,no-resolve
 IP-CIDR,69.63.176.0/20,no-resolve
 IP-CIDR,129.134.0.0/17,no-resolve
 IP-CIDR,157.240.0.0/17,no-resolve
