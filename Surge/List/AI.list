@@ -1,34 +1,37 @@
 # NAME: AI Suite
 # AUTHOR: RayHW
 # DESCRIPTION: Curated AI platform routing rules for Claude, Gemini and OpenAI
-# UPDATED: 2026-05-24
+# UPDATED: 2026-05-27
 # SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
 # SOURCE-URL-CLAUDE: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Claude/Claude.list
 # SOURCE-URL-GEMINI: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Gemini/Gemini.list
 # SOURCE-URL-OPENAI: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OpenAI/OpenAI.list
 # FORMAT: Surge Rule Set
 
-# Claude / Anthropic
+# === Claude / Anthropic ===
 DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 
-# Gemini / Google AI
+# === Gemini / Google AI (已补全核心API) ===
 DOMAIN,ai.google.dev
-DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,makersuite.google.com
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,alkaliminer-pa.googleapis.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,proactivebackend-pa.googleapis.com
+DOMAIN,geller-pa.googleapis.com
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,generativeai.google
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 DOMAIN-SUFFIX,apis.google.com
 DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
 
-# OpenAI / ChatGPT
+# === OpenAI / ChatGPT (完整保留登录、验证与支付依赖) ===
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,openai-api.arkoselabs.com
@@ -62,7 +65,7 @@ DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-KEYWORD,openai
 
-# OpenAI IP-CIDR / ASN
+# === OpenAI IP-CIDR / ASN ===
 IP-CIDR,24.199.123.28/32,no-resolve
 IP-CIDR,64.23.132.171/32,no-resolve
 IP-ASN,20473,no-resolve
