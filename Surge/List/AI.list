@@ -12,16 +12,20 @@
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 
-# === Gemini / Google AI ===
+# === Gemini / Google AI (Ultimate Bulletproof Version) ===
 DOMAIN,ai.google.dev
 DOMAIN,makersuite.google.com
 DOMAIN,alkalimmakersuite-pa.clients6.google.com
-# 核心防线 1：拦截 robinfrontend-pa, signaler-pa 等全量 AI 低延迟数据长连接
+
+# Core Defenses: Catching both subdomain and hyphenated string label variants
+DOMAIN-KEYWORD,-pa.googleapis.com
 DOMAIN-SUFFIX,pa.googleapis.com
-# 核心防线 2：接管 oauthaccountmanager 等由 AI 认证触发的 Google 账户基建，阻断锁区
+
+# Account & Authorization Management
 DOMAIN,oauthaccountmanager.googleapis.com
 DOMAIN-SUFFIX,accountmanager.googleapis.com
-# 基础官方域名
+
+# Core Brand Domains
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,bard.google.com
