@@ -1,7 +1,7 @@
 # NAME: Japan Media
 # AUTHOR: RayHW
-# DESCRIPTION: Curated Japan media, streaming and region-service routing rules
-# UPDATED: 2026-05-24
+# DESCRIPTION: Curated Japan media, streaming and region-service routing rules (Optimized: No false positives)
+# UPDATED: 2026-05-28
 # SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
 # SOURCE-URL-ABEMATV: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AbemaTV/AbemaTV.list
 # SOURCE-URL-DMM: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/DMM/DMM.list
@@ -11,7 +11,7 @@
 # SOURCE-URL-TVER: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TVer/TVer.list
 # FORMAT: Surge Rule Set
 
-# AbemaTV
+# === AbemaTV ===
 DOMAIN-SUFFIX,abema-tv.com
 DOMAIN-SUFFIX,abema.io
 DOMAIN-SUFFIX,abema.tv
@@ -23,8 +23,6 @@ DOMAIN-SUFFIX,amebaownd.com
 DOMAIN-SUFFIX,amebaowndme.com
 DOMAIN-SUFFIX,ameblo.jp
 DOMAIN-SUFFIX,bucketeer.jp
-DOMAIN-SUFFIX,d1otoma47x30pg.cloudfront.net
-DOMAIN-SUFFIX,d2wy8f7a9ursnm.cloudfront.net
 DOMAIN-SUFFIX,dokusho-ojikan.jp
 DOMAIN-SUFFIX,ds-linear-abematv.akamaized.net
 DOMAIN-SUFFIX,ds-vod-abematv.akamaized.net
@@ -37,14 +35,13 @@ DOMAIN-SUFFIX,winticket.jp
 DOMAIN-KEYWORD,abematv.akamaized.net
 USER-AGENT,AbemaTV*
 
-# DMM / DMM TV
+# === DMM / DMM TV ===
 DOMAIN-SUFFIX,akabeesoft2.com
 DOMAIN-SUFFIX,akabeesoft3.com
 DOMAIN-SUFFIX,akatsukiworks.com
 DOMAIN-SUFFIX,alicesoft.com
 DOMAIN-SUFFIX,api-p.videomarket.jp
 DOMAIN-SUFFIX,cosmiccute.com
-DOMAIN-SUFFIX,ddo.jp
 DOMAIN-SUFFIX,dmm-extension.com
 DOMAIN-SUFFIX,dmm.co.jp
 DOMAIN-SUFFIX,dmm.com
@@ -59,14 +56,14 @@ DOMAIN-SUFFIX,wheel-soft.com
 IP-CIDR,125.6.189.7/32,no-resolve
 IP-CIDR,203.104.209.7/32,no-resolve
 
-# Hulu JP
+# === Hulu JP ===
 DOMAIN-SUFFIX,happyon.jp
 DOMAIN-SUFFIX,hjholdings.jp
 DOMAIN-SUFFIX,hulu.jp
 DOMAIN-SUFFIX,streaks.jp
 DOMAIN-SUFFIX,yb.uncn.jp
 
-# Japonx
+# === Japonx ===
 DOMAIN-SUFFIX,japonx.com
 DOMAIN-SUFFIX,japonx.net
 DOMAIN-SUFFIX,japonx.tv
@@ -78,7 +75,7 @@ DOMAIN-SUFFIX,japronx.vip
 DOMAIN-KEYWORD,japonx
 DOMAIN-KEYWORD,japronx
 
-# Niconico
+# === Niconico ===
 DOMAIN-SUFFIX,dmc.nico
 DOMAIN-SUFFIX,nicodic.jp
 DOMAIN-SUFFIX,nicomanga.jp
@@ -90,70 +87,69 @@ DOMAIN-SUFFIX,simg.jp
 DOMAIN-SUFFIX,socdm.com
 USER-AGENT,Niconico*
 
-# TVer
+# === TVer ===
 DOMAIN-SUFFIX,dogatch.jp
-DOMAIN-SUFFIX,edge.api.brightcove.com
 DOMAIN-SUFFIX,gorin.jp
 DOMAIN-SUFFIX,screens-lab.jp
 DOMAIN-SUFFIX,tver.co.jp
 DOMAIN-SUFFIX,tver.jp
 USER-AGENT,TVer-Release*
 
-# NHK / NHK Plus
+# === NHK / NHK Plus ===
 DOMAIN-SUFFIX,nhk.jp
 DOMAIN-SUFFIX,nhk.or.jp
 DOMAIN-SUFFIX,nhk-ondemand.jp
 DOMAIN-SUFFIX,plus.nhk.jp
 
-# U-NEXT
+# === U-NEXT ===
 DOMAIN-SUFFIX,unext.jp
 DOMAIN-SUFFIX,video.unext.jp
 DOMAIN-SUFFIX,unext-movie.jp
 
-# FOD / Fuji TV
+# === FOD / Fuji TV ===
 DOMAIN-SUFFIX,fod.fujitv.co.jp
 DOMAIN-SUFFIX,fod-sp.fujitv.co.jp
 DOMAIN-SUFFIX,fujitv.co.jp
 DOMAIN-SUFFIX,fuji-tv.co.jp
 
-# TBS / TBS FREE
+# === TBS / TBS FREE ===
 DOMAIN-SUFFIX,tbs.co.jp
 DOMAIN-SUFFIX,tbs.jp
 
-# Nippon TV / NTV
+# === Nippon TV / NTV ===
 DOMAIN-SUFFIX,ntv.co.jp
 DOMAIN-SUFFIX,nitteleplus.com
 
-# TV Asahi / TELASA
+# === TV Asahi / TELASA ===
 DOMAIN-SUFFIX,tv-asahi.co.jp
 DOMAIN-SUFFIX,tvasahi.jp
 DOMAIN-SUFFIX,telasa.jp
 
-# TV Tokyo
+# === TV Tokyo ===
 DOMAIN-SUFFIX,tvtokyo.co.jp
 DOMAIN-SUFFIX,tv-tokyo.co.jp
 
-# Lemino / dTV
+# === Lemino / dTV ===
 DOMAIN-SUFFIX,lemino.docomo.ne.jp
 DOMAIN-SUFFIX,lemino.jp
 DOMAIN-SUFFIX,dtv.jp
 
-# Rakuten TV
+# === Rakuten TV ===
 DOMAIN-SUFFIX,tv.rakuten.co.jp
 DOMAIN-SUFFIX,rakuten.tv
 
-# WOWOW
+# === WOWOW ===
 DOMAIN-SUFFIX,wowow.co.jp
 DOMAIN-SUFFIX,wowowplus.jp
 
-# Anime / Japanese Entertainment
+# === Anime / Japanese Entertainment ===
 DOMAIN-SUFFIX,animehodai.jp
 DOMAIN-SUFFIX,bandainamcoid.com
 DOMAIN-SUFFIX,bandainamcoent.co.jp
 DOMAIN-SUFFIX,aniplex.co.jp
 DOMAIN-SUFFIX,aniplexplus.com
 
-# Japan News / Publishing
+# === Japan News / Publishing ===
 DOMAIN-SUFFIX,asahi.com
 DOMAIN-SUFFIX,mainichi.jp
 DOMAIN-SUFFIX,yomiuri.co.jp
@@ -163,7 +159,7 @@ DOMAIN-SUFFIX,japantimes.co.jp
 DOMAIN-SUFFIX,kyodonews.net
 DOMAIN-SUFFIX,jiji.com
 
-# Japan Region Services / Carriers
+# === Japan Region Services / Carriers ===
 DOMAIN-SUFFIX,docomo.ne.jp
 DOMAIN-SUFFIX,nttdocomo.co.jp
 DOMAIN-SUFFIX,kddi.com
@@ -171,5 +167,4 @@ DOMAIN-SUFFIX,au.com
 DOMAIN-SUFFIX,softbank.jp
 DOMAIN-SUFFIX,softbank.ne.jp
 DOMAIN-SUFFIX,ymobile.jp
-DOMAIN-SUFFIX,rakuten.co.jp
 DOMAIN-SUFFIX,rakutenmobile.co.jp

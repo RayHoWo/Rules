@@ -1,56 +1,42 @@
 # NAME: Germany Media
 # AUTHOR: RayHW
 # DESCRIPTION: Curated Germany media, streaming and region-service routing rules
-# UPDATED: 2026-05-24
+# UPDATED: 2026-05-28
 # SOURCE: personally curated + official / actual service domains
 # FORMAT: Clash / Stash Rule Provider
 # BEHAVIOR: classical
 
 payload:
-  # DW / Deutsche Welle
+  # === DW / Deutsche Welle ===
   - DOMAIN-SUFFIX,dw.com
   - DOMAIN-SUFFIX,dw.de
 
-  # ARD / Tagesschau
+  # === ARD / Tagesschau ===
   - DOMAIN-SUFFIX,ard.de
   - DOMAIN-SUFFIX,tagesschau.de
 
-  # ZDF
+  # === ZDF ===
   - DOMAIN-SUFFIX,zdf.de
 
-  # RTL
+  # === RTL ===
   - DOMAIN-SUFFIX,rtl.de
 
-  # Joyn / ProSiebenSat.1
+  # === Joyn / ProSiebenSat.1 ===
   - DOMAIN-SUFFIX,joyn.de
   - DOMAIN-SUFFIX,prosieben.de
   - DOMAIN-SUFFIX,sat1.de
 
-  # Der Spiegel
+  # === German News & Magazines (新闻报刊) ===
   - DOMAIN-SUFFIX,spiegel.de
-
-  # Die Zeit
   - DOMAIN-SUFFIX,zeit.de
-
-  # FAZ / Frankfurter Allgemeine Zeitung
   - DOMAIN-SUFFIX,faz.net
-
-  # Süddeutsche Zeitung
   - DOMAIN-SUFFIX,sueddeutsche.de
-
-  # Bild
   - DOMAIN-SUFFIX,bild.de
-
-  # Welt
   - DOMAIN-SUFFIX,welt.de
-
-  # Focus
   - DOMAIN-SUFFIX,focus.de
-
-  # Stern
   - DOMAIN-SUFFIX,stern.de
 
-  # Germany Region Services / Carriers
+  # === Germany Region Services / Carriers (主流运营商) ===
   - DOMAIN-SUFFIX,telekom.de
   - DOMAIN-SUFFIX,t-mobile.de
   - DOMAIN-SUFFIX,vodafone.de
@@ -59,7 +45,7 @@ payload:
   - DOMAIN-SUFFIX,1und1.de
   - DOMAIN-SUFFIX,1und1.net
 
-  # Germany Region Services / MVNO
+  # === Germany Region Services / MVNO (虚拟运营商) ===
   - DOMAIN-SUFFIX,congstar.de
   - DOMAIN-SUFFIX,aldi-talk.de
   - DOMAIN-SUFFIX,blau.de

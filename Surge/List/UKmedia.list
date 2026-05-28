@@ -1,52 +1,47 @@
 # NAME: United Kingdom Media
 # AUTHOR: RayHW
-# DESCRIPTION: Curated United Kingdom media, streaming and region-service routing rules
-# UPDATED: 2026-05-24
+# DESCRIPTION: Curated United Kingdom media, streaming and region-service routing rules (Optimized: No false positives)
+# UPDATED: 2026-05-28
 # SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
 # SOURCE-URL-ALL4: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/All4/All4.list
 # SOURCE-URL-BBC: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BBC/BBC.list
 # SOURCE-URL-ITV: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ITV/ITV.list
 # FORMAT: Surge Rule Set
 
-# BBC / BBC iPlayer
+# === BBC / BBC iPlayer ===
 DOMAIN-SUFFIX,bbc.co.uk
 DOMAIN-SUFFIX,bbc.com
 DOMAIN-SUFFIX,bbci.co.uk
 DOMAIN-SUFFIX,bbcmedia.co.uk
-DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net
-DOMAIN-SUFFIX,bbcfmt.s.llnwi.net
 DOMAIN,vs-cmaf-push-uk-live.akamaized.net
 USER-AGENT,BBCiPlayer*
 
-# Channel 4 / All 4
+# === Channel 4 / All 4 ===
 DOMAIN-SUFFIX,channel4.com
 DOMAIN-SUFFIX,c4assets.com
 USER-AGENT,All4*
 
-# ITV / ITVX
+# === ITV / ITVX & BritBox UK ===
 DOMAIN-SUFFIX,itv.com
 DOMAIN-SUFFIX,itvstatic.com
-DOMAIN,itvpnpmobile-a.akamaihd.net
-USER-AGENT,ITV_Player*
-
-# BritBox UK
 DOMAIN-SUFFIX,britbox.co.uk
 DOMAIN-SUFFIX,britbox.com
 DOMAIN-SUFFIX,bb-static.com
 DOMAIN-SUFFIX,massive-itv.com
+DOMAIN,itvpnpmobile-a.akamaihd.net
 DOMAIN,itvpnp.live.ott.irdeto.com
+USER-AGENT,ITV_Player*
 
-# My5 / Channel 5
+# === My5 / Channel 5 ===
 DOMAIN-SUFFIX,channel5.com
 DOMAIN-SUFFIX,my5.tv
-DOMAIN,d349g9zuie06uo.cloudfront.net
 USER-AGENT,My5*
 
-# Sky / Sky Go / Sky Sports
+# === Sky & Premium Television ===
 DOMAIN-SUFFIX,sky.com
 DOMAIN-SUFFIX,skysports.com
 
-# UK News / Publishing
+# === UK News & Publishing ===
 DOMAIN-SUFFIX,theguardian.com
 DOMAIN-SUFFIX,guardian.co.uk
 DOMAIN-SUFFIX,telegraph.co.uk
@@ -65,7 +60,7 @@ DOMAIN-SUFFIX,inews.co.uk
 DOMAIN-SUFFIX,gbnews.com
 DOMAIN-SUFFIX,lbc.co.uk
 
-# United Kingdom Region Services / Carriers
+# === Carriers & Region Services ===
 DOMAIN-SUFFIX,ee.co.uk
 DOMAIN-SUFFIX,o2.co.uk
 DOMAIN-SUFFIX,three.co.uk

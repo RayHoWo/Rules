@@ -1,12 +1,13 @@
 # NAME: Direct Access
 # AUTHOR: RayHW
 # DESCRIPTION: Curated direct access rules for personal domains, NAS, domestic services and selected utilities
-# UPDATED: 2026-05-27
+# UPDATED: 2026-05-28
 # SOURCE: blackmatrix7 ios_rule_script + personally curated direct domains
 # SOURCE-URL-DIRECT: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Direct/Direct.list
 # FORMAT: Surge Rule Set
 
 # === Manual Additions / Special Access ===
+DOMAIN-SUFFIX,local
 DOMAIN-SUFFIX,zealotmat.uk
 DOMAIN-SUFFIX,quickconnect.cn
 DOMAIN-SUFFIX,myds.me
@@ -21,7 +22,7 @@ DOMAIN-SUFFIX,directconnect.cn
 DOMAIN-SUFFIX,dsmynas.com
 DOMAIN-SUFFIX,synology.me
 
-# === Public Wi-Fi Captive Portal & Network Connectivity Check (解决酒店Wi-Fi网页打不开) ===
+# === Public Wi-Fi Captive Portal & Network Connectivity Check ===
 DOMAIN-SUFFIX,msftconnecttest.com
 DOMAIN-SUFFIX,msftncsi.com
 DOMAIN,captive.apple.com

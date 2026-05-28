@@ -1,24 +1,22 @@
 # NAME: Singapore Media
 # AUTHOR: RayHW
-# DESCRIPTION: Curated Singapore media, streaming, region-service and CN international video routing rules; avoids matching mainland China video services
-# UPDATED: 2026-05-25
+# DESCRIPTION: Curated Singapore media, streaming, region-service and CN international video routing rules (Optimized: No false positives)
+# UPDATED: 2026-05-28
 # SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
+# SOURCE-URL-IQIYIINTL: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iQIYIIntl/iQIYIIntl.yaml
+# SOURCE-URL-BILIBILIINTL: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBiliIntl/BiliBiliIntl.yaml
+# SOURCE-URL-FOXPLUS: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/FOXPlus/FOXPlus.yaml
+# SOURCE-URL-MEWATCH: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/MeWatch/MeWatch.yaml
 # FORMAT: Clash / Stash Rule Provider
 # BEHAVIOR: classical
 
 payload:
-  # MeWatch / Mediacorp
+  # === Mediacorp (MeWatch / meLISTEN) ===
   - DOMAIN-SUFFIX,mewatch.sg
   - DOMAIN-SUFFIX,mediacorp.sg
   - DOMAIN-SUFFIX,mediacorp.com.sg
   - DOMAIN-SUFFIX,mediacorptv.sg
   - DOMAIN-SUFFIX,toggle.sg
-
-  # CNA / Channel NewsAsia
-  - DOMAIN-SUFFIX,channelnewsasia.com
-  - DOMAIN-SUFFIX,cna.asia
-
-  # meLISTEN / Mediacorp Radio
   - DOMAIN-SUFFIX,melisten.sg
   - DOMAIN-SUFFIX,987.sg
   - DOMAIN-SUFFIX,class95.sg
@@ -31,20 +29,20 @@ payload:
   - DOMAIN-SUFFIX,oli968.sg
   - DOMAIN-SUFFIX,symphony924.sg
 
-  # SPH Media / SPH Radio
+  # === SPH / So Drama! (News & Radio) ===
   - DOMAIN-SUFFIX,sph.com.sg
   - DOMAIN-SUFFIX,sphradio.sg
   - DOMAIN-SUFFIX,kiss92.sg
   - DOMAIN-SUFFIX,onefm.sg
   - DOMAIN-SUFFIX,ufm1003.sg
   - DOMAIN-SUFFIX,moneyfm893.sg
-
-  # So Drama! / SAFRA Radio
   - DOMAIN-SUFFIX,power98.com.sg
   - DOMAIN-SUFFIX,jia883.sg
   - DOMAIN-SUFFIX,sodrama.sg
 
-  # Singapore News / Publishing
+  # === Singapore News & Publishing ===
+  - DOMAIN-SUFFIX,channelnewsasia.com
+  - DOMAIN-SUFFIX,cna.asia
   - DOMAIN-SUFFIX,straitstimes.com
   - DOMAIN-SUFFIX,business-times.com.sg
   - DOMAIN-SUFFIX,zaobao.com.sg
@@ -57,7 +55,7 @@ payload:
   - DOMAIN-SUFFIX,vulcanpost.com
   - DOMAIN-SUFFIX,asiaone.com
 
-  # Singapore Region Services / Carriers
+  # === Carriers & Region Services ===
   - DOMAIN-SUFFIX,singtel.com
   - DOMAIN-SUFFIX,singtel.com.sg
   - DOMAIN-SUFFIX,starhub.com
@@ -69,34 +67,24 @@ payload:
   - DOMAIN-SUFFIX,gomo.sg
   - DOMAIN-SUFFIX,giga.com.sg
 
-  # FOXPlus / FOX Asia Legacy
-  - DOMAIN,cdn-fox-networks-group-green.akamaized.net
-  - DOMAIN,d3cv4a9a9wh0bt.cloudfront.net
-  - DOMAIN,foxsports01-i.akamaihd.net
-  - DOMAIN,foxsports02-i.akamaihd.net
-  - DOMAIN,foxsports03-i.akamaihd.net
-  - DOMAIN,staticasiafox.akamaized.net
-  - DOMAIN-SUFFIX,foxplus.com
-
-  # iQIYI International
+  # === International Streaming (iQIYI / Bilibili / WeTV / FOX) ===
   - DOMAIN-SUFFIX,iq.com
   - DOMAIN-SUFFIX,intl.iqiyi.com
   - DOMAIN-SUFFIX,inter.iqiyi.com
   - DOMAIN-SUFFIX,intl-rcd.iqiyi.com
   - DOMAIN-SUFFIX,intl-subscription.iqiyi.com
-  - PROCESS-NAME,com.iqiyi.i18n
-  - PROCESS-NAME,com.iqiyi.i18n.tv
-
-  # Bilibili International
   - DOMAIN-SUFFIX,bilibili.tv
   - DOMAIN-SUFFIX,biliintl.co
   - DOMAIN-SUFFIX,biliintl.com
-  - DOMAIN-SUFFIX,p-bstarstatic.akamaized.net
   - DOMAIN-SUFFIX,p.bstarstatic.com
-  - DOMAIN-SUFFIX,upos-bstar-mirrorakam.akamaized.net
-  - DOMAIN-SUFFIX,upos-bstar1-mirrorakam.akamaized.net
-  - PROCESS-NAME,com.bstar.intl
-
-  # WeTV International
   - DOMAIN-SUFFIX,wetv.vip
+  - DOMAIN-SUFFIX,foxplus.com
+  - DOMAIN,cdn-fox-networks-group-green.akamaized.net
+  - DOMAIN,foxsports01-i.akamaihd.net
+  - DOMAIN,foxsports02-i.akamaihd.net
+  - DOMAIN,foxsports03-i.akamaihd.net
+  - DOMAIN,staticasiafox.akamaized.net
+  - PROCESS-NAME,com.iqiyi.i18n
+  - PROCESS-NAME,com.iqiyi.i18n.tv
+  - PROCESS-NAME,com.bstar.intl
   - PROCESS-NAME,com.tencent.qqlivei18n

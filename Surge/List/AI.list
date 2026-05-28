@@ -1,7 +1,7 @@
 # NAME: AI Suite
 # AUTHOR: RayHW
-# DESCRIPTION: Curated AI platform routing rules for Claude, Gemini and OpenAI
-# UPDATED: 2026-05-27
+# DESCRIPTION: Curated AI routing rules (High-Precision Anti-Overblock Edition)
+# UPDATED: 2026-05-28
 # SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
 # SOURCE-URL-CLAUDE: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Claude/Claude.list
 # SOURCE-URL-GEMINI: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Gemini/Gemini.list
@@ -9,59 +9,44 @@
 # FORMAT: Surge Rule Set
 
 # === Claude / Anthropic ===
-DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 
-# === Gemini / Google AI (已补全核心API) ===
+# === Gemini / Google AI ===
 DOMAIN,ai.google.dev
 DOMAIN,makersuite.google.com
-DOMAIN,generativelanguage.googleapis.com
-DOMAIN,alkaliminer-pa.googleapis.com
-DOMAIN,alkalimakersuite-pa.clients6.google.com
-DOMAIN,proactivebackend-pa.googleapis.com
-DOMAIN,geller-pa.googleapis.com
+DOMAIN,alkalimmakersuite-pa.clients6.google.com
+# Core Defenses: Catches all backend communication label variations (-pa / notifications-pa)
+DOMAIN-KEYWORD,-pa.googleapis.com
+DOMAIN-SUFFIX,pa.googleapis.com
+# Identity & Token Authorization (Halts OAuth drops & regional lockouts)
+DOMAIN,oauth2.googleapis.com
+DOMAIN,oauthaccountmanager.googleapis.com
+DOMAIN-SUFFIX,accountmanager.googleapis.com
+# Core Brand Domains
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,generativeai.google
-DOMAIN-SUFFIX,apis.google.com
-DOMAIN-KEYWORD,colab
-DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
 
-# === OpenAI / ChatGPT (完整保留登录、验证与支付依赖) ===
-DOMAIN,browser-intake-datadoghq.com
+# === OpenAI / ChatGPT ===
 DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,openai-api.arkoselabs.com
-DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openaicomcom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 DOMAIN,openaicomproductionae4b.blob.core.windows.net
 DOMAIN,production-openaicom-storage.azureedge.net
-DOMAIN,static.cloudflareinsights.com
 DOMAIN-SUFFIX,ai.com
-DOMAIN-SUFFIX,algolia.net
-DOMAIN-SUFFIX,api.statsig.com
-DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,chatgpt.livekit.cloud
 DOMAIN-SUFFIX,client-api.arkoselabs.com
-DOMAIN-SUFFIX,events.statsigapi.net
-DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,host.livekit.cloud
-DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN-SUFFIX,launchdarkly.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,observeit.net
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,openaicom.imgix.net
-DOMAIN-SUFFIX,segment.io
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-KEYWORD,openai
 
