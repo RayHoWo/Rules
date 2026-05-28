@@ -20,6 +20,7 @@ payload:
   - DOMAIN,alkalimmakersuite-pa.clients6.google.com
   - DOMAIN-KEYWORD,-pa.googleapis.com
   - DOMAIN-SUFFIX,pa.googleapis.com
+ - DOMAIN,oauth2.googleapis.com
   - DOMAIN,oauthaccountmanager.googleapis.com
   - DOMAIN-SUFFIX,accountmanager.googleapis.com
   - DOMAIN-SUFFIX,gemini.google.com
