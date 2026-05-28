@@ -1,233 +1,156 @@
-# NAME: ChinaNoMedia
+# NAME: China (Full Coverage Direct)
 # AUTHOR: RayHW
-# DESCRIPTION: Curated China non-media routing rules (Optimized: Removed conflicts with Apple/AI/Microsoft)
-# UPDATED: 2026-05-28
-# SOURCE: blackmatrix7 ios_rule_script + personally curated entries
-# SOURCE-URL-CHINANOMEDIA: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/ChinaNoMedia/ChinaNoMedia_All_No_Resolve.list
+# DESCRIPTION: Comprehensive domestic direct list designed for setups without GEOIP fallback. Includes .cn top-level domain and extended coverage of Chinese tech ecosystem.
+# SOURCE-URL-PROXY: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/China/China_All_No_Resolve.list
 # FORMAT: Surge Rule Set
 
-# === Manual Curated & Special Utilities ===
-DOMAIN,analytics.strava.com
-DOMAIN,cdn.angruo.com
-DOMAIN,client.amplifi.com
-DOMAIN,ip.istatmenus.app
-DOMAIN,kc.kexinshe.com
-DOMAIN,sms.imagetasks.com
-DOMAIN,weixin.com
-DOMAIN,www.libvideo.com
-DOMAIN,www.yxssp.com
-DOMAIN-SUFFIX,zealotmat.uk
-DOMAIN-SUFFIX,dler.pro
-DOMAIN-SUFFIX,nas.rahw.top
-DOMAIN-SUFFIX,flyertea.com
+# === Top Level Domain (Crucial for Non-GEOIP setup) ===
+DOMAIN-SUFFIX,cn
 
-# === Akamai HD CDN (China Optimized CDNs) ===
-DOMAIN,blzddist1-a.akamaihd.net
-DOMAIN,origin-a.akamaihd.ne
-DOMAIN,origin-a.akamaihd.net
-DOMAIN,steamcommunity-a.akamaihd.net
-
-# === Domestic Giants: Alibaba / Taobao / Alipay ===
-DOMAIN-SUFFIX,alibaba-inc.com
+# === Alibaba Ecosystem ===
+DOMAIN-SUFFIX,1688.com
 DOMAIN-SUFFIX,alibaba.com
-DOMAIN-SUFFIX,alibabacapital.com
-DOMAIN-SUFFIX,alibabacorp.com
-DOMAIN-SUFFIX,alibabadns.com
-DOMAIN-SUFFIX,alibabagroup.com
-DOMAIN-SUFFIX,alibabausercontent.com
+DOMAIN-SUFFIX,alibabacloud.com
 DOMAIN-SUFFIX,alicdn.com
-DOMAIN-SUFFIX,alicloud.com
-DOMAIN-SUFFIX,alicloudapi.com
-DOMAIN-SUFFIX,alicloudccp.com
-DOMAIN-SUFFIX,alidayu.com
-DOMAIN-SUFFIX,alidns.com
 DOMAIN-SUFFIX,aliexpress.com
-DOMAIN-SUFFIX,alipay.com
-DOMAIN-SUFFIX,alipaydns.com
-DOMAIN-SUFFIX,alipayobjects.com
 DOMAIN-SUFFIX,aliyun.com
-DOMAIN-SUFFIX,aliyuncdn.com
 DOMAIN-SUFFIX,aliyuncs.com
-DOMAIN-SUFFIX,aliyundrive.com
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,alipayobjects.com
 DOMAIN-SUFFIX,amap.com
+DOMAIN-SUFFIX,autonavi.com
+DOMAIN-SUFFIX,cainiao.com
+DOMAIN-SUFFIX,dingtalk.com
+DOMAIN-SUFFIX,ele.me
 DOMAIN-SUFFIX,taobao.com
-DOMAIN-SUFFIX,taobao.org
 DOMAIN-SUFFIX,taobaocdn.com
 DOMAIN-SUFFIX,tmall.com
-DOMAIN-SUFFIX,goofish.com
-DOMAIN-SUFFIX,xiami.fm
+DOMAIN-SUFFIX,xiami.com
+DOMAIN-SUFFIX,youku.com
 
-# === Domestic Giants: Tencent / QQ ===
+# === Tencent Ecosystem ===
+DOMAIN-SUFFIX,foxmail.com
+DOMAIN-SUFFIX,gtimg.com
+DOMAIN-SUFFIX,idqqimg.com
+DOMAIN-SUFFIX,igamecj.com
+DOMAIN-SUFFIX,myapp.com
+DOMAIN-SUFFIX,myqcloud.com
 DOMAIN-SUFFIX,qq.com
-DOMAIN-SUFFIX,qq.net
-DOMAIN-SUFFIX,qq.wang
-DOMAIN-SUFFIX,qqmail.com
-DOMAIN-SUFFIX,tenpay.com
+DOMAIN-SUFFIX,tencent.com
+DOMAIN-SUFFIX,tencent-cloud.com
+DOMAIN-SUFFIX,tencentcloudapi.com
 DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,weiyun.com
-DOMAIN-SUFFIX,gtimg.com
-DOMAIN-SUFFIX,qcloud.com
-DOMAIN-SUFFIX,qcloudcdn.com
-DOMAIN-SUFFIX,qcloudcos.com
-DOMAIN-SUFFIX,qcloudimg.com
-DOMAIN-SUFFIX,qcloudns.com
-DOMAIN-SUFFIX,myqcloud.com
+DOMAIN-SUFFIX,servicewechat.com
 
-# === Domestic Giants: Baidu ===
+# === ByteDance ===
+DOMAIN-SUFFIX,amemv.com
+DOMAIN-SUFFIX,bytedance.com
+DOMAIN-SUFFIX,bytedance.net
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,douyinstatic.com
+DOMAIN-SUFFIX,ixigua.com
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,toutiao.com
+DOMAIN-SUFFIX,toutiaoimg.com
+
+# === Baidu Ecosystem ===
 DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,baidubce.com
-DOMAIN-SUFFIX,baidupan.com
 DOMAIN-SUFFIX,baidupcs.com
 DOMAIN-SUFFIX,baidustatic.com
+DOMAIN-SUFFIX,bcebos.com
 DOMAIN-SUFFIX,bdimg.com
 DOMAIN-SUFFIX,bdstatic.com
 DOMAIN-SUFFIX,hao123.com
-DOMAIN-SUFFIX,nuomi.com
+DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,qiyi.com
 
-# === Domestic Giants: ByteDance (Toutiao/Douyin Tech) ===
-DOMAIN-SUFFIX,bytedance.com
-DOMAIN-SUFFIX,bytedance.net
-DOMAIN-SUFFIX,bytedanceapi.com
-DOMAIN-SUFFIX,byteimg.com
-DOMAIN-SUFFIX,pstatp.com
-DOMAIN-SUFFIX,toutiao.com
-DOMAIN-SUFFIX,toutiaocdn.com
-DOMAIN-SUFFIX,toutiaoimg.net
-DOMAIN-SUFFIX,toutiaostatic.com
-DOMAIN-SUFFIX,zijieapi.com
-DOMAIN-SUFFIX,zijiecdn.com
+# === JD (Jingdong) ===
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,jdcache.com
+DOMAIN-SUFFIX,jdcloud.com
+DOMAIN-SUFFIX,jcloudcs.com
+DOMAIN-SUFFIX,joybuy.com
+DOMAIN-SUFFIX,360buyimg.com
 
-# === Domestic Giants: NetEase (163) ===
-DOMAIN-SUFFIX,163.com
+# === NetEase ===
 DOMAIN-SUFFIX,126.com
 DOMAIN-SUFFIX,126.net
-DOMAIN-SUFFIX,127.com
+DOMAIN-SUFFIX,163.com
+DOMAIN-SUFFIX,163yun.com
 DOMAIN-SUFFIX,netease.com
+DOMAIN-SUFFIX,netease.im
 DOMAIN-SUFFIX,yeah.net
 
-# === E-Commerce / Logistics / FinTech ===
-DOMAIN-SUFFIX,jd.com
-DOMAIN-SUFFIX,jd.hk
-DOMAIN-SUFFIX,jdcloud.com
-DOMAIN-SUFFIX,jingdong.com
-DOMAIN-SUFFIX,pinduoduo.com
-DOMAIN-SUFFIX,yangkeduo.com
-DOMAIN-SUFFIX,vip.com
-DOMAIN-SUFFIX,suning.com
-DOMAIN-SUFFIX,vancl.com
-DOMAIN-SUFFIX,sf-express.com
+# === Bilibili ===
+DOMAIN-SUFFIX,b23.tv
+DOMAIN-SUFFIX,biliapi.com
+DOMAIN-SUFFIX,biliapi.net
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,bilibiligame.net
+DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,hdslb.com
+
+# === Major Streaming, Social & Media ===
+DOMAIN-SUFFIX,acfun.tv
+DOMAIN-SUFFIX,douban.com
+DOMAIN-SUFFIX,doubanio.com
+DOMAIN-SUFFIX,douyu.com
+DOMAIN-SUFFIX,huya.com
+DOMAIN-SUFFIX,kuaishou.com
+DOMAIN-SUFFIX,le.com
+DOMAIN-SUFFIX,letv.com
+DOMAIN-SUFFIX,mgtv.com
+DOMAIN-SUFFIX,pptv.com
+DOMAIN-SUFFIX,sohu.com
+DOMAIN-SUFFIX,weibo.com
+DOMAIN-SUFFIX,weibocdn.com
+DOMAIN-SUFFIX,xiaohongshu.com
+DOMAIN-SUFFIX,xhscdn.com
+DOMAIN-SUFFIX,ximalaya.com
+DOMAIN-SUFFIX,zhihu.com
+DOMAIN-SUFFIX,zhimg.com
+
+# === E-commerce, Travel & Services ===
+DOMAIN-SUFFIX,ctrip.com
+DOMAIN-SUFFIX,dianping.com
+DOMAIN-SUFFIX,didichuxing.com
 DOMAIN-SUFFIX,meituan.com
 DOMAIN-SUFFIX,meituan.net
-DOMAIN-SUFFIX,dianping.com
-DOMAIN-SUFFIX,ele.me
-DOMAIN-SUFFIX,elemecdn.com
+DOMAIN-SUFFIX,pinduoduo.com
+DOMAIN-SUFFIX,pddpic.com
+DOMAIN-SUFFIX,qunar.com
+DOMAIN-SUFFIX,suning.com
+DOMAIN-SUFFIX,vip.com
+DOMAIN-SUFFIX,xiaojukeji.com
 
-# === Smart Devices / Tech Vendors (Xiaomi/Oppo/Vivo/Huawei) ===
-DOMAIN-SUFFIX,xiaomi.com
-DOMAIN-SUFFIX,xiaomi.net
-DOMAIN-SUFFIX,mi.com
-DOMAIN-SUFFIX,miui.com
-DOMAIN-SUFFIX,miwifi.com
+# === Tech, Cloud & Hardware Brands ===
+DOMAIN-SUFFIX,360.com
+DOMAIN-SUFFIX,bootcss.com
+DOMAIN-SUFFIX,cnblogs.com
+DOMAIN-SUFFIX,csdn.net
+DOMAIN-SUFFIX,dnspod.com
+DOMAIN-SUFFIX,gitee.com
 DOMAIN-SUFFIX,huawei.com
 DOMAIN-SUFFIX,huaweicloud.com
-DOMAIN-SUFFIX,hicloud.com
+DOMAIN-SUFFIX,mi.com
+DOMAIN-SUFFIX,miui.com
 DOMAIN-SUFFIX,oppo.com
-DOMAIN-SUFFIX,oppomobile.com
-DOMAIN-SUFFIX,heytap.com
-DOMAIN-SUFFIX,coloros.com
-DOMAIN-SUFFIX,smartisan.com
+DOMAIN-SUFFIX,qiniu.com
+DOMAIN-SUFFIX,qiniucdn.com
+DOMAIN-SUFFIX,sogou.com
+DOMAIN-SUFFIX,upaiyun.com
+DOMAIN-SUFFIX,vivo.com
 
 # === Banking & Finance ===
 DOMAIN-SUFFIX,abchina.com
 DOMAIN-SUFFIX,bankcomm.com
-DOMAIN-SUFFIX,bankofchina.com
 DOMAIN-SUFFIX,ccb.com
 DOMAIN-SUFFIX,cmbchina.com
-DOMAIN-SUFFIX,icbc.com.cn
-DOMAIN-SUFFIX,psbc.com
-DOMAIN-SUFFIX,unionpay.com
-DOMAIN-SUFFIX,unionpay.net
 DOMAIN-SUFFIX,eastmoney.com
-
-# === National Telecom Carriers ===
-DOMAIN-SUFFIX,10010.com
-DOMAIN-SUFFIX,chinamobile.com
-DOMAIN-SUFFIX,chinatelecom.com.cn
-DOMAIN-SUFFIX,chinaunicom.com
-
-# === Public Services & Tools (12306 / Cloud / Pan) ===
-DOMAIN-SUFFIX,12306.cn
-DOMAIN-SUFFIX,12306.com
-DOMAIN-SUFFIX,115.com
-DOMAIN-SUFFIX,123pan.com
-DOMAIN-SUFFIX,cowtransfer.com
-DOMAIN-SUFFIX,lanzou.com
-DOMAIN-SUFFIX,jianguoyun.com
-DOMAIN-SUFFIX,ctfile.com
-DOMAIN-SUFFIX,woozooo.com
-DOMAIN-SUFFIX,wps.com
-DOMAIN-SUFFIX,dnspod.com
-DOMAIN-SUFFIX,upaiyun.com
-DOMAIN-SUFFIX,qiniu.com
-
-# === Domestic Communities / Forums / Media ===
-DOMAIN-SUFFIX,zhihu.com
-DOMAIN-SUFFIX,zhimg.com
-DOMAIN-SUFFIX,douban.com
-DOMAIN-SUFFIX,doubanio.com
-DOMAIN-SUFFIX,sina.com
-DOMAIN-SUFFIX,sinaimg.com
-DOMAIN-SUFFIX,weibo.com
-DOMAIN-SUFFIX,weibocdn.com
-DOMAIN-SUFFIX,sohu.com
-DOMAIN-SUFFIX,sogo.com
-DOMAIN-SUFFIX,sogou.com
-DOMAIN-SUFFIX,coolapk.com
-DOMAIN-SUFFIX,sspai.com
-DOMAIN-SUFFIX,ithome.com
-DOMAIN-SUFFIX,chiphell.com
-DOMAIN-SUFFIX,hupu.com
-DOMAIN-SUFFIX,nga.cn
-DOMAIN-SUFFIX,ngacn.cc
-DOMAIN-SUFFIX,jandan.net
-DOMAIN-SUFFIX,oschina.net
-DOMAIN-SUFFIX,csdn.net
-
-# === General Top-Level Domain (TLD) ===
-DOMAIN-SUFFIX,cn
-
-# === China Keywords ===
-DOMAIN-KEYWORD,alicdn
-DOMAIN-KEYWORD,alipay
-DOMAIN-KEYWORD,aliyun
-DOMAIN-KEYWORD,baidu
-DOMAIN-KEYWORD,taobao
-
-# === China IP Networks (No-Resolve) ===
-IP-CIDR,1.255.62.0/24,no-resolve
-IP-CIDR,101.32.96.0/20,no-resolve
-IP-CIDR,101.32.118.0/23,no-resolve
-IP-CIDR,119.28.28.28/32,no-resolve
-IP-CIDR,120.195.181.180/32,no-resolve
-IP-CIDR,129.226.0.0/16,no-resolve
-IP-CIDR,182.254.116.0/24,no-resolve
-IP-CIDR,183.128.0.0/11,no-resolve
-IP-CIDR,185.188.32.0/22,no-resolve
-IP-CIDR,203.205.238.0/23,no-resolve
-IP-CIDR,203.205.254.0/23,no-resolve
-IP-CIDR6,2a0b:b580::/48,no-resolve
-IP-CIDR6,2a0b:b581::/48,no-resolve
-IP-CIDR6,2a0b:b582::/48,no-resolve
-IP-CIDR6,2a0b:b583::/48,no-resolve
-
-# === App User-Agents ===
-USER-AGENT,%E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C*
-USER-AGENT,%E4%BA%AC%E4%B8%9C%E5%88%B0%E5%AE%B6*
-USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*
-USER-AGENT,%E5%8D%B3%E5%88%BB*
-USER-AGENT,Best%20Trace*
-USER-AGENT,MicroMessenger*
-USER-AGENT,QQ*
-USER-AGENT,TIM*
-USER-AGENT,WeChat*
-USER-AGENT,cmb*
+DOMAIN-SUFFIX,pingan.com
+DOMAIN-SUFFIX,unionpay.com
+DOMAIN-SUFFIX,unionpaysecure.com
