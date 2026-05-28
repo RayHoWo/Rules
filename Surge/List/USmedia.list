@@ -1,7 +1,7 @@
 # NAME: United States Media
 # AUTHOR: RayHW
-# DESCRIPTION: Curated United States media, streaming and US-region service routing rules
-# UPDATED: 2026-05-24
+# DESCRIPTION: Curated United States media, streaming and US-region service routing rules (Optimized: Removed heavy telemetry & tracking domains)
+# UPDATED: 2026-05-28
 # SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
 # SOURCE-URL-GOOGLEVOICE: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GoogleVoice/GoogleVoice.list
 # SOURCE-URL-CNN: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/CNN/CNN.list
@@ -15,187 +15,108 @@
 # SOURCE-URL-SLING: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Sling/Sling.list
 # FORMAT: Surge Rule Set
 
-# YouTube TV
+# === YouTube TV & Google Voice ===
+DOMAIN,lens.l.google.com
 DOMAIN-SUFFIX,tv.youtube.com
+DOMAIN-SUFFIX,voice.google.com
+DOMAIN-SUFFIX,googlevoice.com
 USER-AGENT,*YouTubeTV*
 USER-AGENT,*com.google.ios.youtubetv*
 
-# Google Voice
-DOMAIN,lens.l.google.com
-DOMAIN-SUFFIX,voice.google.com
-DOMAIN-SUFFIX,googlevoice.com
-
-# CNN
-DOMAIN-SUFFIX,cnn.com
-DOMAIN-SUFFIX,cnn.io
-DOMAIN-SUFFIX,cnn.it
-DOMAIN-SUFFIX,cnnarabic.com
-DOMAIN-SUFFIX,cnnlabs.com
-DOMAIN-SUFFIX,cnnmoney.ch
-
-# Discovery+
-DOMAIN,discovery-us.conax.cloud
-DOMAIN,dplus-northamerica-cloudfront-gcs.prod-vod.h264.io
-DOMAIN,dplus-northamerica.media-edge.prod-vod.h264.io
-DOMAIN-SUFFIX,disco-api.com
-DOMAIN-SUFFIX,discovery.com
-DOMAIN-SUFFIX,discoveryplus.co.uk
-DOMAIN-SUFFIX,discoveryplus.com
-DOMAIN-SUFFIX,discoveryplus.in
-DOMAIN-SUFFIX,dnitv.com
-DOMAIN-SUFFIX,fwmrm.net
-DOMAIN-SUFFIX,getblueshift.com
-DOMAIN-SUFFIX,litix.io
-DOMAIN-SUFFIX,mobile-collector.newrelic.com
-DOMAIN-SUFFIX,uplynk.com
-DOMAIN-KEYWORD,discovery.uplynk.com
-USER-AGENT,DPlus*
-USER-AGENT,discovery+*
-
-# FOX / FOX NOW / FOX News
-DOMAIN-SUFFIX,fox.com
-DOMAIN-SUFFIX,foxdcg.com
-DOMAIN-SUFFIX,foxnews.com
-DOMAIN-SUFFIX,foxbusiness.com
-DOMAIN-SUFFIX,uplynk.com
-USER-AGENT,FOX%20NOW*
-
-# Hulu USA
-DOMAIN-SUFFIX,112263.com
-DOMAIN-SUFFIX,assetshuluimcom-a.akamaihd.net
-DOMAIN-SUFFIX,callhulu.com
-DOMAIN-SUFFIX,cws-hulu.conviva.com
-DOMAIN-SUFFIX,findyourlimits.com
-DOMAIN-SUFFIX,freehulu.com
-DOMAIN-SUFFIX,hooloo.tv
-DOMAIN-SUFFIX,hoolu.com
-DOMAIN-SUFFIX,hoolu.tv
-DOMAIN-SUFFIX,hu1u.com
-DOMAIN-SUFFIX,huloo.cc
-DOMAIN-SUFFIX,huloo.tv
+# === Hulu USA ===
 DOMAIN-SUFFIX,hulu.com
-DOMAIN-SUFFIX,hulu.hb.omtrdc.net
-DOMAIN-SUFFIX,hulu.playback.edge.bamgrid.com
-DOMAIN-SUFFIX,hulu.sc.omtrdc.net
 DOMAIN-SUFFIX,hulu.tv
 DOMAIN-SUFFIX,hulu.us
-DOMAIN-SUFFIX,huluaction.com
-DOMAIN-SUFFIX,huluad.com
 DOMAIN-SUFFIX,huluapp.com
-DOMAIN-SUFFIX,huluasks.com
-DOMAIN-SUFFIX,hulucall.com
-DOMAIN-SUFFIX,hulufree.com
-DOMAIN-SUFFIX,hulugans.com
-DOMAIN-SUFFIX,hulugermany.com
-DOMAIN-SUFFIX,hulugo.com
 DOMAIN-SUFFIX,huluim.com
-DOMAIN-SUFFIX,huluinstantmessenger.com
-DOMAIN-SUFFIX,huluitaly.com
-DOMAIN-SUFFIX,hulunet.com
-DOMAIN-SUFFIX,hulunetwork.com
 DOMAIN-SUFFIX,huluplus.com
-DOMAIN-SUFFIX,hulupremium.com
-DOMAIN-SUFFIX,hulupurchase.com
-DOMAIN-SUFFIX,huluqa.com
-DOMAIN-SUFFIX,hulurussia.com
-DOMAIN-SUFFIX,huluspain.com
 DOMAIN-SUFFIX,hulusports.com
 DOMAIN-SUFFIX,hulustream.com
-DOMAIN-SUFFIX,huluteam.com
 DOMAIN-SUFFIX,hulutv.com
 DOMAIN-SUFFIX,huluusa.com
-DOMAIN-SUFFIX,joinmaidez.com
-DOMAIN-SUFFIX,mushymush.tv
-DOMAIN-SUFFIX,myhulu.com
-DOMAIN-SUFFIX,originalhulu.com
-DOMAIN-SUFFIX,payhulu.com
-DOMAIN-SUFFIX,prod.hjholdings.tv
-DOMAIN-SUFFIX,registerhulu.com
-DOMAIN-SUFFIX,thehulubraintrust.com
-DOMAIN-SUFFIX,wwwhuluplus.com
+DOMAIN-SUFFIX,hulu.playback.edge.bamgrid.com
+DOMAIN-SUFFIX,hulu.hb.omtrdc.net
+DOMAIN-SUFFIX,hulu.sc.omtrdc.net
 PROCESS-NAME,com.hulu.plus
 
-# Pandora
-DOMAIN-SUFFIX,p-cdn.us
-DOMAIN-SUFFIX,pandora.com
-USER-AGENT,Pandora*
-
-# Paramount+ / CBS
-DOMAIN,cbsi.live.ott.irdeto.com
-DOMAIN,cbsplaylistserver.aws.syncbak.com
-DOMAIN,cbsservice.aws.syncbak.com
-DOMAIN,link.theplatform.com
-DOMAIN-SUFFIX,cbsaavideo.com
-DOMAIN-SUFFIX,cbsi.com
-DOMAIN-SUFFIX,cbsivideo.com
-DOMAIN-SUFFIX,paramountplus.com
-DOMAIN-SUFFIX,pplusstatic.com
-DOMAIN-SUFFIX,cbs.com
-DOMAIN-SUFFIX,cbsnews.com
-USER-AGENT,PPlus*
-
-# PBS
-DOMAIN-SUFFIX,pbs.org
-USER-AGENT,PBS*
-
-# Peacock / NBCUniversal
+# === Peacock / NBCUniversal ===
 DOMAIN-SUFFIX,peacocktv.com
 DOMAIN-SUFFIX,nbc.com
+DOMAIN-SUFFIX,nbcuni.com
 DOMAIN-SUFFIX,nbcnews.com
 DOMAIN-SUFFIX,nbcsports.com
 DOMAIN-SUFFIX,msnbc.com
 DOMAIN-SUFFIX,telemundo.com
 DOMAIN-SUFFIX,universalpictures.com
-DOMAIN-SUFFIX,nbcuni.com
 USER-AGENT,PeacockMobile*
 
-# Sling TV
-DOMAIN-SUFFIX,dishworld.com
-DOMAIN-SUFFIX,movenetworks.com
-DOMAIN-SUFFIX,movetv.com
+# === Paramount+ / CBS ===
+DOMAIN,cbsi.live.ott.irdeto.com
+DOMAIN,cbsplaylistserver.aws.syncbak.com
+DOMAIN,cbsservice.aws.syncbak.com
+DOMAIN,link.theplatform.com
+DOMAIN-SUFFIX,paramountplus.com
+DOMAIN-SUFFIX,ppplusstatic.com
+DOMAIN-SUFFIX,cbs.com
+DOMAIN-SUFFIX,cbsi.com
+DOMAIN-SUFFIX,cbsivideo.com
+DOMAIN-SUFFIX,cbsaavideo.com
+DOMAIN-SUFFIX,cbsnews.com
+USER-AGENT,PPlus*
+
+# === Discovery+ / CNN ===
+DOMAIN,discovery-us.conax.cloud
+DOMAIN,dplus-northamerica-cloudfront-gcs.prod-vod.h264.io
+DOMAIN,dplus-northamerica.media-edge.prod-vod.h264.io
+DOMAIN-SUFFIX,discovery.com
+DOMAIN-SUFFIX,discoveryplus.com
+DOMAIN-SUFFIX,disco-api.com
+DOMAIN-SUFFIX,dnitv.com
+DOMAIN-SUFFIX,cnn.com
+DOMAIN-SUFFIX,cnn.io
+DOMAIN-SUFFIX,cnn.it
+DOMAIN-SUFFIX,cnnarabic.com
+DOMAIN-SUFFIX,cnnlabs.com
+USER-AGENT,DPlus*
+USER-AGENT,discovery+*
+
+# === FOX Network ===
+DOMAIN-SUFFIX,fox.com
+DOMAIN-SUFFIX,foxdcg.com
+DOMAIN-SUFFIX,foxnews.com
+DOMAIN-SUFFIX,foxbusiness.com
+USER-AGENT,FOX%20NOW*
+
+# === Other Premium Streaming ===
 DOMAIN-SUFFIX,sling.com
 DOMAIN-SUFFIX,slinginternational.com
-
-# Pluto TV
-DOMAIN,mobile-collector.newrelic.com
-DOMAIN,tv.rlcdn.com
-DOMAIN,sb.scorecardresearch.com
+DOMAIN-SUFFIX,dishworld.com
+DOMAIN-SUFFIX,movetv.com
 DOMAIN-SUFFIX,pluto.tv
 DOMAIN-SUFFIX,plutotv.net
-DOMAIN-SUFFIX,youboranqs01.com
-DOMAIN-SUFFIX,cbsnews.com
-DOMAIN-SUFFIX,braze.com
-USER-AGENT,Pluto20%TV*
-USER-AGENT,mediaserverd*
-
-# Tubi TV
+DOMAIN-SUFFIX,tubitv.com
 DOMAIN-SUFFIX,tubi.io
 DOMAIN-SUFFIX,tubi.video
-DOMAIN-SUFFIX,tubitv.com
-
-# The CW
 DOMAIN-SUFFIX,cwtv.com
 DOMAIN-SUFFIX,cwseed.com
-
-# Fubo / DirecTV Stream
 DOMAIN-SUFFIX,fubo.tv
 DOMAIN-SUFFIX,fubotv.com
 DOMAIN-SUFFIX,directv.com
 DOMAIN-SUFFIX,directvstream.com
+DOMAIN-SUFFIX,pbs.org
+DOMAIN-SUFFIX,pandora.com
+DOMAIN-SUFFIX,p-cdn.us
+USER-AGENT,Pandora*
+USER-AGENT,PBS*
+USER-AGENT,Pluto20%TV*
 
-# NPR / Public Radio
-DOMAIN-SUFFIX,npr.org
-DOMAIN-SUFFIX,prss.org
-DOMAIN-SUFFIX,wnyc.org
-
-# United States News / Publishing
+# === US News & Public Radio ===
 DOMAIN-SUFFIX,abcnews.go.com
 DOMAIN-SUFFIX,apnews.com
 DOMAIN-SUFFIX,bloomberg.com
 DOMAIN-SUFFIX,cnbc.com
 DOMAIN-SUFFIX,forbes.com
 DOMAIN-SUFFIX,latimes.com
-DOMAIN-SUFFIX,nbcnews.com
 DOMAIN-SUFFIX,nytimes.com
 DOMAIN-SUFFIX,politico.com
 DOMAIN-SUFFIX,reuters.com
@@ -204,12 +125,15 @@ DOMAIN-SUFFIX,time.com
 DOMAIN-SUFFIX,usatoday.com
 DOMAIN-SUFFIX,washingtonpost.com
 DOMAIN-SUFFIX,wsj.com
+DOMAIN-SUFFIX,npr.org
+DOMAIN-SUFFIX,prss.org
+DOMAIN-SUFFIX,wnyc.org
 
-# US Region Locked Services / Carriers
+# === US Carriers & Locked Services ===
+DOMAIN-SUFFIX,att.com
+DOMAIN-SUFFIX,verizon.com
 DOMAIN-SUFFIX,t-mobile.com
 DOMAIN-SUFFIX,t-mobilemoney.com
 DOMAIN-SUFFIX,mintmobile.com
 DOMAIN-SUFFIX,ultramobile.com
 DOMAIN-SUFFIX,visible.com
-DOMAIN-SUFFIX,verizon.com
-DOMAIN-SUFFIX,att.com
