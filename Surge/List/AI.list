@@ -1,6 +1,6 @@
 # NAME: AI Suite
 # AUTHOR: RayHW
-# DESCRIPTION: Curated and optimized AI routing rules (Bulletproof Dual-Suffix Edition)
+# DESCRIPTION: Curated AI routing rules (High-Precision Anti-Overblock Edition)
 # UPDATED: 2026-05-28
 # SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
 # SOURCE-URL-CLAUDE: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Claude/Claude.list
@@ -12,20 +12,17 @@
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 
-# === Gemini / Google AI (Ultimate Bulletproof Version) ===
+# === Gemini / Google AI ===
 DOMAIN,ai.google.dev
 DOMAIN,makersuite.google.com
 DOMAIN,alkalimmakersuite-pa.clients6.google.com
-
-# Core Defenses: Catching both subdomain and hyphenated string label variants
+# Core Defenses: Catches all backend communication label variations (-pa / notifications-pa)
 DOMAIN-KEYWORD,-pa.googleapis.com
 DOMAIN-SUFFIX,pa.googleapis.com
-
-# Account & Authorization Management
+# Identity & Token Authorization (Halts OAuth drops & regional lockouts)
 DOMAIN,oauth2.googleapis.com
 DOMAIN,oauthaccountmanager.googleapis.com
 DOMAIN-SUFFIX,accountmanager.googleapis.com
-
 # Core Brand Domains
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,generativeai.google
