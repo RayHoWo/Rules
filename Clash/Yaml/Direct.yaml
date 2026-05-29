@@ -6,7 +6,7 @@
 # FORMAT: Clash / Stash Rule Provider
 payload:
   # === Manual Additions / Special Access ===
-  - DOMAIN-SUFFIX,dler.pro
+  - DOMAIN-SUFFIX,umetrip.com
   - DOMAIN-SUFFIX,flyertea.com
   - DOMAIN-SUFFIX,ipify.org
   - DOMAIN-SUFFIX,local
