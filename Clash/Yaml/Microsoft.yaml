@@ -1,11 +1,9 @@
 # NAME: Microsoft
 # AUTHOR: RayHW
-# DESCRIPTION: Curated Microsoft, Azure, Office365 and Xbox routing rules (Optimized: No false positives)
-# UPDATED: 2026-05-28
-# SOURCE: blackmatrix7 ios_rule_script
-# SOURCE-URL-MICROSOFT: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml
+# Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list
+# Description: Curated Microsoft, Azure, Office365 and Xbox routing rules.
+# Updated: 2026-05-29
 # FORMAT: Clash / Stash Rule Provider
-# BEHAVIOR: classical
 
 payload:
   # === Microsoft Core & Accounts ===
@@ -47,6 +45,8 @@ payload:
   - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,onedrive
   - DOMAIN-KEYWORD,skydrive
+  - USER-AGENT,OneDrive*
+  - USER-AGENT,OneDriveiOSApp*
   - PROCESS-NAME,OneDrive
   - PROCESS-NAME,OneDriveUpdater
 
@@ -130,3 +130,6 @@ payload:
   - DOMAIN-SUFFIX,here.net
   - DOMAIN-SUFFIX,microsoftstore.com
   - DOMAIN-SUFFIX,yammer.com
+
+  # === Process Rules ===
+  - USER-AGENT,Microsoft*

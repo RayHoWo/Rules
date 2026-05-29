@@ -1,9 +1,8 @@
 # NAME: PayPal
 # AUTHOR: RayHW
-# DESCRIPTION: PayPal payment service routing rules (Optimized: Removed high-risk keywords & defensive domains)
-# UPDATED: 2026-05-28
-# SOURCE: blackmatrix7 ios_rule_script
-# SOURCE-URL-PAYPAL: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list
+# Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list
+# Description: PayPal payment service routing rules.
+# Updated: 2026-05-29
 # FORMAT: Surge Rule Set
 
 # === PayPal Core & Objects ===
@@ -48,7 +47,7 @@ DOMAIN-SUFFIX,xoom-experience.com
 DOMAIN-SUFFIX,s-xoom.com
 DOMAIN-SUFFIX,xoomcom.com
 
-# === Subsidiaries & Services (BillMeLater, Simility, Paydiant, Swift Capital) ===
+# === Subsidiaries & Services ===
 DOMAIN-SUFFIX,billmelater.com
 DOMAIN-SUFFIX,bill-safe.com
 DOMAIN-SUFFIX,simility.com

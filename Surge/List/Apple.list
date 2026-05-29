@@ -1,9 +1,8 @@
 # NAME: Apple
 # AUTHOR: RayHW
-# DESCRIPTION: Deeply curated and optimized Apple services routing rules (Removed deprecated spam domains)
-# UPDATED: 2026-05-28
-# SOURCE: blackmatrix7 ios_rule_script
-# SOURCE-URL-APPLE: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Apple/Apple_All_No_Resolve.list
+# Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Apple/Apple_All_No_Resolve.list
+# Description: Deeply curated and optimized Apple services routing rules.
+# Updated: 2026-05-29
 # FORMAT: Surge Rule Set
 
 # === Apple Official Core Domains ===

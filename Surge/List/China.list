@@ -1,11 +1,11 @@
-# NAME: China (Full Coverage Direct)
+# NAME: China
 # AUTHOR: RayHW
-# DESCRIPTION: Comprehensive domestic direct list designed for setups without GEOIP fallback. Includes .cn top-level domain and extended coverage of Chinese tech ecosystem.
-# UPDATED: 2026-05-28
-# SOURCE-URL-PROXY: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/China/China_All_No_Resolve.list
+# Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/China/China_All_No_Resolve.list
+# Description: Comprehensive domestic direct list designed for setups without GEOIP fallback.
+# Updated: 2026-05-29
 # FORMAT: Surge Rule Set
 
-# === Top Level Domain (Crucial for Non-GEOIP setup) ===
+# === Top Level Domain ===
 DOMAIN-SUFFIX,cn
 
 # === Alibaba Ecosystem ===
@@ -37,12 +37,12 @@ DOMAIN-SUFFIX,igamecj.com
 DOMAIN-SUFFIX,myapp.com
 DOMAIN-SUFFIX,myqcloud.com
 DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-SUFFIX,tencent.com
 DOMAIN-SUFFIX,tencent-cloud.com
 DOMAIN-SUFFIX,tencentcloudapi.com
 DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,weiyun.com
-DOMAIN-SUFFIX,servicewechat.com
 
 # === ByteDance ===
 DOMAIN-SUFFIX,amemv.com
@@ -70,12 +70,12 @@ DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,qiyi.com
 
 # === JD (Jingdong) ===
+DOMAIN-SUFFIX,360buyimg.com
+DOMAIN-SUFFIX,jcloudcs.com
 DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,jdcache.com
 DOMAIN-SUFFIX,jdcloud.com
-DOMAIN-SUFFIX,jcloudcs.com
 DOMAIN-SUFFIX,joybuy.com
-DOMAIN-SUFFIX,360buyimg.com
 
 # === NetEase ===
 DOMAIN-SUFFIX,126.com
@@ -109,8 +109,8 @@ DOMAIN-SUFFIX,pptv.com
 DOMAIN-SUFFIX,sohu.com
 DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,weibocdn.com
-DOMAIN-SUFFIX,xiaohongshu.com
 DOMAIN-SUFFIX,xhscdn.com
+DOMAIN-SUFFIX,xiaohongshu.com
 DOMAIN-SUFFIX,ximalaya.com
 DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,zhimg.com
@@ -121,8 +121,8 @@ DOMAIN-SUFFIX,dianping.com
 DOMAIN-SUFFIX,didichuxing.com
 DOMAIN-SUFFIX,meituan.com
 DOMAIN-SUFFIX,meituan.net
-DOMAIN-SUFFIX,pinduoduo.com
 DOMAIN-SUFFIX,pddpic.com
+DOMAIN-SUFFIX,pinduoduo.com
 DOMAIN-SUFFIX,qunar.com
 DOMAIN-SUFFIX,suning.com
 DOMAIN-SUFFIX,vip.com

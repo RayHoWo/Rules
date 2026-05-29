@@ -1,19 +1,16 @@
-# NAME: WW (Worldwide Access & Fallback)
+# NAME: Worldwide Access
 # AUTHOR: RayHW
-# DESCRIPTION: Curated worldwide proxy rules. Streamlined to prevent overlaps with existing Key Services (IM, Game, Apple, Microsoft) and Media rulesets.
-# UPDATED: 2026-05-28
-# SOURCE: Personal WW.list + Curated blackmatrix7 Proxy.list
-# SOURCE-URL-PROXY: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Proxy/Proxy_All_No_Resolve.list
-# SOURCE-URL-LINKEDIN: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/LinkedIn/LinkedIn.list
-# SOURCE-URL-SUMSUNG: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Samsung/Samsung.list
+# Source: Personal WW.list + Curated blackmatrix7 Proxy.list
+# Description: Curated worldwide proxy rules streamlined to prevent overlaps.
+# Updated: 2026-05-29
 # FORMAT: Surge Rule Set
 
 # === Manual Additions & Special Access ===
-DOMAIN-SUFFIX,thinkific.com
+DOMAIN-SUFFIX,dlercloud.com
 DOMAIN-SUFFIX,germanyfastlane.com
 DOMAIN-SUFFIX,now.rahw.uk
-DOMAIN-SUFFIX,dlercloud.com
 DOMAIN-SUFFIX,nssurge.com
+DOMAIN-SUFFIX,thinkific.com
 
 # === Finance, Stock & Crypto ===
 DOMAIN,shortsgp.im.qcloud.com

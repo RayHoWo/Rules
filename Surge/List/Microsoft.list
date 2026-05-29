@@ -1,9 +1,8 @@
 # NAME: Microsoft
 # AUTHOR: RayHW
-# DESCRIPTION: Curated Microsoft, Azure, Office365 and Xbox routing rules (Optimized: No false positives)
-# UPDATED: 2026-05-28
-# SOURCE: blackmatrix7 ios_rule_script
-# SOURCE-URL-MICROSOFT: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list
+# Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list
+# Description: Curated Microsoft, Azure, Office365 and Xbox routing rules.
+# Updated: 2026-05-29
 # FORMAT: Surge Rule Set
 
 # === Microsoft Core & Accounts ===
