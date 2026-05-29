@@ -1,7 +1,7 @@
 # NAME: WW
 # AUTHOR: RayHW
 # Source: Personal WW.list + Curated blackmatrix7 Proxy.list
-# Description: Curated worldwide proxy rules streamlined to prevent overlaps.
+# Description: Curated worldwide proxy rules including comprehensive Google and updated Samsung ecosystem coverage.
 # Updated: 2026-05-29
 # FORMAT: Surge Rule Set
 
@@ -11,6 +11,29 @@ DOMAIN-SUFFIX,germanyfastlane.com
 DOMAIN-SUFFIX,now.rahw.uk
 DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,thinkific.com
+
+# === Google Ecosystem ===
+DOMAIN-SUFFIX,abc.xyz
+DOMAIN-SUFFIX,android.com
+DOMAIN-SUFFIX,appspot.com
+DOMAIN-SUFFIX,chromium.org
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,google.co.jp
+DOMAIN-SUFFIX,google.co.kr
+DOMAIN-SUFFIX,google.co.uk
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,google.com.hk
+DOMAIN-SUFFIX,google.com.tw
+DOMAIN-SUFFIX,google.de
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googledrive.com
+DOMAIN-SUFFIX,googlemail.com
+DOMAIN-SUFFIX,googleplay.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,gvt0.com
+DOMAIN-SUFFIX,gvt3.com
+DOMAIN-KEYWORD,blogspot
 
 # === Finance, Stock & Crypto ===
 DOMAIN,shortsgp.im.qcloud.com
@@ -59,18 +82,25 @@ DOMAIN-SUFFIX,lnkd.in
 
 # === Samsung Ecosystem ===
 DOMAIN-SUFFIX,anrdoezrs.net
+DOMAIN-SUFFIX,bixby.com
 DOMAIN-SUFFIX,galaxyappstore.com
 DOMAIN-SUFFIX,galaxymobile.jp
 DOMAIN-SUFFIX,game-platform.net
 DOMAIN-SUFFIX,knoxemm.com
 DOMAIN-SUFFIX,samsung.com
+DOMAIN-SUFFIX,samsung.net
 DOMAIN-SUFFIX,samsungapps.com
+DOMAIN-SUFFIX,samsungcheckout.com
 DOMAIN-SUFFIX,samsungcloud.com
 DOMAIN-SUFFIX,samsungdm.com
 DOMAIN-SUFFIX,samsungeshop.com.cn
 DOMAIN-SUFFIX,samsunggalaxyfriends.com
 DOMAIN-SUFFIX,samsungknox.com
+DOMAIN-SUFFIX,samsungpay.com
 DOMAIN-SUFFIX,samsungqbe.com
+DOMAIN-SUFFIX,samsungtvplus.com
+DOMAIN-SUFFIX,secb2b.com
+DOMAIN-SUFFIX,smartthings.com
 
 # === Global Social Media & Community ===
 DOMAIN-SUFFIX,bsky.app

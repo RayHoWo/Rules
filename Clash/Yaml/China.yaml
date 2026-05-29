@@ -1,12 +1,32 @@
 # NAME: China
 # AUTHOR: RayHW
 # Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/China/China_All_No_Resolve.list
-# Description: Comprehensive domestic direct list designed for setups without GEOIP fallback.
+# Description: Comprehensive domestic direct list updated with Huawei/HarmonyOS ecosystem, Domestic AI LLMs, and Mini-program CDNs.
 # Updated: 2026-05-29
 # FORMAT: Clash / Stash Rule Provider
 payload:
   # === Top Level Domain ===
   - DOMAIN-SUFFIX,cn
+  # === Huawei & HarmonyOS Ecosystem ===
+  - DOMAIN-SUFFIX,dbankcdn.com
+  - DOMAIN-SUFFIX,dbankcloud.cn
+  - DOMAIN-SUFFIX,dbankcloud.com
+  - DOMAIN-SUFFIX,harmonyos.com
+  - DOMAIN-SUFFIX,hicloud.com
+  - DOMAIN-SUFFIX,huawei.com
+  - DOMAIN-SUFFIX,huaweicloud.com
+  - DOMAIN-SUFFIX,vmall.com
+  - DOMAIN-SUFFIX,vmallres.com
+  # === Domestic AI & LLMs ===
+  - DOMAIN-SUFFIX,baichuan-ai.com
+  - DOMAIN-SUFFIX,chatglm.cn
+  - DOMAIN-SUFFIX,doubao.com
+  - DOMAIN-SUFFIX,kwaiyii.com
+  - DOMAIN-SUFFIX,minimax.chat
+  - DOMAIN-SUFFIX,minimax.fun
+  - DOMAIN-SUFFIX,moonshot.cn
+  - DOMAIN-SUFFIX,tongyi.cn
+  - DOMAIN-SUFFIX,zhipuai.cn
   # === Alibaba Ecosystem ===
   - DOMAIN-SUFFIX,1688.com
   - DOMAIN-SUFFIX,alibaba.com
@@ -15,7 +35,7 @@ payload:
   - DOMAIN-SUFFIX,aliexpress.com
   - DOMAIN-SUFFIX,aliyun.com
   - DOMAIN-SUFFIX,aliyuncs.com
-  - DOM-SUFFIX,alipay.com
+  - DOMAIN-SUFFIX,alipay.com
   - DOMAIN-SUFFIX,alipayobjects.com
   - DOMAIN-SUFFIX,amap.com
   - DOMAIN-SUFFIX,autonavi.com
@@ -34,6 +54,8 @@ payload:
   - DOMAIN-SUFFIX,igamecj.com
   - DOMAIN-SUFFIX,myapp.com
   - DOMAIN-SUFFIX,myqcloud.com
+  - DOMAIN-SUFFIX,qlogo.cn
+  - DOMAIN-SUFFIX,qpic.cn
   - DOMAIN-SUFFIX,qq.com
   - DOMAIN-SUFFIX,servicewechat.com
   - DOMAIN-SUFFIX,tencent.com
@@ -42,18 +64,21 @@ payload:
   - DOMAIN-SUFFIX,tencentcloudapi.com
   - DOMAIN-SUFFIX,wechat.com
   - DOMAIN-SUFFIX,weiyun.com
-  # === ByteDance ===
+  # === ByteDance Ecosystem ===
   - DOMAIN-SUFFIX,amemv.com
+  - DOMAIN-SUFFIX,bytecdn.cn
   - DOMAIN-SUFFIX,bytedance.com
   - DOMAIN-SUFFIX,bytedance.net
   - DOMAIN-SUFFIX,byteimg.com
   - DOMAIN-SUFFIX,douyin.com
   - DOMAIN-SUFFIX,douyinstatic.com
+  - DOMAIN-SUFFIX,feishucdn.com
   - DOMAIN-SUFFIX,ixigua.com
   - DOMAIN-SUFFIX,pstatp.com
   - DOMAIN-SUFFIX,snssdk.com
   - DOMAIN-SUFFIX,toutiao.com
   - DOMAIN-SUFFIX,toutiaoimg.com
+  - DOMAIN-SUFFIX,volccdn.com
   # === Baidu Ecosystem ===
   - DOMAIN-SUFFIX,baidu.com
   - DOMAIN-SUFFIX,baidubce.com
@@ -126,8 +151,6 @@ payload:
   - DOMAIN-SUFFIX,csdn.net
   - DOMAIN-SUFFIX,dnspod.com
   - DOMAIN-SUFFIX,gitee.com
-  - DOMAIN-SUFFIX,huawei.com
-  - DOMAIN-SUFFIX,huaweicloud.com
   - DOMAIN-SUFFIX,mi.com
   - DOMAIN-SUFFIX,miui.com
   - DOMAIN-SUFFIX,oppo.com
