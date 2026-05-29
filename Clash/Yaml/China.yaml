@@ -41,6 +41,7 @@ payload:
   - DOMAIN-SUFFIX,servicewechat.com
   - DOMAIN-SUFFIX,tencent.com
   - DOMAIN-SUFFIX,tencent-cloud.com
+  - DOMAIN-SUFFIX,tencent-cloud.net
   - DOMAIN-SUFFIX,tencentcloudapi.com
   - DOMAIN-SUFFIX,wechat.com
   - DOMAIN-SUFFIX,weiyun.com
