@@ -37,9 +37,6 @@ DOMAIN-SUFFIX,mac.com
 DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,itunes.apple.com
-DOMAIN-SUFFIX,buy.itunes.apple.com
-DOMAIN-SUFFIX,testflight
-DOMAIN-SUFFIX,testflight.apple.com
 DOMAIN-SUFFIX,developer.apple.com
 DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,digicert.com
@@ -137,7 +134,6 @@ DOMAIN-SUFFIX,shazam.com
 # === Apple Keywords ===
 DOMAIN-KEYWORD,apple.com.akadns.net
 DOMAIN-KEYWORD,apple.com.edgekey.net
-DOMAIN-KEYWORD,buy.itunes.apple.com
 DOMAIN-KEYWORD,smp-device
 DOMAIN-KEYWORD,testflight
 DOMAIN-KEYWORD,icloud.com.akadns.net

@@ -1,12 +1,9 @@
 # NAME: YouTube
 # AUTHOR: RayHW
-# DESCRIPTION: YouTube, YouTube Music, YouTube Kids and Google video CDN routing rules (Ultimate Cleaned Version)
-# UPDATED: 2026-05-28
-# SOURCE: blackmatrix7 ios_rule_script
-# SOURCE-URL-YOUTUBE: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml
+# Source: blackmatrix7 ios_rule_script
+# Description: YouTube, YouTube Music, YouTube Kids and Google video CDN routing rules
+# Updated: 2026-05-29
 # FORMAT: Clash / Stash Rule Provider
-# BEHAVIOR: classical
-
 payload:
   # === YouTube Core Services ===
   - DOMAIN-SUFFIX,youtube.com
@@ -15,7 +12,6 @@ payload:
   - DOMAIN-SUFFIX,ytimg.com
   - DOMAIN-SUFFIX,ggpht.com
   - DOMAIN-SUFFIX,ggpht.cn
-
   # === Regional Extensions (Core Asia-Pacific & Major Zones) ===
   - DOMAIN-SUFFIX,youtube.com.tw
   - DOMAIN-SUFFIX,youtube.com.hk
@@ -32,7 +28,6 @@ payload:
   - DOMAIN-SUFFIX,youtube.kr
   - DOMAIN-SUFFIX,youtube.sg
   - DOMAIN-SUFFIX,youtube.tv
-
   # === Sub-Services & APIs ===
   - DOMAIN-SUFFIX,googlevideo.com
   - DOMAIN-SUFFIX,video.google.com
@@ -51,8 +46,15 @@ payload:
   - DOMAIN-SUFFIX,youtubei.googleapis.com
   - DOMAIN-SUFFIX,youtubeembeddedplayer.googleapis.com
   - DOMAIN-SUFFIX,youtubemobilesupport.com
-
   # === Google Video Infrastructure IP Blocks ===
   - IP-CIDR,172.110.32.0/21,no-resolve
   - IP-CIDR,216.73.80.0/20,no-resolve
   - IP-CIDR6,2620:120:e000::/40,no-resolve
+  # === Process & User-Agent Rules ===
+  - USER-AGENT,YouTube*
+  - USER-AGENT,YouTubeMusic*
+  - USER-AGENT,*youtube*
+  - USER-AGENT,*YouTubeMusic*
+  - USER-AGENT,*com.google.ios.youtubemusic*
+  - USER-AGENT,com.google.ios.youtube*
+  - USER-AGENT,com.google.ios.youtubemusic*

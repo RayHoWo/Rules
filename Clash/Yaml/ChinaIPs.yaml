@@ -1,11 +1,9 @@
-# NAME: ChinaIPs (Aggregated Core)
+# NAME: ChinaIPs
 # AUTHOR: RayHW
-# DESCRIPTION: Highly aggregated domestic IP CIDRs for Clash/Stash. Compressed from 22,700+ fragmented lines into core backbone supernets to ensure maximum matching performance. Strictly uses no-resolve.
-# UPDATED: 2026-05-28
-# SOURCE-URL-CHINAIPS: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.yaml
+# Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/ChinaIPs/ChinaIPs.list
+# Description: Highly aggregated domestic IP CIDRs for maximum matching performance.
+# Updated: 2026-05-29
 # FORMAT: Clash / Stash Rule Provider
-# BEHAVIOR: ipcidr
-
 payload:
   # === Core IPv4 Backbone (CIDR Aggregated) ===
   - IP-CIDR,1.0.1.0/24,no-resolve
@@ -56,20 +54,19 @@ payload:
   - IP-CIDR,221.0.0.0/11,no-resolve
   - IP-CIDR,222.16.0.0/11,no-resolve
   - IP-CIDR,223.64.0.0/10,no-resolve
-
   # === Core IPv6 Backbone (CIDR Aggregated) ===
-  # CERNET (中国教育网)
+  # CERNET
   - IP-CIDR6,2001:250::/30,no-resolve
   - IP-CIDR6,2001:da8::/31,no-resolve
-  # China Unicom (中国联通)
+  # China Unicom
   - IP-CIDR6,2408:8000::/20,no-resolve
-  # China Mobile (中国移动)
+  # China Mobile
   - IP-CIDR6,2409:8000::/20,no-resolve
-  # China Telecom (中国电信)
+  # China Telecom
   - IP-CIDR6,240e::/18,no-resolve
-  # China Broadcasting Network (中国广电)
+  # China Broadcasting Network
   - IP-CIDR6,240a:4000::/21,no-resolve
-  # Tencent Cloud IPv6 (腾讯云)
+  # Tencent Cloud IPv6
   - IP-CIDR6,2402:4e00::/32,no-resolve
-  # Alibaba Cloud IPv6 (阿里云)
+  # Alibaba Cloud IPv6
   - IP-CIDR6,240b:4000::/22,no-resolve

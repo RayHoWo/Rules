@@ -1,12 +1,8 @@
-# NAME: Worldwide Media
+# NAME: WW Media
 # AUTHOR: RayHW
-# DESCRIPTION: Curated worldwide and region-aware sports, music and streaming media routing rules (Optimized: Removed high-risk trackers)
-# UPDATED: 2026-05-28
-# SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
-# SOURCE-URL-DAZN: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/DAZN/DAZN.list
-# SOURCE-URL-DEEZER: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Deezer/Deezer.list
-# SOURCE-URL-TIDAL: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TIDAL/TIDAL.list
-# SOURCE-URL-SOUNDCLOUD: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/SoundCloud/SoundCloud.list
+# Source: blackmatrix7 ios_rule_script + official / actual service domains
+# Description: Curated worldwide and region-aware sports, music and streaming media routing rules
+# Updated: 2026-05-29
 # FORMAT: Surge Rule Set
 
 # === DAZN (Sports Streaming) ===

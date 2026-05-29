@@ -1,15 +1,9 @@
-# NAME: Worldwide Media
+# NAME: WW Media
 # AUTHOR: RayHW
-# DESCRIPTION: Curated worldwide and region-aware sports, music and streaming media routing rules (Optimized: Removed high-risk trackers)
-# UPDATED: 2026-05-28
-# SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
-# SOURCE-URL-DAZN: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DAZN/DAZN.yaml
-# SOURCE-URL-DEEZER: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Deezer/Deezer.yaml
-# SOURCE-URL-TIDAL: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TIDAL/TIDAL.yaml
-# SOURCE-URL-SOUNDCLOUD: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SoundCloud/SoundCloud.yaml
+# Source: blackmatrix7 ios_rule_script + official / actual service domains
+# Description: Curated worldwide and region-aware sports, music and streaming media routing rules
+# Updated: 2026-05-29
 # FORMAT: Clash / Stash Rule Provider
-# BEHAVIOR: classical
-
 payload:
   # === DAZN (Sports Streaming) ===
   - DOMAIN-SUFFIX,dazn.com
@@ -18,19 +12,21 @@ payload:
   - DOMAIN-SUFFIX,indazn.com
   - DOMAIN-SUFFIX,indaznlab.com
   - DOMAIN-KEYWORD,voddazn
-
+  - USER-AGENT,DAZN*
   # === Deezer (Music) ===
   - DOMAIN-SUFFIX,deezer.com
   - DOMAIN-SUFFIX,dzcdn.net
   - DOMAIN-SUFFIX,deezer.page.link
-
+  - USER-AGENT,Deezer*
   # === TIDAL (Hi-Fi Music) ===
   - DOMAIN-SUFFIX,tidal.com
   - DOMAIN-SUFFIX,tidalhifi.com
   - DOMAIN-SUFFIX,wimpmusic.com
-
+  - USER-AGENT,TIDAL*
+  - USER-AGENT,TIDAL*dia
   # === SoundCloud ===
   - DOMAIN-SUFFIX,soundcloud.com
   - DOMAIN-SUFFIX,sndcdn.com
   - DOMAIN-SUFFIX,soundcloud.app.goo.gl
   - DOMAIN-SUFFIX,p-cdn.us
+  - USER-AGENT,SoundCloud*

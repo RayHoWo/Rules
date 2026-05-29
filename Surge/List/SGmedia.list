@@ -1,12 +1,8 @@
-# NAME: Singapore Media
+# NAME: SG Media
 # AUTHOR: RayHW
-# DESCRIPTION: Curated Singapore media, streaming, region-service and CN international video routing rules (Optimized: No false positives)
-# UPDATED: 2026-05-28
-# SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
-# SOURCE-URL-IQIYIINTL: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/iQIYIIntl/iQIYIIntl.list
-# SOURCE-URL-BILIBILIINTL: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BiliBiliIntl/BiliBiliIntl.list
-# SOURCE-URL-FOXPLUS: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/FOXPlus/FOXPlus.list
-# SOURCE-URL-MEWATCH: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/MeWatch/MeWatch.list
+# Source: blackmatrix7 ios_rule_script + official / actual service domains
+# Description: Curated Singapore media, streaming, region-service and CN international video routing rules
+# Updated: 2026-05-29
 # FORMAT: Surge Rule Set
 
 # === Mediacorp (MeWatch / meLISTEN) ===

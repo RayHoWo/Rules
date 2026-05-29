@@ -1,12 +1,9 @@
 # NAME: Scholar
 # AUTHOR: RayHW
-# DESCRIPTION: Scholar, academic publishing and research resource routing rules (Optimized: Removed domestic databases like CNKI to prevent IP auth failures)
-# UPDATED: 2026-05-28
-# SOURCE: blackmatrix7 ios_rule_script
-# SOURCE-URL-SCHOLAR: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Scholar/Scholar.yaml
+# Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Scholar/Scholar.list
+# Description: Scholar, academic publishing and research resource routing rules
+# Updated: 2026-05-29
 # FORMAT: Clash / Stash Rule Provider
-# BEHAVIOR: classical
-
 payload:
   # === Scholar Search & Tools ===
   - DOMAIN,scholar.google.com
@@ -21,7 +18,6 @@ payload:
   - DOMAIN-SUFFIX,semanticscholar.org
   - DOMAIN-SUFFIX,turnitin.com
   - DOMAIN-SUFFIX,zotero.org
-
   # === Z-Library & Shadow Libraries ===
   - DOMAIN-SUFFIX,1lib.cloud
   - DOMAIN-SUFFIX,1lib.domains
@@ -63,7 +59,6 @@ payload:
   - DOMAIN-SUFFIX,zlib.life
   - DOMAIN-SUFFIX,zlibcdn.com
   - DOMAIN-SUFFIX,zlibcdn2.com
-
   # === Academic Publishers & Journals ===
   - DOMAIN-SUFFIX,aclweb.org
   - DOMAIN-SUFFIX,acm.org
@@ -219,7 +214,6 @@ payload:
   - DOMAIN-SUFFIX,wkap.nl
   - DOMAIN-SUFFIX,worldbank.org
   - DOMAIN-SUFFIX,worldscientific.com
-
   # === Overseas Universities & Institutions ===
   - DOMAIN-SUFFIX,berkeley.edu
   - DOMAIN-SUFFIX,ic.ac.uk

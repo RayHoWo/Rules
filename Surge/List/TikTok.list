@@ -1,9 +1,8 @@
 # NAME: TikTok
 # AUTHOR: RayHW
-# DESCRIPTION: TikTok routing rules, including international ByteDance services
-# UPDATED: 2026-05-28
-# SOURCE: blackmatrix7 ios_rule_script
-# SOURCE-URL-TIKTOK: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TikTok/TikTok.list
+# Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TikTok/TikTok.list
+# Description: TikTok routing rules, including international ByteDance services (Optimized)
+# Updated: 2026-05-29
 # FORMAT: Surge Rule Set
 
 # === Core Services ===
@@ -33,11 +32,9 @@ DOMAIN-SUFFIX,sgpstatp.com
 DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,ttwebview.com
 DOMAIN-SUFFIX,trae.ai
-DOMAIN-SUFFIX,musical.ly
 DOMAIN-KEYWORD,musical.ly
 
 # === CDN & Misc ===
-DOMAIN,p16-tiktokcdn-com.akamaized.net
 DOMAIN,lf16-effectcdn.byteeffecttos-g.com
 DOMAIN,lf16-pkgcdn.pitaya-clientai.com
 DOMAIN,trae-api-sg.mchost.guru

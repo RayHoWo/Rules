@@ -1,14 +1,12 @@
 # NAME: China
 # AUTHOR: RayHW
-# Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/China/China_Classical_No_Resolve.yaml
+# Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/China/China_All_No_Resolve.list
 # Description: Comprehensive domestic direct list designed for setups without GEOIP fallback.
 # Updated: 2026-05-29
 # FORMAT: Clash / Stash Rule Provider
-
 payload:
   # === Top Level Domain ===
   - DOMAIN-SUFFIX,cn
-
   # === Alibaba Ecosystem ===
   - DOMAIN-SUFFIX,1688.com
   - DOMAIN-SUFFIX,alibaba.com
@@ -17,7 +15,7 @@ payload:
   - DOMAIN-SUFFIX,aliexpress.com
   - DOMAIN-SUFFIX,aliyun.com
   - DOMAIN-SUFFIX,aliyuncs.com
-  - DOMAIN-SUFFIX,alipay.com
+  - DOM-SUFFIX,alipay.com
   - DOMAIN-SUFFIX,alipayobjects.com
   - DOMAIN-SUFFIX,amap.com
   - DOMAIN-SUFFIX,autonavi.com
@@ -29,7 +27,6 @@ payload:
   - DOMAIN-SUFFIX,tmall.com
   - DOMAIN-SUFFIX,xiami.com
   - DOMAIN-SUFFIX,youku.com
-
   # === Tencent Ecosystem ===
   - DOMAIN-SUFFIX,foxmail.com
   - DOMAIN-SUFFIX,gtimg.com
@@ -45,7 +42,6 @@ payload:
   - DOMAIN-SUFFIX,tencentcloudapi.com
   - DOMAIN-SUFFIX,wechat.com
   - DOMAIN-SUFFIX,weiyun.com
-
   # === ByteDance ===
   - DOMAIN-SUFFIX,amemv.com
   - DOMAIN-SUFFIX,bytedance.com
@@ -58,7 +54,6 @@ payload:
   - DOMAIN-SUFFIX,snssdk.com
   - DOMAIN-SUFFIX,toutiao.com
   - DOMAIN-SUFFIX,toutiaoimg.com
-
   # === Baidu Ecosystem ===
   - DOMAIN-SUFFIX,baidu.com
   - DOMAIN-SUFFIX,baidubce.com
@@ -70,7 +65,6 @@ payload:
   - DOMAIN-SUFFIX,hao123.com
   - DOMAIN-SUFFIX,iqiyi.com
   - DOMAIN-SUFFIX,qiyi.com
-
   # === JD (Jingdong) ===
   - DOMAIN-SUFFIX,360buyimg.com
   - DOMAIN-SUFFIX,jcloudcs.com
@@ -78,7 +72,6 @@ payload:
   - DOMAIN-SUFFIX,jdcache.com
   - DOMAIN-SUFFIX,jdcloud.com
   - DOMAIN-SUFFIX,joybuy.com
-
   # === NetEase ===
   - DOMAIN-SUFFIX,126.com
   - DOMAIN-SUFFIX,126.net
@@ -87,7 +80,6 @@ payload:
   - DOMAIN-SUFFIX,netease.com
   - DOMAIN-SUFFIX,netease.im
   - DOMAIN-SUFFIX,yeah.net
-
   # === Bilibili ===
   - DOMAIN-SUFFIX,b23.tv
   - DOMAIN-SUFFIX,biliapi.com
@@ -96,7 +88,6 @@ payload:
   - DOMAIN-SUFFIX,bilibiligame.net
   - DOMAIN-SUFFIX,bilivideo.com
   - DOMAIN-SUFFIX,hdslb.com
-
   # === Major Streaming, Social & Media ===
   - DOMAIN-SUFFIX,acfun.tv
   - DOMAIN-SUFFIX,douban.com
@@ -116,7 +107,6 @@ payload:
   - DOMAIN-SUFFIX,ximalaya.com
   - DOMAIN-SUFFIX,zhihu.com
   - DOMAIN-SUFFIX,zhimg.com
-
   # === E-commerce, Travel & Services ===
   - DOMAIN-SUFFIX,ctrip.com
   - DOMAIN-SUFFIX,dianping.com
@@ -129,7 +119,6 @@ payload:
   - DOMAIN-SUFFIX,suning.com
   - DOMAIN-SUFFIX,vip.com
   - DOMAIN-SUFFIX,xiaojukeji.com
-
   # === Tech, Cloud & Hardware Brands ===
   - DOMAIN-SUFFIX,360.com
   - DOMAIN-SUFFIX,bootcss.com
@@ -147,7 +136,6 @@ payload:
   - DOMAIN-SUFFIX,sogou.com
   - DOMAIN-SUFFIX,upaiyun.com
   - DOMAIN-SUFFIX,vivo.com
-
   # === Banking & Finance ===
   - DOMAIN-SUFFIX,abchina.com
   - DOMAIN-SUFFIX,bankcomm.com

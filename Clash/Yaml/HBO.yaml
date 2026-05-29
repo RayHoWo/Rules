@@ -1,12 +1,9 @@
 # NAME: HBO
 # AUTHOR: RayHW
-# DESCRIPTION: HBO / Max / HBO GO routing rules (Optimized)
-# UPDATED: 2026-05-28
-# SOURCE: blackmatrix7 ios_rule_script
-# SOURCE-URL-HBO: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/HBO/HBO_No_Resolve.yaml
+# Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/HBO/HBO.list
+# Description: HBO / Max / HBO GO routing rules
+# Updated: 2026-05-29
 # FORMAT: Clash / Stash Rule Provider
-# BEHAVIOR: classical
-
 payload:
   # === HBO / Max / HBO GO Core Services ===
   - DOMAIN-SUFFIX,hbo.com
@@ -19,7 +16,6 @@ payload:
   - DOMAIN-SUFFIX,max.com
   - DOMAIN-SUFFIX,maxgo.com
   - DOMAIN-SUFFIX,cinemax.com
-
   # === Now TV / Now E (Hong Kong) ===
   - DOMAIN-SUFFIX,now.com
   - DOMAIN-SUFFIX,now.com.hk
@@ -27,7 +23,6 @@ payload:
   - DOMAIN-SUFFIX,nowe.hk
   - DOMAIN-SUFFIX,now-tv.com
   - DOMAIN-SUFFIX,now-ashare.com
-
   # === HBO Regional Services ===
   - DOMAIN-SUFFIX,hbogo.co.th
   - DOMAIN-SUFFIX,hbogoasia.hk
@@ -35,11 +30,11 @@ payload:
   - DOMAIN-SUFFIX,hbogoasia.ph
   - DOMAIN-SUFFIX,hbogoasia.sg
   - DOMAIN-SUFFIX,hbogoasia.tw
-
   # === Media & CDN Support ===
   - DOMAIN-SUFFIX,warnermediacdn.com
   - DOMAIN-SUFFIX,forthethrone.com
   - DOMAIN-SUFFIX,players.brightcove.net
-
-  # === Process Rules ===
+  # === HBO Keywords & Process ===
+  - USER-AGENT,HBO%20NOW*
+  - USER-AGENT,HBOMAX*
   - PROCESS-NAME,com.hbo.hbonow

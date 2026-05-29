@@ -1,11 +1,8 @@
-# NAME: United Kingdom Media
+# NAME: UK Media
 # AUTHOR: RayHW
-# DESCRIPTION: Curated United Kingdom media, streaming and region-service routing rules (Optimized: No false positives)
-# UPDATED: 2026-05-28
-# SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
-# SOURCE-URL-ALL4: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/All4/All4.list
-# SOURCE-URL-BBC: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BBC/BBC.list
-# SOURCE-URL-ITV: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ITV/ITV.list
+# Source: blackmatrix7 ios_rule_script + official / actual service domains
+# Description: Curated United Kingdom media, streaming and region-service routing rules
+# Updated: 2026-05-29
 # FORMAT: Surge Rule Set
 
 # === BBC / BBC iPlayer ===

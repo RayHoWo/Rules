@@ -1,12 +1,9 @@
 # NAME: Disney
 # AUTHOR: RayHW
-# DESCRIPTION: Disney / Disney+ routing rules
-# UPDATED: 2026-05-28
-# SOURCE: blackmatrix7 ios_rule_script
-# SOURCE-URL-DISNEY: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Disney/Disney_No_Resolve.yaml
+# Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Disney/Disney.list
+# Description: Disney and Disney+ streaming routing rules
+# Updated: 2026-05-29
 # FORMAT: Clash / Stash Rule Provider
-# BEHAVIOR: classical
-
 payload:
   # === Disney+ Core Streaming & API ===
   - DOMAIN-SUFFIX,disneyplus.com
@@ -16,7 +13,6 @@ payload:
   - DOMAIN-SUFFIX,dilcdn.com
   - DOMAIN-SUFFIX,dssott.com
   - DOMAIN-SUFFIX,dssedge.com
-
   # === Disney Official Core Domains ===
   - DOMAIN-SUFFIX,disney.com
   - DOMAIN-SUFFIX,disney.de
@@ -24,7 +20,6 @@ payload:
   - DOMAIN-SUFFIX,disney.co.jp
   - DOMAIN-SUFFIX,disney.sg
   - DOMAIN-SUFFIX,disneyplus.bn5x.net
-
   # === Disney Brands (ABC, ESPN, Marvel, Star) ===
   - DOMAIN-SUFFIX,abc.com
   - DOMAIN-SUFFIX,abcnews.com
@@ -35,7 +30,7 @@ payload:
   - DOMAIN-SUFFIX,starwars.com
   - DOMAIN-SUFFIX,nationalgeographic.com
   - DOMAIN-SUFFIX,hotstar.com
-
   # === Disney Keywords & Process ===
   - DOMAIN-KEYWORD,disney
+  - USER-AGENT,Disney+*
   - PROCESS-NAME,com.disney.disneyplus

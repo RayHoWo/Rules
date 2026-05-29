@@ -1,14 +1,8 @@
-# NAME: Japan Media
+# NAME: JP Media
 # AUTHOR: RayHW
-# DESCRIPTION: Curated Japan media, streaming and region-service routing rules (Optimized: No false positives)
-# UPDATED: 2026-05-28
-# SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
-# SOURCE-URL-ABEMATV: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AbemaTV/AbemaTV.list
-# SOURCE-URL-DMM: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/DMM/DMM.list
-# SOURCE-URL-HULUJP: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/HuluJP/HuluJP.list
-# SOURCE-URL-JAPONX: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Japonx/Japonx.list
-# SOURCE-URL-NICONICO: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Niconico/Niconico.list
-# SOURCE-URL-TVER: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TVer/TVer.list
+# Source: blackmatrix7 ios_rule_script + official / actual service domains
+# Description: Curated Japan media, streaming and region-service routing rules
+# Updated: 2026-05-29
 # FORMAT: Surge Rule Set
 
 # === AbemaTV ===

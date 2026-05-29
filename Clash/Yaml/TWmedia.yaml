@@ -1,26 +1,18 @@
-# NAME: Taiwan Media
+# NAME: TW Media
 # AUTHOR: RayHW
-# DESCRIPTION: Curated Taiwan media, streaming and region-service routing rules (Ultimate Cleaned Version)
-# UPDATED: 2026-05-28
-# SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
-# SOURCE-URL-BAHAMUT: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bahamut/Bahamut.yaml
-# SOURCE-URL-BILIBILIINTL: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBiliIntl/BiliBiliIntl.yaml
-# SOURCE-URL-KKBOX: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/KKBOX/KKBOX.yaml
-# SOURCE-URL-LINETV: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/LineTV/LineTV.yaml
-# SOURCE-URL-TAIWANGOOD: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TaiWanGood/TaiWanGood.yaml
+# Source: blackmatrix7 ios_rule_script + official / actual service domains
+# Description: Curated Taiwan media, streaming and region-service routing rules
+# Updated: 2026-05-29
 # FORMAT: Clash / Stash Rule Provider
-# BEHAVIOR: classical
-
 payload:
   # === Bahamut / Gamer ===
   - DOMAIN,bahamut.akamaized.net
   - DOMAIN-SUFFIX,bahamut.com.tw
   - DOMAIN-SUFFIX,gamer.com.tw
-
+  - USER-AGENT,Anime*
   # === Bilibili International ===
   - DOMAIN-SUFFIX,bilibili.tv
   - PROCESS-NAME,com.bstar.intl
-
   # === KKBOX / KKTV / KKTIX ===
   - DOMAIN-SUFFIX,kfs.io
   - DOMAIN-SUFFIX,kk.stream
@@ -31,22 +23,21 @@ payload:
   - DOMAIN-SUFFIX,kktv.com.tw
   - DOMAIN-SUFFIX,kktv.me
   - DOMAIN,theater-kktv.cdn.hinet.net
-
   # === LINE TV ===
   - DOMAIN-SUFFIX,chocotv.com.tw
   - DOMAIN-SUFFIX,line-cdn.net
   - DOMAIN-SUFFIX,line-scdn.net
   - DOMAIN-SUFFIX,linetv.tw
+  - USER-AGENT,LINE%20TV*
   - PROCESS-NAME,com.linecorp.linetv
-
-  # === Hami Video & Chunghwa Telecom (Safe Domains) ===
+  # === Hami Video & Chunghwa Telecom ===
   - DOMAIN,hamifans.emome.net
   - DOMAIN-SUFFIX,skyking.com.tw
   - DOMAIN-SUFFIX,hami-video.hinet.net
   - DOMAIN-SUFFIX,hamivideo.hinet.net
   - DOMAIN-SUFFIX,cht.com.tw
   - DOMAIN-SUFFIX,emome.net
-
+  - USER-AGENT,TaiwanGood*
   # === Streaming Platforms (friDay / MyVideo / LiTV / CATCHPLAY) ===
   - DOMAIN-SUFFIX,video.friday.tw
   - DOMAIN-SUFFIX,friday.tw
@@ -60,7 +51,6 @@ payload:
   - DOMAIN-SUFFIX,pts.org.tw
   - DOMAIN-SUFFIX,ptsplus.tv
   - DOMAIN-SUFFIX,taiwanplus.com
-
   # === Taiwan News & TV Stations ===
   - DOMAIN-SUFFIX,tvbs.com.tw
   - DOMAIN-SUFFIX,tvbs.com
@@ -85,7 +75,6 @@ payload:
   - DOMAIN-SUFFIX,commonhealth.com.tw
   - DOMAIN-SUFFIX,cw.com.tw
   - DOMAIN-SUFFIX,taiwannews.com.tw
-
   # === Carriers & Region Services ===
   - DOMAIN-SUFFIX,myfone.com.tw
   - DOMAIN-SUFFIX,fareastone.com.tw

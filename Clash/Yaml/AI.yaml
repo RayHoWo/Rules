@@ -4,12 +4,10 @@
 # Description: Curated AI routing rules (High-Precision Anti-Overblock Edition)
 # Updated: 2026-05-29
 # FORMAT: Clash / Stash Rule Provider
-
 payload:
   # === Claude / Anthropic ===
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,claude.ai
-
   # === Gemini / Google AI ===
   - DOMAIN,ai.google.dev
   - DOMAIN,makersuite.google.com
@@ -25,7 +23,6 @@ payload:
   - DOMAIN-SUFFIX,pa.googleapis.com
   - DOMAIN-KEYWORD,-pa.googleapis.com
   - DOMAIN-KEYWORD,generativelanguage
-
   # === OpenAI / ChatGPT ===
   - DOMAIN,chat.openai.com.cdn.cloudflare.net
   - DOMAIN,openaicomcom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
@@ -41,7 +38,6 @@ payload:
   - DOMAIN-SUFFIX,openaicom.imgix.net
   - DOMAIN-SUFFIX,turn.livekit.cloud
   - DOMAIN-KEYWORD,openai
-
   # === OpenAI IP-CIDR / ASN ===
   - IP-CIDR,24.199.123.28/32,no-resolve
   - IP-CIDR,64.23.132.171/32,no-resolve

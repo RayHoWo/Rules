@@ -1,28 +1,17 @@
-# NAME: United States Media
+# NAME: US Media
 # AUTHOR: RayHW
-# DESCRIPTION: Curated United States media, streaming and US-region service routing rules (Optimized: Removed heavy telemetry & tracking domains)
-# UPDATED: 2026-05-28
-# SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
-# SOURCE-URL-GOOGLEVOICE: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleVoice/GoogleVoice.yaml
-# SOURCE-URL-CNN: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CNN/CNN.yaml
-# SOURCE-URL-DISCOVERYPLUS: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DiscoveryPlus/DiscoveryPlus.yaml
-# SOURCE-URL-FOXNOW: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/FOXNOW/FOXNOW.yaml
-# SOURCE-URL-HULUUSA: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HuluUSA/HuluUSA.yaml
-# SOURCE-URL-PANDORA: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Pandora/Pandora.yaml
-# SOURCE-URL-PARAMOUNTPLUS: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ParamountPlus/ParamountPlus.yaml
-# SOURCE-URL-PBS: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PBS/PBS.yaml
-# SOURCE-URL-PEACOCK: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Peacock/Peacock.yaml
-# SOURCE-URL-SLING: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Sling/Sling.yaml
+# Source: blackmatrix7 ios_rule_script + official / actual service domains
+# Description: Curated United States media, streaming and US-region service routing rules
+# Updated: 2026-05-29
 # FORMAT: Clash / Stash Rule Provider
-# BEHAVIOR: classical
-
 payload:
   # === YouTube TV & Google Voice ===
   - DOMAIN,lens.l.google.com
   - DOMAIN-SUFFIX,tv.youtube.com
   - DOMAIN-SUFFIX,voice.google.com
   - DOMAIN-SUFFIX,googlevoice.com
-
+  - USER-AGENT,*YouTubeTV*
+  - USER-AGENT,*com.google.ios.youtubetv*
   # === Hulu USA ===
   - DOMAIN-SUFFIX,hulu.com
   - DOMAIN-SUFFIX,hulu.tv
@@ -38,7 +27,6 @@ payload:
   - DOMAIN-SUFFIX,hulu.hb.omtrdc.net
   - DOMAIN-SUFFIX,hulu.sc.omtrdc.net
   - PROCESS-NAME,com.hulu.plus
-
   # === Peacock / NBCUniversal ===
   - DOMAIN-SUFFIX,peacocktv.com
   - DOMAIN-SUFFIX,nbc.com
@@ -48,7 +36,7 @@ payload:
   - DOMAIN-SUFFIX,msnbc.com
   - DOMAIN-SUFFIX,telemundo.com
   - DOMAIN-SUFFIX,universalpictures.com
-
+  - USER-AGENT,PeacockMobile*
   # === Paramount+ / CBS ===
   - DOMAIN,cbsi.live.ott.irdeto.com
   - DOMAIN,cbsplaylistserver.aws.syncbak.com
@@ -61,7 +49,7 @@ payload:
   - DOMAIN-SUFFIX,cbsivideo.com
   - DOMAIN-SUFFIX,cbsaavideo.com
   - DOMAIN-SUFFIX,cbsnews.com
-
+  - USER-AGENT,PPlus*
   # === Discovery+ / CNN ===
   - DOMAIN,discovery-us.conax.cloud
   - DOMAIN,dplus-northamerica-cloudfront-gcs.prod-vod.h264.io
@@ -75,13 +63,14 @@ payload:
   - DOMAIN-SUFFIX,cnn.it
   - DOMAIN-SUFFIX,cnnarabic.com
   - DOMAIN-SUFFIX,cnnlabs.com
-
+  - USER-AGENT,DPlus*
+  - USER-AGENT,discovery+*
   # === FOX Network ===
   - DOMAIN-SUFFIX,fox.com
   - DOMAIN-SUFFIX,foxdcg.com
   - DOMAIN-SUFFIX,foxnews.com
   - DOMAIN-SUFFIX,foxbusiness.com
-
+  - USER-AGENT,FOX%20NOW*
   # === Other Premium Streaming ===
   - DOMAIN-SUFFIX,sling.com
   - DOMAIN-SUFFIX,slinginternational.com
@@ -101,7 +90,9 @@ payload:
   - DOMAIN-SUFFIX,pbs.org
   - DOMAIN-SUFFIX,pandora.com
   - DOMAIN-SUFFIX,p-cdn.us
-
+  - USER-AGENT,Pandora*
+  - USER-AGENT,PBS*
+  - USER-AGENT,Pluto20%TV*
   # === US News & Public Radio ===
   - DOMAIN-SUFFIX,abcnews.go.com
   - DOMAIN-SUFFIX,apnews.com
@@ -120,7 +111,6 @@ payload:
   - DOMAIN-SUFFIX,npr.org
   - DOMAIN-SUFFIX,prss.org
   - DOMAIN-SUFFIX,wnyc.org
-
   # === US Carriers & Locked Services ===
   - DOMAIN-SUFFIX,att.com
   - DOMAIN-SUFFIX,verizon.com

@@ -1,14 +1,8 @@
-# NAME: Hong Kong Media
+# NAME: HK Media
 # AUTHOR: RayHW
-# DESCRIPTION: Curated Hong Kong media, streaming and region-service routing rules
-# UPDATED: 2026-05-28
-# SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
-# SOURCE-URL-HKOPENTV: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/HKOpenTV/HKOpenTV.list
-# SOURCE-URL-JOOX: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/JOOX/JOOX.list
-# SOURCE-URL-NOWE: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/NowE/NowE.list
-# SOURCE-URL-MYTVSUPER: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/myTVSUPER/myTVSUPER.list
-# SOURCE-URL-VIUTV: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ViuTV/ViuTV.list
-# SOURCE-URL-WETV: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/WeTV/WeTV.list
+# Source: blackmatrix7 ios_rule_script + official / actual service domains
+# Description: Curated Hong Kong media, streaming and region-service routing rules
+# Updated: 2026-05-29
 # FORMAT: Surge Rule Set
 
 # === HKOpenTV ===
@@ -38,7 +32,7 @@ DOMAIN-SUFFIX,tvbanywhere.com
 DOMAIN-SUFFIX,tvbnews.com
 USER-AGENT,mytv*
 
-# === RTHK (香港电台) ===
+# === RTHK ===
 DOMAIN-SUFFIX,rthk.hk
 DOMAIN-SUFFIX,rthk.org.hk
 DOMAIN-KEYWORD,rthklive

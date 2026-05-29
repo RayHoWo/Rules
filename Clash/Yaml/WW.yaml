@@ -1,10 +1,9 @@
-# NAME: Worldwide Access
+# NAME: WW
 # AUTHOR: RayHW
-# Source: Personal WW.yaml + Curated blackmatrix7 rulesets
+# Source: Personal WW.list + Curated blackmatrix7 Proxy.list
 # Description: Curated worldwide proxy rules streamlined to prevent overlaps.
 # Updated: 2026-05-29
 # FORMAT: Clash / Stash Rule Provider
-
 payload:
   # === Manual Additions & Special Access ===
   - DOMAIN-SUFFIX,dlercloud.com
@@ -12,7 +11,6 @@ payload:
   - DOMAIN-SUFFIX,now.rahw.uk
   - DOMAIN-SUFFIX,nssurge.com
   - DOMAIN-SUFFIX,thinkific.com
-
   # === Finance, Stock & Crypto ===
   - DOMAIN,shortsgp.im.qcloud.com
   - DOMAIN-SUFFIX,benzinga.com
@@ -29,7 +27,6 @@ payload:
   - DOMAIN-SUFFIX,seekingalpha.com
   - DOMAIN-SUFFIX,usmartsg.com
   - DOMAIN-SUFFIX,zacks.com
-
   # === Travel, Hospitality & Smart Home ===
   - DOMAIN-SUFFIX,hilton.com
   - DOMAIN-SUFFIX,hilton.io
@@ -43,7 +40,6 @@ payload:
   - DOMAIN-SUFFIX,sonos.com
   - DOMAIN-SUFFIX,sonos.radio
   - DOMAIN-SUFFIX,wiz.world
-
   # === LinkedIn (Professional Network) ===
   - DOMAIN,e122475.dscg.akamaiedge.net
   - DOMAIN,licdn.cn.cdn20.com
@@ -57,7 +53,6 @@ payload:
   - DOMAIN-SUFFIX,linkedin.cn
   - DOMAIN-SUFFIX,linkedin.com
   - DOMAIN-SUFFIX,lnkd.in
-
   # === Samsung Ecosystem ===
   - DOMAIN-SUFFIX,anrdoezrs.net
   - DOMAIN-SUFFIX,galaxyappstore.com
@@ -72,7 +67,6 @@ payload:
   - DOMAIN-SUFFIX,samsunggalaxyfriends.com
   - DOMAIN-SUFFIX,samsungknox.com
   - DOMAIN-SUFFIX,samsungqbe.com
-
   # === Global Social Media & Community ===
   - DOMAIN-SUFFIX,bsky.app
   - DOMAIN-SUFFIX,bsky.network
@@ -97,7 +91,6 @@ payload:
   - DOMAIN-SUFFIX,twimg.com
   - DOMAIN-SUFFIX,twitter.com
   - DOMAIN-SUFFIX,x.com
-
   # === Tech, Developer & Cloud ===
   - DOMAIN-SUFFIX,awsstatic.com
   - DOMAIN-SUFFIX,cloudflare.com
@@ -111,14 +104,12 @@ payload:
   - DOMAIN-SUFFIX,oraclecloud.com
   - DOMAIN-SUFFIX,stackoverflow.com
   - DOMAIN-SUFFIX,vercel.app
-
   # === Global Information & Knowledge ===
   - DOMAIN-SUFFIX,economist.com
   - DOMAIN-SUFFIX,medium.com
   - DOMAIN-SUFFIX,wikimedia.org
   - DOMAIN-SUFFIX,wikipedia.org
   - DOMAIN-SUFFIX,wikiquote.org
-
   # === Design, Productivity & Utility ===
   - DOMAIN-SUFFIX,adobe.com
   - DOMAIN-SUFFIX,behance.net
@@ -130,8 +121,11 @@ payload:
   - DOMAIN-SUFFIX,notion.so
   - DOMAIN-SUFFIX,slack.com
   - DOMAIN-SUFFIX,zoom.us
-
   # === Global Search & Generic Fallback ===
   - DOMAIN-SUFFIX,duckduckgo.com
   - DOMAIN-SUFFIX,yahoo.com
   - DOMAIN-SUFFIX,yimg.com
+  # === Utility User Agents ===
+  - USER-AGENT,Duolingo*
+  - USER-AGENT,Roam*
+  - USER-AGENT,com.apple.trustd*

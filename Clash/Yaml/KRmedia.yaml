@@ -1,14 +1,9 @@
-# NAME: Korea Media
+# NAME: KR Media
 # AUTHOR: RayHW
-# DESCRIPTION: Curated Korea media, streaming and region-service routing rules (Optimized: No false positives)
-# UPDATED: 2026-05-28
-# SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
-# SOURCE-URL-PANDORATV: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PandoraTV/PandoraTV.yaml
-# SOURCE-URL-NAVER: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Naver/Naver.yaml
-# SOURCE-URL-VIKI: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Viki/Viki.yaml
+# Source: blackmatrix7 ios_rule_script + official / actual service domains
+# Description: Curated Korea media, streaming and region-service routing rules
+# Updated: 2026-05-29
 # FORMAT: Clash / Stash Rule Provider
-# BEHAVIOR: classical
-
 payload:
   # === KBS / MBC / SBS (Public Broadcasters) ===
   - DOMAIN-SUFFIX,kbs.co.kr
@@ -19,14 +14,12 @@ payload:
   - DOMAIN-SUFFIX,sbs.co.kr
   - DOMAIN-SUFFIX,sbs.com.au
   - DOMAIN-SUFFIX,sbsmedianet.co.kr
-
   # === JTBC / EBS ===
   - DOMAIN-SUFFIX,jtbc.co.kr
   - DOMAIN-SUFFIX,jtbcplus.kr
   - DOMAIN-SUFFIX,jtbcworldwide.com
   - DOMAIN-SUFFIX,ebs.co.kr
   - DOMAIN-SUFFIX,ebsi.co.kr
-
   # === Streaming Platforms (TVING / Wavve / WATCHA / Coupang) ===
   - DOMAIN-SUFFIX,tving.com
   - DOMAIN-SUFFIX,tvingapi.com
@@ -39,7 +32,6 @@ payload:
   - DOMAIN-SUFFIX,watcha.com
   - DOMAIN-SUFFIX,watcha.net
   - DOMAIN-SUFFIX,watchaplay.net
-
   # === Kakao / SOOP (AfreecaTV) / PandoraTV ===
   - DOMAIN-SUFFIX,kakao.com
   - DOMAIN-SUFFIX,kakaocdn.net
@@ -51,7 +43,6 @@ payload:
   - DOMAIN-SUFFIX,afreecatv.co.kr
   - DOMAIN-SUFFIX,kmplayer.com
   - DOMAIN-SUFFIX,pandora.tv
-
   # === Naver / LINE / Webtoon ===
   - DOMAIN-SUFFIX,chocotv.com.tw
   - DOMAIN-SUFFIX,grafolio.com
@@ -77,8 +68,8 @@ payload:
   - DOMAIN-SUFFIX,pstatic.net
   - DOMAIN-SUFFIX,smartmediarep.com
   - DOMAIN-SUFFIX,webtoons.com
+  - USER-AGENT,LINE%20TV*
   - PROCESS-NAME,com.linecorp.linetv
-
   # === Viki ===
   - DOMAIN-SUFFIX,kalhlspd-a.akamaihd.net
   - DOMAIN-SUFFIX,m-content-viki.s.llnwi.net
@@ -87,7 +78,6 @@ payload:
   - DOMAIN-SUFFIX,viki.net
   - DOMAIN-SUFFIX,vikidash.akamaized.net
   - DOMAIN-SUFFIX,vikiplatform.com
-
   # === Korea News / Publishing ===
   - DOMAIN-SUFFIX,yna.co.kr
   - DOMAIN-SUFFIX,yonhapnews.co.kr
@@ -101,7 +91,6 @@ payload:
   - DOMAIN-SUFFIX,hankookilbo.com
   - DOMAIN-SUFFIX,koreaherald.com
   - DOMAIN-SUFFIX,koreatimes.co.kr
-
   # === Korea Region Services / Carriers ===
   - DOMAIN-SUFFIX,skt.co.kr
   - DOMAIN-SUFFIX,sktelecom.com

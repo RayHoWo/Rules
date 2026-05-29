@@ -1,14 +1,9 @@
-# NAME: United Kingdom Media
+# NAME: UK Media
 # AUTHOR: RayHW
-# DESCRIPTION: Curated United Kingdom media, streaming and region-service routing rules (Optimized: No false positives)
-# UPDATED: 2026-05-28
-# SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
-# SOURCE-URL-ALL4: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/All4/All4.yaml
-# SOURCE-URL-BBC: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BBC/BBC.yaml
-# SOURCE-URL-ITV: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ITV/ITV.yaml
+# Source: blackmatrix7 ios_rule_script + official / actual service domains
+# Description: Curated United Kingdom media, streaming and region-service routing rules
+# Updated: 2026-05-29
 # FORMAT: Clash / Stash Rule Provider
-# BEHAVIOR: classical
-
 payload:
   # === BBC / BBC iPlayer ===
   - DOMAIN-SUFFIX,bbc.co.uk
@@ -16,11 +11,11 @@ payload:
   - DOMAIN-SUFFIX,bbci.co.uk
   - DOMAIN-SUFFIX,bbcmedia.co.uk
   - DOMAIN,vs-cmaf-push-uk-live.akamaized.net
-
+  - USER-AGENT,BBCiPlayer*
   # === Channel 4 / All 4 ===
   - DOMAIN-SUFFIX,channel4.com
   - DOMAIN-SUFFIX,c4assets.com
-
+  - USER-AGENT,All4*
   # === ITV / ITVX & BritBox UK ===
   - DOMAIN-SUFFIX,itv.com
   - DOMAIN-SUFFIX,itvstatic.com
@@ -30,15 +25,14 @@ payload:
   - DOMAIN-SUFFIX,massive-itv.com
   - DOMAIN,itvpnpmobile-a.akamaihd.net
   - DOMAIN,itvpnp.live.ott.irdeto.com
-
+  - USER-AGENT,ITV_Player*
   # === My5 / Channel 5 ===
   - DOMAIN-SUFFIX,channel5.com
   - DOMAIN-SUFFIX,my5.tv
-
-  # === Sky ===
+  - USER-AGENT,My5*
+  # === Sky & Premium Television ===
   - DOMAIN-SUFFIX,sky.com
   - DOMAIN-SUFFIX,skysports.com
-
   # === UK News & Publishing ===
   - DOMAIN-SUFFIX,theguardian.com
   - DOMAIN-SUFFIX,guardian.co.uk
@@ -57,7 +51,6 @@ payload:
   - DOMAIN-SUFFIX,inews.co.uk
   - DOMAIN-SUFFIX,gbnews.com
   - DOMAIN-SUFFIX,lbc.co.uk
-
   # === Carriers & Region Services ===
   - DOMAIN-SUFFIX,ee.co.uk
   - DOMAIN-SUFFIX,o2.co.uk

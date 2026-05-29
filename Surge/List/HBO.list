@@ -1,9 +1,8 @@
 # NAME: HBO
 # AUTHOR: RayHW
-# DESCRIPTION: HBO / Max / HBO GO routing rules (Optimized)
-# UPDATED: 2026-05-28
-# SOURCE: blackmatrix7 ios_rule_script
-# SOURCE-URL-HBO: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/HBO/HBO.list
+# Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/HBO/HBO.list
+# Description: HBO / Max / HBO GO routing rules
+# Updated: 2026-05-29
 # FORMAT: Surge Rule Set
 
 # === HBO / Max / HBO GO Core Services ===

@@ -31,12 +31,7 @@ DOMAIN-SUFFIX,passport.net
 DOMAIN-SUFFIX,s-microsoft.com
 
 # === OneDrive & SharePoint ===
-DOMAIN-SUFFIX,1drv.com
-DOMAIN-SUFFIX,1drv.ms
 DOMAIN-SUFFIX,livefilestore.com
-DOMAIN-SUFFIX,onedrive.com
-DOMAIN-SUFFIX,onedrive.co.uk
-DOMAIN-SUFFIX,onedrive.net
 DOMAIN-SUFFIX,sharepoint.cn
 DOMAIN-SUFFIX,sharepoint.com
 DOMAIN-SUFFIX,sharepointonline.com

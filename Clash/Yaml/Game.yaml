@@ -4,7 +4,6 @@
 # Description: Curated game platform, service and CDN routing rules.
 # Updated: 2026-05-29
 # FORMAT: Clash / Stash Rule Provider
-
 payload:
   # === Gaming Platforms & Developers ===
   - DOMAIN-SUFFIX,battle.net

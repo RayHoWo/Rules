@@ -1,18 +1,8 @@
-# NAME: United States Media
+# NAME: US Media
 # AUTHOR: RayHW
-# DESCRIPTION: Curated United States media, streaming and US-region service routing rules (Optimized: Removed heavy telemetry & tracking domains)
-# UPDATED: 2026-05-28
-# SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
-# SOURCE-URL-GOOGLEVOICE: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GoogleVoice/GoogleVoice.list
-# SOURCE-URL-CNN: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/CNN/CNN.list
-# SOURCE-URL-DISCOVERYPLUS: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/DiscoveryPlus/DiscoveryPlus.list
-# SOURCE-URL-FOXNOW: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/FOXNOW/FOXNOW.list
-# SOURCE-URL-HULUUSA: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/HuluUSA/HuluUSA.list
-# SOURCE-URL-PANDORA: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Pandora/Pandora.list
-# SOURCE-URL-PARAMOUNTPLUS: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ParamountPlus/ParamountPlus.list
-# SOURCE-URL-PBS: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PBS/PBS.list
-# SOURCE-URL-PEACOCK: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Peacock/Peacock.list
-# SOURCE-URL-SLING: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Sling/Sling.list
+# Source: blackmatrix7 ios_rule_script + official / actual service domains
+# Description: Curated United States media, streaming and US-region service routing rules
+# Updated: 2026-05-29
 # FORMAT: Surge Rule Set
 
 # === YouTube TV & Google Voice ===

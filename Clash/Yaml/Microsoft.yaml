@@ -4,7 +4,6 @@
 # Description: Curated Microsoft, Azure, Office365 and Xbox routing rules.
 # Updated: 2026-05-29
 # FORMAT: Clash / Stash Rule Provider
-
 payload:
   # === Microsoft Core & Accounts ===
   - DOMAIN-SUFFIX,aka.ms
@@ -30,14 +29,8 @@ payload:
   - DOMAIN-SUFFIX,msn.net
   - DOMAIN-SUFFIX,passport.net
   - DOMAIN-SUFFIX,s-microsoft.com
-
   # === OneDrive & SharePoint ===
-  - DOMAIN-SUFFIX,1drv.com
-  - DOMAIN-SUFFIX,1drv.ms
   - DOMAIN-SUFFIX,livefilestore.com
-  - DOMAIN-SUFFIX,onedrive.com
-  - DOMAIN-SUFFIX,onedrive.co.uk
-  - DOMAIN-SUFFIX,onedrive.net
   - DOMAIN-SUFFIX,sharepoint.cn
   - DOMAIN-SUFFIX,sharepoint.com
   - DOMAIN-SUFFIX,sharepointonline.com
@@ -49,7 +42,6 @@ payload:
   - USER-AGENT,OneDriveiOSApp*
   - PROCESS-NAME,OneDrive
   - PROCESS-NAME,OneDriveUpdater
-
   # === Office 365 & Productivity ===
   - DOMAIN-SUFFIX,acompli.net
   - DOMAIN-SUFFIX,lync.com
@@ -69,7 +61,6 @@ payload:
   - DOMAIN-SUFFIX,skypeassets.com
   - DOMAIN-SUFFIX,sway.com
   - DOMAIN-SUFFIX,microsoftteams.com
-
   # === Azure & Cloud Developers ===
   - DOMAIN-SUFFIX,appcenter.ms
   - DOMAIN-SUFFIX,applicationinsights.io
@@ -90,14 +81,12 @@ payload:
   - DOMAIN-SUFFIX,visualstudio.com
   - DOMAIN-SUFFIX,vscode.dev
   - DOMAIN-SUFFIX,nuget.org
-
   # === Windows & Updates ===
   - DOMAIN-SUFFIX,windows
   - DOMAIN-SUFFIX,windows.com
   - DOMAIN-SUFFIX,windows.net
   - DOMAIN-SUFFIX,windowsupdate.com
   - DOMAIN-SUFFIX,windowslive.cn
-
   # === Xbox & Gaming ===
   - DOMAIN-SUFFIX,gamepass.com
   - DOMAIN-SUFFIX,minecraft.net
@@ -112,7 +101,6 @@ payload:
   - DOMAIN-SUFFIX,beth.games
   - DOMAIN-SUFFIX,bethesda.net
   - DOMAIN-SUFFIX,bethsoft.com
-
   # === Bing & Search ===
   - DOMAIN-SUFFIX,bing
   - DOMAIN-SUFFIX,bing.com
@@ -121,7 +109,6 @@ payload:
   - DOMAIN-SUFFIX,bingapis.com
   - DOMAIN-SUFFIX,biying.cn
   - DOMAIN-SUFFIX,biying.com
-
   # === Microsoft Others / Misc ===
   - DOMAIN-SUFFIX,botframework.com
   - DOMAIN-SUFFIX,ch9.ms
@@ -130,6 +117,5 @@ payload:
   - DOMAIN-SUFFIX,here.net
   - DOMAIN-SUFFIX,microsoftstore.com
   - DOMAIN-SUFFIX,yammer.com
-
   # === Process Rules ===
   - USER-AGENT,Microsoft*

@@ -1,9 +1,8 @@
 # NAME: Scholar
 # AUTHOR: RayHW
-# DESCRIPTION: Scholar, academic publishing and research resource routing rules (Optimized: Removed domestic databases like CNKI to prevent IP auth failures)
-# UPDATED: 2026-05-28
-# SOURCE: blackmatrix7 ios_rule_script
-# SOURCE-URL-SCHOLAR: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Scholar/Scholar.list
+# Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Scholar/Scholar.list
+# Description: Scholar, academic publishing and research resource routing rules
+# Updated: 2026-05-29
 # FORMAT: Surge Rule Set
 
 # === Scholar Search & Tools ===

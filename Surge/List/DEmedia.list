@@ -1,8 +1,8 @@
-# NAME: Germany Media
+# NAME: DE Media
 # AUTHOR: RayHW
-# DESCRIPTION: Curated Germany media, streaming and region-service routing rules
-# UPDATED: 2026-05-28
-# SOURCE: personally curated + official / actual service domains
+# Source: Personally curated + official / actual service domains
+# Description: Curated Germany media, streaming and region-service routing rules
+# Updated: 2026-05-29
 # FORMAT: Surge Rule Set
 
 # === DW / Deutsche Welle ===
@@ -24,7 +24,7 @@ DOMAIN-SUFFIX,joyn.de
 DOMAIN-SUFFIX,prosieben.de
 DOMAIN-SUFFIX,sat1.de
 
-# === German News & Magazines (新闻报刊) ===
+# === German News & Magazines ===
 DOMAIN-SUFFIX,spiegel.de
 DOMAIN-SUFFIX,zeit.de
 DOMAIN-SUFFIX,faz.net
@@ -34,7 +34,7 @@ DOMAIN-SUFFIX,welt.de
 DOMAIN-SUFFIX,focus.de
 DOMAIN-SUFFIX,stern.de
 
-# === Germany Region Services / Carriers (主流运营商) ===
+# === Germany Region Services / Carriers ===
 DOMAIN-SUFFIX,telekom.de
 DOMAIN-SUFFIX,t-mobile.de
 DOMAIN-SUFFIX,vodafone.de
@@ -43,7 +43,7 @@ DOMAIN-SUFFIX,telefonica.de
 DOMAIN-SUFFIX,1und1.de
 DOMAIN-SUFFIX,1und1.net
 
-# === Germany Region Services / MVNO (虚拟运营商) ===
+# === Germany Region Services / MVNO ===
 DOMAIN-SUFFIX,congstar.de
 DOMAIN-SUFFIX,aldi-talk.de
 DOMAIN-SUFFIX,blau.de

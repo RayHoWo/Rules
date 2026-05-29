@@ -1,12 +1,9 @@
 # NAME: TikTok
 # AUTHOR: RayHW
-# DESCRIPTION: TikTok routing rules, including international ByteDance services
-# UPDATED: 2026-05-28
-# SOURCE: blackmatrix7 ios_rule_script
-# SOURCE-URL-TIKTOK: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml
+# Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TikTok/TikTok.list
+# Description: TikTok routing rules, including international ByteDance services (Optimized)
+# Updated: 2026-05-29
 # FORMAT: Clash / Stash Rule Provider
-# BEHAVIOR: classical
-
 payload:
   # === Core Services ===
   - DOMAIN-SUFFIX,tiktok.com
@@ -19,7 +16,6 @@ payload:
   - DOMAIN-SUFFIX,tiktokmusic.app
   - DOMAIN-SUFFIX,tik-tokapi.com
   - DOMAIN-KEYWORD,tiktok
-
   # === ByteDance / International Ecosystem ===
   - DOMAIN-SUFFIX,capcut.com
   - DOMAIN-SUFFIX,marscode.com
@@ -35,15 +31,12 @@ payload:
   - DOMAIN-SUFFIX,snssdk.com
   - DOMAIN-SUFFIX,ttwebview.com
   - DOMAIN-SUFFIX,trae.ai
-  - DOMAIN-SUFFIX,musical.ly
   - DOMAIN-KEYWORD,musical.ly
-
   # === CDN & Misc ===
-  - DOMAIN,p16-tiktokcdn-com.akamaized.net
   - DOMAIN,lf16-effectcdn.byteeffecttos-g.com
   - DOMAIN,lf16-pkgcdn.pitaya-clientai.com
   - DOMAIN,trae-api-sg.mchost.guru
   - DOMAIN-SUFFIX,muscdn.com
-
-  # === Process Rules ===
+  # === Process & User-Agent ===
+  - USER-AGENT,TikTok*
   - PROCESS-NAME,com.zhiliaoapp.musically

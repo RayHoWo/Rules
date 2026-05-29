@@ -1,9 +1,8 @@
 # NAME: Disney
 # AUTHOR: RayHW
-# DESCRIPTION: Disney / Disney+ routing rules
-# UPDATED: 2026-05-28
-# SOURCE: blackmatrix7 ios_rule_script
-# SOURCE-URL-DISNEY: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Disney/Disney.list
+# Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Disney/Disney.list
+# Description: Disney and Disney+ streaming routing rules
+# Updated: 2026-05-29
 # FORMAT: Surge Rule Set
 
 # === Disney+ Core Streaming & API ===

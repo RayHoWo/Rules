@@ -56,9 +56,6 @@ PROCESS-NAME,xyz.nextalone.nagram
 # === WhatsApp ===
 DOMAIN,graph.facebook.com
 DOMAIN-SUFFIX,wa.me
-DOMAIN-SUFFIX,whatsapp.biz
-DOMAIN-SUFFIX,whatsapp.com
-DOMAIN-SUFFIX,whatsapp.net
 DOMAIN-KEYWORD,whatsapp
 IP-CIDR,18.194.0.0/15,no-resolve
 IP-CIDR,34.224.0.0/12,no-resolve

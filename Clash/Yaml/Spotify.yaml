@@ -1,12 +1,9 @@
 # NAME: Spotify
 # AUTHOR: RayHW
-# DESCRIPTION: Curated Spotify routing rules (Optimized: No false positives)
-# UPDATED: 2026-05-28
-# SOURCE: blackmatrix7 ios_rule_script
-# SOURCE-URL-SPOTIFY: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Spotify/Spotify.yaml
+# Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Spotify/Spotify.list
+# Description: Curated Spotify routing rules (Optimized)
+# Updated: 2026-05-29
 # FORMAT: Clash / Stash Rule Provider
-# BEHAVIOR: classical
-
 payload:
   # === Core Services ===
   - DOMAIN-SUFFIX,spotify.com
@@ -24,12 +21,11 @@ payload:
   - DOMAIN-SUFFIX,byspotify.com
   - DOMAIN-SUFFIX,spotify-everywhere.com
   - DOMAIN-SUFFIX,spoti.fi
-
   # === CDN & Assets ===
   - DOMAIN-SUFFIX,scdn.co
   - DOMAIN-SUFFIX,pscdn.co
-
   # === IP & Process Rules ===
   - IP-CIDR,104.154.127.126/32,no-resolve
   - IP-CIDR,35.186.224.47/32,no-resolve
+  - USER-AGENT,Spotify*
   - PROCESS-NAME,com.spotify.music

@@ -21,9 +21,10 @@ DOMAIN-SUFFIX,applovin.com
 DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,branch.io
 DOMAIN-SUFFIX,chartboost.com
-DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,flurry.com
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,googleadservices.com
 DOMAIN-SUFFIX,googlesyndication.com
 DOMAIN-SUFFIX,inmobi.com
 DOMAIN-SUFFIX,instabug.com

@@ -1,11 +1,8 @@
-# NAME: Korea Media
+# NAME: KR Media
 # AUTHOR: RayHW
-# DESCRIPTION: Curated Korea media, streaming and region-service routing rules (Optimized: No false positives)
-# UPDATED: 2026-05-28
-# SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
-# SOURCE-URL-PANDORATV: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PandoraTV/PandoraTV.list
-# SOURCE-URL-NAVER: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Naver/Naver.list
-# SOURCE-URL-VIKI: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Viki/Viki.list
+# Source: blackmatrix7 ios_rule_script + official / actual service domains
+# Description: Curated Korea media, streaming and region-service routing rules
+# Updated: 2026-05-29
 # FORMAT: Surge Rule Set
 
 # === KBS / MBC / SBS (Public Broadcasters) ===

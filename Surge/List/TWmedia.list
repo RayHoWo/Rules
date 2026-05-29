@@ -1,13 +1,8 @@
-# NAME: Taiwan Media
+# NAME: TW Media
 # AUTHOR: RayHW
-# DESCRIPTION: Curated Taiwan media, streaming and region-service routing rules (Ultimate Cleaned Version)
-# UPDATED: 2026-05-28
-# SOURCE: blackmatrix7 ios_rule_script + official / actual service domains
-# SOURCE-URL-BAHAMUT: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Bahamut/Bahamut.list
-# SOURCE-URL-BILIBILIINTL: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BiliBiliIntl/BiliBiliIntl.list
-# SOURCE-URL-KKBOX: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/KKBOX/KKBOX.list
-# SOURCE-URL-LINETV: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/LineTV/LineTV.list
-# SOURCE-URL-TAIWANGOOD: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TaiWanGood/TaiWanGood.list
+# Source: blackmatrix7 ios_rule_script + official / actual service domains
+# Description: Curated Taiwan media, streaming and region-service routing rules
+# Updated: 2026-05-29
 # FORMAT: Surge Rule Set
 
 # === Bahamut / Gamer ===
@@ -31,7 +26,7 @@ DOMAIN-SUFFIX,kktv.com.tw
 DOMAIN-SUFFIX,kktv.me
 DOMAIN,theater-kktv.cdn.hinet.net
 
-# === LINE TV (Excluding general LINE messenger) ===
+# === LINE TV ===
 DOMAIN-SUFFIX,chocotv.com.tw
 DOMAIN-SUFFIX,line-cdn.net
 DOMAIN-SUFFIX,line-scdn.net
@@ -39,7 +34,7 @@ DOMAIN-SUFFIX,linetv.tw
 USER-AGENT,LINE%20TV*
 PROCESS-NAME,com.linecorp.linetv
 
-# === Hami Video & Chunghwa Telecom (Safe Domains) ===
+# === Hami Video & Chunghwa Telecom ===
 DOMAIN,hamifans.emome.net
 DOMAIN-SUFFIX,skyking.com.tw
 DOMAIN-SUFFIX,hami-video.hinet.net
@@ -62,7 +57,7 @@ DOMAIN-SUFFIX,pts.org.tw
 DOMAIN-SUFFIX,ptsplus.tv
 DOMAIN-SUFFIX,taiwanplus.com
 
-# === Taiwan News & TV Stations (Cleaned) ===
+# === Taiwan News & TV Stations ===
 DOMAIN-SUFFIX,tvbs.com.tw
 DOMAIN-SUFFIX,tvbs.com
 DOMAIN-SUFFIX,setn.com
