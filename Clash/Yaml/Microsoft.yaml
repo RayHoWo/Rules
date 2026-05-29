@@ -1,7 +1,7 @@
 # NAME: Microsoft
 # AUTHOR: RayHW
-# Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list
-# Description: Curated Microsoft, Azure, Office365 and Xbox routing rules.
+# Source: Curated Microsoft ruleset with extended CDN support
+# Description: Curated Microsoft, Azure, Office365 and Xbox routing rules including global CDNs.
 # Updated: 2026-05-29
 # FORMAT: Clash / Stash Rule Provider
 payload:
@@ -20,8 +20,6 @@ payload:
   - DOMAIN-SUFFIX,microsoftonline-p.net
   - DOMAIN-SUFFIX,msauth.net
   - DOMAIN-SUFFIX,msauthimages.net
-  - DOMAIN-SUFFIX,msecnd.net
-  - DOMAIN-SUFFIX,msedge.net
   - DOMAIN-SUFFIX,msft.net
   - DOMAIN-SUFFIX,msftauth.net
   - DOMAIN-SUFFIX,msn.cn
@@ -29,6 +27,25 @@ payload:
   - DOMAIN-SUFFIX,msn.net
   - DOMAIN-SUFFIX,passport.net
   - DOMAIN-SUFFIX,s-microsoft.com
+  # === Azure & Global CDNs ===
+  - DOMAIN-SUFFIX,appcenter.ms
+  - DOMAIN-SUFFIX,applicationinsights.io
+  - DOMAIN-SUFFIX,azure
+  - DOMAIN-SUFFIX,azure.cn
+  - DOMAIN-SUFFIX,azure.com
+  - DOMAIN-SUFFIX,azure.net
+  - DOMAIN-SUFFIX,azure-dns.com
+  - DOMAIN-SUFFIX,azure-dns.net
+  - DOMAIN-SUFFIX,azureedge.net
+  - DOMAIN-SUFFIX,azurefd.net
+  - DOMAIN-SUFFIX,azurewebsites.net
+  - DOMAIN-SUFFIX,cloudapp.net
+  - DOMAIN-SUFFIX,cosmosdb.net
+  - DOMAIN-SUFFIX,msecnd.net
+  - DOMAIN-SUFFIX,msedge.net
+  - DOMAIN-SUFFIX,trafficmanager.net
+  - DOMAIN-SUFFIX,windowsazure.com
+  - DOMAIN-SUFFIX,windowsazure.cn
   # === OneDrive & SharePoint ===
   - DOMAIN-SUFFIX,livefilestore.com
   - DOMAIN-SUFFIX,sharepoint.cn
@@ -61,23 +78,6 @@ payload:
   - DOMAIN-SUFFIX,skypeassets.com
   - DOMAIN-SUFFIX,sway.com
   - DOMAIN-SUFFIX,microsoftteams.com
-  # === Azure & Cloud Developers ===
-  - DOMAIN-SUFFIX,appcenter.ms
-  - DOMAIN-SUFFIX,applicationinsights.io
-  - DOMAIN-SUFFIX,azure
-  - DOMAIN-SUFFIX,azure.cn
-  - DOMAIN-SUFFIX,azure.com
-  - DOMAIN-SUFFIX,azure.net
-  - DOMAIN-SUFFIX,azure-dns.com
-  - DOMAIN-SUFFIX,azure-dns.net
-  - DOMAIN-SUFFIX,azureedge.net
-  - DOMAIN-SUFFIX,azurefd.net
-  - DOMAIN-SUFFIX,azurewebsites.net
-  - DOMAIN-SUFFIX,cloudapp.net
-  - DOMAIN-SUFFIX,cosmosdb.net
-  - DOMAIN-SUFFIX,trafficmanager.net
-  - DOMAIN-SUFFIX,windowsazure.com
-  - DOMAIN-SUFFIX,windowsazure.cn
   - DOMAIN-SUFFIX,visualstudio.com
   - DOMAIN-SUFFIX,vscode.dev
   - DOMAIN-SUFFIX,nuget.org

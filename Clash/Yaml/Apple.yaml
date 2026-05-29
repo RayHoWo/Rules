@@ -1,7 +1,7 @@
 # NAME: Apple
 # AUTHOR: RayHW
-# Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Apple/Apple_All_No_Resolve.list
-# Description: Deeply curated and optimized Apple services routing rules.
+# Source: Curated Apple ruleset with extended CDN support
+# Description: Deeply curated and optimized Apple services routing rules including major CDNs.
 # Updated: 2026-05-29
 # FORMAT: Clash / Stash Rule Provider
 payload:
@@ -16,15 +16,19 @@ payload:
   - DOMAIN-SUFFIX,apple.co
   - DOMAIN-SUFFIX,apple.com
   - DOMAIN-SUFFIX,apple.com.cn
+  # === Apple Global CDNs & Delivery ===
+  - DOMAIN-SUFFIX,aaplimg.com
   - DOMAIN-SUFFIX,apple-dns.cn
   - DOMAIN-SUFFIX,apple-dns.com
   - DOMAIN-SUFFIX,apple-dns.com.cn
+  - DOMAIN-SUFFIX,apple-dns.net
   - DOMAIN-SUFFIX,apple-mapkit.com
   - DOMAIN-SUFFIX,apple-maps.cn
   - DOMAIN-SUFFIX,apple-ibooks.cn
   - DOMAIN-SUFFIX,appldnld.apple.com.edgesuite.net
-  - DOMAIN-SUFFIX,discussionsapple.com
+  - DOMAIN-SUFFIX,cdn-apple.com
   - DOMAIN-SUFFIX,cdn-apple-mapkit.com
+  - DOMAIN-SUFFIX,discussionsapple.com
   - DOMAIN-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net
   # === iCloud & Core Developer Services ===
   - DOMAIN-SUFFIX,icloud
@@ -39,69 +43,6 @@ payload:
   - DOMAIN-SUFFIX,developer.apple.com
   - DOMAIN-SUFFIX,crashlytics.com
   - DOMAIN-SUFFIX,digicert.com
-  # === Apple Regional Top-Level Domains (ccTLDs) ===
-  - DOMAIN-SUFFIX,apple.ae
-  - DOMAIN-SUFFIX,apple.at
-  - DOMAIN-SUFFIX,apple.be
-  - DOMAIN-SUFFIX,apple.bg
-  - DOMAIN-SUFFIX,apple.bs
-  - DOMAIN-SUFFIX,apple.ca
-  - DOMAIN-SUFFIX,apple.ch
-  - DOMAIN-SUFFIX,apple.cl
-  - DOMAIN-SUFFIX,apple.cm
-  - DOMAIN-SUFFIX,apple.cn
-  - DOMAIN-SUFFIX,apple.co.cr
-  - DOMAIN-SUFFIX,apple.co.hu
-  - DOMAIN-SUFFIX,apple.co.jp
-  - DOMAIN-SUFFIX,apple.co.kr
-  - DOMAIN-SUFFIX,apple.co.mz
-  - DOMAIN-SUFFIX,apple.co.nz
-  - DOMAIN-SUFFIX,apple.co.th
-  - DOMAIN-SUFFIX,apple.co.uk
-  - DOMAIN-SUFFIX,apple.cz
-  - DOMAIN-SUFFIX,apple.de
-  - DOMAIN-SUFFIX,apple.dk
-  - DOMAIN-SUFFIX,apple.ee
-  - DOMAIN-SUFFIX,apple.es
-  - DOMAIN-SUFFIX,apple.eu
-  - DOMAIN-SUFFIX,apple.fi
-  - DOMAIN-SUFFIX,apple.fr
-  - DOMAIN-SUFFIX,apple.hamburg
-  - DOMAIN-SUFFIX,apple.hn
-  - DOMAIN-SUFFIX,apple.hr
-  - DOMAIN-SUFFIX,apple.hu
-  - DOMAIN-SUFFIX,apple.ie
-  - DOMAIN-SUFFIX,apple.in
-  - DOMAIN-SUFFIX,apple.is
-  - DOMAIN-SUFFIX,apple.it
-  - DOMAIN-SUFFIX,apple.jo
-  - DOMAIN-SUFFIX,apple.jp
-  - DOMAIN-SUFFIX,apple.kr
-  - DOMAIN-SUFFIX,apple.lk
-  - DOMAIN-SUFFIX,apple.lt
-  - DOMAIN-SUFFIX,apple.lv
-  - DOMAIN-SUFFIX,apple.me
-  - DOMAIN-SUFFIX,apple.my
-  - DOMAIN-SUFFIX,apple.net
-  - DOMAIN-SUFFIX,apple.net.gr
-  - DOMAIN-SUFFIX,apple.nl
-  - DOMAIN-SUFFIX,apple.no
-  - DOMAIN-SUFFIX,apple.pk
-  - DOMAIN-SUFFIX,apple.pl
-  - DOMAIN-SUFFIX,apple.pt
-  - DOMAIN-SUFFIX,apple.ro
-  - DOMAIN-SUFFIX,apple.rs
-  - DOMAIN-SUFFIX,apple.ru
-  - DOMAIN-SUFFIX,apple.sa
-  - DOMAIN-SUFFIX,apple.se
-  - DOMAIN-SUFFIX,apple.sg
-  - DOMAIN-SUFFIX,apple.si
-  - DOMAIN-SUFFIX,apple.sk
-  - DOMAIN-SUFFIX,apple.so
-  - DOMAIN-SUFFIX,apple.tt
-  - DOMAIN-SUFFIX,apple.tw
-  - DOMAIN-SUFFIX,apple.uk
-  - DOMAIN-SUFFIX,apple.us
   # === Beats Official ===
   - DOMAIN,beatselectronicsllc.tt.omtrdc.net
   - DOMAIN-SUFFIX,beatsbydre.com
@@ -129,10 +70,10 @@ payload:
   # === Apple Keywords ===
   - DOMAIN-KEYWORD,apple.com.akadns.net
   - DOMAIN-KEYWORD,apple.com.edgekey.net
+  - DOMAIN-KEYWORD,icloud.com.akadns.net
   - DOMAIN-KEYWORD,smp-device
   - DOMAIN-KEYWORD,testflight
-  - DOMAIN-KEYWORD,icloud.com.akadns.net
-  # === Apple Official IP Networks (No-Resolve) ===
+  # === Apple Official IP Networks ===
   - IP-CIDR,17.0.0.0/8,no-resolve
   - IP-CIDR,63.92.224.0/19,no-resolve
   - IP-CIDR,65.199.22.0/23,no-resolve
