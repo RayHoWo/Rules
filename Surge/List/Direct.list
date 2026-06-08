@@ -6,6 +6,7 @@
 # FORMAT: Surge Rule Set
 
 # === Manual Additions / Special Access ===
+DOMAIN-SUFFIX,tianyancha.com
 DOMAIN-SUFFIX,umetrip.com
 DOMAIN-SUFFIX,flyertea.com
 DOMAIN-SUFFIX,ipify.org
