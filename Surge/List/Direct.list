@@ -20,7 +20,10 @@ DOMAIN,smtp.gmail.com
 DOMAIN,imap.gmail.com
 DOMAIN,pop.gmail.com
 
-# === Apple Mail Gateway ===
+# === Apple Mail Direct ===
+DOMAIN-SUFFIX,mail.me.com
+DOMAIN-SUFFIX,mail.icloud.com
+DOMAIN-SUFFIX,icloud.com
 DOMAIN,gateway.icloud.com
 
 # === Performance Telemetry & Routing Diagnostics ===
