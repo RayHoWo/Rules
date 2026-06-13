@@ -23,7 +23,6 @@ DOMAIN,pop.gmail.com
 # === Apple Mail Direct ===
 DOMAIN-SUFFIX,mail.me.com
 DOMAIN-SUFFIX,mail.icloud.com
-DOMAIN-SUFFIX,icloud.com
 DOMAIN,gateway.icloud.com
 
 # === Performance Telemetry & Routing Diagnostics ===
