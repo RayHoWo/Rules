@@ -15,6 +15,11 @@ DOMAIN-SUFFIX,nas.rahw.top
 DOMAIN-SUFFIX,quickconnect.cn
 DOMAIN-SUFFIX,zealotmat.uk
 
+# === Gmail SMTP ===
+DOMAIN,smtp.gmail.com
+DOMAIN,imap.gmail.com
+DOMAIN,pop.gmail.com
+
 # === Performance Telemetry & Routing Diagnostics ===
 DOMAIN-SUFFIX,ns1p.net
 DOMAIN-SUFFIX,nsone.net
