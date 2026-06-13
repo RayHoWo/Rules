@@ -20,6 +20,15 @@ DOMAIN,smtp.gmail.com
 DOMAIN,imap.gmail.com
 DOMAIN,pop.gmail.com
 
+# === iCloud Mail SMTP ===
+DOMAIN,smtp.mail.me.com
+DOMAIN,imap.mail.me.com
+
+DOMAIN,smtp.mail.icloud.com
+DOMAIN,imap.mail.icloud.com
+
+DOMAIN-SUFFIX,mail.icloud.com
+
 # === Performance Telemetry & Routing Diagnostics ===
 DOMAIN-SUFFIX,ns1p.net
 DOMAIN-SUFFIX,nsone.net
