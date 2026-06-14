@@ -6,15 +6,14 @@
 # FORMAT: Clash / Stash Rule Provider
 payload:
   # === Manual Additions / Special Access ===
-  - DOMAIN-SUFFIX,dler.pro
+  - DOMAIN-SUFGIX,tianyancha.com
+  - DOMAIN-SUFFIX,umetrip.com
   - DOMAIN-SUFFIX,flyertea.com
   - DOMAIN-SUFFIX,ipify.org
   - DOMAIN-SUFFIX,local
   - DOMAIN-SUFFIX,nas.rahw.top
   - DOMAIN-SUFFIX,quickconnect.cn
   - DOMAIN-SUFFIX,zealotmat.uk
-  - DOMAIN-SUFFIX,ns1p.net
-  - DOMAIN-SUFFIX,nsone.net
   # === Performance Telemetry & Routing Diagnostics ===
   - DOMAIN-SUFFIX,ns1p.net
   - DOMAIN-SUFFIX,nsone.net

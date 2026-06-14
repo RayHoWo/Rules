@@ -6,7 +6,8 @@
 # FORMAT: Surge Rule Set
 
 # === Manual Additions / Special Access ===
-DOMAIN-SUFFIX,dler.pro
+DOMAIN-SUFFIX,tianyancha.com
+DOMAIN-SUFFIX,umetrip.com
 DOMAIN-SUFFIX,flyertea.com
 DOMAIN-SUFFIX,ipify.org
 DOMAIN-SUFFIX,local
@@ -15,6 +16,22 @@ DOMAIN-SUFFIX,quickconnect.cn
 DOMAIN-SUFFIX,zealotmat.uk
 DOMAIN-SUFFIX,ns1p.net
 DOMAIN-SUFFIX,nsone.net
+
+# === Performance Telemetry & Routing Diagnostics ===
+DOMAIN-SUFFIX,ns1p.net
+DOMAIN-SUFFIX,nsone.net
+# === Third-Party Content Delivery ===
+DOMAIN-SUFFIX,zenithgrid.co
+
+# === Gmail SMTP ===
+DOMAIN,smtp.gmail.com
+DOMAIN,imap.gmail.com
+DOMAIN,pop.gmail.com
+
+# === Apple Mail Direct ===
+DOMAIN-SUFFIX,mail.me.com
+DOMAIN-SUFFIX,mail.icloud.com
+DOMAIN,gateway.icloud.com
 
 # === Performance Telemetry & Routing Diagnostics ===
 DOMAIN-SUFFIX,ns1p.net
