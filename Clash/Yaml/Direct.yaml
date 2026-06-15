@@ -19,6 +19,14 @@ payload:
   - DOMAIN-SUFFIX,nsone.net
   # === Third-Party Content Delivery ===
   - DOMAIN-SUFFIX,zenithgrid.co
+  # === Gmail SMTP ===
+  - DOMAIN,smtp.gmail.com
+  - DOMAIN,imap.gmail.com
+  - DOMAIN,pop.gmail.com
+  # === Apple Mail Direct ===
+  - DOMAIN-SUFFIX,mail.me.com
+  - DOMAIN-SUFFIX,mail.icloud.com
+  - DOMAIN,gateway.icloud.com
   # === Synology / NAS ===
   - DOMAIN-SUFFIX,directconnect.cn
   - DOMAIN-SUFFIX,dsmynas.com
