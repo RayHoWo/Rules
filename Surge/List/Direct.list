@@ -33,12 +33,6 @@ DOMAIN-SUFFIX,mail.me.com
 DOMAIN-SUFFIX,mail.icloud.com
 DOMAIN,gateway.icloud.com
 
-# === Performance Telemetry & Routing Diagnostics ===
-DOMAIN-SUFFIX,ns1p.net
-DOMAIN-SUFFIX,nsone.net
-# === Third-Party Content Delivery ===
-DOMAIN-SUFFIX,zenithgrid.co
-
 # === Synology / NAS ===
 DOMAIN-SUFFIX,directconnect.cn
 DOMAIN-SUFFIX,dsmynas.com
