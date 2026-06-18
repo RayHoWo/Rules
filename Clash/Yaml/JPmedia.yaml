@@ -27,7 +27,6 @@ payload:
   - DOMAIN-SUFFIX,vod-abematv.akamaized.net
   - DOMAIN-SUFFIX,winticket.jp
   - DOMAIN-KEYWORD,abematv.akamaized.net
-  - USER-AGENT,AbemaTV*
   # === DMM / DMM TV ===
   - DOMAIN-SUFFIX,akabeesoft2.com
   - DOMAIN-SUFFIX,akabeesoft3.com
@@ -75,14 +74,12 @@ payload:
   - DOMAIN-SUFFIX,nimg.jp
   - DOMAIN-SUFFIX,simg.jp
   - DOMAIN-SUFFIX,socdm.com
-  - USER-AGENT,Niconico*
   # === TVer ===
   - DOMAIN-SUFFIX,dogatch.jp
   - DOMAIN-SUFFIX,gorin.jp
   - DOMAIN-SUFFIX,screens-lab.jp
   - DOMAIN-SUFFIX,tver.co.jp
   - DOMAIN-SUFFIX,tver.jp
-  - USER-AGENT,TVer-Release*
   # === NHK / NHK Plus ===
   - DOMAIN-SUFFIX,nhk.jp
   - DOMAIN-SUFFIX,nhk.or.jp

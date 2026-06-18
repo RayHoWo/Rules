@@ -27,7 +27,4 @@ payload:
   - DOMAIN-SUFFIX,warnermediacdn.com
   - DOMAIN-SUFFIX,forthethrone.com
   - DOMAIN-SUFFIX,players.brightcove.net
-  # === HBO Keywords & Process ===
-  - USER-AGENT,HBO%20NOW*
-  - USER-AGENT,HBOMAX*
   - PROCESS-NAME,com.hbo.hbonow

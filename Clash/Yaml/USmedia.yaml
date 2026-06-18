@@ -10,8 +10,6 @@ payload:
   - DOMAIN-SUFFIX,tv.youtube.com
   - DOMAIN-SUFFIX,voice.google.com
   - DOMAIN-SUFFIX,googlevoice.com
-  - USER-AGENT,*YouTubeTV*
-  - USER-AGENT,*com.google.ios.youtubetv*
   # === Hulu USA ===
   - DOMAIN-SUFFIX,hulu.com
   - DOMAIN-SUFFIX,hulu.tv
@@ -36,7 +34,6 @@ payload:
   - DOMAIN-SUFFIX,msnbc.com
   - DOMAIN-SUFFIX,telemundo.com
   - DOMAIN-SUFFIX,universalpictures.com
-  - USER-AGENT,PeacockMobile*
   # === Paramount+ / CBS ===
   - DOMAIN,cbsi.live.ott.irdeto.com
   - DOMAIN,cbsplaylistserver.aws.syncbak.com
@@ -49,7 +46,6 @@ payload:
   - DOMAIN-SUFFIX,cbsivideo.com
   - DOMAIN-SUFFIX,cbsaavideo.com
   - DOMAIN-SUFFIX,cbsnews.com
-  - USER-AGENT,PPlus*
   # === Discovery+ / CNN ===
   - DOMAIN,discovery-us.conax.cloud
   - DOMAIN,dplus-northamerica-cloudfront-gcs.prod-vod.h264.io
@@ -63,14 +59,11 @@ payload:
   - DOMAIN-SUFFIX,cnn.it
   - DOMAIN-SUFFIX,cnnarabic.com
   - DOMAIN-SUFFIX,cnnlabs.com
-  - USER-AGENT,DPlus*
-  - USER-AGENT,discovery+*
   # === FOX Network ===
   - DOMAIN-SUFFIX,fox.com
   - DOMAIN-SUFFIX,foxdcg.com
   - DOMAIN-SUFFIX,foxnews.com
   - DOMAIN-SUFFIX,foxbusiness.com
-  - USER-AGENT,FOX%20NOW*
   # === Other Premium Streaming ===
   - DOMAIN-SUFFIX,sling.com
   - DOMAIN-SUFFIX,slinginternational.com
@@ -90,9 +83,6 @@ payload:
   - DOMAIN-SUFFIX,pbs.org
   - DOMAIN-SUFFIX,pandora.com
   - DOMAIN-SUFFIX,p-cdn.us
-  - USER-AGENT,Pandora*
-  - USER-AGENT,PBS*
-  - USER-AGENT,Pluto20%TV*
   # === US News & Public Radio ===
   - DOMAIN-SUFFIX,abcnews.go.com
   - DOMAIN-SUFFIX,apnews.com

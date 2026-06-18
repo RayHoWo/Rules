@@ -17,6 +17,3 @@ payload:
   - DOMAIN-SUFFIX,media-amazon.com
   - DOMAIN-SUFFIX,pv-cdn.net
   - DOMAIN-KEYWORD,avoddashs
-  # === Process & User-Agent ===
-  - USER-AGENT,InstantVideo.US*
-  - USER-AGENT,Prime%20Video*

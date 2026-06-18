@@ -10,7 +10,7 @@ payload:
   - DOMAIN-SUFFIX,paypal.me
   - DOMAIN-SUFFIX,paypalobjects.com
   - DOMAIN-SUFFIX,pypl.com
-  - DOM-SUFFIX,paypal.ca
+  - DOMAIN-SUFFIX,paypal.ca
   - DOMAIN-SUFFIX,paypal.jp
   - DOMAIN-SUFFIX,paypal.com.cn
   - DOMAIN-SUFFIX,paypal.com.hk
@@ -51,5 +51,3 @@ payload:
   - DOMAIN-SUFFIX,swiftcapital.com
   - DOMAIN-SUFFIX,swiftfinancial.com
   - DOMAIN-SUFFIX,loanbuilder.com
-  # === Process Rules ===
-  - USER-AGENT,PayPal*

@@ -55,8 +55,6 @@ payload:
   - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,onedrive
   - DOMAIN-KEYWORD,skydrive
-  - USER-AGENT,OneDrive*
-  - USER-AGENT,OneDriveiOSApp*
   - PROCESS-NAME,OneDrive
   - PROCESS-NAME,OneDriveUpdater
   # === Office 365 & Productivity ===
@@ -113,5 +111,3 @@ payload:
   - DOMAIN-SUFFIX,here.net
   - DOMAIN-SUFFIX,microsoftstore.com
   - DOMAIN-SUFFIX,yammer.com
-  # === Process Rules ===
-  - USER-AGENT,Microsoft*

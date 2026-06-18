@@ -12,20 +12,15 @@ payload:
   - DOMAIN-SUFFIX,indazn.com
   - DOMAIN-SUFFIX,indaznlab.com
   - DOMAIN-KEYWORD,voddazn
-  - USER-AGENT,DAZN*
   # === Deezer (Music) ===
   - DOMAIN-SUFFIX,deezer.com
   - DOMAIN-SUFFIX,dzcdn.net
   - DOMAIN-SUFFIX,deezer.page.link
-  - USER-AGENT,Deezer*
   # === TIDAL (Hi-Fi Music) ===
   - DOMAIN-SUFFIX,tidal.com
   - DOMAIN-SUFFIX,tidalhifi.com
   - DOMAIN-SUFFIX,wimpmusic.com
-  - USER-AGENT,TIDAL*
-  - USER-AGENT,TIDAL*dia
   # === SoundCloud ===
   - DOMAIN-SUFFIX,soundcloud.com
   - DOMAIN-SUFFIX,sndcdn.com
   - DOMAIN-SUFFIX,soundcloud.app.goo.gl
-  - USER-AGENT,SoundCloud*

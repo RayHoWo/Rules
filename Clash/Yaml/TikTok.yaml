@@ -36,6 +36,4 @@ payload:
   - DOMAIN,lf16-pkgcdn.pitaya-clientai.com
   - DOMAIN,trae-api-sg.mchost.guru
   - DOMAIN-SUFFIX,muscdn.com
-  # === Process & User-Agent ===
-  - USER-AGENT,TikTok*
   - PROCESS-NAME,com.zhiliaoapp.musically

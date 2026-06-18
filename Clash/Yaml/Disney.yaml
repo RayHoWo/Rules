@@ -32,5 +32,4 @@ payload:
   - DOMAIN-SUFFIX,hotstar.com
   # === Disney Keywords & Process ===
   - DOMAIN-KEYWORD,disney
-  - USER-AGENT,Disney+*
   - PROCESS-NAME,com.disney.disneyplus

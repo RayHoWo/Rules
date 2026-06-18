@@ -9,7 +9,6 @@ payload:
   - DOMAIN,bahamut.akamaized.net
   - DOMAIN-SUFFIX,bahamut.com.tw
   - DOMAIN-SUFFIX,gamer.com.tw
-  - USER-AGENT,Anime*
   # === KKBOX / KKTV / KKTIX ===
   - DOMAIN-SUFFIX,kfs.io
   - DOMAIN-SUFFIX,kk.stream
@@ -25,7 +24,6 @@ payload:
   - DOMAIN-SUFFIX,line-cdn.net
   - DOMAIN-SUFFIX,line-scdn.net
   - DOMAIN-SUFFIX,linetv.tw
-  - USER-AGENT,LINE%20TV*
   - PROCESS-NAME,com.linecorp.linetv
   # === Hami Video & Chunghwa Telecom ===
   - DOMAIN,hamifans.emome.net
@@ -34,7 +32,6 @@ payload:
   - DOMAIN-SUFFIX,hamivideo.hinet.net
   - DOMAIN-SUFFIX,cht.com.tw
   - DOMAIN-SUFFIX,emome.net
-  - USER-AGENT,TaiwanGood*
   # === Streaming Platforms (friDay / MyVideo / LiTV / CATCHPLAY) ===
   - DOMAIN-SUFFIX,video.friday.tw
   - DOMAIN-SUFFIX,friday.tw

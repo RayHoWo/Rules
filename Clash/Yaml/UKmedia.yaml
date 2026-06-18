@@ -11,11 +11,9 @@ payload:
   - DOMAIN-SUFFIX,bbci.co.uk
   - DOMAIN-SUFFIX,bbcmedia.co.uk
   - DOMAIN,vs-cmaf-push-uk-live.akamaized.net
-  - USER-AGENT,BBCiPlayer*
   # === Channel 4 / All 4 ===
   - DOMAIN-SUFFIX,channel4.com
   - DOMAIN-SUFFIX,c4assets.com
-  - USER-AGENT,All4*
   # === ITV / ITVX & BritBox UK ===
   - DOMAIN-SUFFIX,itv.com
   - DOMAIN-SUFFIX,itvstatic.com
@@ -25,11 +23,9 @@ payload:
   - DOMAIN-SUFFIX,massive-itv.com
   - DOMAIN,itvpnpmobile-a.akamaihd.net
   - DOMAIN,itvpnp.live.ott.irdeto.com
-  - USER-AGENT,ITV_Player*
   # === My5 / Channel 5 ===
   - DOMAIN-SUFFIX,channel5.com
   - DOMAIN-SUFFIX,my5.tv
-  - USER-AGENT,My5*
   # === Sky & Premium Television ===
   - DOMAIN-SUFFIX,sky.com
   - DOMAIN-SUFFIX,skysports.com

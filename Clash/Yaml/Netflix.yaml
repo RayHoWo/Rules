@@ -30,6 +30,4 @@ payload:
   # === Other Netflix Services ===
   - DOMAIN-SUFFIX,fast.com
   - DOMAIN-SUFFIX,flxvpn.net
-  # === Process & User-Agent ===
-  - USER-AGENT,Argo*
   - PROCESS-NAME,com.netflix.mediaclient

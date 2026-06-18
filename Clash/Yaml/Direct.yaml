@@ -101,5 +101,3 @@ payload:
   - DOMAIN,rewards.hypixel.net
   - DOMAIN-SUFFIX,koodomobile.ca
   - DOMAIN-SUFFIX,koodomobile.com
-  # === Download / Utility User-Agent ===
-  - USER-AGENT,%E8%BF%85%E9%9B%B7

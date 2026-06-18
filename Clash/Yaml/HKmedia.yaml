@@ -13,8 +13,6 @@ payload:
   - DOMAIN-SUFFIX,i-joox.com
   - DOMAIN-SUFFIX,sanook.com
   - DOMAIN-KEYWORD,jooxweb-api
-  - USER-AGENT,JOOX*
-  - USER-AGENT,WeMusic*
   - PROCESS-NAME,com.tencent.ibg.joox
   # === Now TV / Now E ===
   - DOMAIN-SUFFIX,now-ashare.com
@@ -29,7 +27,6 @@ payload:
   - DOMAIN-SUFFIX,tvb.com
   - DOMAIN-SUFFIX,tvbanywhere.com
   - DOMAIN-SUFFIX,tvbnews.com
-  - USER-AGENT,mytv*
   # === RTHK ===
   - DOMAIN-SUFFIX,rthk.hk
   - DOMAIN-SUFFIX,rthk.org.hk
@@ -38,7 +35,6 @@ payload:
   - DOMAIN-SUFFIX,viu.com
   - DOMAIN-SUFFIX,viu.tv
   - DOMAIN-SUFFIX,viu.now.com
-  - USER-AGENT,Viu*
   - PROCESS-NAME,com.viu.pad
   - PROCESS-NAME,com.viu.phone
   - PROCESS-NAME,com.vuclip.viu
@@ -47,7 +43,6 @@ payload:
   - DOMAIN-SUFFIX,iflix.com
   - DOMAIN,wetv.qq.com
   - DOMAIN,vv.video.qq.com
-  - USER-AGENT,WeTV*
   - PROCESS-NAME,com.tencent.qqlivei18n*
   # === Hong Kong Radio & News ===
   - DOMAIN-SUFFIX,881903.com
