@@ -2,7 +2,7 @@
 # AUTHOR: RayHW
 # Source: blackmatrix7 ios_rule_script + personally curated direct domains
 # Description: Curated direct access rules for personal domains, NAS, domestic services and utilities.
-# Updated: 2026-06-18
+# Updated: 2026-06-19
 # FORMAT: Surge Rule Set
 
 # === Manual Additions / Special Access ===
@@ -20,11 +20,6 @@ DOMAIN-SUFFIX,ns1p.net
 DOMAIN-SUFFIX,nsone.net
 # === Third-Party Content Delivery ===
 DOMAIN-SUFFIX,zenithgrid.co
-
-# === Gmail SMTP ===
-DOMAIN,smtp.gmail.com
-DOMAIN,imap.gmail.com
-DOMAIN,pop.gmail.com
 
 # === Apple Mail Direct ===
 DOMAIN-SUFFIX,mail.me.com
