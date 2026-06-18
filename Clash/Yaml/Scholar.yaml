@@ -2,7 +2,7 @@
 # AUTHOR: RayHW
 # Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Scholar/Scholar.list
 # Description: Scholar, academic publishing and research resource routing rules
-# Updated: 2026-05-29
+# Updated: 2026-06-19
 # FORMAT: Clash / Stash Rule Provider
 payload:
   # === Scholar Search & Tools ===

@@ -2,7 +2,7 @@
 # AUTHOR: RayHW
 # Source: Curated Apple ruleset with extended CDN support
 # Description: Deeply curated and optimized Apple services routing rules including major CDNs.
-# Updated: 2026-06-18
+# Updated: 2026-06-19
 # FORMAT: Surge Rule Set
 
 # === Apple Official Core Domains ===

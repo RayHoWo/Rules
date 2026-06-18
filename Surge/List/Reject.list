@@ -2,7 +2,7 @@
 # AUTHOR: RayHW
 # Source: Curated Privacy List
 # Description: Essential blocklist for pervasive ads, tracking SDKs, and telemetry.
-# Updated: 2026-06-18
+# Updated: 2026-06-19
 # FORMAT: Surge Rule Set
 
 # === Apple Privacy & Telemetry ===

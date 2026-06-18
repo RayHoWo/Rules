@@ -2,7 +2,7 @@
 # AUTHOR: RayHW
 # Source: blackmatrix7 ios_rule_script + personally curated direct domains
 # Description: Curated direct access rules for personal domains, NAS, domestic services and utilities.
-# Updated: 2026-05-29
+# Updated: 2026-06-19
 # FORMAT: Clash / Stash Rule Provider
 payload:
   # === Manual Additions / Special Access ===
@@ -19,14 +19,9 @@ payload:
   - DOMAIN-SUFFIX,nsone.net
   # === Third-Party Content Delivery ===
   - DOMAIN-SUFFIX,zenithgrid.co
-  # === Gmail SMTP ===
-  - DOMAIN,smtp.gmail.com
-  - DOMAIN,imap.gmail.com
-  - DOMAIN,pop.gmail.com
   # === Apple Mail Direct ===
   - DOMAIN-SUFFIX,mail.me.com
   - DOMAIN-SUFFIX,mail.icloud.com
-  - DOMAIN,gateway.icloud.com
   # === Synology / NAS ===
   - DOMAIN-SUFFIX,directconnect.cn
   - DOMAIN-SUFFIX,dsmynas.com
@@ -39,7 +34,6 @@ payload:
   - DOMAIN-SUFFIX,connectivitycheck.gstatic.com
   - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,msftncsi.com
-  - DOMAIN-KEYWORD,login
   # === Domestic CDN / Static / Developer ===
   - DOMAIN-SUFFIX,baomitu.com
   - DOMAIN-SUFFIX,jiasule.com

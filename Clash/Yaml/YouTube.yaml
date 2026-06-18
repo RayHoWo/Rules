@@ -2,7 +2,7 @@
 # AUTHOR: RayHW
 # Source: blackmatrix7 ios_rule_script
 # Description: YouTube, YouTube Music, YouTube Kids and Google video CDN routing rules
-# Updated: 2026-05-29
+# Updated: 2026-06-19
 # FORMAT: Clash / Stash Rule Provider
 payload:
   # === YouTube Core Services ===

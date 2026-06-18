@@ -2,7 +2,7 @@
 # AUTHOR: RayHW
 # Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/China/China_All_No_Resolve.list
 # Description: Comprehensive domestic direct list updated with Huawei/HarmonyOS ecosystem, Domestic AI LLMs, and Mini-program CDNs.
-# Updated: 2026-06-18
+# Updated: 2026-06-19
 # FORMAT: Surge Rule Set
 
 # === Huawei & HarmonyOS Ecosystem ===

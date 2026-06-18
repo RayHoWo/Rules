@@ -2,7 +2,7 @@
 # AUTHOR: RayHW
 # Source: Curated Privacy List
 # Description: Essential blocklist for pervasive ads, tracking SDKs, and telemetry.
-# Updated: 2026-05-29
+# Updated: 2026-06-19
 # FORMAT: Clash / Stash Rule Provider
 payload:
   # === Apple Privacy & Telemetry ===

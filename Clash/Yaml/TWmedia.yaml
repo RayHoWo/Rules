@@ -2,7 +2,7 @@
 # AUTHOR: RayHW
 # Source: blackmatrix7 ios_rule_script + official / actual service domains
 # Description: Curated Taiwan media, streaming and region-service routing rules
-# Updated: 2026-05-29
+# Updated: 2026-06-19
 # FORMAT: Clash / Stash Rule Provider
 payload:
   # === Bahamut / Gamer ===
@@ -10,9 +10,6 @@ payload:
   - DOMAIN-SUFFIX,bahamut.com.tw
   - DOMAIN-SUFFIX,gamer.com.tw
   - USER-AGENT,Anime*
-  # === Bilibili International ===
-  - DOMAIN-SUFFIX,bilibili.tv
-  - PROCESS-NAME,com.bstar.intl
   # === KKBOX / KKTV / KKTIX ===
   - DOMAIN-SUFFIX,kfs.io
   - DOMAIN-SUFFIX,kk.stream

@@ -2,7 +2,7 @@
 # AUTHOR: RayHW
 # Source: Curated Microsoft ruleset with extended CDN support
 # Description: Curated Microsoft, Azure, Office365 and Xbox routing rules including global CDNs.
-# Updated: 2026-06-18
+# Updated: 2026-06-19
 # FORMAT: Surge Rule Set
 
 # === Microsoft Core & Accounts ===
