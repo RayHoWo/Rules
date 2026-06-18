@@ -6,10 +6,12 @@
 # FORMAT: Surge Rule Set
 
 # === iCloud Private Relay ===
-DOMAIN,mask.icloud.com
-DOMAIN,mask-h2.icloud.com
+DOMAIN,mask-api.fe.apple-dns.net
 DOMAIN,mask-api.icloud.com
-DOMAIN,apple-relay.apple.com
+DOMAIN,mask-t.apple-dns.net
+DOMAIN,mask.apple-dns.net
+DOMAIN-SUFFIX,mask-h2.icloud.com
+DOMAIN-SUFFIX,mask.icloud.com
 
 # === Apple Official Core Domains ===
 DOMAIN,edge.apple
