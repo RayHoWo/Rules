@@ -52,6 +52,11 @@ DOMAIN-SUFFIX,openaicom.imgix.net
 DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-KEYWORD,openai
 
+# === Apple Intelligence ===
+DOMAIN-SUFFIX,siri.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-SUFFIX,guzzoni.apple.com
+
 # === OpenAI IP-CIDR / ASN ===
 IP-CIDR,24.199.123.28/32,no-resolve
 IP-CIDR,64.23.132.171/32,no-resolve

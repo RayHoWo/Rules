@@ -14,8 +14,6 @@ DOMAIN-SUFFIX,local
 DOMAIN-SUFFIX,nas.rahw.top
 DOMAIN-SUFFIX,quickconnect.cn
 DOMAIN-SUFFIX,zealotmat.uk
-DOMAIN-SUFFIX,ns1p.net
-DOMAIN-SUFFIX,nsone.net
 
 # === Performance Telemetry & Routing Diagnostics ===
 DOMAIN-SUFFIX,ns1p.net
