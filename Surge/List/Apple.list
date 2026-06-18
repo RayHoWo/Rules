@@ -2,8 +2,14 @@
 # AUTHOR: RayHW
 # Source: Curated Apple ruleset with extended CDN support
 # Description: Deeply curated and optimized Apple services routing rules including major CDNs.
-# Updated: 2026-05-29
+# Updated: 2026-06-18
 # FORMAT: Surge Rule Set
+
+# === iCloud Private Relay ===
+DOMAIN,mask.icloud.com
+DOMAIN,mask-h2.icloud.com
+DOMAIN,mask-api.icloud.com
+DOMAIN,apple-relay.apple.com
 
 # === Apple Official Core Domains ===
 DOMAIN,edge.apple
@@ -45,12 +51,6 @@ DOMAIN-SUFFIX,itunes.apple.com
 DOMAIN-SUFFIX,developer.apple.com
 DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,digicert.com
-
-# === iCloud Private Relay ===
-DOMAIN-SUFFIX,mask.icloud.com
-DOMAIN-SUFFIX,mask-h2.icloud.com
-DOMAIN-SUFFIX,mask-api.icloud.com
-DOMAIN-SUFFIX,apple-relay.apple.com
 
 # === Beats Official ===
 DOMAIN,beatselectronicsllc.tt.omtrdc.net
