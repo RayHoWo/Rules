@@ -2,11 +2,8 @@
 # AUTHOR: RayHW
 # Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/China/China_All_No_Resolve.list
 # Description: Comprehensive domestic direct list updated with Huawei/HarmonyOS ecosystem, Domestic AI LLMs, and Mini-program CDNs.
-# Updated: 2026-05-29
+# Updated: 2026-06-18
 # FORMAT: Surge Rule Set
-
-# === Top Level Domain ===
-DOMAIN-SUFFIX,cn
 
 # === Huawei & HarmonyOS Ecosystem ===
 DOMAIN-SUFFIX,dbankcdn.com
@@ -181,3 +178,6 @@ DOMAIN-SUFFIX,eastmoney.com
 DOMAIN-SUFFIX,pingan.com
 DOMAIN-SUFFIX,unionpay.com
 DOMAIN-SUFFIX,unionpaysecure.com
+
+# === Domestic TLD Fallback ===
+DOMAIN-SUFFIX,cn

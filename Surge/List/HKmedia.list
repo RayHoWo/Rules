@@ -2,7 +2,7 @@
 # AUTHOR: RayHW
 # Source: blackmatrix7 ios_rule_script + official / actual service domains
 # Description: Curated Hong Kong media, streaming and region-service routing rules
-# Updated: 2026-05-29
+# Updated: 2026-06-18
 # FORMAT: Surge Rule Set
 
 # === HKOpenTV ===
@@ -19,11 +19,13 @@ USER-AGENT,WeMusic*
 PROCESS-NAME,com.tencent.ibg.joox
 
 # === Now TV / Now E ===
-DOMAIN-SUFFIX,nowe.com
-DOMAIN-SUFFIX,nowestatic.com
+DOMAIN-SUFFIX,now-ashare.com
+DOMAIN-SUFFIX,now-tv.com
 DOMAIN-SUFFIX,now.com
 DOMAIN-SUFFIX,now.com.hk
-DOMAIN-SUFFIX,now-tv.com
+DOMAIN-SUFFIX,nowe.com
+DOMAIN-SUFFIX,nowe.hk
+DOMAIN-SUFFIX,nowestatic.com
 
 # === myTV SUPER / TVB ===
 DOMAIN-SUFFIX,mytvsuper.com
@@ -47,7 +49,6 @@ PROCESS-NAME,com.viu.phone
 PROCESS-NAME,com.vuclip.viu
 
 # === WeTV ===
-DOMAIN-SUFFIX,wetv.vip
 DOMAIN-SUFFIX,wetvinfo.com
 DOMAIN-SUFFIX,iflix.com
 DOMAIN,wetv.qq.com

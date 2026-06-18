@@ -2,7 +2,7 @@
 # AUTHOR: RayHW
 # Source: Curated Microsoft ruleset with extended CDN support
 # Description: Curated Microsoft, Azure, Office365 and Xbox routing rules including global CDNs.
-# Updated: 2026-05-29
+# Updated: 2026-06-18
 # FORMAT: Surge Rule Set
 
 # === Microsoft Core & Accounts ===
@@ -94,17 +94,13 @@ DOMAIN-SUFFIX,windowslive.cn
 
 # === Xbox & Gaming ===
 DOMAIN-SUFFIX,gamepass.com
-DOMAIN-SUFFIX,minecraft.net
 DOMAIN-SUFFIX,minecraftshop.com
 DOMAIN-SUFFIX,mojang.com
-DOMAIN-SUFFIX,xbox.com
-DOMAIN-SUFFIX,xboxlive.com
 DOMAIN-SUFFIX,xboxlive.cn
 DOMAIN-SUFFIX,xboxone.com
 DOMAIN-SUFFIX,xboxservices.com
 DOMAIN-SUFFIX,xboxstudios.com
 DOMAIN-SUFFIX,beth.games
-DOMAIN-SUFFIX,bethesda.net
 DOMAIN-SUFFIX,bethsoft.com
 
 # === Bing & Search ===

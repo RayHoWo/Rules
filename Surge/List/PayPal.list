@@ -2,7 +2,7 @@
 # AUTHOR: RayHW
 # Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list
 # Description: PayPal payment service routing rules.
-# Updated: 2026-05-29
+# Updated: 2026-06-18
 # FORMAT: Surge Rule Set
 
 # === PayPal Core & Objects ===

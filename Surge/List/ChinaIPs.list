@@ -2,7 +2,7 @@
 # AUTHOR: RayHW
 # Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/ChinaIPs/ChinaIPs.list
 # Description: Highly aggregated domestic IP CIDRs for maximum matching performance.
-# Updated: 2026-05-29
+# Updated: 2026-06-18
 # FORMAT: Surge Rule Set
 
 # === Core IPv4 Backbone (CIDR Aggregated) ===

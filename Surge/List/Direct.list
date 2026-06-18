@@ -2,7 +2,7 @@
 # AUTHOR: RayHW
 # Source: blackmatrix7 ios_rule_script + personally curated direct domains
 # Description: Curated direct access rules for personal domains, NAS, domestic services and utilities.
-# Updated: 2026-05-29
+# Updated: 2026-06-18
 # FORMAT: Surge Rule Set
 
 # === Manual Additions / Special Access ===
@@ -29,7 +29,6 @@ DOMAIN,pop.gmail.com
 # === Apple Mail Direct ===
 DOMAIN-SUFFIX,mail.me.com
 DOMAIN-SUFFIX,mail.icloud.com
-DOMAIN,gateway.icloud.com
 
 # === Synology / NAS ===
 DOMAIN-SUFFIX,directconnect.cn
@@ -44,7 +43,6 @@ DOMAIN,neverssl.com
 DOMAIN-SUFFIX,connectivitycheck.gstatic.com
 DOMAIN-SUFFIX,msftconnecttest.com
 DOMAIN-SUFFIX,msftncsi.com
-DOMAIN-KEYWORD,login
 
 # === Domestic CDN / Static / Developer ===
 DOMAIN-SUFFIX,baomitu.com

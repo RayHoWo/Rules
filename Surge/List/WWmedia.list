@@ -2,7 +2,7 @@
 # AUTHOR: RayHW
 # Source: blackmatrix7 ios_rule_script + official / actual service domains
 # Description: Curated worldwide and region-aware sports, music and streaming media routing rules
-# Updated: 2026-05-29
+# Updated: 2026-06-18
 # FORMAT: Surge Rule Set
 
 # === DAZN (Sports Streaming) ===
@@ -31,5 +31,4 @@ USER-AGENT,TIDAL*dia
 DOMAIN-SUFFIX,soundcloud.com
 DOMAIN-SUFFIX,sndcdn.com
 DOMAIN-SUFFIX,soundcloud.app.goo.gl
-DOMAIN-SUFFIX,p-cdn.us
 USER-AGENT,SoundCloud*

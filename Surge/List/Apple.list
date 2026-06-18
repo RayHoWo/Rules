@@ -47,6 +47,7 @@ DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,digicert.com
 
 # === iCloud Private Relay ===
+DOMAIN,gateway.icloud.com
 DOMAIN,mask.icloud.com
 DOMAIN,mask-h2.icloud.com
 DOMAIN,mask-api.icloud.com

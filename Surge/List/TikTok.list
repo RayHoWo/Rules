@@ -2,7 +2,7 @@
 # AUTHOR: RayHW
 # Source: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TikTok/TikTok.list
 # Description: TikTok routing rules, including international ByteDance services (Optimized)
-# Updated: 2026-05-29
+# Updated: 2026-06-18
 # FORMAT: Surge Rule Set
 
 # === Core Services ===
@@ -29,7 +29,6 @@ DOMAIN-SUFFIX,ibyteimg.com
 DOMAIN-SUFFIX,ipstatp.com
 DOMAIN-SUFFIX,isnssdk.com
 DOMAIN-SUFFIX,sgpstatp.com
-DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,ttwebview.com
 DOMAIN-SUFFIX,trae.ai
 DOMAIN-KEYWORD,musical.ly

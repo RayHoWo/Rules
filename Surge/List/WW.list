@@ -2,7 +2,7 @@
 # AUTHOR: RayHW
 # Source: Personal WW.list + Curated blackmatrix7 Proxy.list
 # Description: Curated worldwide proxy rules including comprehensive Google and updated Samsung ecosystem coverage.
-# Updated: 2026-05-29
+# Updated: 2026-06-18
 # FORMAT: Surge Rule Set
 
 # === Manual Additions & Special Access ===
@@ -142,7 +142,6 @@ DOMAIN-SUFFIX,stackoverflow.com
 DOMAIN-SUFFIX,vercel.app
 
 # === Global Information & Knowledge ===
-DOMAIN-SUFFIX,economist.com
 DOMAIN-SUFFIX,medium.com
 DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-SUFFIX,wikipedia.org
