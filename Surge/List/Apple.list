@@ -5,12 +5,6 @@
 # Updated: 2026-06-18
 # FORMAT: Surge Rule Set
 
-# === iCloud Private Relay ===
-DOMAIN,mask.icloud.com
-DOMAIN,mask-h2.icloud.com
-DOMAIN,mask-api.icloud.com
-DOMAIN,apple-relay.apple.com
-
 # === Apple Official Core Domains ===
 DOMAIN,edge.apple
 DOMAIN,apple-events.akamaized.net
@@ -51,6 +45,13 @@ DOMAIN-SUFFIX,itunes.apple.com
 DOMAIN-SUFFIX,developer.apple.com
 DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,digicert.com
+
+# === iCloud Private Relay ===
+DOMAIN,mask.icloud.com
+DOMAIN,mask-h2.icloud.com
+DOMAIN,mask-api.icloud.com
+DOMAIN,apple-relay.apple.com
+DOMAIN-SUFFIX,mask.apple-dns.net
 
 # === Beats Official ===
 DOMAIN,beatselectronicsllc.tt.omtrdc.net

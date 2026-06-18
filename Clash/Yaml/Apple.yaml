@@ -44,10 +44,11 @@ payload:
   - DOMAIN-SUFFIX,crashlytics.com
   - DOMAIN-SUFFIX,digicert.com
   # === iCloud Private Relay ===
-  - DOMAIN-SUFFIX,mask.icloud.com
-  - DOMAIN-SUFFIX,mask-h2.icloud.com
-  - DOMAIN-SUFFIX,mask-api.icloud.com
-  - DOMAIN-SUFFIX,apple-relay.apple.com
+  - DOMAIN,mask.icloud.com
+  - DOMAIN,mask-h2.icloud.com
+  - DOMAIN,mask-api.icloud.com
+  - DOMAIN,apple-relay.apple.com
+  - DOMAIN-SUFFIX,mask.apple-dns.net
   # === Beats Official ===
   - DOMAIN,beatselectronicsllc.tt.omtrdc.net
   - DOMAIN-SUFFIX,beatsbydre.com
