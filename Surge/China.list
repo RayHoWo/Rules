@@ -1,7 +1,7 @@
 # NAME: China
 # AUTHOR: RayHW
 # DESCRIPTION: Curated China direct rules for domestic platforms, AI services, banking, payments, media, cloud, and .cn fallback domains.
-# UPDATED: 2026-06-19
+# UPDATED: 2026-06-20
 # FORMAT: Surge Rule Set
 
 # === Huawei & HarmonyOS Ecosystem ===
@@ -173,6 +173,27 @@ DOMAIN-SUFFIX,qiniucdn.com
 DOMAIN-SUFFIX,sogou.com
 DOMAIN-SUFFIX,upaiyun.com
 DOMAIN-SUFFIX,vivo.com
+
+# === Telecom Operators ===
+DOMAIN-SUFFIX,10010.com
+DOMAIN-SUFFIX,10086.cn
+DOMAIN-SUFFIX,189.cn
+DOMAIN-SUFFIX,21cn.com
+DOMAIN-SUFFIX,chinamobile.com
+DOMAIN-SUFFIX,chinamobileltd.com
+DOMAIN-SUFFIX,chinatelecom.com.cn
+DOMAIN-SUFFIX,chinaunicom.cn
+DOMAIN-SUFFIX,chinaunicom.com
+DOMAIN-SUFFIX,chinaunicom.com.cn
+DOMAIN-SUFFIX,ct10000.com
+DOMAIN-SUFFIX,migu.cn
+DOMAIN-SUFFIX,wo.cn
+
+# === Automotive ===
+DOMAIN-SUFFIX,nio.cn
+DOMAIN-SUFFIX,nio.com
+DOMAIN-SUFFIX,niocdn.com
+DOMAIN-SUFFIX,niostatic.com
 
 # === Banking & Finance ===
 DOMAIN-SUFFIX,abchina.com

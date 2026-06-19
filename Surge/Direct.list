@@ -1,7 +1,7 @@
 # NAME: Direct
 # AUTHOR: RayHW
 # DESCRIPTION: Curated direct-access rules for personal domains, NAS, captive portals, domestic utilities, and selected service domains.
-# UPDATED: 2026-06-19
+# UPDATED: 2026-06-20
 # FORMAT: Surge Rule Set
 
 # === Manual Additions / Special Access ===
@@ -47,6 +47,28 @@ DOMAIN-SUFFIX,staticfile.org
 DOMAIN-SUFFIX,cnki.net
 DOMAIN-KEYWORD,pkulaw
 DOMAIN-KEYWORD,wanfangdata
+
+# === Remote Access Software ===
+DOMAIN-SUFFIX,anydesk.com
+DOMAIN-SUFFIX,oray.com
+DOMAIN-SUFFIX,parsec.app
+DOMAIN-SUFFIX,raylink.live
+DOMAIN-SUFFIX,rustdesk.com
+DOMAIN-SUFFIX,splashtop.com
+DOMAIN-SUFFIX,sunlogin.oray.com
+DOMAIN-SUFFIX,teamviewer.com
+DOMAIN-SUFFIX,todesk.com
+
+# === Virtualization Software ===
+DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,getutm.app
+DOMAIN-SUFFIX,hashicorp.com
+DOMAIN-SUFFIX,parallels.com
+DOMAIN-SUFFIX,qemu.org
+DOMAIN-SUFFIX,vagrantup.com
+DOMAIN-SUFFIX,virtualbox.org
+DOMAIN-SUFFIX,vmware.com
+DOMAIN-SUFFIX,vmware.com.cn
 
 # === Domestic Analytics / SDK / Push ===
 DOMAIN,analytics.95516.com

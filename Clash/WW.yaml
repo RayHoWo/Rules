@@ -1,7 +1,7 @@
 # NAME: WW
 # AUTHOR: RayHW
 # DESCRIPTION: Curated worldwide proxy rules for global platforms, developer services, finance, social media, and cloud services.
-# UPDATED: 2026-06-19
+# UPDATED: 2026-06-20
 # FORMAT: Clash / Stash Rule Provider
 
 payload:
@@ -121,7 +121,6 @@ payload:
   # === Tech, Developer & Cloud ===
   - DOMAIN-SUFFIX,awsstatic.com
   - DOMAIN-SUFFIX,cloudflare.com
-  - DOMAIN-SUFFIX,docker.com
   - DOMAIN-SUFFIX,docker.io
   - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,github.io
