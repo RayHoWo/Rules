@@ -1,0 +1,38 @@
+# NAME: Disney
+# AUTHOR: RayHW
+# DESCRIPTION: Curated Disney, Disney+, Hulu, ESPN, and related streaming service routing rules.
+# UPDATED: 2026-06-19
+# FORMAT: Surge Rule Set
+
+# === Disney+ Core Streaming & API ===
+DOMAIN-SUFFIX,disneyplus.com
+DOMAIN-SUFFIX,disney-plus.net
+DOMAIN-SUFFIX,disneystreaming.com
+DOMAIN-SUFFIX,bamgrid.com
+DOMAIN-SUFFIX,dilcdn.com
+DOMAIN-SUFFIX,dssott.com
+DOMAIN-SUFFIX,dssedge.com
+
+# === Disney Official Core Domains ===
+DOMAIN-SUFFIX,disney.com
+DOMAIN-SUFFIX,disney.de
+DOMAIN-SUFFIX,disney.co.uk
+DOMAIN-SUFFIX,disney.co.jp
+DOMAIN-SUFFIX,disney.sg
+DOMAIN-SUFFIX,disneyplus.bn5x.net
+
+# === Disney Brands (ABC, ESPN, Marvel, Star) ===
+DOMAIN-SUFFIX,abc.com
+DOMAIN-SUFFIX,abcnews.com
+DOMAIN-SUFFIX,espn.com
+DOMAIN-SUFFIX,espncdn.com
+DOMAIN-SUFFIX,marvel.com
+DOMAIN-SUFFIX,starplus.com
+DOMAIN-SUFFIX,starwars.com
+DOMAIN-SUFFIX,nationalgeographic.com
+DOMAIN-SUFFIX,hotstar.com
+
+# === Disney Keywords & Process ===
+DOMAIN-KEYWORD,disney
+USER-AGENT,Disney+*
+PROCESS-NAME,com.disney.disneyplus

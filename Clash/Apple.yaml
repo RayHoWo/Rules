@@ -1,0 +1,96 @@
+# NAME: Apple
+# AUTHOR: RayHW
+# DESCRIPTION: Curated Apple routing rules for Apple services, iCloud Private Relay, and related service domains.
+# UPDATED: 2026-06-19
+# FORMAT: Clash / Stash Rule Provider
+
+payload:
+  # === Apple Official Core Domains ===
+  - DOMAIN,edge.apple
+  - DOMAIN,apple-events.akamaized.net
+  - DOMAIN,appleworldwidedeveloper.hb-api.omtrdc.net
+  - DOMAIN,appleworldwidedeveloper.sc.omtrdc.net
+  - DOMAIN,lookup-api.apple.com.edgekey.net
+  - DOMAIN,p-events-delivery.akamaized.net
+  - DOMAIN-SUFFIX,apple
+  - DOMAIN-SUFFIX,apple.co
+  - DOMAIN-SUFFIX,apple.com
+  - DOMAIN-SUFFIX,apple.com.cn
+  # === Apple Global CDNs & Delivery ===
+  - DOMAIN-SUFFIX,aaplimg.com
+  - DOMAIN-SUFFIX,apple-dns.cn
+  - DOMAIN-SUFFIX,apple-dns.com
+  - DOMAIN-SUFFIX,apple-dns.com.cn
+  - DOMAIN-SUFFIX,apple-dns.net
+  - DOMAIN-SUFFIX,apple-mapkit.com
+  - DOMAIN-SUFFIX,apple-maps.cn
+  - DOMAIN-SUFFIX,apple-ibooks.cn
+  - DOMAIN-SUFFIX,appldnld.apple.com.edgesuite.net
+  - DOMAIN-SUFFIX,cdn-apple.com
+  - DOMAIN-SUFFIX,cdn-apple-mapkit.com
+  - DOMAIN-SUFFIX,discussionsapple.com
+  - DOMAIN-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net
+  # === iCloud & Core Developer Services ===
+  - DOMAIN-SUFFIX,icloud
+  - DOMAIN-SUFFIX,icloud.com
+  - DOMAIN-SUFFIX,icloud.com.cn
+  - DOMAIN-SUFFIX,icloud-content.com
+  - DOMAIN-SUFFIX,me.com
+  - DOMAIN-SUFFIX,mac.com
+  - DOMAIN-SUFFIX,mzstatic.com
+  - DOMAIN-SUFFIX,itunes.com
+  - DOMAIN-SUFFIX,itunes.apple.com
+  - DOMAIN-SUFFIX,developer.apple.com
+  - DOMAIN-SUFFIX,crashlytics.com
+  - DOMAIN-SUFFIX,digicert.com
+  # === iCloud Private Relay ===
+  - DOMAIN,gateway.icloud.com
+  - DOMAIN,mask.icloud.com
+  - DOMAIN,mask-h2.icloud.com
+  - DOMAIN,mask-api.icloud.com
+  - DOMAIN,apple-relay.apple.com
+  - DOMAIN-SUFFIX,mask.apple-dns.net
+  # === Beats Official ===
+  - DOMAIN,beatselectronicsllc.tt.omtrdc.net
+  - DOMAIN-SUFFIX,beatsbydre.com
+  - DOMAIN-SUFFIX,beatsbydre.com.cn
+  - DOMAIN-SUFFIX,beatsbydre.jp
+  - DOMAIN-SUFFIX,beatsmusic.com
+  - DOMAIN-SUFFIX,beatsep.com
+  - DOMAIN-SUFFIX,beatsep.net
+  - DOMAIN-SUFFIX,beatselectronics.com
+  # === Apple Software Foundations & Open Source ===
+  - DOMAIN-SUFFIX,aapl.tw
+  - DOMAIN-SUFFIX,airtunes.com
+  - DOMAIN-SUFFIX,airport.com
+  - DOMAIN-SUFFIX,apple-darwin.com
+  - DOMAIN-SUFFIX,apple-darwin.net
+  - DOMAIN-SUFFIX,apple-darwin.org
+  - DOMAIN-SUFFIX,calendarserver.org
+  - DOMAIN-SUFFIX,coreml.net
+  - DOMAIN-SUFFIX,cups.org
+  - DOMAIN-SUFFIX,earpod.net
+  - DOMAIN-SUFFIX,facetime.net
+  - DOMAIN-SUFFIX,finalcutpro.com
+  - DOMAIN-SUFFIX,foundationdb.org
+  - DOMAIN-SUFFIX,shazam.com
+  # === Apple Keywords ===
+  - DOMAIN-KEYWORD,apple.com.akadns.net
+  - DOMAIN-KEYWORD,apple.com.edgekey.net
+  - DOMAIN-KEYWORD,icloud.com.akadns.net
+  - DOMAIN-KEYWORD,smp-device
+  - DOMAIN-KEYWORD,testflight
+  # === Apple Official IP Networks ===
+  - IP-CIDR,17.0.0.0/8,no-resolve
+  - IP-CIDR,63.92.224.0/19,no-resolve
+  - IP-CIDR,65.199.22.0/23,no-resolve
+  - IP-CIDR,139.178.128.0/18,no-resolve
+  - IP-CIDR,144.178.0.0/19,no-resolve
+  - IP-CIDR,144.178.36.0/22,no-resolve
+  - IP-CIDR,144.178.48.0/20,no-resolve
+  - IP-CIDR,192.35.50.0/24,no-resolve
+  - IP-CIDR,198.183.17.0/24,no-resolve
+  - IP-CIDR,205.180.175.0/24,no-resolve
+  - IP-CIDR6,2403:300::/32,no-resolve
+  - IP-CIDR6,2620:149::/32,no-resolve
+  - IP-CIDR6,2a01:b740::/32,no-resolve

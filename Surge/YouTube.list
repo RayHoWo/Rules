@@ -1,0 +1,63 @@
+# NAME: YouTube
+# AUTHOR: RayHW
+# DESCRIPTION: Curated YouTube, YouTube Music, YouTube Kids, and Google video CDN routing rules.
+# UPDATED: 2026-06-19
+# FORMAT: Surge Rule Set
+
+# === YouTube Core Services ===
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,yt.be
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,ggpht.cn
+
+# === Regional Extensions (Core Asia-Pacific & Major Zones) ===
+DOMAIN-SUFFIX,youtube.com.tw
+DOMAIN-SUFFIX,youtube.com.hk
+DOMAIN-SUFFIX,youtube.com.sg
+DOMAIN-SUFFIX,youtube.co.jp
+DOMAIN-SUFFIX,youtube.co.kr
+DOMAIN-SUFFIX,youtube.co.th
+DOMAIN-SUFFIX,youtube.co.uk
+DOMAIN-SUFFIX,youtube.ca
+DOMAIN-SUFFIX,youtube.de
+DOMAIN-SUFFIX,youtube.fr
+DOMAIN-SUFFIX,youtube.hk
+DOMAIN-SUFFIX,youtube.jp
+DOMAIN-SUFFIX,youtube.kr
+DOMAIN-SUFFIX,youtube.sg
+DOMAIN-SUFFIX,youtube.tv
+
+# === Sub-Services & APIs ===
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,video.google.com
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,youtubekids.com
+DOMAIN-SUFFIX,youtubegaming.com
+DOMAIN-SUFFIX,youtubego.com
+DOMAIN-SUFFIX,youtubeeducation.com
+DOMAIN-SUFFIX,youtufanfest.com
+DOMAIN-SUFFIX,wide-youtube.l.google.com
+DOMAIN-SUFFIX,withyoutube.com
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,youtube-ui.l.google.com
+DOMAIN-SUFFIX,youtubegoogleapis.com
+DOMAIN-SUFFIX,youtubei.googleapis.com
+DOMAIN-SUFFIX,youtubeembeddedplayer.googleapis.com
+DOMAIN-SUFFIX,youtubemobilesupport.com
+
+# === Google Video Infrastructure IP Blocks ===
+IP-CIDR,172.110.32.0/21,no-resolve
+IP-CIDR,216.73.80.0/20,no-resolve
+IP-CIDR6,2620:120:e000::/40,no-resolve
+
+# === Process & User-Agent Rules ===
+USER-AGENT,YouTube*
+USER-AGENT,YouTubeMusic*
+USER-AGENT,*youtube*
+USER-AGENT,*YouTubeMusic*
+USER-AGENT,*com.google.ios.youtubemusic*
+USER-AGENT,com.google.ios.youtube*
+USER-AGENT,com.google.ios.youtubemusic*

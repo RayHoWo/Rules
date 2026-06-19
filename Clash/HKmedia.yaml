@@ -1,0 +1,69 @@
+# NAME: HK Media
+# AUTHOR: RayHW
+# DESCRIPTION: Curated Hong Kong media, streaming, news, telecom, and region-service routing rules.
+# UPDATED: 2026-06-19
+# FORMAT: Clash / Stash Rule Provider
+
+payload:
+  # === HKOpenTV ===
+  - DOMAIN-SUFFIX,fantv.hk
+  - DOMAIN-SUFFIX,hkopentv.com
+  # === JOOX ===
+  - DOMAIN-SUFFIX,joox.com
+  - DOMAIN-SUFFIX,i-joox.com
+  - DOMAIN-SUFFIX,sanook.com
+  - DOMAIN-KEYWORD,jooxweb-api
+  - PROCESS-NAME,com.tencent.ibg.joox
+  # === Now TV / Now E ===
+  - DOMAIN-SUFFIX,now-ashare.com
+  - DOMAIN-SUFFIX,now-tv.com
+  - DOMAIN-SUFFIX,now.com
+  - DOMAIN-SUFFIX,now.com.hk
+  - DOMAIN-SUFFIX,nowe.com
+  - DOMAIN-SUFFIX,nowe.hk
+  - DOMAIN-SUFFIX,nowestatic.com
+  # === myTV SUPER / TVB ===
+  - DOMAIN-SUFFIX,mytvsuper.com
+  - DOMAIN-SUFFIX,tvb.com
+  - DOMAIN-SUFFIX,tvbanywhere.com
+  - DOMAIN-SUFFIX,tvbnews.com
+  # === RTHK ===
+  - DOMAIN-SUFFIX,rthk.hk
+  - DOMAIN-SUFFIX,rthk.org.hk
+  - DOMAIN-KEYWORD,rthklive
+  # === ViuTV / Viu ===
+  - DOMAIN-SUFFIX,viu.com
+  - DOMAIN-SUFFIX,viu.tv
+  - DOMAIN-SUFFIX,viu.now.com
+  - PROCESS-NAME,com.viu.pad
+  - PROCESS-NAME,com.viu.phone
+  - PROCESS-NAME,com.vuclip.viu
+  # === WeTV ===
+  - DOMAIN-SUFFIX,wetvinfo.com
+  - DOMAIN-SUFFIX,iflix.com
+  - DOMAIN,wetv.qq.com
+  - DOMAIN,vv.video.qq.com
+  - PROCESS-NAME,com.tencent.qqlivei18n*
+  # === Hong Kong Radio & News ===
+  - DOMAIN-SUFFIX,881903.com
+  - DOMAIN-SUFFIX,crhk.com
+  - DOMAIN-SUFFIX,metroradio.com.hk
+  - DOMAIN-SUFFIX,scmp.com
+  - DOMAIN-SUFFIX,hk01.com
+  - DOMAIN-SUFFIX,mingpao.com
+  - DOMAIN-SUFFIX,stheadline.com
+  - DOMAIN-SUFFIX,singtao.com
+  - DOMAIN-SUFFIX,thestandard.com.hk
+  - DOMAIN-SUFFIX,hkej.com
+  - DOMAIN-SUFFIX,am730.com.hk
+  - DOMAIN-SUFFIX,on.cc
+  # === Hong Kong Carriers & Region Services ===
+  - DOMAIN-SUFFIX,hkcsl.com
+  - DOMAIN-SUFFIX,1010.com.hk
+  - DOMAIN-SUFFIX,three.com.hk
+  - DOMAIN-SUFFIX,smartone.com
+  - DOMAIN-SUFFIX,cmhk.com
+  - DOMAIN-SUFFIX,hkbn.net
+  - DOMAIN-SUFFIX,hkt.com
+  - DOMAIN-SUFFIX,pccw.com
+  - DOMAIN-SUFFIX,clubsim.com.hk

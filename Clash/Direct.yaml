@@ -1,0 +1,102 @@
+# NAME: Direct
+# AUTHOR: RayHW
+# DESCRIPTION: Curated direct-access rules for personal domains, NAS, captive portals, domestic utilities, and selected service domains.
+# UPDATED: 2026-06-19
+# FORMAT: Clash / Stash Rule Provider
+
+payload:
+  # === Manual Additions / Special Access ===
+  - DOMAIN-SUFFIX,tianyancha.com
+  - DOMAIN-SUFFIX,umetrip.com
+  - DOMAIN-SUFFIX,flyertea.com
+  - DOMAIN-SUFFIX,ipify.org
+  - DOMAIN-SUFFIX,local
+  - DOMAIN-SUFFIX,nas.rahw.top
+  - DOMAIN-SUFFIX,quickconnect.cn
+  - DOMAIN-SUFFIX,zealotmat.uk
+  # === Performance Telemetry & Routing Diagnostics ===
+  - DOMAIN-SUFFIX,ns1p.net
+  - DOMAIN-SUFFIX,nsone.net
+  # === Third-Party Content Delivery ===
+  - DOMAIN-SUFFIX,zenithgrid.co
+  # === Apple Mail Direct ===
+  - DOMAIN-SUFFIX,mail.me.com
+  - DOMAIN-SUFFIX,mail.icloud.com
+  # === Synology / NAS ===
+  - DOMAIN-SUFFIX,directconnect.cn
+  - DOMAIN-SUFFIX,dsmynas.com
+  - DOMAIN-SUFFIX,myds.me
+  - DOMAIN-SUFFIX,synology.me
+  # === Public Wi-Fi Captive Portal & Network Connectivity Check ===
+  - DOMAIN,captive.apple.com
+  - DOMAIN,detectportal.firefox.com
+  - DOMAIN,neverssl.com
+  - DOMAIN-SUFFIX,connectivitycheck.gstatic.com
+  - DOMAIN-SUFFIX,msftconnecttest.com
+  - DOMAIN-SUFFIX,msftncsi.com
+  # === Domestic CDN / Static / Developer ===
+  - DOMAIN-SUFFIX,baomitu.com
+  - DOMAIN-SUFFIX,jiasule.com
+  - DOMAIN-SUFFIX,staticfile.org
+  # === Domestic Academic / Research ===
+  - DOMAIN-SUFFIX,cnki.net
+  - DOMAIN-KEYWORD,pkulaw
+  - DOMAIN-KEYWORD,wanfangdata
+  # === Domestic Analytics / SDK / Push ===
+  - DOMAIN,analytics.95516.com
+  - DOMAIN,bdtj.tagtic.cn
+  - DOMAIN,eco-push-api-client.meiqia.com
+  - DOMAIN,errlog.umeng.com
+  - DOMAIN,log.mmstat.com
+  - DOMAIN,msg.umeng.com
+  - DOMAIN,msg.umengcloud.com
+  - DOMAIN,new-api.meiqia.com
+  - DOMAIN,sycm.mmstat.com
+  - DOMAIN,tracking.miui.com
+  - DOMAIN-SUFFIX,dizhensubao.getui.com
+  # === Tencent / QQ Direct ===
+  - DOMAIN,fairplay.l.qq.com
+  - DOMAIN,livew.l.qq.com
+  - DOMAIN,vd.l.qq.com
+  - DOMAIN,vi.l.qq.com
+  - DOMAIN-KEYWORD,ctc.qzs.qzone.qq.com
+  # === Media Resource / Video Static ===
+  - DOMAIN,image.maimn.com
+  - DOMAIN,img.bfzypic.com
+  - DOMAIN,img.ffzypic.com
+  - DOMAIN,img.kuaikanzy.net
+  - DOMAIN,img.liangzipic.com
+  - DOMAIN,m3u8.255tv.tk
+  - DOMAIN,m3u8.mstopq.com
+  - DOMAIN,ok.zuidapic.com
+  - DOMAIN,static.jssp.tv
+  - DOMAIN,tiao.cjkypo.com
+  - DOMAIN,ts.thefilehosting.com
+  - DOMAIN,vip.ffzyread.com
+  - DOMAIN,vip.imgffzy.com
+  - DOMAIN-SUFFIX,avgv.cc
+  - DOMAIN-SUFFIX,f.video.weibocdn.com
+  - DOMAIN-SUFFIX,fus.cdn.krcom.cn
+  - DOMAIN-SUFFIX,i234.me
+  - DOMAIN-SUFFIX,j99.info
+  - DOMAIN-SUFFIX,msg.vg
+  - DOMAIN-SUFFIX,skyey2.com
+  - DOMAIN-SUFFIX,trontv.com
+  - DOMAIN-SUFFIX,xunlei.com
+  - DOMAIN-KEYWORD,anti-ad.net
+  - DOMAIN-KEYWORD,ax1x.com
+  - DOMAIN-KEYWORD,bfzycdn.com
+  - DOMAIN-KEYWORD,ttcdn-tos.kkimg.cc
+  - DOMAIN-KEYWORD,vip.ffzy-online
+  - DOMAIN-KEYWORD,vip.ffzy-play
+  - DOMAIN-KEYWORD,vip.kuaikan-cdn
+  - DOMAIN-KEYWORD,vip.lz-cdn
+  - DOMAIN-KEYWORD,wb_ad
+  # === Other Direct ===
+  - DOMAIN,ad.10010.com
+  - DOMAIN,ad.12306.cn
+  - DOMAIN,ain.bgm.tv
+  - DOMAIN,lain.bgm.tv
+  - DOMAIN,rewards.hypixel.net
+  - DOMAIN-SUFFIX,koodomobile.ca
+  - DOMAIN-SUFFIX,koodomobile.com

@@ -1,0 +1,35 @@
+# NAME: HBO
+# AUTHOR: RayHW
+# DESCRIPTION: Curated HBO, Max, HBO GO, and related streaming service routing rules.
+# UPDATED: 2026-06-19
+# FORMAT: Surge Rule Set
+
+# === HBO / Max / HBO GO Core Services ===
+DOMAIN-SUFFIX,hbo.com
+DOMAIN-SUFFIX,hboasia.com
+DOMAIN-SUFFIX,hbogo.com
+DOMAIN-SUFFIX,hbogoasia.com
+DOMAIN-SUFFIX,hbomax.com
+DOMAIN-SUFFIX,hbomaxcdn.com
+DOMAIN-SUFFIX,hbonow.com
+DOMAIN-SUFFIX,max.com
+DOMAIN-SUFFIX,maxgo.com
+DOMAIN-SUFFIX,cinemax.com
+
+# === HBO Regional Services ===
+DOMAIN-SUFFIX,hbogo.co.th
+DOMAIN-SUFFIX,hbogoasia.hk
+DOMAIN-SUFFIX,hbogoasia.id
+DOMAIN-SUFFIX,hbogoasia.ph
+DOMAIN-SUFFIX,hbogoasia.sg
+DOMAIN-SUFFIX,hbogoasia.tw
+
+# === Media & CDN Support ===
+DOMAIN-SUFFIX,warnermediacdn.com
+DOMAIN-SUFFIX,forthethrone.com
+DOMAIN-SUFFIX,players.brightcove.net
+
+# === HBO Keywords & Process ===
+USER-AGENT,HBO%20NOW*
+USER-AGENT,HBOMAX*
+PROCESS-NAME,com.hbo.hbonow
