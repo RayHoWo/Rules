@@ -5,12 +5,12 @@
 # FORMAT: Surge Rule Set
 
 # === Manual Additions / Special Access ===
+DOMAIN-SUFFIX,rahw.uk
 DOMAIN-SUFFIX,tianyancha.com
 DOMAIN-SUFFIX,umetrip.com
 DOMAIN-SUFFIX,flyertea.com
 DOMAIN-SUFFIX,ipify.org
 DOMAIN-SUFFIX,local
-DOMAIN-SUFFIX,nas.rahw.top
 DOMAIN-SUFFIX,quickconnect.cn
 DOMAIN-SUFFIX,zealotmat.uk
 
