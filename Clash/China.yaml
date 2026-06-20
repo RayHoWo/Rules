@@ -165,17 +165,24 @@ payload:
   - DOMAIN-SUFFIX,vivo.com
   # === Telecom Operators ===
   - DOMAIN-SUFFIX,10010.com
+  - DOMAIN-SUFFIX,10010.cn
   - DOMAIN-SUFFIX,10086.cn
   - DOMAIN-SUFFIX,189.cn
   - DOMAIN-SUFFIX,21cn.com
   - DOMAIN-SUFFIX,chinamobile.com
   - DOMAIN-SUFFIX,chinamobileltd.com
   - DOMAIN-SUFFIX,chinatelecom.com.cn
+  - DOMAIN-SUFFIX,chinaunicomcloud.com
   - DOMAIN-SUFFIX,chinaunicom.cn
   - DOMAIN-SUFFIX,chinaunicom.com
   - DOMAIN-SUFFIX,chinaunicom.com.cn
+  - DOMAIN-SUFFIX,cmpassport.com
   - DOMAIN-SUFFIX,ct10000.com
+  - DOMAIN-SUFFIX,ctyun.cn
+  - DOMAIN-SUFFIX,ctyun.com
+  - DOMAIN-SUFFIX,cucloud.cn
   - DOMAIN-SUFFIX,migu.cn
+  - DOMAIN-SUFFIX,miguvideo.com
   - DOMAIN-SUFFIX,wo.cn
   # === Automotive ===
   - DOMAIN-SUFFIX,nio.cn

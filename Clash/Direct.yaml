@@ -45,11 +45,15 @@ payload:
   # === Remote Access Software ===
   - DOMAIN-SUFFIX,anydesk.com
   - DOMAIN-SUFFIX,oray.com
+  - DOMAIN-SUFFIX,oray.net
+  - DOMAIN-SUFFIX,orayimg.com
   - DOMAIN-SUFFIX,parsec.app
+  - DOMAIN-SUFFIX,parsecusercontent.com
   - DOMAIN-SUFFIX,raylink.live
   - DOMAIN-SUFFIX,rustdesk.com
   - DOMAIN-SUFFIX,splashtop.com
   - DOMAIN-SUFFIX,sunlogin.oray.com
+  - DOMAIN-SUFFIX,teamviewer.cn
   - DOMAIN-SUFFIX,teamviewer.com
   - DOMAIN-SUFFIX,todesk.com
   # === Virtualization Software ===
@@ -57,6 +61,7 @@ payload:
   - DOMAIN-SUFFIX,getutm.app
   - DOMAIN-SUFFIX,hashicorp.com
   - DOMAIN-SUFFIX,parallels.com
+  - DOMAIN-SUFFIX,parallels.cn
   - DOMAIN-SUFFIX,qemu.org
   - DOMAIN-SUFFIX,vagrantup.com
   - DOMAIN-SUFFIX,virtualbox.org
