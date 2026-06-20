@@ -6,13 +6,11 @@
 
 payload:
   # === Manual Additions / Special Access ===
-  - DOMAIN-SUFFIX,rahw.uk
   - DOMAIN-SUFFIX,tianyancha.com
   - DOMAIN-SUFFIX,umetrip.com
   - DOMAIN-SUFFIX,flyertea.com
   - DOMAIN-SUFFIX,ipify.org
   - DOMAIN-SUFFIX,local
-  - DOMAIN-SUFFIX,quickconnect.cn
   - DOMAIN-SUFFIX,zealotmat.uk
   # === Performance Telemetry & Routing Diagnostics ===
   - DOMAIN-SUFFIX,ns1p.net
@@ -22,11 +20,16 @@ payload:
   # === Apple Mail Direct ===
   - DOMAIN-SUFFIX,mail.me.com
   - DOMAIN-SUFFIX,mail.icloud.com
-  # === Synology / NAS ===
-  - DOMAIN-SUFFIX,directconnect.cn
-  - DOMAIN-SUFFIX,dsmynas.com
+  # Home Lab
+  - DOMAIN-SUFFIX,rahw.uk
+  # === Synology ===
   - DOMAIN-SUFFIX,myds.me
   - DOMAIN-SUFFIX,synology.me
+  - DOMAIN-SUFFIX,synology.com
+  - DOMAIN-SUFFIX,synology.cn
+  - DOMAIN-SUFFIX,quickconnect.to
+  - DOMAIN-SUFFIX,directconnect.to
+  - DOMAIN-SUFFIX,directconnect.cn
   # === Public Wi-Fi Captive Portal & Network Connectivity Check ===
   - DOMAIN,captive.apple.com
   - DOMAIN,detectportal.firefox.com
